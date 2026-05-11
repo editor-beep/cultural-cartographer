@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent } from "@/data/artifacts";
+import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 
@@ -132,7 +132,7 @@ function Dossier() {
           <div className="col-span-12 md:col-span-7">
             <h2 className="mb-6 font-display text-2xl text-vellum">Discourse Factions</h2>
             <div className="space-y-4">
-              {a.factions.map((f) => (
+              {a.factions.map((f: Faction) => (
                 <div key={f.name} className="border border-border bg-umber/30 p-5">
                   <div className="flex items-baseline justify-between">
                     <div className="font-display text-lg italic text-vellum">{f.name}</div>
@@ -153,7 +153,7 @@ function Dossier() {
           <div className="col-span-12 md:col-span-5">
             <h2 className="mb-6 font-display text-2xl text-vellum">Recurring Symbols</h2>
             <ul className="space-y-2">
-              {a.symbols.map((s) => (
+              {a.symbols.map((s: string) => (
                 <li
                   key={s}
                   className="flex items-center justify-between border-b border-border py-2"
