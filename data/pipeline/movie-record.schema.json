@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://artifact-index.local/schema/movie-record.schema.json",
+  "title": "Systematic Movie Record",
+  "type": "object",
+  "required": ["schemaVersion", "methodVersion", "generatedAt", "movies"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "methodVersion": { "type": "string" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "movies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "title",
+          "year",
+          "director",
+          "runtime",
+          "catalogue",
+          "metrics",
+          "reviewGate",
+          "freshness"
+        ],
+        "properties": {
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "year": { "type": "integer" },
+          "director": { "type": "string" },
+          "runtime": { "type": "integer" },
+          "catalogue": { "type": "string" },
+          "metrics": {
+            "type": "object",
+            "required": [
+              "consensus",
+              "friction",
+              "obsession",
+              "haunting",
+              "symbolic",
+              "cult",
+              "formal",
+              "voltage",
+              "accessibility"
+            ],
+            "additionalProperties": {
+              "type": "object",
+              "required": ["value", "confidence", "components", "evidence"],
+              "properties": {
+                "value": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+                "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+                "components": { "type": "object" },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["mentionId", "source", "sourceUrl", "timestamp"],
+                    "properties": {
+                      "mentionId": { "type": "string" },
+                      "source": { "type": "string" },
+                      "sourceUrl": { "type": "string" },
+                      "timestamp": { "type": "string", "format": "date-time" }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "reviewGate": {
+            "type": "object",
+            "required": ["status", "reasons"],
+            "properties": {
+              "status": { "type": "string", "enum": ["approved", "needs_review"] },
+              "reasons": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "freshness": {
+            "type": "object",
+            "required": ["lastCollectedAt", "lastComputedAt"],
+            "properties": {
+              "lastCollectedAt": { "type": ["string", "null"], "format": "date-time" },
+              "lastComputedAt": { "type": ["string", "null"], "format": "date-time" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

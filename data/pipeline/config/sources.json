@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "name": "wikipedia",
+      "kind": "reference",
+      "enabled": true,
+      "reliability": 0.7,
+      "rateLimitMs": 450,
+      "maxAgeHours": 24
+    },
+    {
+      "name": "tmdb",
+      "kind": "reference",
+      "enabled": false,
+      "reliability": 0.75,
+      "rateLimitMs": 300,
+      "maxAgeHours": 24
+    },
+    {
+      "name": "letterboxd",
+      "kind": "review",
+      "enabled": false,
+      "reliability": 0.6,
+      "rateLimitMs": 800,
+      "maxAgeHours": 24
+    },
+    {
+      "name": "reddit",
+      "kind": "discussion",
+      "enabled": false,
+      "reliability": 0.55,
+      "rateLimitMs": 450,
+      "maxAgeHours": 12
+    },
+    {
+      "name": "seed-curation",
+      "kind": "seed",
+      "enabled": true,
+      "reliability": 0.5,
+      "rateLimitMs": 50,
+      "maxAgeHours": 99999
+    }
+  ],
+  "quality": {
+    "minimumEvidenceCount": 5,
+    "minimumSourceDiversity": 2,
+    "approvedLanguages": ["en"]
+  },
+  "methodVersion": "2026.05.12.v1"
+}

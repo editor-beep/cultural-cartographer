@@ -1,0 +1,2554 @@
+{
+  "generatedAt": "2026-05-12T03:37:03.180Z",
+  "methodVersion": "2026.05.12.v1",
+  "mentions": [
+    {
+      "id": "annihilation:seed-curation:annihilation-seed-curation",
+      "artifactSlug": "annihilation",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://annihilation",
+      "sourceId": "annihilation-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+      "artifactSlug": "eyes-wide-shut",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://eyes-wide-shut",
+      "sourceId": "eyes-wide-shut-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Eyes Wide Shut (1999) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+      "artifactSlug": "fire-walk-with-me",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://fire-walk-with-me",
+      "sourceId": "fire-walk-with-me-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Twin Peaks: Fire Walk with Me (1992) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "hereditary:seed-curation:hereditary-seed-curation",
+      "artifactSlug": "hereditary",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://hereditary",
+      "sourceId": "hereditary-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+      "artifactSlug": "in-the-mood-for-love",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://in-the-mood-for-love",
+      "sourceId": "in-the-mood-for-love-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 57,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+      "artifactSlug": "killers-of-the-flower-moon",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://killers-of-the-flower-moon",
+      "sourceId": "killers-of-the-flower-moon-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+      "artifactSlug": "mulholland-dr",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://mulholland-dr",
+      "sourceId": "mulholland-dr-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Mulholland Dr. (2001) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "possession:seed-curation:possession-seed-curation",
+      "artifactSlug": "possession",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://possession",
+      "sourceId": "possession-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "stalker:seed-curation:stalker-seed-curation",
+      "artifactSlug": "stalker",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://stalker",
+      "sourceId": "stalker-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+      "artifactSlug": "synecdoche-new-york",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://synecdoche-new-york",
+      "sourceId": "synecdoche-new-york-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Synecdoche, New York (2008) directed by Charlie Kaufman. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "tar:seed-curation:tar-seed-curation",
+      "artifactSlug": "tar",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://tar",
+      "sourceId": "tar-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-master:seed-curation:the-master-seed-curation",
+      "artifactSlug": "the-master",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-master",
+      "sourceId": "the-master-seed-curation",
+      "postedAt": "2026-05-12T03:36:57.091Z",
+      "fetchedAt": "2026-05-12T03:36:57.091Z",
+      "lang": "en",
+      "body": "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    }
+  ],
+  "enrichments": [
+    {
+      "artifactSlug": "annihilation",
+      "generatedAt": "2026-05-12T03:37:03.172Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "annihilation",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "garland",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "eyes-wide-shut",
+      "generatedAt": "2026-05-12T03:37:03.172Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "stanley",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "kubrick",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Eyes Wide Shut (1999) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "fire-walk-with-me",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "peaks",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "david",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "lynch",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Twin Peaks: Fire Walk with Me (1992) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "hereditary",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "hereditary",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "aster",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "in-the-mood-for-love",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "systematic",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        {
+          "term": "scoring",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "devoted",
+          "share": 1,
+          "summary": "devoted cluster derived from mention text classification",
+          "sampleQuotes": [
+            "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "killers-of-the-flower-moon",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "killers",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "flower",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "martin",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "scorsese",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "mulholland-dr",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "mulholland",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "david",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "lynch",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Mulholland Dr. (2001) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "possession",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "possession",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "andrzej",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "awski",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "stalker",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "stalker",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "andrei",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "tarkovsky",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "synecdoche-new-york",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "synecdoche",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "charlie",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "kaufman",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Synecdoche, New York (2008) directed by Charlie Kaufman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "tar",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "field",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        {
+          "term": "systematic",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-master",
+      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "master",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "thomas",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "anderson",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    }
+  ],
+  "snapshots": [
+    {
+      "artifactSlug": "fire-walk-with-me",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mulholland-dr",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "hereditary",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "synecdoche-new-york",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "in-the-mood-for-love",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 6.3,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 7.7,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "stalker",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "killers-of-the-flower-moon",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-master",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "annihilation",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "possession",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "eyes-wide-shut",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "tar",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    }
+  ]
+}

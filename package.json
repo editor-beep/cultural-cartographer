@@ -9,7 +9,13 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "data:convert": "node scripts/pipeline/systematic-movie-pipeline.mjs convert",
+    "data:collect": "node scripts/pipeline/systematic-movie-pipeline.mjs collect",
+    "data:enrich": "node scripts/pipeline/systematic-movie-pipeline.mjs enrich",
+    "data:compute": "node scripts/pipeline/systematic-movie-pipeline.mjs compute",
+    "data:export": "node scripts/pipeline/systematic-movie-pipeline.mjs export",
+    "data:refresh": "node scripts/pipeline/systematic-movie-pipeline.mjs refresh"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",

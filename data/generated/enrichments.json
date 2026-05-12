@@ -1,0 +1,950 @@
+[
+  {
+    "artifactSlug": "annihilation",
+    "generatedAt": "2026-05-12T03:37:03.172Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "annihilation",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "garland",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "annihilation:seed-curation:annihilation-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "eyes-wide-shut",
+    "generatedAt": "2026-05-12T03:37:03.172Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "stanley",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "kubrick",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Eyes Wide Shut (1999) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "fire-walk-with-me",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "peaks",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "david",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "lynch",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Twin Peaks: Fire Walk with Me (1992) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "hereditary",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "hereditary",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "aster",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "hereditary:seed-curation:hereditary-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "in-the-mood-for-love",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "systematic",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      },
+      {
+        "term": "scoring",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "devoted",
+        "share": 1,
+        "summary": "devoted cluster derived from mention text classification",
+        "sampleQuotes": [
+          "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "killers-of-the-flower-moon",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "killers",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "flower",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "martin",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "scorsese",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "mulholland-dr",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "mulholland",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "david",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "lynch",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Mulholland Dr. (2001) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "possession",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "possession",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "andrzej",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "awski",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possession:seed-curation:possession-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "stalker",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "stalker",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "andrei",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "tarkovsky",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "stalker:seed-curation:stalker-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "synecdoche-new-york",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "synecdoche",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "charlie",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "kaufman",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Synecdoche, New York (2008) directed by Charlie Kaufman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "tar",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "field",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      },
+      {
+        "term": "systematic",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tar:seed-curation:tar-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-master",
+    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "master",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "thomas",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "anderson",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-master:seed-curation:the-master-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  }
+]

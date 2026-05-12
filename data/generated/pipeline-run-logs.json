@@ -1,0 +1,40 @@
+[
+  {
+    "runId": "run-1778557017084",
+    "status": "ok",
+    "startedAt": "2026-05-12T03:36:57.084Z",
+    "completedAt": "2026-05-12T03:37:03.182Z",
+    "methodVersion": "2026.05.12.v1",
+    "movieCount": 12,
+    "steps": [
+      {
+        "name": "convertSeedCsv",
+        "status": "ok",
+        "durationMs": 5
+      },
+      {
+        "name": "collectSignals",
+        "status": "ok",
+        "durationMs": 6082
+      },
+      {
+        "name": "enrichWithAi",
+        "status": "ok",
+        "durationMs": 3
+      },
+      {
+        "name": "computeMetrics",
+        "status": "ok",
+        "durationMs": 4
+      },
+      {
+        "name": "exportFrontend",
+        "status": "ok",
+        "durationMs": 3
+      }
+    ],
+    "freshness": {
+      "lastComputedAt": "2026-05-12T03:37:03.182Z"
+    }
+  }
+]
