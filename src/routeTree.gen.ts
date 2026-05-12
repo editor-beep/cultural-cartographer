@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as LexiconRouteImport } from './routes/lexicon'
 import { Route as ColophonRouteImport } from './routes/colophon'
+import { Route as AttuneRouteImport } from './routes/attune'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ArtifactSlugRouteImport } from './routes/artifact.$slug'
 
@@ -22,6 +23,11 @@ const LexiconRoute = LexiconRouteImport.update({
 const ColophonRoute = ColophonRouteImport.update({
   id: '/colophon',
   path: '/colophon',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AttuneRoute = AttuneRouteImport.update({
+  id: '/attune',
+  path: '/attune',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -37,12 +43,14 @@ const ArtifactSlugRoute = ArtifactSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
@@ -50,20 +58,28 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/colophon' | '/lexicon' | '/artifact/$slug'
+  fullPaths: '/' | '/attune' | '/colophon' | '/lexicon' | '/artifact/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/colophon' | '/lexicon' | '/artifact/$slug'
-  id: '__root__' | '/' | '/colophon' | '/lexicon' | '/artifact/$slug'
+  to: '/' | '/attune' | '/colophon' | '/lexicon' | '/artifact/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/attune'
+    | '/colophon'
+    | '/lexicon'
+    | '/artifact/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AttuneRoute: typeof AttuneRoute
   ColophonRoute: typeof ColophonRoute
   LexiconRoute: typeof LexiconRoute
   ArtifactSlugRoute: typeof ArtifactSlugRoute
@@ -85,6 +101,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ColophonRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/attune': {
+      id: '/attune'
+      path: '/attune'
+      fullPath: '/attune'
+      preLoaderRoute: typeof AttuneRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -104,6 +127,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AttuneRoute: AttuneRoute,
   ColophonRoute: ColophonRoute,
   LexiconRoute: LexiconRoute,
   ArtifactSlugRoute: ArtifactSlugRoute,
@@ -111,3 +135,13 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
