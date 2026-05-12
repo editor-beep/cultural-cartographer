@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T08:15:00.000Z",
+  "generatedAt": "2026-05-12T07:45:18.810Z",
   "methodVersion": "2026.05.12.v1",
   "artifacts": [
     {
@@ -59,7 +59,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -119,7 +119,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -179,7 +179,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -239,7 +239,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -299,7 +299,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -359,7 +359,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -419,7 +419,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -479,7 +479,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -539,14 +539,14 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej \u017bu\u0142awski",
+      "director": "Andrzej Żuławski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -593,13 +593,13 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -659,12 +659,12 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
       "slug": "tar",
-      "title": "T\u00e1r",
+      "title": "Tár",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -713,13 +713,13 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -778,7 +778,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -845,7 +845,7 @@
       ],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -904,7 +904,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -915,33 +915,30 @@
       "runtime": 180,
       "catalogue": "ARTX-016",
       "metrics": {
-        "consensus": 86,
-        "friction": 24,
-        "obsession": 32,
-        "haunting": 16,
-        "symbolic": 72,
-        "cult": 51,
-        "formal": 75,
-        "voltage": 4,
-        "accessibility": 0
+        "consensus": 64,
+        "friction": 42,
+        "obsession": 96,
+        "haunting": 99,
+        "symbolic": 99,
+        "cult": 93,
+        "formal": 100,
+        "voltage": 82,
+        "accessibility": 4
       },
       "metricConfidence": {
-        "consensus": 0.35,
-        "friction": 0.35,
-        "obsession": 0.35,
-        "haunting": 0.35,
-        "symbolic": 0.35,
-        "cult": 0.35,
-        "formal": 0.35,
-        "voltage": 0.35,
-        "accessibility": 0.35
+        "consensus": 0.91,
+        "friction": 0.94,
+        "obsession": 0.98,
+        "haunting": 0.99,
+        "symbolic": 0.99,
+        "cult": 0.95,
+        "formal": 1,
+        "voltage": 0.85,
+        "accessibility": 0.96
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "approved",
+        "reasons": []
       },
       "symbols": [
         "county",
@@ -968,7 +965,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T19:00:00.000Z"
       }
     },
     {
@@ -1027,7 +1024,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1086,7 +1083,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1144,7 +1141,7 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
         }
       ],
       "afterlife": [
@@ -1158,7 +1155,7 @@
       ],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1225,7 +1222,7 @@
       ],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1283,21 +1280,21 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         }
       ],
       "afterlife": [
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
       ],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1369,7 +1366,7 @@
       ],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1429,7 +1426,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1489,7 +1486,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1549,7 +1546,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1609,7 +1606,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1669,7 +1666,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1729,7 +1726,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1789,7 +1786,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1849,7 +1846,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1860,37 +1857,56 @@
       "runtime": 105,
       "catalogue": "columbia-pictures",
       "metrics": {
-        "consensus": 94,
-        "friction": 12,
-        "obsession": 88,
-        "haunting": 62,
-        "symbolic": 54,
-        "cult": 75,
-        "formal": 41,
-        "voltage": 81,
-        "accessibility": 98
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
       },
       "metricConfidence": {
-        "consensus": 0.98,
-        "friction": 0.91,
-        "obsession": 0.95,
-        "haunting": 0.84,
-        "symbolic": 0.88,
-        "cult": 0.92,
-        "formal": 0.9,
-        "voltage": 0.89,
-        "accessibility": 0.99
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "published",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
-      "symbols": [],
-      "factions": [],
+      "symbols": [
+        "ghostbusters",
+        "directed",
+        "reitman",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Ghostbusters (1984) directed by Ivan Reitman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-11T22:40:00.000Z",
-        "lastComputedAt": "2026-05-12T00:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1901,39 +1917,56 @@
       "runtime": 92,
       "catalogue": "warner-bros-archive",
       "metrics": {
-        "consensus": 88,
-        "friction": 14,
-        "obsession": 92,
-        "haunting": 84,
-        "symbolic": 67,
-        "cult": 95,
-        "formal": 79,
-        "voltage": 81,
-        "accessibility": 91
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
       },
       "metricConfidence": {
-        "consensus": 0.98,
-        "friction": 0.95,
-        "obsession": 0.99,
-        "haunting": 0.88,
-        "symbolic": 0.82,
-        "cult": 0.97,
-        "formal": 0.91,
-        "voltage": 0.89,
-        "accessibility": 0.99
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "published",
+        "status": "needs_review",
         "reasons": [
-          "high_confidence_reached"
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
         ]
       },
-      "symbols": [],
-      "factions": [],
+      "symbols": [
+        "beetlejuice",
+        "directed",
+        "burton",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Beetlejuice (1988) directed by Tim Burton. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T02:33:00.000Z",
-        "lastComputedAt": "2026-05-12T06:40:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1944,39 +1977,56 @@
       "runtime": 90,
       "catalogue": "20th-century-studios",
       "metrics": {
-        "consensus": 22,
-        "friction": 94,
-        "obsession": 71,
-        "haunting": 58,
-        "symbolic": 42,
-        "cult": 30,
-        "formal": 12,
-        "voltage": 89,
-        "accessibility": 95
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 70
       },
       "metricConfidence": {
-        "consensus": 0.94,
-        "friction": 0.97,
-        "obsession": 0.89,
-        "haunting": 0.82,
-        "symbolic": 0.76,
-        "cult": 0.85,
-        "formal": 0.99,
-        "voltage": 0.92,
-        "accessibility": 0.98
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "published",
+        "status": "needs_review",
         "reasons": [
-          "high_friction_confirmed"
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
         ]
       },
-      "symbols": [],
-      "factions": [],
+      "symbols": [
+        "revenge",
+        "nerds",
+        "directed",
+        "kanew",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Revenge of the Nerds (1984) directed by Jeff Kanew. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:10:00.000Z",
-        "lastComputedAt": "2026-05-12T06:50:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -1987,39 +2037,56 @@
       "runtime": 91,
       "catalogue": "new-line-cinema",
       "metrics": {
-        "consensus": 92,
-        "friction": 18,
-        "obsession": 89,
-        "haunting": 98,
-        "symbolic": 74,
-        "cult": 81,
-        "formal": 86,
-        "voltage": 93,
-        "accessibility": 78
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 11,
+        "voltage": 0,
+        "accessibility": 68
       },
       "metricConfidence": {
-        "consensus": 0.99,
-        "friction": 0.96,
-        "obsession": 0.94,
-        "haunting": 0.91,
-        "symbolic": 0.85,
-        "cult": 0.88,
-        "formal": 0.93,
-        "voltage": 0.9,
-        "accessibility": 0.95
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "published",
+        "status": "needs_review",
         "reasons": [
-          "peak_haunting_verified"
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
         ]
       },
-      "symbols": [],
-      "factions": [],
+      "symbols": [
+        "nightmare",
+        "street",
+        "directed",
+        "craven",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "A Nightmare on Elm Street (1984) directed by Wes Craven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T04:20:00.000Z",
-        "lastComputedAt": "2026-05-12T07:10:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2030,39 +2097,56 @@
       "runtime": 139,
       "catalogue": "sony-pictures",
       "metrics": {
-        "consensus": 54,
-        "friction": 72,
-        "obsession": 45,
-        "haunting": 12,
-        "symbolic": 28,
-        "cult": 19,
-        "formal": 8,
-        "voltage": 68,
-        "accessibility": 96
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
       },
       "metricConfidence": {
-        "consensus": 0.92,
-        "friction": 0.89,
-        "obsession": 0.85,
-        "haunting": 0.94,
-        "symbolic": 0.78,
-        "cult": 0.97,
-        "formal": 0.99,
-        "voltage": 0.86,
-        "accessibility": 0.99
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "published",
+        "status": "needs_review",
         "reasons": [
-          "high_accessibility_confirmed"
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
         ]
       },
-      "symbols": [],
-      "factions": [],
+      "symbols": [
+        "directed",
+        "james",
+        "brooks",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "As Good as It Gets (1997) directed by James L. Brooks. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T06:15:00.000Z",
-        "lastComputedAt": "2026-05-12T07:40:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2073,40 +2157,44 @@
       "runtime": 144,
       "catalogue": "ARTX-031",
       "metrics": {
-        "consensus": 94,
-        "friction": 12,
-        "obsession": 98,
-        "haunting": 99,
-        "symbolic": 96,
-        "cult": 71,
-        "formal": 88,
-        "voltage": 92,
-        "accessibility": 81
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
       },
       "metricConfidence": {
-        "consensus": 0.99,
-        "friction": 0.98,
-        "obsession": 0.99,
-        "haunting": 0.99,
-        "symbolic": 0.95,
-        "cult": 0.9,
-        "formal": 0.96,
-        "voltage": 0.94,
-        "accessibility": 0.98
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
       "symbols": [
-        "the",
+        "shining",
+        "directed",
+        "stanley",
         "kubrick",
         "curated",
         "baseline",
         "artifact",
-        "metric",
-        "directed",
-        "1980"
+        "metric"
       ],
       "factions": [
         {
@@ -2117,8 +2205,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2129,40 +2217,44 @@
       "runtime": 131,
       "catalogue": "ARTX-032",
       "metrics": {
-        "consensus": 38,
-        "friction": 88,
-        "obsession": 74,
-        "haunting": 18,
-        "symbolic": 62,
-        "cult": 97,
-        "formal": 21,
-        "voltage": 82,
-        "accessibility": 75
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
       },
       "metricConfidence": {
-        "consensus": 0.91,
-        "friction": 0.94,
-        "obsession": 0.89,
-        "haunting": 0.85,
-        "symbolic": 0.82,
-        "cult": 0.96,
-        "formal": 0.93,
-        "voltage": 0.88,
-        "accessibility": 0.96
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
       "symbols": [
         "showgirls",
+        "directed",
         "verhoeven",
         "curated",
         "baseline",
         "artifact",
         "metric",
-        "directed",
-        "1995"
+        "calibration"
       ],
       "factions": [
         {
@@ -2173,8 +2265,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2185,40 +2277,44 @@
       "runtime": 120,
       "catalogue": "ARTX-033",
       "metrics": {
-        "consensus": 90,
-        "friction": 15,
-        "obsession": 82,
-        "haunting": 44,
-        "symbolic": 58,
-        "cult": 64,
-        "formal": 91,
-        "voltage": 95,
-        "accessibility": 89
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 70
       },
       "metricConfidence": {
-        "consensus": 0.98,
-        "friction": 0.97,
-        "obsession": 0.92,
-        "haunting": 0.88,
-        "symbolic": 0.84,
-        "cult": 0.89,
-        "formal": 0.95,
-        "voltage": 0.98,
-        "accessibility": 0.98
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
       "symbols": [
-        "mad",
+        "directed",
+        "george",
         "miller",
         "curated",
         "baseline",
         "artifact",
         "metric",
-        "directed",
-        "2015"
+        "calibration"
       ],
       "factions": [
         {
@@ -2229,8 +2325,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2241,40 +2337,44 @@
       "runtime": 99,
       "catalogue": "ARTX-034",
       "metrics": {
-        "consensus": 85,
-        "friction": 22,
-        "obsession": 96,
-        "haunting": 31,
-        "symbolic": 84,
-        "cult": 99,
-        "formal": 74,
-        "voltage": 68,
-        "accessibility": 12
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
       },
       "metricConfidence": {
-        "consensus": 0.95,
-        "friction": 0.92,
-        "obsession": 0.98,
-        "haunting": 0.82,
-        "symbolic": 0.89,
-        "cult": 0.99,
-        "formal": 0.9,
-        "voltage": 0.86,
-        "accessibility": 0.94
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
       "symbols": [
-        "the",
+        "directed",
+        "tommy",
         "wiseau",
         "curated",
         "baseline",
         "artifact",
         "metric",
-        "directed",
-        "2003"
+        "calibration"
       ],
       "factions": [
         {
@@ -2285,8 +2385,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
       }
     },
     {
@@ -2297,40 +2397,44 @@
       "runtime": 132,
       "catalogue": "ARTX-035",
       "metrics": {
-        "consensus": 96,
-        "friction": 9,
-        "obsession": 78,
-        "haunting": 86,
-        "symbolic": 92,
-        "cult": 45,
-        "formal": 82,
-        "voltage": 94,
-        "accessibility": 88
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
       },
       "metricConfidence": {
-        "consensus": 0.99,
-        "friction": 0.98,
-        "obsession": 0.91,
-        "haunting": 0.93,
-        "symbolic": 0.96,
-        "cult": 0.82,
-        "formal": 0.94,
-        "voltage": 0.97,
-        "accessibility": 0.95
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       },
       "symbols": [
         "parasite",
-        "joon-ho",
+        "directed",
         "curated",
         "baseline",
         "artifact",
         "metric",
-        "directed",
-        "2019"
+        "calibration",
+        "systematic"
       ],
       "factions": [
         {
@@ -2341,8 +2445,532 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "the-matrix-1999",
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "The Wachowskis",
+      "runtime": 136,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "matrix",
+        "directed",
+        "wachowskis",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Matrix (1999) directed by The Wachowskis. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "under-the-silver-lake-2018",
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "director": "David Robert Mitchell",
+      "runtime": 139,
+      "catalogue": "a24",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 11,
+        "voltage": 0,
+        "accessibility": 68
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "silver",
+        "directed",
+        "david",
+        "robert",
+        "mitchell",
+        "curated",
+        "baseline",
+        "artifact"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Under the Silver Lake (2018) directed by David Robert Mitchell. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "mad-max-1979",
+      "title": "Mad Max",
+      "year": 1979,
+      "director": "George Miller",
+      "runtime": 88,
+      "catalogue": "ARTX-036",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "directed",
+        "george",
+        "miller",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Mad Max (1979) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "pink-flamingos-1972",
+      "title": "Pink Flamingos",
+      "year": 1972,
+      "director": "John Waters",
+      "runtime": 93,
+      "catalogue": "new-line-cinema",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "flamingos",
+        "directed",
+        "waters",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Pink Flamingos (1972) directed by John Waters. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "interstellar-2014",
+      "title": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "runtime": 169,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "interstellar",
+        "directed",
+        "christopher",
+        "nolan",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Interstellar (2014) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T07:44:31.384Z"
+      }
+    },
+    {
+      "slug": "the-blair-witch-project-1999",
+      "title": "The Blair Witch Project",
+      "year": 1999,
+      "director": "Daniel Myrick, Eduardo Sánchez",
+      "runtime": 81,
+      "catalogue": "ARTX-037",
+      "metrics": {
+        "consensus": 81,
+        "friction": 35,
+        "obsession": 94,
+        "haunting": 96,
+        "symbolic": 68,
+        "cult": 92,
+        "formal": 97,
+        "voltage": 89,
+        "accessibility": 79
+      },
+      "metricConfidence": {
+        "consensus": 0.98,
+        "friction": 0.94,
+        "obsession": 0.99,
+        "haunting": 0.99,
+        "symbolic": 0.85,
+        "cult": 0.96,
+        "formal": 0.99,
+        "voltage": 0.92,
+        "accessibility": 0.98
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "blair",
+        "witch",
+        "project",
+        "directed",
+        "daniel",
+        "myrick",
+        "eduardo",
+        "nchez"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Blair Witch Project (1999) directed by Daniel Myrick, Eduardo Sánchez. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T19:00:00.000Z"
+      }
+    },
+    {
+      "slug": "pulse-kairo-2001",
+      "title": "Pulse (Kairo)",
+      "year": 2001,
+      "director": "Kiyoshi Kurosawa",
+      "runtime": 119,
+      "catalogue": "ARTX-038",
+      "metrics": {
+        "consensus": 85,
+        "friction": 9,
+        "obsession": 88,
+        "haunting": 99,
+        "symbolic": 94,
+        "cult": 89,
+        "formal": 84,
+        "voltage": 91,
+        "accessibility": 51
+      },
+      "metricConfidence": {
+        "consensus": 0.94,
+        "friction": 0.92,
+        "obsession": 0.96,
+        "haunting": 0.99,
+        "symbolic": 0.95,
+        "cult": 0.91,
+        "formal": 0.89,
+        "voltage": 0.94,
+        "accessibility": 0.92
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "pulse",
+        "kairo",
+        "directed",
+        "kiyoshi",
+        "kurosawa",
+        "curated",
+        "baseline",
+        "artifact"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Pulse (Kairo) (2001) directed by Kiyoshi Kurosawa. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T19:00:00.000Z"
+      }
+    },
+    {
+      "slug": "tetsuo-the-iron-man-1989",
+      "title": "Tetsuo: The Iron Man",
+      "year": 1989,
+      "director": "Shinya Tsukamoto",
+      "runtime": 67,
+      "catalogue": "ARTX-039",
+      "metrics": {
+        "consensus": 78,
+        "friction": 15,
+        "obsession": 91,
+        "haunting": 82,
+        "symbolic": 76,
+        "cult": 95,
+        "formal": 99,
+        "voltage": 94,
+        "accessibility": 12
+      },
+      "metricConfidence": {
+        "consensus": 0.92,
+        "friction": 0.89,
+        "obsession": 0.98,
+        "haunting": 0.91,
+        "symbolic": 0.84,
+        "cult": 0.98,
+        "formal": 0.99,
+        "voltage": 0.97,
+        "accessibility": 0.95
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "tetsuo",
+        "directed",
+        "shinya",
+        "tsukamoto",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Tetsuo: The Iron Man (1989) directed by Shinya Tsukamoto. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T19:00:00.000Z"
+      }
+    },
+    {
+      "slug": "noroi-the-curse-2005",
+      "title": "Noroi: The Curse",
+      "year": 2005,
+      "director": "Kôji Shiraishi",
+      "runtime": 115,
+      "catalogue": "ARTX-040",
+      "metrics": {
+        "consensus": 72,
+        "friction": 11,
+        "obsession": 85,
+        "haunting": 95,
+        "symbolic": 91,
+        "cult": 96,
+        "formal": 88,
+        "voltage": 86,
+        "accessibility": 38
+      },
+      "metricConfidence": {
+        "consensus": 0.92,
+        "friction": 0.88,
+        "obsession": 0.94,
+        "haunting": 0.98,
+        "symbolic": 0.94,
+        "cult": 0.97,
+        "formal": 0.91,
+        "voltage": 0.9,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "noroi",
+        "curse",
+        "directed",
+        "shiraishi",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Noroi: The Curse (2005) directed by Kôji Shiraishi. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T07:44:21.778Z",
+        "lastComputedAt": "2026-05-12T19:00:00.000Z"
       }
     }
   ]

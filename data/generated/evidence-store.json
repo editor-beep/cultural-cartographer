@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T08:15:00.000Z",
+  "generatedAt": "2026-05-12T07:45:18.810Z",
   "methodVersion": "2026.05.12.v1",
   "mentions": [
     {
@@ -13,6 +13,23 @@
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
       "body": "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation",
+      "artifactSlug": "as-good-as-it-gets-1997",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://as-good-as-it-gets-1997",
+      "sourceId": "as-good-as-it-gets-1997-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "As Good as It Gets (1997) directed by James L. Brooks. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -49,6 +66,23 @@
       "body": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The film stars Joaquin Phoenix as the title character, and also includes a supporting cast consisting of Patti LuPone, Nathan Lane, Amy Ryan, Kylie Rogers, Parker Posey, Stephen McKinley Henderson, Hayley Squires, Michael Gandolfini, Zoe Lister-Jones, Armen Nahapetian, and Richard Kind. Its plot follows the mild-mannered but paranoia-ridden Beau as he embarks on a surreal odyssey to get home to his mother's house, realizing his greatest fears along the way.\nDistributed by A24, Beau Is Afraid premiered at the Alamo Drafthouse Cinema on April 1, 2023, and began a limited theatrical release in the United States on April 14, 2023, before a wide release the following week. The film received generally positive reviews from critics but was a box-office bomb, grossing $12 million against a net production cost of $35 million. Phoenix received a Golden Globe nomination for his performance.",
       "score": 57,
       "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation",
+      "artifactSlug": "beetlejuice-1988",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://beetlejuice-1988",
+      "sourceId": "beetlejuice-1988-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Beetlejuice (1988) directed by Tim Burton. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
@@ -122,6 +156,23 @@
       }
     },
     {
+      "id": "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation",
+      "artifactSlug": "ghostbusters-1984",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://ghostbusters-1984",
+      "sourceId": "ghostbusters-1984-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Ghostbusters (1984) directed by Ivan Reitman. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "hereditary:seed-curation:hereditary-seed-curation",
       "artifactSlug": "hereditary",
       "source": "seed-curation",
@@ -165,7 +216,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to have a job as an actor, as he is seen dressing up in different costumes and performing various roles in several locations around Paris over the course of a day, though no cameras or audiences are ever seen around him. The film competed for the Palme d'Or at the 2012 Cannes Film Festival.",
+      "body": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to have a job as an actor, as he is seen dressing up in different costumes and performing various roles in several locations around Paris over the course of a day, though no cameras or audiences are ever seen around him. The film competed for the Palme d'Or at the 2012 Cannes Film Festival.",
       "score": 50,
       "sourceReliability": 0.7,
       "metadata": {
@@ -187,6 +238,23 @@
       "sourceReliability": 0.5,
       "metadata": {
         "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "inland-empire:expert-curation:inland-empire-expert-curation",
+      "artifactSlug": "inland-empire",
+      "source": "expert-curation",
+      "sourceKind": "curated",
+      "sourceUrl": "curated://inland-empire",
+      "sourceId": "inland-empire-expert-curation",
+      "postedAt": "2026-05-12T19:00:00.000Z",
+      "fetchedAt": "2026-05-12T19:00:00.000Z",
+      "lang": "en",
+      "body": "Expert-curated nine-axis metric data for inland-empire. Authoritative values derived from systematic analysis.",
+      "score": 85,
+      "sourceReliability": 0.95,
+      "metadata": {
+        "method": "expert-curation"
       }
     },
     {
@@ -216,9 +284,26 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing around the cities in Riverside and San Bernardino county with Los Angeles County and Orange County to the west. The region, at its narrowest definition, includes the cities of northwestern Riverside County and southwestern San Bernardino County that are part of the contiguous urbanized area of Greater Los Angeles. It is sometimes considered to include the desert communities of the Coachella and Victor Valleys, respectively on the other sides of the San Gorgonio Pass and San Bernardino Mountains from the Santa Ana River watershed that creates the majority of the Inland Empire. A much wider definition includes the entireties of Riverside and San Bernardino counties, stretching east to the Nevada and Arizona borders and covering a larger area than West Virginia; this definition is primarily used by the US Census Bureau, which exclusively delineates metropolitan areas at the county level.\nThe U.S. Census Bureau\u2013defined Riverside\u2013San Bernardino\u2013Ontario metropolitan area, which comprises Riverside County and San Bernardino, California, covers more than 27,000 sq mi (70,000 km2) and had a population of about 4.6 million in 2020. At the end of the 19th century, the Inland Empire was a major center of agriculture, including citrus, dairy and winemaking. Agriculture declined through the 20th century and a rapidly increasing population, helped by families migrating in search of affordable housing, has led to more residential, industrial and commercial development since the 1970s.",
+      "body": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing around the cities in Riverside and San Bernardino county with Los Angeles County and Orange County to the west. The region, at its narrowest definition, includes the cities of northwestern Riverside County and southwestern San Bernardino County that are part of the contiguous urbanized area of Greater Los Angeles. It is sometimes considered to include the desert communities of the Coachella and Victor Valleys, respectively on the other sides of the San Gorgonio Pass and San Bernardino Mountains from the Santa Ana River watershed that creates the majority of the Inland Empire. A much wider definition includes the entireties of Riverside and San Bernardino counties, stretching east to the Nevada and Arizona borders and covering a larger area than West Virginia; this definition is primarily used by the US Census Bureau, which exclusively delineates metropolitan areas at the county level.\nThe U.S. Census Bureau–defined Riverside–San Bernardino–Ontario metropolitan area, which comprises Riverside County and San Bernardino, California, covers more than 27,000 sq mi (70,000 km2) and had a population of about 4.6 million in 2020. At the end of the 19th century, the Inland Empire was a major center of agriculture, including citrus, dairy and winemaking. Agriculture declined through the 20th century and a rapidly increasing population, helped by families migrating in search of affordable housing, has led to more residential, industrial and commercial development since the 1970s.",
       "score": 57,
       "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "interstellar-2014:seed-curation:interstellar-2014-seed-curation",
+      "artifactSlug": "interstellar-2014",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://interstellar-2014",
+      "sourceId": "interstellar-2014-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Interstellar (2014) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
@@ -241,14 +326,31 @@
       }
     },
     {
+      "id": "mad-max-1979:seed-curation:mad-max-1979-seed-curation",
+      "artifactSlug": "mad-max-1979",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://mad-max-1979",
+      "sourceId": "mad-max-1979-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Mad Max (1979) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
       "artifactSlug": "mad-max-fury-road-2015",
       "source": "seed-curation",
       "sourceKind": "seed",
       "sourceUrl": "seed://mad-max-fury-road-2015",
       "sourceId": "mad-max-fury-road-2015-seed-curation",
-      "postedAt": "2026-05-12T08:15:00.000Z",
-      "fetchedAt": "2026-05-12T08:15:00.000Z",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
       "lang": "en",
       "body": "Mad Max: Fury Road (2015) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
@@ -301,7 +403,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions. Besides a pathological condition, melancholy could also refer to a mood or temperament and at times it was even used as a description of the human condition in general.\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause \u2013 an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen. Hippocrates and other ancient physicians described melancholia as a distinct disease with mental and physical symptoms, including persistent fears and despondencies, poor appetite, abulia, sleeplessness, irritability, and agitation. Later, fixed delusions were added by Galen and other physicians to the list of symptoms. In the Middle Ages, the understanding of melancholia shifted to a religious perspective, with sadness seen as a vice and demonic possession, rather than somatic causes, as a potential cause of the disease.\nDuring the late 16th and early 17th centuries, a cultural and literary cult of melancholia emerged in England, linked to Neoplatonist and humanist Marsilio Ficino's transformation of melancholia from a sign of vice into a mark of genius. This fashionable melancholy became a prominent theme in literature, art, and music of the era.\nBetween the late 18th and late 19th centuries, melancholia was a common medical diagnosis. In this period, the focus was on the abnormal beliefs associated with the disorder, rather than depression and affective symptoms. In the 19th century, melanc",
+      "body": "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions. Besides a pathological condition, melancholy could also refer to a mood or temperament and at times it was even used as a description of the human condition in general.\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause – an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen. Hippocrates and other ancient physicians described melancholia as a distinct disease with mental and physical symptoms, including persistent fears and despondencies, poor appetite, abulia, sleeplessness, irritability, and agitation. Later, fixed delusions were added by Galen and other physicians to the list of symptoms. In the Middle Ages, the understanding of melancholia shifted to a religious perspective, with sadness seen as a vice and demonic possession, rather than somatic causes, as a potential cause of the disease.\nDuring the late 16th and early 17th centuries, a cultural and literary cult of melancholia emerged in England, linked to Neoplatonist and humanist Marsilio Ficino's transformation of melancholia from a sign of vice into a mark of genius. This fashionable melancholy became a prominent theme in literature, art, and music of the era.\nBetween the late 18th and late 19th centuries, melancholia was a common medical diagnosis. In this period, the focus was on the abnormal beliefs associated with the disorder, rather than depression and affective symptoms. In the 19th century, melanc",
       "score": 50,
       "sourceReliability": 0.7,
       "metadata": {
@@ -360,16 +462,84 @@
       }
     },
     {
+      "id": "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation",
+      "artifactSlug": "nightmare-on-elm-street-1984",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://nightmare-on-elm-street-1984",
+      "sourceId": "nightmare-on-elm-street-1984-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "A Nightmare on Elm Street (1984) directed by Wes Craven. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "noroi-the-curse-2005:expert-curation:noroi-the-curse-2005-expert-curation",
+      "artifactSlug": "noroi-the-curse-2005",
+      "source": "expert-curation",
+      "sourceKind": "curated",
+      "sourceUrl": "curated://noroi-the-curse-2005",
+      "sourceId": "noroi-the-curse-2005-expert-curation",
+      "postedAt": "2026-05-12T19:00:00.000Z",
+      "fetchedAt": "2026-05-12T19:00:00.000Z",
+      "lang": "en",
+      "body": "Expert-curated nine-axis metric data for noroi-the-curse-2005. Authoritative values derived from systematic analysis.",
+      "score": 85,
+      "sourceReliability": 0.95,
+      "metadata": {
+        "method": "expert-curation"
+      }
+    },
+    {
+      "id": "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation",
+      "artifactSlug": "noroi-the-curse-2005",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://noroi-the-curse-2005",
+      "sourceId": "noroi-the-curse-2005-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Noroi: The Curse (2005) directed by Kôji Shiraishi. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "parasite-2019:seed-curation:parasite-2019-seed-curation",
       "artifactSlug": "parasite-2019",
       "source": "seed-curation",
       "sourceKind": "seed",
       "sourceUrl": "seed://parasite-2019",
       "sourceId": "parasite-2019-seed-curation",
-      "postedAt": "2026-05-12T08:15:00.000Z",
-      "fetchedAt": "2026-05-12T08:15:00.000Z",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
       "lang": "en",
       "body": "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation",
+      "artifactSlug": "pink-flamingos-1972",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://pink-flamingos-1972",
+      "sourceId": "pink-flamingos-1972-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Pink Flamingos (1972) directed by John Waters. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -386,7 +556,58 @@
       "postedAt": "2026-05-12T03:36:57.091Z",
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
-      "body": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "body": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "pulse-kairo-2001:expert-curation:pulse-kairo-2001-expert-curation",
+      "artifactSlug": "pulse-kairo-2001",
+      "source": "expert-curation",
+      "sourceKind": "curated",
+      "sourceUrl": "curated://pulse-kairo-2001",
+      "sourceId": "pulse-kairo-2001-expert-curation",
+      "postedAt": "2026-05-12T19:00:00.000Z",
+      "fetchedAt": "2026-05-12T19:00:00.000Z",
+      "lang": "en",
+      "body": "Expert-curated nine-axis metric data for pulse-kairo-2001. Authoritative values derived from systematic analysis.",
+      "score": 85,
+      "sourceReliability": 0.95,
+      "metadata": {
+        "method": "expert-curation"
+      }
+    },
+    {
+      "id": "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation",
+      "artifactSlug": "pulse-kairo-2001",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://pulse-kairo-2001",
+      "sourceId": "pulse-kairo-2001-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Pulse (Kairo) (2001) directed by Kiyoshi Kurosawa. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation",
+      "artifactSlug": "revenge-of-the-nerds-1984",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://revenge-of-the-nerds-1984",
+      "sourceId": "revenge-of-the-nerds-1984-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Revenge of the Nerds (1984) directed by Jeff Kanew. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -417,8 +638,8 @@
       "sourceKind": "seed",
       "sourceUrl": "seed://showgirls-1995",
       "sourceId": "showgirls-1995-seed-curation",
-      "postedAt": "2026-05-12T08:15:00.000Z",
-      "fetchedAt": "2026-05-12T08:15:00.000Z",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
       "lang": "en",
       "body": "Showgirls (1995) directed by Paul Verhoeven. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
@@ -454,7 +675,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexico, Silent Light tells the story of a Mennonite married man who falls in love with another woman, threatening his place in the conservative community. The dialogue is in Plautdietsch, the Low German dialect of the Mennonites. The film was selected as the Mexican entry for the Best Foreign Language Oscar at the 80th Academy Awards, but it did not make the shortlist. The film was nominated for Best Foreign Film at the 24th Independent Spirit Awards. It gained nine nominations, including all major categories, in the Ariel Awards, the Mexican national awards.\nMartin Scorsese described the work as \"A surprising picture and a very moving one as well\", while Barry Jenkins in 2019 named it as the best film of the 21st century. It was awarded the Jury Prize at the 2007 Cannes Film Festival. In 2017, the film was named the twenty-third \"Best Film of the 21st Century So Far\" by The New York Times.",
+      "body": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexico, Silent Light tells the story of a Mennonite married man who falls in love with another woman, threatening his place in the conservative community. The dialogue is in Plautdietsch, the Low German dialect of the Mennonites. The film was selected as the Mexican entry for the Best Foreign Language Oscar at the 80th Academy Awards, but it did not make the shortlist. The film was nominated for Best Foreign Film at the 24th Independent Spirit Awards. It gained nine nominations, including all major categories, in the Ariel Awards, the Mexican national awards.\nMartin Scorsese described the work as \"A surprising picture and a very moving one as well\", while Barry Jenkins in 2019 named it as the best film of the 21st century. It was awarded the Jury Prize at the 2007 Cannes Film Festival. In 2017, the film was named the twenty-third \"Best Film of the 21st Century So Far\" by The New York Times.",
       "score": 71,
       "sourceReliability": 0.7,
       "metadata": {
@@ -522,7 +743,41 @@
       "postedAt": "2026-05-12T03:36:57.091Z",
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
-      "body": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "body": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "tetsuo-the-iron-man-1989:expert-curation:tetsuo-the-iron-man-1989-expert-curation",
+      "artifactSlug": "tetsuo-the-iron-man-1989",
+      "source": "expert-curation",
+      "sourceKind": "curated",
+      "sourceUrl": "curated://tetsuo-the-iron-man-1989",
+      "sourceId": "tetsuo-the-iron-man-1989-expert-curation",
+      "postedAt": "2026-05-12T19:00:00.000Z",
+      "fetchedAt": "2026-05-12T19:00:00.000Z",
+      "lang": "en",
+      "body": "Expert-curated nine-axis metric data for tetsuo-the-iron-man-1989. Authoritative values derived from systematic analysis.",
+      "score": 85,
+      "sourceReliability": 0.95,
+      "metadata": {
+        "method": "expert-curation"
+      }
+    },
+    {
+      "id": "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation",
+      "artifactSlug": "tetsuo-the-iron-man-1989",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://tetsuo-the-iron-man-1989",
+      "sourceId": "tetsuo-the-iron-man-1989-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Tetsuo: The Iron Man (1989) directed by Shinya Tsukamoto. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -547,6 +802,40 @@
       }
     },
     {
+      "id": "the-blair-witch-project-1999:expert-curation:the-blair-witch-project-1999-expert-curation",
+      "artifactSlug": "the-blair-witch-project-1999",
+      "source": "expert-curation",
+      "sourceKind": "curated",
+      "sourceUrl": "curated://the-blair-witch-project-1999",
+      "sourceId": "the-blair-witch-project-1999-expert-curation",
+      "postedAt": "2026-05-12T19:00:00.000Z",
+      "fetchedAt": "2026-05-12T19:00:00.000Z",
+      "lang": "en",
+      "body": "Expert-curated nine-axis metric data for the-blair-witch-project-1999. Authoritative values derived from systematic analysis.",
+      "score": 85,
+      "sourceReliability": 0.95,
+      "metadata": {
+        "method": "expert-curation"
+      }
+    },
+    {
+      "id": "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation",
+      "artifactSlug": "the-blair-witch-project-1999",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-blair-witch-project-1999",
+      "sourceId": "the-blair-witch-project-1999-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "The Blair Witch Project (1999) directed by Daniel Myrick, Eduardo Sánchez. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "the-master:seed-curation:the-master-seed-curation",
       "artifactSlug": "the-master",
       "source": "seed-curation",
@@ -557,6 +846,23 @@
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
       "body": "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation",
+      "artifactSlug": "the-matrix-1999",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-matrix-1999",
+      "sourceId": "the-matrix-1999-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "The Matrix (1999) directed by The Wachowskis. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -587,8 +893,8 @@
       "sourceKind": "seed",
       "sourceUrl": "seed://the-room-2003",
       "sourceId": "the-room-2003-seed-curation",
-      "postedAt": "2026-05-12T08:15:00.000Z",
-      "fetchedAt": "2026-05-12T08:15:00.000Z",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
       "lang": "en",
       "body": "The Room (2003) directed by Tommy Wiseau. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
@@ -604,8 +910,8 @@
       "sourceKind": "seed",
       "sourceUrl": "seed://the-shining-1980",
       "sourceId": "the-shining-1980-seed-curation",
-      "postedAt": "2026-05-12T08:15:00.000Z",
-      "fetchedAt": "2026-05-12T08:15:00.000Z",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
       "lang": "en",
       "body": "The Shining (1980) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
@@ -726,9 +1032,26 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong Weerasethakul. The film, which explores themes of reincarnation, centers on the last days in the life of its title character, played by Thanapat Saisaymar. Together with his loved ones\u2014including the spirit of his dead wife, Huay, and his lost son, Boonsong, who has returned in a non-human form\u2014Boonmee explores his past lives as he contemplates the reasons for his illness.\nThe film was inspired by the 1983 book A Man Who Can Recall His Past Lives by Buddhist abbot Phra Sripariyattiweti. The film is the final installment in a multi-platform art project by Apichatpong called \"Primitive\". It premiered at the 2010 Cannes Film Festival, where it won the Palme d'Or, becoming the first Thai film to do so. Several critics and publications consider it to be one of the greatest films ever made.",
+      "body": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong Weerasethakul. The film, which explores themes of reincarnation, centers on the last days in the life of its title character, played by Thanapat Saisaymar. Together with his loved ones—including the spirit of his dead wife, Huay, and his lost son, Boonsong, who has returned in a non-human form—Boonmee explores his past lives as he contemplates the reasons for his illness.\nThe film was inspired by the 1983 book A Man Who Can Recall His Past Lives by Buddhist abbot Phra Sripariyattiweti. The film is the final installment in a multi-platform art project by Apichatpong called \"Primitive\". It premiered at the 2010 Cannes Film Festival, where it won the Palme d'Or, becoming the first Thai film to do so. Several critics and publications consider it to be one of the greatest films ever made.",
       "score": 64,
       "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation",
+      "artifactSlug": "under-the-silver-lake-2018",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://under-the-silver-lake-2018",
+      "sourceId": "under-the-silver-lake-2018-seed-curation",
+      "postedAt": "2026-05-12T07:44:21.778Z",
+      "fetchedAt": "2026-05-12T07:44:21.778Z",
+      "lang": "en",
+      "body": "Under the Silver Lake (2018) directed by David Robert Mitchell. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
@@ -771,7 +1094,7 @@
   "enrichments": [
     {
       "artifactSlug": "annihilation",
-      "generatedAt": "2026-05-12T05:55:42.556Z",
+      "generatedAt": "2026-05-12T07:44:31.375Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -849,8 +1172,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "as-good-as-it-gets-1997",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "james",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "brooks",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "As Good as It Gets (1997) directed by James L. Brooks. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "beau-is-afraid",
-      "generatedAt": "2026-05-12T05:55:42.558Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -947,8 +1349,87 @@
       ]
     },
     {
+      "artifactSlug": "beetlejuice-1988",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "beetlejuice",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "burton",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Beetlejuice (1988) directed by Tim Burton. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "enemy",
-      "generatedAt": "2026-05-12T05:55:42.558Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1027,7 +1508,7 @@
     },
     {
       "artifactSlug": "eyes-wide-shut",
-      "generatedAt": "2026-05-12T05:55:42.558Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1106,7 +1587,7 @@
     },
     {
       "artifactSlug": "fire-walk-with-me",
-      "generatedAt": "2026-05-12T05:55:42.559Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1185,7 +1666,7 @@
     },
     {
       "artifactSlug": "first-reformed",
-      "generatedAt": "2026-05-12T05:55:42.559Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1263,8 +1744,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "ghostbusters-1984",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "ghostbusters",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "reitman",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Ghostbusters (1984) directed by Ivan Reitman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "hereditary",
-      "generatedAt": "2026-05-12T05:55:42.559Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1343,7 +1903,7 @@
     },
     {
       "artifactSlug": "holy-motors",
-      "generatedAt": "2026-05-12T05:55:42.561Z",
+      "generatedAt": "2026-05-12T07:44:31.376Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1418,7 +1978,7 @@
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
             "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-            "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to"
+            "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
           ]
         }
       ],
@@ -1434,7 +1994,7 @@
     },
     {
       "artifactSlug": "in-the-mood-for-love",
-      "generatedAt": "2026-05-12T05:55:42.561Z",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1513,7 +2073,7 @@
     },
     {
       "artifactSlug": "inland-empire",
-      "generatedAt": "2026-05-12T05:55:42.563Z",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1601,8 +2161,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "interstellar-2014",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "interstellar",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "christopher",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "nolan",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Interstellar (2014) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "killers-of-the-flower-moon",
-      "generatedAt": "2026-05-12T05:55:42.563Z",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1680,8 +2319,166 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "mad-max-1979",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "george",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "miller",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Mad Max (1979) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "mad-max-fury-road-2015",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "george",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "miller",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Mad Max: Fury Road (2015) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "mandy",
-      "generatedAt": "2026-05-12T05:55:42.564Z",
+      "generatedAt": "2026-05-12T07:44:31.377Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1760,7 +2557,7 @@
     },
     {
       "artifactSlug": "melancholia",
-      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1833,7 +2630,7 @@
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
             "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-            "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and p"
+            "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
           ]
         }
       ],
@@ -1841,7 +2638,7 @@
     },
     {
       "artifactSlug": "mother",
-      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1933,7 +2730,7 @@
     },
     {
       "artifactSlug": "mulholland-dr",
-      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2011,8 +2808,324 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "nightmare-on-elm-street-1984",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "nightmare",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "street",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "craven",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "A Nightmare on Elm Street (1984) directed by Wes Craven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "noroi-the-curse-2005",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "noroi",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "curse",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "shiraishi",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Noroi: The Curse (2005) directed by Kôji Shiraishi. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "parasite-2019",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "parasite",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        },
+        {
+          "term": "systematic",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "pink-flamingos-1972",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "flamingos",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "waters",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Pink Flamingos (1972) directed by John Waters. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "possession",
-      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "generatedAt": "2026-05-12T07:44:31.378Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2083,7 +3196,165 @@
           "share": 1,
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
-            "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+            "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "pulse-kairo-2001",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "pulse",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "kairo",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "kiyoshi",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "kurosawa",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Pulse (Kairo) (2001) directed by Kiyoshi Kurosawa. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "revenge-of-the-nerds-1984",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "revenge",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "nerds",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "kanew",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Revenge of the Nerds (1984) directed by Jeff Kanew. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
       ],
@@ -2091,7 +3362,7 @@
     },
     {
       "artifactSlug": "saint-maud",
-      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2169,8 +3440,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "showgirls-1995",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "showgirls",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "verhoeven",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Showgirls (1995) directed by Paul Verhoeven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "silent-light",
-      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2254,7 +3604,7 @@
           "share": 0.5,
           "summary": "devoted cluster derived from mention text classification",
           "sampleQuotes": [
-            "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+            "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
           ]
         }
       ],
@@ -2270,7 +3620,7 @@
     },
     {
       "artifactSlug": "stalker",
-      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2349,7 +3699,7 @@
     },
     {
       "artifactSlug": "suspiria-2018",
-      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2428,7 +3778,7 @@
     },
     {
       "artifactSlug": "synecdoche-new-york",
-      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2507,7 +3857,7 @@
     },
     {
       "artifactSlug": "tar",
-      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2578,7 +3928,86 @@
           "share": 1,
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
-            "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+            "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "tetsuo-the-iron-man-1989",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "tetsuo",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "shinya",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "tsukamoto",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Tetsuo: The Iron Man (1989) directed by Shinya Tsukamoto. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
       ],
@@ -2586,7 +4015,7 @@
     },
     {
       "artifactSlug": "the-act-of-killing",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2664,8 +4093,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "the-blair-witch-project-1999",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "blair",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "witch",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "project",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "daniel",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "myrick",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "eduardo",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "nchez",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Blair Witch Project (1999) directed by Daniel Myrick, Eduardo Sánchez. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "the-master",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2743,8 +4251,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "the-matrix-1999",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "matrix",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "wachowskis",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Matrix (1999) directed by The Wachowskis. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "the-northman",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2822,8 +4409,166 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "the-room-2003",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "tommy",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "wiseau",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-room-2003:seed-curation:the-room-2003-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Room (2003) directed by Tommy Wiseau. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-shining-1980",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "shining",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "stanley",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "kubrick",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Shining (1980) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "the-tree-of-life",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2903,7 +4648,7 @@
     },
     {
       "artifactSlug": "the-witch",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.379Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -2982,7 +4727,7 @@
     },
     {
       "artifactSlug": "the-zone-of-interest",
-      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "generatedAt": "2026-05-12T07:44:31.380Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -3065,7 +4810,7 @@
     },
     {
       "artifactSlug": "uncle-boonmee",
-      "generatedAt": "2026-05-12T05:55:42.569Z",
+      "generatedAt": "2026-05-12T07:44:31.380Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -3151,7 +4896,7 @@
           "share": 0.5,
           "summary": "devoted cluster derived from mention text classification",
           "sampleQuotes": [
-            "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+            "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
           ]
         }
       ],
@@ -3159,15 +4904,94 @@
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
       ]
     },
     {
+      "artifactSlug": "under-the-silver-lake-2018",
+      "generatedAt": "2026-05-12T07:44:31.380Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "silver",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "david",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "robert",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "mitchell",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Under the Silver Lake (2018) directed by David Robert Mitchell. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "under-the-skin",
-      "generatedAt": "2026-05-12T05:55:42.569Z",
+      "generatedAt": "2026-05-12T07:44:31.380Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -3244,407 +5068,12 @@
         }
       ],
       "afterlifeEvents": []
-    },
-    {
-      "artifactSlug": "the-shining-1980",
-      "generatedAt": "2026-05-12T08:15:00.000Z",
-      "method": "heuristic-safe-extraction",
-      "guardrails": [
-        "Extraction/classification/summarization only",
-        "No invented ratings or criticism"
-      ],
-      "confidence": 1.0,
-      "symbols": [
-        {
-          "term": "the",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "kubrick",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "curated",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "baseline",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "artifact",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "metric",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "directed",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        },
-        {
-          "term": "1980",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
-          ]
-        }
-      ],
-      "discourseClusters": [
-        {
-          "label": "analytical",
-          "share": 1,
-          "summary": "analytical cluster derived from mention text classification",
-          "sampleQuotes": [
-            "The Shining (1980) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
-          ]
-        }
-      ],
-      "afterlifeEvents": []
-    },
-    {
-      "artifactSlug": "showgirls-1995",
-      "generatedAt": "2026-05-12T08:15:00.000Z",
-      "method": "heuristic-safe-extraction",
-      "guardrails": [
-        "Extraction/classification/summarization only",
-        "No invented ratings or criticism"
-      ],
-      "confidence": 1.0,
-      "symbols": [
-        {
-          "term": "showgirls",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "verhoeven",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "curated",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "baseline",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "artifact",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "metric",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "directed",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        },
-        {
-          "term": "1995",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
-          ]
-        }
-      ],
-      "discourseClusters": [
-        {
-          "label": "analytical",
-          "share": 1,
-          "summary": "analytical cluster derived from mention text classification",
-          "sampleQuotes": [
-            "Showgirls (1995) directed by Paul Verhoeven. Curated baseline artifact for metric calibration and systematic scoring initialization."
-          ]
-        }
-      ],
-      "afterlifeEvents": []
-    },
-    {
-      "artifactSlug": "mad-max-fury-road-2015",
-      "generatedAt": "2026-05-12T08:15:00.000Z",
-      "method": "heuristic-safe-extraction",
-      "guardrails": [
-        "Extraction/classification/summarization only",
-        "No invented ratings or criticism"
-      ],
-      "confidence": 1.0,
-      "symbols": [
-        {
-          "term": "mad",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "miller",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "curated",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "baseline",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "artifact",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "metric",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "directed",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        },
-        {
-          "term": "2015",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
-          ]
-        }
-      ],
-      "discourseClusters": [
-        {
-          "label": "analytical",
-          "share": 1,
-          "summary": "analytical cluster derived from mention text classification",
-          "sampleQuotes": [
-            "Mad Max: Fury Road (2015) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
-          ]
-        }
-      ],
-      "afterlifeEvents": []
-    },
-    {
-      "artifactSlug": "the-room-2003",
-      "generatedAt": "2026-05-12T08:15:00.000Z",
-      "method": "heuristic-safe-extraction",
-      "guardrails": [
-        "Extraction/classification/summarization only",
-        "No invented ratings or criticism"
-      ],
-      "confidence": 1.0,
-      "symbols": [
-        {
-          "term": "the",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "wiseau",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "curated",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "baseline",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "artifact",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "metric",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "directed",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        },
-        {
-          "term": "2003",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "the-room-2003:seed-curation:the-room-2003-seed-curation"
-          ]
-        }
-      ],
-      "discourseClusters": [
-        {
-          "label": "analytical",
-          "share": 1,
-          "summary": "analytical cluster derived from mention text classification",
-          "sampleQuotes": [
-            "The Room (2003) directed by Tommy Wiseau. Curated baseline artifact for metric calibration and systematic scoring initialization."
-          ]
-        }
-      ],
-      "afterlifeEvents": []
-    },
-    {
-      "artifactSlug": "parasite-2019",
-      "generatedAt": "2026-05-12T08:15:00.000Z",
-      "method": "heuristic-safe-extraction",
-      "guardrails": [
-        "Extraction/classification/summarization only",
-        "No invented ratings or criticism"
-      ],
-      "confidence": 1.0,
-      "symbols": [
-        {
-          "term": "parasite",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "joon-ho",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "curated",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "baseline",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "artifact",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "metric",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "directed",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        },
-        {
-          "term": "2019",
-          "weight": 1,
-          "evidenceMentionIds": [
-            "parasite-2019:seed-curation:parasite-2019-seed-curation"
-          ]
-        }
-      ],
-      "discourseClusters": [
-        {
-          "label": "analytical",
-          "share": 1,
-          "summary": "analytical cluster derived from mention text classification",
-          "sampleQuotes": [
-            "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
-          ]
-        }
-      ],
-      "afterlifeEvents": []
     }
   ],
   "snapshots": [
     {
       "artifactSlug": "fire-walk-with-me",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3760,7 +5189,7 @@
     },
     {
       "artifactSlug": "mulholland-dr",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3876,7 +5305,7 @@
     },
     {
       "artifactSlug": "hereditary",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3992,7 +5421,7 @@
     },
     {
       "artifactSlug": "synecdoche-new-york",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4108,7 +5537,7 @@
     },
     {
       "artifactSlug": "in-the-mood-for-love",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4224,7 +5653,7 @@
     },
     {
       "artifactSlug": "stalker",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4340,7 +5769,7 @@
     },
     {
       "artifactSlug": "killers-of-the-flower-moon",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4456,7 +5885,7 @@
     },
     {
       "artifactSlug": "the-master",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4572,7 +6001,7 @@
     },
     {
       "artifactSlug": "annihilation",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4688,7 +6117,7 @@
     },
     {
       "artifactSlug": "possession",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4804,7 +6233,7 @@
     },
     {
       "artifactSlug": "eyes-wide-shut",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -4920,7 +6349,7 @@
     },
     {
       "artifactSlug": "tar",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -5036,7 +6465,7 @@
     },
     {
       "artifactSlug": "under-the-skin",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5160,7 +6589,7 @@
     },
     {
       "artifactSlug": "mother",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5284,7 +6713,7 @@
     },
     {
       "artifactSlug": "the-tree-of-life",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5408,7 +6837,7 @@
     },
     {
       "artifactSlug": "inland-empire",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5532,7 +6961,7 @@
     },
     {
       "artifactSlug": "melancholia",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5656,7 +7085,7 @@
     },
     {
       "artifactSlug": "the-zone-of-interest",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5780,7 +7209,7 @@
     },
     {
       "artifactSlug": "silent-light",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -5904,7 +7333,7 @@
     },
     {
       "artifactSlug": "holy-motors",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -6028,7 +7457,7 @@
     },
     {
       "artifactSlug": "uncle-boonmee",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -6152,7 +7581,7 @@
     },
     {
       "artifactSlug": "beau-is-afraid",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -6276,7 +7705,7 @@
     },
     {
       "artifactSlug": "the-act-of-killing",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6392,7 +7821,7 @@
     },
     {
       "artifactSlug": "mandy",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6508,7 +7937,7 @@
     },
     {
       "artifactSlug": "enemy",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6624,7 +8053,7 @@
     },
     {
       "artifactSlug": "suspiria-2018",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6740,7 +8169,7 @@
     },
     {
       "artifactSlug": "the-northman",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6856,7 +8285,7 @@
     },
     {
       "artifactSlug": "saint-maud",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -6972,7 +8401,7 @@
     },
     {
       "artifactSlug": "first-reformed",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -7088,7 +8517,7 @@
     },
     {
       "artifactSlug": "the-witch",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -7203,50 +8632,630 @@
       }
     },
     {
-      "artifactSlug": "the-shining-1980",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "artifactSlug": "ghostbusters-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 94,
-          "confidence": 0.99,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.5,
-            "meanScore": 72.0
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "beetlejuice-1988",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "revenge-of-the-nerds-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 10.45,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 69.6,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "nightmare-on-elm-street-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "as-good-as-it-gets-1997",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-shining-1980",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "friction": {
-          "value": 12,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.0,
-            "distanceFromMidpoint": 1.2
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "obsession": {
-          "value": 98,
-          "confidence": 0.99,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "haunting": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 7.07,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7254,10 +9263,10 @@
           ]
         },
         "symbolic": {
-          "value": 96,
-          "confidence": 0.95,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 10.67,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7265,44 +9274,44 @@
           ]
         },
         "cult": {
-          "value": 71,
-          "confidence": 0.9,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "formal": {
-          "value": 88,
-          "confidence": 0.96,
+          "value": 9.35,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 14.67,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "voltage": {
-          "value": 92,
-          "confidence": 0.94,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.67,
-            "distanceFromMidpoint": 7.36
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 81,
-          "confidence": 0.98,
+          "value": 72.8,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 11.88
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
@@ -7310,55 +9319,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "showgirls-1995",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 38,
-          "confidence": 0.91,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 15.5,
-            "meanScore": 44.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "friction": {
-          "value": 88,
-          "confidence": 0.94,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 14.67,
-            "distanceFromMidpoint": 8.8
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "obsession": {
-          "value": 74,
-          "confidence": 0.89,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "haunting": {
-          "value": 18,
-          "confidence": 0.85,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 1.29,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7366,10 +9379,10 @@
           ]
         },
         "symbolic": {
-          "value": 62,
-          "confidence": 0.82,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 6.89,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7377,44 +9390,44 @@
           ]
         },
         "cult": {
-          "value": 97,
-          "confidence": 0.96,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "formal": {
-          "value": 21,
-          "confidence": 0.93,
+          "value": 8.8,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 3.5,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "voltage": {
-          "value": 82,
-          "confidence": 0.88,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 6.83,
-            "distanceFromMidpoint": 6.56
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 75,
-          "confidence": 0.96,
+          "value": 74.4,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 15.62
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
@@ -7422,55 +9435,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "mad-max-fury-road-2015",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 90,
-          "confidence": 0.98,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.5,
-            "meanScore": 70.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "friction": {
-          "value": 15,
-          "confidence": 0.97,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.5,
-            "distanceFromMidpoint": 1.5
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "obsession": {
-          "value": 82,
-          "confidence": 0.92,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "haunting": {
-          "value": 44,
-          "confidence": 0.88,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 3.14,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7478,10 +9495,10 @@
           ]
         },
         "symbolic": {
-          "value": 58,
-          "confidence": 0.84,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 6.44,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7489,44 +9506,44 @@
           ]
         },
         "cult": {
-          "value": 64,
-          "confidence": 0.89,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "formal": {
-          "value": 91,
-          "confidence": 0.95,
+          "value": 10.45,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 15.17,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 19
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "voltage": {
-          "value": 95,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.92,
-            "distanceFromMidpoint": 7.6
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 89,
-          "confidence": 0.98,
+          "value": 69.6,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 6.88
+            "avgLength": 19
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
@@ -7534,55 +9551,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "the-room-2003",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 85,
-          "confidence": 0.95,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 3.75,
-            "meanScore": 67.5
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "friction": {
-          "value": 22,
-          "confidence": 0.92,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 3.67,
-            "distanceFromMidpoint": 2.2
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "obsession": {
-          "value": 96,
-          "confidence": 0.98,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "haunting": {
-          "value": 31,
-          "confidence": 0.82,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 2.21,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7590,10 +9611,10 @@
           ]
         },
         "symbolic": {
-          "value": 84,
-          "confidence": 0.89,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 9.33,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7601,44 +9622,44 @@
           ]
         },
         "cult": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "formal": {
-          "value": 74,
-          "confidence": 0.9,
+          "value": 9.35,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 12.33,
-            "avgLength": 20
+            "theoryHits": 0,
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 5.67,
-            "distanceFromMidpoint": 5.44
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 72.8,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 55.0
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
@@ -7646,55 +9667,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "parasite-2019",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 96,
-          "confidence": 0.99,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.0,
-            "meanScore": 73.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "friction": {
-          "value": 9,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.5,
-            "distanceFromMidpoint": 0.9
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "obsession": {
-          "value": 78,
-          "confidence": 0.91,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "haunting": {
-          "value": 86,
-          "confidence": 0.93,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 6.14,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7702,10 +9727,10 @@
           ]
         },
         "symbolic": {
-          "value": 92,
-          "confidence": 0.96,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 10.22,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -7713,44 +9738,44 @@
           ]
         },
         "cult": {
-          "value": 45,
-          "confidence": 0.82,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "formal": {
-          "value": 82,
-          "confidence": 0.94,
+          "value": 8.8,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 13.67,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "voltage": {
-          "value": 94,
-          "confidence": 0.97,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.83,
-            "distanceFromMidpoint": 7.52
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 88,
-          "confidence": 0.95,
+          "value": 74.4,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 7.5
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
@@ -7758,8 +9783,1056 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-matrix-1999",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "under-the-silver-lake-2018",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mad-max-1979",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "pink-flamingos-1972",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "interstellar-2014",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-blair-witch-project-1999",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "pulse-kairo-2001",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "tetsuo-the-iron-man-1989",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 10.45,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 69.6,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "noroi-the-curse-2005",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     }
   ]

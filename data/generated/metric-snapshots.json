@@ -1,10 +1,10 @@
 {
   "methodVersion": "2026.05.12.v1",
-  "computedAt": "2026-05-12T08:15:00.000Z",
+  "computedAt": "2026-05-12T07:44:31.384Z",
   "snapshots": [
     {
       "artifactSlug": "fire-walk-with-me",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -120,7 +120,7 @@
     },
     {
       "artifactSlug": "mulholland-dr",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -236,7 +236,7 @@
     },
     {
       "artifactSlug": "hereditary",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -352,7 +352,7 @@
     },
     {
       "artifactSlug": "synecdoche-new-york",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -468,7 +468,7 @@
     },
     {
       "artifactSlug": "in-the-mood-for-love",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -584,7 +584,7 @@
     },
     {
       "artifactSlug": "stalker",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -700,7 +700,7 @@
     },
     {
       "artifactSlug": "killers-of-the-flower-moon",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -816,7 +816,7 @@
     },
     {
       "artifactSlug": "the-master",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -932,7 +932,7 @@
     },
     {
       "artifactSlug": "annihilation",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1048,7 +1048,7 @@
     },
     {
       "artifactSlug": "possession",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1164,7 +1164,7 @@
     },
     {
       "artifactSlug": "eyes-wide-shut",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1280,7 +1280,7 @@
     },
     {
       "artifactSlug": "tar",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1396,7 +1396,7 @@
     },
     {
       "artifactSlug": "under-the-skin",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -1520,7 +1520,7 @@
     },
     {
       "artifactSlug": "mother",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -1644,7 +1644,7 @@
     },
     {
       "artifactSlug": "the-tree-of-life",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -1768,7 +1768,7 @@
     },
     {
       "artifactSlug": "inland-empire",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -1892,7 +1892,7 @@
     },
     {
       "artifactSlug": "melancholia",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2016,7 +2016,7 @@
     },
     {
       "artifactSlug": "the-zone-of-interest",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2140,7 +2140,7 @@
     },
     {
       "artifactSlug": "silent-light",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2264,7 +2264,7 @@
     },
     {
       "artifactSlug": "holy-motors",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2388,7 +2388,7 @@
     },
     {
       "artifactSlug": "uncle-boonmee",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2512,7 +2512,7 @@
     },
     {
       "artifactSlug": "beau-is-afraid",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
@@ -2636,7 +2636,7 @@
     },
     {
       "artifactSlug": "the-act-of-killing",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2752,7 +2752,7 @@
     },
     {
       "artifactSlug": "mandy",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2868,7 +2868,7 @@
     },
     {
       "artifactSlug": "enemy",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2984,7 +2984,7 @@
     },
     {
       "artifactSlug": "suspiria-2018",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3100,7 +3100,7 @@
     },
     {
       "artifactSlug": "the-northman",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3216,7 +3216,7 @@
     },
     {
       "artifactSlug": "saint-maud",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3332,7 +3332,7 @@
     },
     {
       "artifactSlug": "first-reformed",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3448,7 +3448,7 @@
     },
     {
       "artifactSlug": "the-witch",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -3563,50 +3563,630 @@
       }
     },
     {
-      "artifactSlug": "the-shining-1980",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "artifactSlug": "ghostbusters-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 94,
-          "confidence": 0.99,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.5,
-            "meanScore": 72.0
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "beetlejuice-1988",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "revenge-of-the-nerds-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 10.45,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 69.6,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "nightmare-on-elm-street-1984",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "as-good-as-it-gets-1997",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-shining-1980",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "friction": {
-          "value": 12,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.0,
-            "distanceFromMidpoint": 1.2
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "obsession": {
-          "value": 98,
-          "confidence": 0.99,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "haunting": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 7.07,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3614,10 +4194,10 @@
           ]
         },
         "symbolic": {
-          "value": 96,
-          "confidence": 0.95,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 10.67,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3625,44 +4205,44 @@
           ]
         },
         "cult": {
-          "value": 71,
-          "confidence": 0.9,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "formal": {
-          "value": 88,
-          "confidence": 0.96,
+          "value": 9.35,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 14.67,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "voltage": {
-          "value": 92,
-          "confidence": 0.94,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.67,
-            "distanceFromMidpoint": 7.36
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 81,
-          "confidence": 0.98,
+          "value": 72.8,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 11.88
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
@@ -3670,55 +4250,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "showgirls-1995",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 38,
-          "confidence": 0.91,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 15.5,
-            "meanScore": 44.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "friction": {
-          "value": 88,
-          "confidence": 0.94,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 14.67,
-            "distanceFromMidpoint": 8.8
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "obsession": {
-          "value": 74,
-          "confidence": 0.89,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "haunting": {
-          "value": 18,
-          "confidence": 0.85,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 1.29,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3726,10 +4310,10 @@
           ]
         },
         "symbolic": {
-          "value": 62,
-          "confidence": 0.82,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 6.89,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3737,44 +4321,44 @@
           ]
         },
         "cult": {
-          "value": 97,
-          "confidence": 0.96,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "formal": {
-          "value": 21,
-          "confidence": 0.93,
+          "value": 8.8,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 3.5,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "voltage": {
-          "value": 82,
-          "confidence": 0.88,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 6.83,
-            "distanceFromMidpoint": 6.56
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 75,
-          "confidence": 0.96,
+          "value": 74.4,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 15.62
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
@@ -3782,55 +4366,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "mad-max-fury-road-2015",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 90,
-          "confidence": 0.98,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.5,
-            "meanScore": 70.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "friction": {
-          "value": 15,
-          "confidence": 0.97,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 2.5,
-            "distanceFromMidpoint": 1.5
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "obsession": {
-          "value": 82,
-          "confidence": 0.92,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "haunting": {
-          "value": 44,
-          "confidence": 0.88,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 3.14,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3838,10 +4426,10 @@
           ]
         },
         "symbolic": {
-          "value": 58,
-          "confidence": 0.84,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 6.44,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3849,44 +4437,44 @@
           ]
         },
         "cult": {
-          "value": 64,
-          "confidence": 0.89,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "formal": {
-          "value": 91,
-          "confidence": 0.95,
+          "value": 10.45,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 15.17,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 19
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "voltage": {
-          "value": 95,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.92,
-            "distanceFromMidpoint": 7.6
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 89,
-          "confidence": 0.98,
+          "value": 69.6,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 6.88
+            "avgLength": 19
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
@@ -3894,55 +4482,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "the-room-2003",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 85,
-          "confidence": 0.95,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 3.75,
-            "meanScore": 67.5
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "friction": {
-          "value": 22,
-          "confidence": 0.92,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 3.67,
-            "distanceFromMidpoint": 2.2
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "obsession": {
-          "value": 96,
-          "confidence": 0.98,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "haunting": {
-          "value": 31,
-          "confidence": 0.82,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 2.21,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3950,10 +4542,10 @@
           ]
         },
         "symbolic": {
-          "value": 84,
-          "confidence": 0.89,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 9.33,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -3961,44 +4553,44 @@
           ]
         },
         "cult": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "formal": {
-          "value": 74,
-          "confidence": 0.9,
+          "value": 9.35,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 12.33,
-            "avgLength": 20
+            "theoryHits": 0,
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 5.67,
-            "distanceFromMidpoint": 5.44
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 72.8,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 55.0
+            "avgLength": 17
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
@@ -4006,55 +4598,59 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     },
     {
       "artifactSlug": "parasite-2019",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T07:44:31.384Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 96,
-          "confidence": 0.99,
+          "value": 100,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.0,
-            "meanScore": 73.0
+            "spread": 0,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "friction": {
-          "value": 9,
-          "confidence": 0.98,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "spread": 1.5,
-            "distanceFromMidpoint": 0.9
+            "spread": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "obsession": {
-          "value": 78,
-          "confidence": 0.91,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "mentionCount": 1,
+            "uniqueSources": 1
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "haunting": {
-          "value": 86,
-          "confidence": 0.93,
+          "value": 16,
+          "confidence": 0.18,
           "components": {
-            "hauntingHits": 6.14,
+            "hauntingHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -4062,10 +4658,10 @@
           ]
         },
         "symbolic": {
-          "value": 92,
-          "confidence": 0.96,
+          "value": 72,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 10.22,
+            "theoryHits": 0,
             "symbolDensity": 8
           },
           "evidenceMentionIds": [
@@ -4073,44 +4669,44 @@
           ]
         },
         "cult": {
-          "value": 45,
-          "confidence": 0.82,
+          "value": 25.3,
+          "confidence": 0.18,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "formal": {
-          "value": 82,
-          "confidence": 0.94,
+          "value": 8.8,
+          "confidence": 0.18,
           "components": {
-            "theoryHits": 13.67,
-            "avgLength": 30
+            "theoryHits": 0,
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "voltage": {
-          "value": 94,
-          "confidence": 0.97,
+          "value": 0,
+          "confidence": 0.18,
           "components": {
-            "emotionHits": 7.83,
-            "distanceFromMidpoint": 7.52
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 88,
-          "confidence": 0.95,
+          "value": 74.4,
+          "confidence": 0.18,
           "components": {
-            "avgLength": 7.5
+            "avgLength": 16
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
@@ -4118,8 +4714,1056 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": []
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-matrix-1999",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "under-the-silver-lake-2018",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mad-max-1979",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "pink-flamingos-1972",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "interstellar-2014",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-blair-witch-project-1999",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "pulse-kairo-2001",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "pulse-kairo-2001:seed-curation:pulse-kairo-2001-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "tetsuo-the-iron-man-1989",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 10.45,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 69.6,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "tetsuo-the-iron-man-1989:seed-curation:tetsuo-the-iron-man-1989-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "noroi-the-curse-2005",
+      "computedAt": "2026-05-12T07:44:31.384Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "noroi-the-curse-2005:seed-curation:noroi-the-curse-2005-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
       }
     }
   ]

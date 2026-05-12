@@ -74,5 +74,43 @@
     "freshness": {
       "lastComputedAt": "2026-05-12T05:55:42.599Z"
     }
+  },
+  {
+    "runId": "run-1778571861770",
+    "status": "ok",
+    "startedAt": "2026-05-12T07:44:21.770Z",
+    "completedAt": "2026-05-12T07:44:31.405Z",
+    "methodVersion": "2026.05.12.v1",
+    "movieCount": 49,
+    "steps": [
+      {
+        "name": "convertSeedCsv",
+        "status": "ok",
+        "durationMs": 7
+      },
+      {
+        "name": "collectSignals",
+        "status": "ok",
+        "durationMs": 9597
+      },
+      {
+        "name": "enrichWithAi",
+        "status": "ok",
+        "durationMs": 7
+      },
+      {
+        "name": "computeMetrics",
+        "status": "ok",
+        "durationMs": 14
+      },
+      {
+        "name": "exportFrontend",
+        "status": "ok",
+        "durationMs": 9
+      }
+    ],
+    "freshness": {
+      "lastComputedAt": "2026-05-12T07:44:31.405Z"
+    }
   }
 ]
