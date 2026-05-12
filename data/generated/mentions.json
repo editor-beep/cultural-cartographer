@@ -763,5 +763,95 @@
     "metadata": {
       "method": "systematic-movie-pipeline"
     }
+  },
+  {
+    "id": "killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet",
+    "artifactSlug": "killing-of-a-sacred-deer-2017",
+    "source": "data-packet-v1",
+    "sourceKind": "curated",
+    "sourceUrl": "data-packet://killing-of-a-sacred-deer-2017",
+    "sourceId": "killing-of-a-sacred-deer-2017-data-packet",
+    "postedAt": "2026-05-12T17:30:00.000Z",
+    "fetchedAt": "2026-05-12T17:30:00.000Z",
+    "lang": "en",
+    "body": "The Killing of a Sacred Deer (2017) directed by Yorgos Lanthimos. A dead-air pressure cooker using stilted monotone dialogue as formal risk. Its residual haunting derives from relentless cold logic functioning like a mathematical equation. High friction because the dry humor feels like an insult to the uninitiated.",
+    "score": 60,
+    "sourceReliability": 0.9,
+    "metadata": {
+      "method": "systematic-movie-pipeline",
+      "packetVersion": "v1"
+    }
+  },
+  {
+    "id": "were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet",
+    "artifactSlug": "were-all-going-to-the-worlds-fair-2021",
+    "source": "data-packet-v1",
+    "sourceKind": "curated",
+    "sourceUrl": "data-packet://were-all-going-to-the-worlds-fair-2021",
+    "sourceId": "were-all-going-to-the-worlds-fair-2021-data-packet",
+    "postedAt": "2026-05-12T17:30:00.000Z",
+    "fetchedAt": "2026-05-12T17:30:00.000Z",
+    "lang": "en",
+    "body": "We're All Going to the World's Fair (2021) directed by Jane Schoenbrun. The digital liminal space. Very low accessibility because it mimics the lonely amateurish aesthetic of early YouTube. Its residual haunting is massive for anyone who grew up online; it installs a feeling of isolation and unauthorized watching that is difficult to shake. A work that lives in the static of the screen.",
+    "score": 55,
+    "sourceReliability": 0.9,
+    "metadata": {
+      "method": "systematic-movie-pipeline",
+      "packetVersion": "v1"
+    }
+  },
+  {
+    "id": "lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet",
+    "artifactSlug": "lake-mungo-2008",
+    "source": "data-packet-v1",
+    "sourceKind": "curated",
+    "sourceUrl": "data-packet://lake-mungo-2008",
+    "sourceId": "lake-mungo-2008-data-packet",
+    "postedAt": "2026-05-12T17:30:00.000Z",
+    "fetchedAt": "2026-05-12T17:30:00.000Z",
+    "lang": "en",
+    "body": "Lake Mungo (2008) directed by Joel Anderson. The documentary haunt. Arguably the highest residual haunting score for a mockumentary. It does not rely on scares but on the crushing weight of grief and the revealed image. Its symbolic density is tied to the idea of the double and the premonition. Low on voltage until a single specific moment that recalibrates the entire system.",
+    "score": 72,
+    "sourceReliability": 0.9,
+    "metadata": {
+      "method": "systematic-movie-pipeline",
+      "packetVersion": "v1"
+    }
+  },
+  {
+    "id": "videodrome-1983:data-packet-v1:videodrome-1983-data-packet",
+    "artifactSlug": "videodrome-1983",
+    "source": "data-packet-v1",
+    "sourceKind": "curated",
+    "sourceUrl": "data-packet://videodrome-1983",
+    "sourceId": "videodrome-1983-data-packet",
+    "postedAt": "2026-05-12T17:30:00.000Z",
+    "fetchedAt": "2026-05-12T17:30:00.000Z",
+    "lang": "en",
+    "body": "Videodrome (1983) directed by David Cronenberg. A biological system. Scores high on formal risk for its practical body-horror and surrealist structure. Its symbolic density around the New Flesh has become a foundational text for media theory. High obsession score because it correctly predicted the way screens would eventually integrate with our biological reality.",
+    "score": 75,
+    "sourceReliability": 0.9,
+    "metadata": {
+      "method": "systematic-movie-pipeline",
+      "packetVersion": "v1"
+    }
+  },
+  {
+    "id": "last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet",
+    "artifactSlug": "last-year-at-marienbad-1961",
+    "source": "data-packet-v1",
+    "sourceKind": "curated",
+    "sourceUrl": "data-packet://last-year-at-marienbad-1961",
+    "sourceId": "last-year-at-marienbad-1961-data-packet",
+    "postedAt": "2026-05-12T17:30:00.000Z",
+    "fetchedAt": "2026-05-12T17:30:00.000Z",
+    "lang": "en",
+    "body": "Last Year at Marienbad (1961) directed by Alain Resnais. The infinite loop. The ancestor of Stalker and Primer. Its accessibility is near-zero; it is a film about characters who may or may not have met in a hotel that may or may not exist. Its formal risk is absolute, breaking the continuity of time and space. For the right viewer its residual haunting is a lifelong installation.",
+    "score": 65,
+    "sourceReliability": 0.9,
+    "metadata": {
+      "method": "systematic-movie-pipeline",
+      "packetVersion": "v1"
+    }
   }
 ]

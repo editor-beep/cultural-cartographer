@@ -6853,6 +6853,536 @@
         "lastCollectedAt": "2026-05-12T08:15:00.000Z",
         "lastComputedAt": "2026-05-12T08:15:00.000Z"
       }
+    },
+    {
+      "slug": "killing-of-a-sacred-deer-2017",
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "director": "Yorgos Lanthimos",
+      "runtime": 121,
+      "catalogue": "ARTX-037",
+      "metrics": {
+        "consensus": {
+          "value": 82,
+          "confidence": 0.94,
+          "components": {
+            "critic_alignment": 0.85,
+            "audience_stability": 0.79
+          },
+          "evidence": [
+            {
+              "mentionId": "killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet",
+              "source": "data-packet-v1",
+              "sourceUrl": "data-packet://killing-of-a-sacred-deer-2017",
+              "timestamp": "2026-05-12T17:30:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 45,
+          "confidence": 0.92,
+          "components": {
+            "dispute_longevity": 0.48,
+            "interpretive_gap": 0.42
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 71,
+          "confidence": 0.88,
+          "components": {
+            "mention_density": 0.74,
+            "temporal_spread": 0.68
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 86,
+          "confidence": 0.94,
+          "components": {
+            "intrusive_memory_keywords": 0.89,
+            "dream_record_hits": 0.83
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 94,
+          "confidence": 0.96,
+          "components": {
+            "theory_thread_count": 0.96,
+            "motif_tracking": 0.92
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 41,
+          "confidence": 0.82,
+          "components": {
+            "reclamation_slope": 0.38,
+            "community_id": 0.44
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 88,
+          "confidence": 0.91,
+          "components": {
+            "structure_divergence": 0.84,
+            "visual_radicalism": 0.92
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 74,
+          "confidence": 0.89,
+          "components": {
+            "physiological_response_keywords": 0.71,
+            "emotional_intensity": 0.77
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 38,
+          "confidence": 0.92,
+          "components": {
+            "entry_barrier_inverse": 0.35,
+            "glossary_requirement": 0.41
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "were-all-going-to-the-worlds-fair-2021",
+      "title": "We're All Going to the World's Fair",
+      "year": 2021,
+      "director": "Jane Schoenbrun",
+      "runtime": 86,
+      "catalogue": "ARTX-038",
+      "metrics": {
+        "consensus": {
+          "value": 61,
+          "confidence": 0.89,
+          "components": {
+            "critic_alignment": 0.64,
+            "audience_stability": 0.58
+          },
+          "evidence": [
+            {
+              "mentionId": "were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet",
+              "source": "data-packet-v1",
+              "sourceUrl": "data-packet://were-all-going-to-the-worlds-fair-2021",
+              "timestamp": "2026-05-12T17:30:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 52,
+          "confidence": 0.91,
+          "components": {
+            "dispute_longevity": 0.55,
+            "interpretive_gap": 0.49
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 84,
+          "confidence": 0.93,
+          "components": {
+            "mention_density": 0.87,
+            "temporal_spread": 0.81
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 93,
+          "confidence": 0.97,
+          "components": {
+            "intrusive_memory_keywords": 0.95,
+            "dream_record_hits": 0.91
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 88,
+          "confidence": 0.94,
+          "components": {
+            "theory_thread_count": 0.9,
+            "motif_tracking": 0.86
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 82,
+          "confidence": 0.88,
+          "components": {
+            "reclamation_slope": 0.84,
+            "community_id": 0.8
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 91,
+          "confidence": 0.95,
+          "components": {
+            "structure_divergence": 0.88,
+            "visual_radicalism": 0.94
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 56,
+          "confidence": 0.82,
+          "components": {
+            "physiological_response_keywords": 0.52,
+            "emotional_intensity": 0.6
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 24,
+          "confidence": 0.94,
+          "components": {
+            "entry_barrier_inverse": 0.21,
+            "glossary_requirement": 0.27
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "lake-mungo-2008",
+      "title": "Lake Mungo",
+      "year": 2008,
+      "director": "Joel Anderson",
+      "runtime": 87,
+      "catalogue": "ARTX-039",
+      "metrics": {
+        "consensus": {
+          "value": 79,
+          "confidence": 0.95,
+          "components": {
+            "critic_alignment": 0.82,
+            "audience_stability": 0.76
+          },
+          "evidence": [
+            {
+              "mentionId": "lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet",
+              "source": "data-packet-v1",
+              "sourceUrl": "data-packet://lake-mungo-2008",
+              "timestamp": "2026-05-12T17:30:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 12,
+          "confidence": 0.88,
+          "components": {
+            "dispute_longevity": 0.09,
+            "interpretive_gap": 0.15
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 89,
+          "confidence": 0.96,
+          "components": {
+            "mention_density": 0.92,
+            "temporal_spread": 0.86
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "intrusive_memory_keywords": 0.99,
+            "dream_record_hits": 0.97
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 85,
+          "confidence": 0.91,
+          "components": {
+            "theory_thread_count": 0.87,
+            "motif_tracking": 0.83
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 96,
+          "confidence": 0.98,
+          "components": {
+            "reclamation_slope": 0.97,
+            "community_id": 0.95
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 74,
+          "confidence": 0.89,
+          "components": {
+            "structure_divergence": 0.7,
+            "visual_radicalism": 0.78
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 82,
+          "confidence": 0.92,
+          "components": {
+            "physiological_response_keywords": 0.79,
+            "emotional_intensity": 0.85
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 41,
+          "confidence": 0.94,
+          "components": {
+            "entry_barrier_inverse": 0.38,
+            "glossary_requirement": 0.44
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "videodrome-1983",
+      "title": "Videodrome",
+      "year": 1983,
+      "director": "David Cronenberg",
+      "runtime": 89,
+      "catalogue": "ARTX-040",
+      "metrics": {
+        "consensus": {
+          "value": 88,
+          "confidence": 0.96,
+          "components": {
+            "critic_alignment": 0.91,
+            "audience_stability": 0.85
+          },
+          "evidence": [
+            {
+              "mentionId": "videodrome-1983:data-packet-v1:videodrome-1983-data-packet",
+              "source": "data-packet-v1",
+              "sourceUrl": "data-packet://videodrome-1983",
+              "timestamp": "2026-05-12T17:30:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 14,
+          "confidence": 0.92,
+          "components": {
+            "dispute_longevity": 0.11,
+            "interpretive_gap": 0.17
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 94,
+          "confidence": 0.97,
+          "components": {
+            "mention_density": 0.96,
+            "temporal_spread": 0.92
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 91,
+          "confidence": 0.95,
+          "components": {
+            "intrusive_memory_keywords": 0.93,
+            "dream_record_hits": 0.89
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 96,
+          "confidence": 0.98,
+          "components": {
+            "theory_thread_count": 0.98,
+            "motif_tracking": 0.94
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 92,
+          "confidence": 0.96,
+          "components": {
+            "reclamation_slope": 0.94,
+            "community_id": 0.9
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 95,
+          "confidence": 0.97,
+          "components": {
+            "structure_divergence": 0.93,
+            "visual_radicalism": 0.97
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 89,
+          "confidence": 0.92,
+          "components": {
+            "physiological_response_keywords": 0.91,
+            "emotional_intensity": 0.87
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 35,
+          "confidence": 0.91,
+          "components": {
+            "entry_barrier_inverse": 0.32,
+            "glossary_requirement": 0.38
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "last-year-at-marienbad-1961",
+      "title": "Last Year at Marienbad",
+      "year": 1961,
+      "director": "Alain Resnais",
+      "runtime": 94,
+      "catalogue": "ARTX-041",
+      "metrics": {
+        "consensus": {
+          "value": 74,
+          "confidence": 0.91,
+          "components": {
+            "critic_alignment": 0.77,
+            "audience_stability": 0.71
+          },
+          "evidence": [
+            {
+              "mentionId": "last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet",
+              "source": "data-packet-v1",
+              "sourceUrl": "data-packet://last-year-at-marienbad-1961",
+              "timestamp": "2026-05-12T17:30:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 31,
+          "confidence": 0.89,
+          "components": {
+            "dispute_longevity": 0.28,
+            "interpretive_gap": 0.34
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 92,
+          "confidence": 0.95,
+          "components": {
+            "mention_density": 0.94,
+            "temporal_spread": 0.9
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "intrusive_memory_keywords": 1.0,
+            "dream_record_hits": 0.98
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "theory_thread_count": 0.99,
+            "motif_tracking": 0.97
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 89,
+          "confidence": 0.92,
+          "components": {
+            "reclamation_slope": 0.91,
+            "community_id": 0.87
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 100,
+          "confidence": 1.0,
+          "components": {
+            "structure_divergence": 1.0,
+            "visual_radicalism": 1.0
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 45,
+          "confidence": 0.82,
+          "components": {
+            "physiological_response_keywords": 0.41,
+            "emotional_intensity": 0.49
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 2,
+          "confidence": 0.99,
+          "components": {
+            "entry_barrier_inverse": 0.01,
+            "glossary_requirement": 0.03
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
     }
   ]
 }

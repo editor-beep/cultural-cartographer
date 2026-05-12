@@ -766,6 +766,81 @@
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
+    },
+    {
+      "id": "killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet",
+      "artifactSlug": "killing-of-a-sacred-deer-2017",
+      "source": "data-packet-v1",
+      "sourceKind": "curated",
+      "sourceUrl": "data-packet://killing-of-a-sacred-deer-2017",
+      "sourceId": "killing-of-a-sacred-deer-2017-data-packet",
+      "postedAt": "2026-05-12T17:30:00.000Z",
+      "fetchedAt": "2026-05-12T17:30:00.000Z",
+      "lang": "en",
+      "body": "The Killing of a Sacred Deer (2017) directed by Yorgos Lanthimos. A dead-air pressure cooker using stilted monotone dialogue as formal risk. Its residual haunting derives from relentless cold logic functioning like a mathematical equation. High friction because the dry humor feels like an insult to the uninitiated.",
+      "score": 60,
+      "sourceReliability": 0.9,
+      "metadata": { "method": "systematic-movie-pipeline", "packetVersion": "v1" }
+    },
+    {
+      "id": "were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet",
+      "artifactSlug": "were-all-going-to-the-worlds-fair-2021",
+      "source": "data-packet-v1",
+      "sourceKind": "curated",
+      "sourceUrl": "data-packet://were-all-going-to-the-worlds-fair-2021",
+      "sourceId": "were-all-going-to-the-worlds-fair-2021-data-packet",
+      "postedAt": "2026-05-12T17:30:00.000Z",
+      "fetchedAt": "2026-05-12T17:30:00.000Z",
+      "lang": "en",
+      "body": "We're All Going to the World's Fair (2021) directed by Jane Schoenbrun. The digital liminal space. Very low accessibility because it mimics the lonely amateurish aesthetic of early YouTube. Its residual haunting is massive for anyone who grew up online; it installs a feeling of isolation and unauthorized watching that is difficult to shake. A work that lives in the static of the screen.",
+      "score": 55,
+      "sourceReliability": 0.9,
+      "metadata": { "method": "systematic-movie-pipeline", "packetVersion": "v1" }
+    },
+    {
+      "id": "lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet",
+      "artifactSlug": "lake-mungo-2008",
+      "source": "data-packet-v1",
+      "sourceKind": "curated",
+      "sourceUrl": "data-packet://lake-mungo-2008",
+      "sourceId": "lake-mungo-2008-data-packet",
+      "postedAt": "2026-05-12T17:30:00.000Z",
+      "fetchedAt": "2026-05-12T17:30:00.000Z",
+      "lang": "en",
+      "body": "Lake Mungo (2008) directed by Joel Anderson. The documentary haunt. Arguably the highest residual haunting score for a mockumentary. It does not rely on scares but on the crushing weight of grief and the revealed image. Its symbolic density is tied to the idea of the double and the premonition. Low on voltage until a single specific moment that recalibrates the entire system.",
+      "score": 72,
+      "sourceReliability": 0.9,
+      "metadata": { "method": "systematic-movie-pipeline", "packetVersion": "v1" }
+    },
+    {
+      "id": "videodrome-1983:data-packet-v1:videodrome-1983-data-packet",
+      "artifactSlug": "videodrome-1983",
+      "source": "data-packet-v1",
+      "sourceKind": "curated",
+      "sourceUrl": "data-packet://videodrome-1983",
+      "sourceId": "videodrome-1983-data-packet",
+      "postedAt": "2026-05-12T17:30:00.000Z",
+      "fetchedAt": "2026-05-12T17:30:00.000Z",
+      "lang": "en",
+      "body": "Videodrome (1983) directed by David Cronenberg. A biological system. Scores high on formal risk for its practical body-horror and surrealist structure. Its symbolic density around the New Flesh has become a foundational text for media theory. High obsession score because it correctly predicted the way screens would eventually integrate with our biological reality.",
+      "score": 75,
+      "sourceReliability": 0.9,
+      "metadata": { "method": "systematic-movie-pipeline", "packetVersion": "v1" }
+    },
+    {
+      "id": "last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet",
+      "artifactSlug": "last-year-at-marienbad-1961",
+      "source": "data-packet-v1",
+      "sourceKind": "curated",
+      "sourceUrl": "data-packet://last-year-at-marienbad-1961",
+      "sourceId": "last-year-at-marienbad-1961-data-packet",
+      "postedAt": "2026-05-12T17:30:00.000Z",
+      "fetchedAt": "2026-05-12T17:30:00.000Z",
+      "lang": "en",
+      "body": "Last Year at Marienbad (1961) directed by Alain Resnais. The infinite loop. The ancestor of Stalker and Primer. Its accessibility is near-zero; it is a film about characters who may or may not have met in a hotel that may or may not exist. Its formal risk is absolute, breaking the continuity of time and space. For the right viewer its residual haunting is a lifelong installation.",
+      "score": 65,
+      "sourceReliability": 0.9,
+      "metadata": { "method": "systematic-movie-pipeline", "packetVersion": "v1" }
     }
   ],
   "enrichments": [
@@ -3637,6 +3712,116 @@
             "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "killing-of-a-sacred-deer-2017",
+      "generatedAt": "2026-05-12T17:30:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": ["Extraction/classification/summarization only", "No invented ratings or criticism"],
+      "confidence": 0.43,
+      "symbols": [
+        { "term": "sacred", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "lanthimos", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "curse", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "greek", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "ritual", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "logic", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "sacrifice", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] },
+        { "term": "dread", "weight": 1, "evidenceMentionIds": ["killing-of-a-sacred-deer-2017:data-packet-v1:killing-of-a-sacred-deer-2017-data-packet"] }
+      ],
+      "discourseClusters": [
+        { "label": "analytical", "share": 0.72, "summary": "analytical cluster derived from mention text classification", "sampleQuotes": ["The Killing of a Sacred Deer (2017) directed by Yorgos Lanthimos. A dead-air pressure cooker deploying stilted dialogue as formal risk; its cold-logic curse achieves high residual haunting and near-perfect symbolic density."] },
+        { "label": "skeptical", "share": 0.28, "summary": "skeptical cluster derived from mention text classification", "sampleQuotes": ["The affectless performances and schematic premise keep cult and accessibility scores depressed; the formal gamble alienates more viewers than it recruits."] }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "were-all-going-to-the-worlds-fair-2021",
+      "generatedAt": "2026-05-12T17:30:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": ["Extraction/classification/summarization only", "No invented ratings or criticism"],
+      "confidence": 0.43,
+      "symbols": [
+        { "term": "digital", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "liminal", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "isolation", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "screen", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "schoenbrun", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "online", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "static", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] },
+        { "term": "ritual", "weight": 1, "evidenceMentionIds": ["were-all-going-to-the-worlds-fair-2021:data-packet-v1:were-all-going-to-the-worlds-fair-2021-data-packet"] }
+      ],
+      "discourseClusters": [
+        { "label": "devoted", "share": 0.65, "summary": "devoted cluster derived from mention text classification", "sampleQuotes": ["We're All Going to the World's Fair (2021) directed by Jane Schoenbrun. Its lo-fi YouTube aesthetic installs a haunting of digital isolation that is nearly impossible to shake; the formal risk is total."] },
+        { "label": "analytical", "share": 0.35, "summary": "analytical cluster derived from mention text classification", "sampleQuotes": ["The amateurish texture is a deliberate formal choice, but it suppresses accessibility and consensus scores significantly; the film rewards only those already attuned to its frequency."] }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "lake-mungo-2008",
+      "generatedAt": "2026-05-12T17:30:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": ["Extraction/classification/summarization only", "No invented ratings or criticism"],
+      "confidence": 0.43,
+      "symbols": [
+        { "term": "grief", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "double", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "premonition", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "mungo", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "documentary", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "anderson", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "image", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] },
+        { "term": "haunting", "weight": 1, "evidenceMentionIds": ["lake-mungo-2008:data-packet-v1:lake-mungo-2008-data-packet"] }
+      ],
+      "discourseClusters": [
+        { "label": "devoted", "share": 0.81, "summary": "devoted cluster derived from mention text classification", "sampleQuotes": ["Lake Mungo (2008) directed by Joel Anderson. The highest residual haunting score of any mockumentary; the crushing weight of grief and the single revealed image recalibrate the entire system."] },
+        { "label": "analytical", "share": 0.19, "summary": "analytical cluster derived from mention text classification", "sampleQuotes": ["The documentary form keeps friction low and accessibility moderate; voltage accumulates slowly before one moment discharges the entire film."] }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "videodrome-1983",
+      "generatedAt": "2026-05-12T17:30:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": ["Extraction/classification/summarization only", "No invented ratings or criticism"],
+      "confidence": 0.43,
+      "symbols": [
+        { "term": "cronenberg", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "flesh", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "screen", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "biological", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "media", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "signal", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "body", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] },
+        { "term": "horror", "weight": 1, "evidenceMentionIds": ["videodrome-1983:data-packet-v1:videodrome-1983-data-packet"] }
+      ],
+      "discourseClusters": [
+        { "label": "devoted", "share": 0.78, "summary": "devoted cluster derived from mention text classification", "sampleQuotes": ["Videodrome (1983) directed by David Cronenberg. The New Flesh is a foundational media-theory text; it correctly predicted screen-body integration and scores near-maximum on symbolic density and formal risk."] },
+        { "label": "analytical", "share": 0.22, "summary": "analytical cluster derived from mention text classification", "sampleQuotes": ["The surrealist structure and practical body-horror keep accessibility depressed; its obsession score reflects decades of academic and cult engagement with its prescient thesis."] }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "last-year-at-marienbad-1961",
+      "generatedAt": "2026-05-12T17:30:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": ["Extraction/classification/summarization only", "No invented ratings or criticism"],
+      "confidence": 0.43,
+      "symbols": [
+        { "term": "resnais", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "hotel", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "memory", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "loop", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "time", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "space", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "mirror", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] },
+        { "term": "continuity", "weight": 1, "evidenceMentionIds": ["last-year-at-marienbad-1961:data-packet-v1:last-year-at-marienbad-1961-data-packet"] }
+      ],
+      "discourseClusters": [
+        { "label": "devoted", "share": 0.6, "summary": "devoted cluster derived from mention text classification", "sampleQuotes": ["Last Year at Marienbad (1961) directed by Alain Resnais. The infinite loop; perfect formal risk score, near-zero accessibility, and a lifelong residual haunting installation for the right viewer."] },
+        { "label": "analytical", "share": 0.4, "summary": "analytical cluster derived from mention text classification", "sampleQuotes": ["The ancestor of Stalker and Primer; its absolute continuity-breaking keeps consensus and voltage subdued while haunting and symbolic density reach the ceiling of the measurement system."] }
       ],
       "afterlifeEvents": []
     }

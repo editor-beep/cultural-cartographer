@@ -2344,6 +2344,311 @@
         "lastCollectedAt": "2026-05-12T08:15:00.000Z",
         "lastComputedAt": "2026-05-12T08:15:00.000Z"
       }
+    },
+    {
+      "slug": "killing-of-a-sacred-deer-2017",
+      "title": "The Killing of a Sacred Deer",
+      "year": 2017,
+      "director": "Yorgos Lanthimos",
+      "runtime": 121,
+      "catalogue": "ARTX-037",
+      "metrics": {
+        "consensus": 82,
+        "friction": 45,
+        "obsession": 71,
+        "haunting": 86,
+        "symbolic": 94,
+        "cult": 41,
+        "formal": 88,
+        "voltage": 74,
+        "accessibility": 38
+      },
+      "metricConfidence": {
+        "consensus": 0.94,
+        "friction": 0.92,
+        "obsession": 0.88,
+        "haunting": 0.94,
+        "symbolic": 0.96,
+        "cult": 0.82,
+        "formal": 0.91,
+        "voltage": 0.89,
+        "accessibility": 0.92
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "sacred",
+        "lanthimos",
+        "curse",
+        "greek",
+        "ritual",
+        "logic",
+        "sacrifice",
+        "dread"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 0.72,
+          "voice": "The Killing of a Sacred Deer (2017) directed by Yorgos Lanthimos. A dead-air pressure cooker deploying stilted dialogue as formal risk; its cold-logic curse achieves high residual haunting and near-perfect symbolic density."
+        },
+        {
+          "name": "skeptical",
+          "share": 0.28,
+          "voice": "The affectless performances and schematic premise keep cult and accessibility scores depressed; the formal gamble alienates more viewers than it recruits."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "were-all-going-to-the-worlds-fair-2021",
+      "title": "We're All Going to the World's Fair",
+      "year": 2021,
+      "director": "Jane Schoenbrun",
+      "runtime": 86,
+      "catalogue": "ARTX-038",
+      "metrics": {
+        "consensus": 61,
+        "friction": 52,
+        "obsession": 84,
+        "haunting": 93,
+        "symbolic": 88,
+        "cult": 82,
+        "formal": 91,
+        "voltage": 56,
+        "accessibility": 24
+      },
+      "metricConfidence": {
+        "consensus": 0.89,
+        "friction": 0.91,
+        "obsession": 0.93,
+        "haunting": 0.97,
+        "symbolic": 0.94,
+        "cult": 0.88,
+        "formal": 0.95,
+        "voltage": 0.82,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "digital",
+        "liminal",
+        "isolation",
+        "screen",
+        "schoenbrun",
+        "online",
+        "static",
+        "ritual"
+      ],
+      "factions": [
+        {
+          "name": "devoted",
+          "share": 0.65,
+          "voice": "We're All Going to the World's Fair (2021) directed by Jane Schoenbrun. Its lo-fi YouTube aesthetic installs a haunting of digital isolation that is nearly impossible to shake; the formal risk is total."
+        },
+        {
+          "name": "analytical",
+          "share": 0.35,
+          "voice": "The amateurish texture is a deliberate formal choice, but it suppresses accessibility and consensus scores significantly; the film rewards only those already attuned to its frequency."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "lake-mungo-2008",
+      "title": "Lake Mungo",
+      "year": 2008,
+      "director": "Joel Anderson",
+      "runtime": 87,
+      "catalogue": "ARTX-039",
+      "metrics": {
+        "consensus": 79,
+        "friction": 12,
+        "obsession": 89,
+        "haunting": 98,
+        "symbolic": 85,
+        "cult": 96,
+        "formal": 74,
+        "voltage": 82,
+        "accessibility": 41
+      },
+      "metricConfidence": {
+        "consensus": 0.95,
+        "friction": 0.88,
+        "obsession": 0.96,
+        "haunting": 0.99,
+        "symbolic": 0.91,
+        "cult": 0.98,
+        "formal": 0.89,
+        "voltage": 0.92,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "grief",
+        "double",
+        "premonition",
+        "mungo",
+        "documentary",
+        "anderson",
+        "image",
+        "haunting"
+      ],
+      "factions": [
+        {
+          "name": "devoted",
+          "share": 0.81,
+          "voice": "Lake Mungo (2008) directed by Joel Anderson. The highest residual haunting score of any mockumentary; the crushing weight of grief and the single revealed image recalibrate the entire system."
+        },
+        {
+          "name": "analytical",
+          "share": 0.19,
+          "voice": "The documentary form keeps friction low and accessibility moderate; voltage accumulates slowly before one moment discharges the entire film."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "videodrome-1983",
+      "title": "Videodrome",
+      "year": 1983,
+      "director": "David Cronenberg",
+      "runtime": 89,
+      "catalogue": "ARTX-040",
+      "metrics": {
+        "consensus": 88,
+        "friction": 14,
+        "obsession": 94,
+        "haunting": 91,
+        "symbolic": 96,
+        "cult": 92,
+        "formal": 95,
+        "voltage": 89,
+        "accessibility": 35
+      },
+      "metricConfidence": {
+        "consensus": 0.96,
+        "friction": 0.92,
+        "obsession": 0.97,
+        "haunting": 0.95,
+        "symbolic": 0.98,
+        "cult": 0.96,
+        "formal": 0.97,
+        "voltage": 0.92,
+        "accessibility": 0.91
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "cronenberg",
+        "flesh",
+        "screen",
+        "biological",
+        "media",
+        "signal",
+        "body",
+        "horror"
+      ],
+      "factions": [
+        {
+          "name": "devoted",
+          "share": 0.78,
+          "voice": "Videodrome (1983) directed by David Cronenberg. The New Flesh is a foundational media-theory text; it correctly predicted screen-body integration and scores near-maximum on symbolic density and formal risk."
+        },
+        {
+          "name": "analytical",
+          "share": 0.22,
+          "voice": "The surrealist structure and practical body-horror keep accessibility depressed; its obsession score reflects decades of academic and cult engagement with its prescient thesis."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
+    },
+    {
+      "slug": "last-year-at-marienbad-1961",
+      "title": "Last Year at Marienbad",
+      "year": 1961,
+      "director": "Alain Resnais",
+      "runtime": 94,
+      "catalogue": "ARTX-041",
+      "metrics": {
+        "consensus": 74,
+        "friction": 31,
+        "obsession": 92,
+        "haunting": 99,
+        "symbolic": 98,
+        "cult": 89,
+        "formal": 100,
+        "voltage": 45,
+        "accessibility": 2
+      },
+      "metricConfidence": {
+        "consensus": 0.91,
+        "friction": 0.89,
+        "obsession": 0.95,
+        "haunting": 0.99,
+        "symbolic": 0.99,
+        "cult": 0.92,
+        "formal": 1.0,
+        "voltage": 0.82,
+        "accessibility": 0.99
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "resnais",
+        "hotel",
+        "memory",
+        "loop",
+        "time",
+        "space",
+        "mirror",
+        "continuity"
+      ],
+      "factions": [
+        {
+          "name": "devoted",
+          "share": 0.6,
+          "voice": "Last Year at Marienbad (1961) directed by Alain Resnais. The infinite loop; perfect formal risk score, near-zero accessibility, and a lifelong residual haunting installation for the right viewer."
+        },
+        {
+          "name": "analytical",
+          "share": 0.4,
+          "voice": "The ancestor of Stalker and Primer; its absolute continuity-breaking keeps consensus and voltage subdued while haunting and symbolic density reach the ceiling of the measurement system."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T17:30:00.000Z",
+        "lastComputedAt": "2026-05-12T17:30:00.000Z"
+      }
     }
   ]
 }
