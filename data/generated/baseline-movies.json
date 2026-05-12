@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "methodVersion": "2026.05.12.v1",
-  "generatedAt": "2026-05-12T05:55:42.575Z",
+  "generatedAt": "2026-05-12T08:15:00.000Z",
   "movies": [
     {
       "slug": "fire-walk-with-me",
@@ -1501,7 +1501,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -1831,7 +1831,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -5511,6 +5511,816 @@
       "freshness": {
         "lastCollectedAt": "2026-05-12T05:55:31.285Z",
         "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-shining-1980",
+      "title": "The Shining",
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "runtime": 144,
+      "catalogue": "ARTX-031",
+      "metrics": {
+        "consensus": {
+          "value": 94,
+          "confidence": 0.99,
+          "components": {
+            "spread": 1.5,
+            "meanScore": 72.0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 12,
+          "confidence": 0.98,
+          "components": {
+            "spread": 2.0,
+            "distanceFromMidpoint": 1.2
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "hauntingHits": 7.07,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 96,
+          "confidence": 0.95,
+          "components": {
+            "theoryHits": 10.67,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 71,
+          "confidence": 0.9,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 88,
+          "confidence": 0.96,
+          "components": {
+            "theoryHits": 14.67,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 92,
+          "confidence": 0.94,
+          "components": {
+            "emotionHits": 7.67,
+            "distanceFromMidpoint": 7.36
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 81,
+          "confidence": 0.98,
+          "components": {
+            "avgLength": 11.88
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "showgirls-1995",
+      "title": "Showgirls",
+      "year": 1995,
+      "director": "Paul Verhoeven",
+      "runtime": 131,
+      "catalogue": "ARTX-032",
+      "metrics": {
+        "consensus": {
+          "value": 38,
+          "confidence": 0.91,
+          "components": {
+            "spread": 15.5,
+            "meanScore": 44.0
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 88,
+          "confidence": 0.94,
+          "components": {
+            "spread": 14.67,
+            "distanceFromMidpoint": 8.8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 74,
+          "confidence": 0.89,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 18,
+          "confidence": 0.85,
+          "components": {
+            "hauntingHits": 1.29,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 62,
+          "confidence": 0.82,
+          "components": {
+            "theoryHits": 6.89,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 97,
+          "confidence": 0.96,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 21,
+          "confidence": 0.93,
+          "components": {
+            "theoryHits": 3.5,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 82,
+          "confidence": 0.88,
+          "components": {
+            "emotionHits": 6.83,
+            "distanceFromMidpoint": 6.56
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 75,
+          "confidence": 0.96,
+          "components": {
+            "avgLength": 15.62
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "mad-max-fury-road-2015",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "director": "George Miller",
+      "runtime": 120,
+      "catalogue": "ARTX-033",
+      "metrics": {
+        "consensus": {
+          "value": 90,
+          "confidence": 0.98,
+          "components": {
+            "spread": 2.5,
+            "meanScore": 70.0
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 15,
+          "confidence": 0.97,
+          "components": {
+            "spread": 2.5,
+            "distanceFromMidpoint": 1.5
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 82,
+          "confidence": 0.92,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 44,
+          "confidence": 0.88,
+          "components": {
+            "hauntingHits": 3.14,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 58,
+          "confidence": 0.84,
+          "components": {
+            "theoryHits": 6.44,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 64,
+          "confidence": 0.89,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 91,
+          "confidence": 0.95,
+          "components": {
+            "theoryHits": 15.17,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 95,
+          "confidence": 0.98,
+          "components": {
+            "emotionHits": 7.92,
+            "distanceFromMidpoint": 7.6
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 89,
+          "confidence": 0.98,
+          "components": {
+            "avgLength": 6.88
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "the-room-2003",
+      "title": "The Room",
+      "year": 2003,
+      "director": "Tommy Wiseau",
+      "runtime": 99,
+      "catalogue": "ARTX-034",
+      "metrics": {
+        "consensus": {
+          "value": 85,
+          "confidence": 0.95,
+          "components": {
+            "spread": 3.75,
+            "meanScore": 67.5
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 22,
+          "confidence": 0.92,
+          "components": {
+            "spread": 3.67,
+            "distanceFromMidpoint": 2.2
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 96,
+          "confidence": 0.98,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 31,
+          "confidence": 0.82,
+          "components": {
+            "hauntingHits": 2.21,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 84,
+          "confidence": 0.89,
+          "components": {
+            "theoryHits": 9.33,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 74,
+          "confidence": 0.9,
+          "components": {
+            "theoryHits": 12.33,
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 68,
+          "confidence": 0.86,
+          "components": {
+            "emotionHits": 5.67,
+            "distanceFromMidpoint": 5.44
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 12,
+          "confidence": 0.94,
+          "components": {
+            "avgLength": 55.0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "parasite-2019",
+      "title": "Parasite",
+      "year": 2019,
+      "director": "Bong Joon-ho",
+      "runtime": 132,
+      "catalogue": "ARTX-035",
+      "metrics": {
+        "consensus": {
+          "value": 96,
+          "confidence": 0.99,
+          "components": {
+            "spread": 1.0,
+            "meanScore": 73.0
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 9,
+          "confidence": 0.98,
+          "components": {
+            "spread": 1.5,
+            "distanceFromMidpoint": 0.9
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 78,
+          "confidence": 0.91,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 86,
+          "confidence": 0.93,
+          "components": {
+            "hauntingHits": 6.14,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 92,
+          "confidence": 0.96,
+          "components": {
+            "theoryHits": 10.22,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 45,
+          "confidence": 0.82,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 82,
+          "confidence": 0.94,
+          "components": {
+            "theoryHits": 13.67,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 94,
+          "confidence": 0.97,
+          "components": {
+            "emotionHits": 7.83,
+            "distanceFromMidpoint": 7.52
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 88,
+          "confidence": 0.95,
+          "components": {
+            "avgLength": 7.5
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
       }
     }
   ]
