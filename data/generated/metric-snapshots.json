@@ -1396,17 +1396,17 @@
     },
     {
       "artifactSlug": "under-the-skin",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T02:00:00.000Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 72,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critic_alignment": 0.85,
+            "audience_split": 0.59
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1414,11 +1414,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 45,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "interpretive_drift": 0.4
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1426,11 +1425,11 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "long_tail_mentions": 0.92,
+            "visual_citation": 0.86
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1438,11 +1437,11 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 96,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "dream_lexicon": 0.98,
+            "visceral_recall": 0.94
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1450,11 +1449,11 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "academic_volume": 0.78,
+            "motif_tracking": 0.85
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1462,12 +1461,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 61,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "reclamation_slope": 0.55
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1475,11 +1472,11 @@
           ]
         },
         "formal": {
-          "value": 6.6,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 12
+            "structural_risk": 0.88,
+            "audio_abstraction": 0.94
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1487,11 +1484,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 78,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "physiological_response": 0.82
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1499,10 +1495,10 @@
           ]
         },
         "accessibility": {
-          "value": 80.8,
-          "confidence": 0.35,
+          "value": 28,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 12
+            "entry_barrier": 0.72
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -1511,11 +1507,8 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {

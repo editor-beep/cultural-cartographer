@@ -546,7 +546,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -593,7 +593,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -664,7 +664,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -713,7 +713,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -730,33 +730,30 @@
       "runtime": 108,
       "catalogue": "ARTX-013",
       "metrics": {
-        "consensus": 100,
-        "friction": 0,
-        "obsession": 32,
-        "haunting": 16,
-        "symbolic": 72,
-        "cult": 35,
-        "formal": 7,
-        "voltage": 0,
-        "accessibility": 81
+        "consensus": 72,
+        "friction": 45,
+        "obsession": 89,
+        "haunting": 96,
+        "symbolic": 82,
+        "cult": 61,
+        "formal": 91,
+        "voltage": 78,
+        "accessibility": 28
       },
       "metricConfidence": {
-        "consensus": 0.35,
-        "friction": 0.35,
-        "obsession": 0.35,
-        "haunting": 0.35,
-        "symbolic": 0.35,
-        "cult": 0.35,
-        "formal": 0.35,
-        "voltage": 0.35,
-        "accessibility": 0.35
+        "consensus": 0.94,
+        "friction": 0.88,
+        "obsession": 0.91,
+        "haunting": 0.95,
+        "symbolic": 0.89,
+        "cult": 0.82,
+        "formal": 0.96,
+        "voltage": 0.9,
+        "accessibility": 0.93
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "symbols": [
         "directed",
@@ -777,8 +774,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:22:10.000Z",
+        "lastComputedAt": "2026-05-12T02:00:00.000Z"
       }
     },
     {
@@ -1144,7 +1141,7 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
         }
       ],
       "afterlife": [
@@ -1283,14 +1280,14 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         }
       ],
       "afterlife": [
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
@@ -2405,7 +2402,7 @@
       "slug": "enter-the-void-2009",
       "title": "Enter the Void",
       "year": 2009,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 161,
       "catalogue": "ARTX-038",
       "metrics": {
@@ -2448,7 +2445,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Enter the Void (2009) directed by Gaspar No\u00e9. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -2573,7 +2570,7 @@
       "slug": "climax-2018",
       "title": "Climax",
       "year": 2018,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 96,
       "catalogue": "ARTX-041",
       "metrics": {
@@ -2616,7 +2613,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Climax (2018) directed by Gaspar No\u00e9. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
