@@ -648,7 +648,7 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-          "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
+          "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to"
         ]
       }
     ],
@@ -1063,7 +1063,7 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-          "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
+          "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and p"
         ]
       }
     ],
@@ -1313,7 +1313,7 @@
         "share": 1,
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
-          "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
@@ -1484,7 +1484,7 @@
         "share": 0.5,
         "summary": "devoted cluster derived from mention text classification",
         "sampleQuotes": [
-          "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+          "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
         ]
       }
     ],
@@ -1808,7 +1808,7 @@
         "share": 1,
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
-          "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
@@ -2381,7 +2381,7 @@
         "share": 0.5,
         "summary": "devoted cluster derived from mention text classification",
         "sampleQuotes": [
-          "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         ]
       }
     ],
@@ -2389,7 +2389,7 @@
       {
         "occurredAt": "2026-05-12T05:55:31.285Z",
         "kind": "release",
-        "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+        "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
         "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
         "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
       }
@@ -2470,6 +2470,401 @@
         "sampleQuotes": [
           "Under the Skin (2013) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
           "Under the Skin may refer to:"
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-shining-1980",
+    "generatedAt": "2026-05-12T08:15:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 1.0,
+    "symbols": [
+      {
+        "term": "the",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "kubrick",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      },
+      {
+        "term": "1980",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Shining (1980) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "showgirls-1995",
+    "generatedAt": "2026-05-12T08:15:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 1.0,
+    "symbols": [
+      {
+        "term": "showgirls",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "verhoeven",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      },
+      {
+        "term": "1995",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Showgirls (1995) directed by Paul Verhoeven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "mad-max-fury-road-2015",
+    "generatedAt": "2026-05-12T08:15:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 1.0,
+    "symbols": [
+      {
+        "term": "mad",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "miller",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "2015",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Mad Max: Fury Road (2015) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-room-2003",
+    "generatedAt": "2026-05-12T08:15:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 1.0,
+    "symbols": [
+      {
+        "term": "the",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "wiseau",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "2003",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-room-2003:seed-curation:the-room-2003-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Room (2003) directed by Tommy Wiseau. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "parasite-2019",
+    "generatedAt": "2026-05-12T08:15:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 1.0,
+    "symbols": [
+      {
+        "term": "parasite",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "joon-ho",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "2019",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "parasite-2019:seed-curation:parasite-2019-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
