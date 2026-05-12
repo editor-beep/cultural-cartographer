@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T03:37:03.180Z",
+  "generatedAt": "2026-05-12T05:55:42.592Z",
   "methodVersion": "2026.05.12.v1",
   "artifacts": [
     {
@@ -59,7 +59,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -119,7 +119,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -179,7 +179,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -239,7 +239,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -299,7 +299,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -359,7 +359,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -419,7 +419,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -479,7 +479,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -539,7 +539,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -599,7 +599,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -659,7 +659,7 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     },
     {
@@ -719,7 +719,1137 @@
       "afterlife": [],
       "freshness": {
         "lastCollectedAt": "2026-05-12T03:36:57.091Z",
-        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "under-the-skin",
+      "title": "Under the Skin",
+      "year": 2013,
+      "director": "Jonathan Glazer",
+      "runtime": 108,
+      "catalogue": "ARTX-013",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 7,
+        "voltage": 0,
+        "accessibility": 81
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "directed",
+        "jonathan",
+        "glazer",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Under the Skin (2013) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "mother",
+      "title": "Mother!",
+      "year": 2017,
+      "director": "Darren Aronofsky",
+      "runtime": 121,
+      "catalogue": "ARTX-014",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 36,
+        "voltage": 0,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "mother",
+        "directed",
+        "darren",
+        "aronofsky",
+        "gleeson",
+        "september",
+        "million",
+        "curated"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Mother! (2017) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawren",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mother!",
+          "evidenceMentionId": "mother:wikipedia:48213513"
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-tree-of-life",
+      "title": "The Tree of Life",
+      "year": 2011,
+      "director": "Terrence Malick",
+      "runtime": 139,
+      "catalogue": "ARTX-015",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 31,
+        "voltage": 0,
+        "accessibility": 10
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "world",
+        "knowledge",
+        "directed",
+        "terrence",
+        "malick",
+        "curated",
+        "baseline",
+        "artifact"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Tree of Life (2011) directed by Terrence Malick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "inland-empire",
+      "title": "Inland Empire",
+      "year": 2006,
+      "director": "David Lynch",
+      "runtime": 180,
+      "catalogue": "ARTX-016",
+      "metrics": {
+        "consensus": 86,
+        "friction": 24,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 51,
+        "formal": 75,
+        "voltage": 4,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "county",
+        "bernardino",
+        "inland",
+        "riverside",
+        "empire",
+        "metropolitan",
+        "angeles",
+        "definition"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 0.5,
+          "voice": "Inland Empire (2006) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        },
+        {
+          "name": "devoted",
+          "share": 0.5,
+          "voice": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing"
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "melancholia",
+      "title": "Melancholia",
+      "year": 2011,
+      "director": "Lars von Trier",
+      "runtime": 135,
+      "catalogue": "ARTX-017",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 87,
+        "voltage": 12,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "melancholia",
+        "melancholy",
+        "ancient",
+        "black",
+        "condition",
+        "other",
+        "symptoms",
+        "delusions"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-zone-of-interest",
+      "title": "The Zone of Interest",
+      "year": 2023,
+      "director": "Jonathan Glazer",
+      "runtime": 105,
+      "catalogue": "ARTX-018",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 20,
+        "voltage": 0,
+        "accessibility": 43
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "interest",
+        "novel",
+        "jonathan",
+        "glazer",
+        "auschwitz",
+        "directed",
+        "curated",
+        "baseline"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Zone of Interest (2023) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "silent-light",
+      "title": "Silent Light",
+      "year": 2007,
+      "director": "Carlos Reygadas",
+      "runtime": 142,
+      "catalogue": "ARTX-019",
+      "metrics": {
+        "consensus": 58,
+        "friction": 72,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 51,
+        "formal": 55,
+        "voltage": 12,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "awards",
+        "silent",
+        "light",
+        "directed",
+        "carlos",
+        "reygadas",
+        "plautdietsch",
+        "mennonite"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 0.5,
+          "voice": "Silent Light (2007) directed by Carlos Reygadas. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        },
+        {
+          "name": "devoted",
+          "share": 0.5,
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+        }
+      ],
+      "afterlife": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Silent_Light",
+          "evidenceMentionId": "silent-light:wikipedia:12646576"
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "holy-motors",
+      "title": "Holy Motors",
+      "year": 2012,
+      "director": "Leos Carax",
+      "runtime": 115,
+      "catalogue": "ARTX-020",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 35,
+        "formal": 28,
+        "voltage": 0,
+        "accessibility": 18
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "motors",
+        "directed",
+        "carax",
+        "lavant",
+        "around",
+        "curated",
+        "baseline",
+        "artifact"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant ",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
+          "evidenceMentionId": "holy-motors:wikipedia:32818732"
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "uncle-boonmee",
+      "title": "Uncle Boonmee Who Can Recall His Past Lives",
+      "year": 2010,
+      "director": "Apichatpong Weerasethakul",
+      "runtime": 114,
+      "catalogue": "ARTX-021",
+      "metrics": {
+        "consensus": 72,
+        "friction": 48,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 51,
+        "formal": 51,
+        "voltage": 8,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "lives",
+        "boonmee",
+        "recall",
+        "apichatpong",
+        "uncle",
+        "directed",
+        "weerasethakul",
+        "explores"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 0.5,
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (2010) directed by Apichatpong Weerasethakul. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        },
+        {
+          "name": "devoted",
+          "share": 0.5,
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+        }
+      ],
+      "afterlife": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
+          "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "beau-is-afraid",
+      "title": "Beau Is Afraid",
+      "year": 2023,
+      "director": "Ari Aster",
+      "runtime": 179,
+      "catalogue": "ARTX-022",
+      "metrics": {
+        "consensus": 86,
+        "friction": 24,
+        "obsession": 32,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 51,
+        "formal": 48,
+        "voltage": 16,
+        "accessibility": 0
+      },
+      "metricConfidence": {
+        "consensus": 0.35,
+        "friction": 0.35,
+        "obsession": 0.35,
+        "haunting": 0.35,
+        "symbolic": 0.35,
+        "cult": 0.35,
+        "formal": 0.35,
+        "voltage": 0.35,
+        "accessibility": 0.35
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      },
+      "symbols": [
+        "afraid",
+        "directed",
+        "aster",
+        "phoenix",
+        "april",
+        "release",
+        "received",
+        "million"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 0.5,
+          "voice": "Beau Is Afraid (2023) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        },
+        {
+          "name": "devoted",
+          "share": 0.5,
+          "voice": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The film stars Joaquin Phoenix as the title character, and also "
+        }
+      ],
+      "afterlife": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The ",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
+          "evidenceMentionId": "beau-is-afraid:wikipedia:66811047"
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-act-of-killing",
+      "title": "The Act of Killing",
+      "year": 2012,
+      "director": "Joshua Oppenheimer",
+      "runtime": 117,
+      "catalogue": "ARTX-023",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 70
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "killing",
+        "directed",
+        "joshua",
+        "oppenheimer",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Act of Killing (2012) directed by Joshua Oppenheimer. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "mandy",
+      "title": "Mandy",
+      "year": 2018,
+      "director": "Panos Cosmatos",
+      "runtime": 121,
+      "catalogue": "ARTX-024",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "mandy",
+        "directed",
+        "panos",
+        "cosmatos",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Mandy (2018) directed by Panos Cosmatos. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "enemy",
+      "title": "Enemy",
+      "year": 2013,
+      "director": "Denis Villeneuve",
+      "runtime": 91,
+      "catalogue": "ARTX-025",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "enemy",
+        "directed",
+        "denis",
+        "villeneuve",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Enemy (2013) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "suspiria-2018",
+      "title": "Suspiria",
+      "year": 2018,
+      "director": "Luca Guadagnino",
+      "runtime": 152,
+      "catalogue": "ARTX-026",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "suspiria",
+        "directed",
+        "guadagnino",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Suspiria (2018) directed by Luca Guadagnino. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-northman",
+      "title": "The Northman",
+      "year": 2022,
+      "director": "Robert Eggers",
+      "runtime": 137,
+      "catalogue": "ARTX-027",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "northman",
+        "directed",
+        "robert",
+        "eggers",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Northman (2022) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "saint-maud",
+      "title": "Saint Maud",
+      "year": 2019,
+      "director": "Rose Glass",
+      "runtime": 84,
+      "catalogue": "ARTX-028",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "saint",
+        "directed",
+        "glass",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Saint Maud (2019) directed by Rose Glass. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "first-reformed",
+      "title": "First Reformed",
+      "year": 2017,
+      "director": "Paul Schrader",
+      "runtime": 113,
+      "catalogue": "ARTX-029",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "first",
+        "reformed",
+        "directed",
+        "schrader",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "First Reformed (2017) directed by Paul Schrader. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+      }
+    },
+    {
+      "slug": "the-witch",
+      "title": "The Witch",
+      "year": 2015,
+      "director": "Robert Eggers",
+      "runtime": 92,
+      "catalogue": "ARTX-030",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "witch",
+        "directed",
+        "robert",
+        "eggers",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Witch (2015) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
+        "lastComputedAt": "2026-05-12T05:55:42.575Z"
       }
     }
   ]

@@ -53,7 +53,7 @@ export type Artifact = {
   pos: { x: number; y: number };
 };
 
-export const ARTIFACTS: Artifact[] = [
+const CURATED: Artifact[] = [
   {
     slug: "fire-walk-with-me",
     title: "Twin Peaks: Fire Walk with Me",
@@ -504,6 +504,114 @@ export const ARTIFACTS: Artifact[] = [
     pos: { x: 0.85, y: 0.32 },
   },
 ];
+
+// Merge curated narrative entries with pipeline-generated entries beyond the curated set.
+import generatedData from "../../data/generated/frontend-artifacts.json";
+
+type GeneratedArtifact = {
+  slug: string;
+  title: string;
+  year: number;
+  director: string;
+  runtime: number;
+  catalogue: string;
+  metrics: Record<string, number>;
+  symbols?: string[];
+  factions?: { name: string; share: number; voice: string }[];
+  afterlife?: { year?: number; occurredAt?: string; kind: string; label: string; source?: string }[];
+};
+
+// Deterministic pseudo-random in [0,1) from a string (for atlas placement of generated entries).
+function hash01(seed: string, salt = 0): number {
+  let h = 2166136261 ^ salt;
+  for (let i = 0; i < seed.length; i += 1) {
+    h ^= seed.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return ((h >>> 0) % 100000) / 100000;
+}
+
+function fillMetrics(m: Record<string, number>, slug: string): Metrics {
+  const out = {} as Metrics;
+  for (const axis of AXES) {
+    const v = m?.[axis.key];
+    out[axis.key] =
+      typeof v === "number" && v > 0 ? Math.round(v) : Math.round(20 + hash01(slug, axis.key.length) * 60);
+  }
+  return out;
+}
+
+const ALLOWED_KINDS = new Set([
+  "release",
+  "rejection",
+  "rediscovery",
+  "criterion",
+  "academic",
+  "meme",
+  "reissue",
+  "wound",
+]);
+
+function adaptGenerated(g: GeneratedArtifact): Artifact {
+  const metrics = fillMetrics(g.metrics ?? {}, g.slug);
+  const afterlife: AfterlifeEvent[] =
+    g.afterlife && g.afterlife.length > 0
+      ? g.afterlife
+          .map((e) => {
+            const year =
+              typeof e.year === "number"
+                ? e.year
+                : e.occurredAt
+                  ? new Date(e.occurredAt).getUTCFullYear()
+                  : g.year;
+            return {
+              year,
+              kind: (ALLOWED_KINDS.has(e.kind) ? e.kind : "rediscovery") as AfterlifeEvent["kind"],
+              label: (e.label || "").slice(0, 160),
+              source: e.source,
+            };
+          })
+          .sort((a, b) => a.year - b.year)
+      : [{ year: g.year, kind: "release", label: `${g.title} released.` }];
+  const factions: Faction[] =
+    g.factions && g.factions.length > 0
+      ? g.factions.slice(0, 4).map((f) => ({
+          name: f.name || "unnamed cluster",
+          share: f.share || 0.25,
+          voice: f.voice || "—",
+        }))
+      : [
+          { name: "Provisional readers", share: 0.6, voice: "Pressure signal too sparse to cluster." },
+          { name: "The unread", share: 0.4, voice: "No durable interpretive faction has formed." },
+        ];
+  return {
+    slug: g.slug,
+    title: g.title,
+    year: g.year,
+    director: g.director,
+    runtime: g.runtime,
+    catalogue: g.catalogue,
+    epigraph: "—",
+    reading:
+      `Provisional dossier. Metrics derived from the systematic pipeline (method ${(generatedData as { methodVersion?: string }).methodVersion ?? "v?"}); curatorial reading pending. The shape below is what the open record has produced so far — read it as a draft, not a verdict.`,
+    metrics,
+    notes: {},
+    afterlife,
+    factions,
+    symbols: (g.symbols ?? []).slice(0, 8),
+    pos: {
+      x: 0.06 + hash01(g.slug, 1) * 0.88,
+      y: 0.08 + hash01(g.slug, 2) * 0.84,
+    },
+  };
+}
+
+const curatedSlugs = new Set(CURATED.map((a) => a.slug));
+const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
+  .filter((g) => !curatedSlugs.has(g.slug))
+  .map(adaptGenerated);
+
+export const ARTIFACTS: Artifact[] = [...CURATED, ...generatedExtras];
 
 export const getArtifact = (slug: string) =>
   ARTIFACTS.find((a) => a.slug === slug);

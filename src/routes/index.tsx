@@ -47,7 +47,7 @@ function Atlas() {
           <div className="col-span-12 md:col-span-5">
             <div className="rule mb-4" />
             <div className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[10px] text-vellum-dim smallcaps">
-              <div>Catalogue · 12 of 12</div>
+              <div>Catalogue · {ARTIFACTS.length} entries</div>
               <div>Method · v0.1</div>
               <div>Sources · curated</div>
               <div>Refresh · manual</div>
