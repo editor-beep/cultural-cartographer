@@ -74,5 +74,23 @@
     "freshness": {
       "lastComputedAt": "2026-05-12T05:55:42.599Z"
     }
+  },
+  {
+    "runId": "run-curated-1778571725696",
+    "status": "ok",
+    "startedAt": "2026-05-12T15:20:00.000Z",
+    "completedAt": "2026-05-12T15:20:00.000Z",
+    "methodVersion": "2026.05.12.v1",
+    "movieCount": 45,
+    "steps": [
+      {
+        "name": "ingestCuratedDataPacket",
+        "status": "ok",
+        "durationMs": 0
+      }
+    ],
+    "freshness": {
+      "lastComputedAt": "2026-05-12T15:20:00.000Z"
+    }
   }
 ]

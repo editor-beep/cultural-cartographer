@@ -54,6 +54,40 @@
       }
     },
     {
+      "id": "climax-2018:seed-curation:climax-2018-seed-curation",
+      "artifactSlug": "climax-2018",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://climax-2018",
+      "sourceId": "climax-2018-seed-curation",
+      "postedAt": "2026-05-12T15:20:00.000Z",
+      "fetchedAt": "2026-05-12T15:20:00.000Z",
+      "lang": "en",
+      "body": "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "dogville-2003:seed-curation:dogville-2003-seed-curation",
+      "artifactSlug": "dogville-2003",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://dogville-2003",
+      "sourceId": "dogville-2003-seed-curation",
+      "postedAt": "2026-05-12T15:20:00.000Z",
+      "fetchedAt": "2026-05-12T15:20:00.000Z",
+      "lang": "en",
+      "body": "Dogville (2003) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "enemy:seed-curation:enemy-seed-curation",
       "artifactSlug": "enemy",
       "source": "seed-curation",
@@ -64,6 +98,23 @@
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
       "body": "Enemy (2013) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
+      "artifactSlug": "enter-the-void-2009",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://enter-the-void-2009",
+      "sourceId": "enter-the-void-2009-seed-curation",
+      "postedAt": "2026-05-12T15:20:00.000Z",
+      "fetchedAt": "2026-05-12T15:20:00.000Z",
+      "lang": "en",
+      "body": "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -165,7 +216,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to have a job as an actor, as he is seen dressing up in different costumes and performing various roles in several locations around Paris over the course of a day, though no cameras or audiences are ever seen around him. The film competed for the Palme d'Or at the 2012 Cannes Film Festival.",
+      "body": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to have a job as an actor, as he is seen dressing up in different costumes and performing various roles in several locations around Paris over the course of a day, though no cameras or audiences are ever seen around him. The film competed for the Palme d'Or at the 2012 Cannes Film Festival.",
       "score": 50,
       "sourceReliability": 0.7,
       "metadata": {
@@ -184,6 +235,23 @@
       "lang": "en",
       "body": "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 57,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "inception-2010:seed-curation:inception-2010-seed-curation",
+      "artifactSlug": "inception-2010",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://inception-2010",
+      "sourceId": "inception-2010-seed-curation",
+      "postedAt": "2026-05-12T15:20:00.000Z",
+      "fetchedAt": "2026-05-12T15:20:00.000Z",
+      "lang": "en",
+      "body": "Inception (2010) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
         "method": "systematic-movie-pipeline"
@@ -216,7 +284,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing around the cities in Riverside and San Bernardino county with Los Angeles County and Orange County to the west. The region, at its narrowest definition, includes the cities of northwestern Riverside County and southwestern San Bernardino County that are part of the contiguous urbanized area of Greater Los Angeles. It is sometimes considered to include the desert communities of the Coachella and Victor Valleys, respectively on the other sides of the San Gorgonio Pass and San Bernardino Mountains from the Santa Ana River watershed that creates the majority of the Inland Empire. A much wider definition includes the entireties of Riverside and San Bernardino counties, stretching east to the Nevada and Arizona borders and covering a larger area than West Virginia; this definition is primarily used by the US Census Bureau, which exclusively delineates metropolitan areas at the county level.\nThe U.S. Census Bureau\u2013defined Riverside\u2013San Bernardino\u2013Ontario metropolitan area, which comprises Riverside County and San Bernardino, California, covers more than 27,000 sq mi (70,000 km2) and had a population of about 4.6 million in 2020. At the end of the 19th century, the Inland Empire was a major center of agriculture, including citrus, dairy and winemaking. Agriculture declined through the 20th century and a rapidly increasing population, helped by families migrating in search of affordable housing, has led to more residential, industrial and commercial development since the 1970s.",
+      "body": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing around the cities in Riverside and San Bernardino county with Los Angeles County and Orange County to the west. The region, at its narrowest definition, includes the cities of northwestern Riverside County and southwestern San Bernardino County that are part of the contiguous urbanized area of Greater Los Angeles. It is sometimes considered to include the desert communities of the Coachella and Victor Valleys, respectively on the other sides of the San Gorgonio Pass and San Bernardino Mountains from the Santa Ana River watershed that creates the majority of the Inland Empire. A much wider definition includes the entireties of Riverside and San Bernardino counties, stretching east to the Nevada and Arizona borders and covering a larger area than West Virginia; this definition is primarily used by the US Census Bureau, which exclusively delineates metropolitan areas at the county level.\nThe U.S. Census Bureau–defined Riverside–San Bernardino–Ontario metropolitan area, which comprises Riverside County and San Bernardino, California, covers more than 27,000 sq mi (70,000 km2) and had a population of about 4.6 million in 2020. At the end of the 19th century, the Inland Empire was a major center of agriculture, including citrus, dairy and winemaking. Agriculture declined through the 20th century and a rapidly increasing population, helped by families migrating in search of affordable housing, has led to more residential, industrial and commercial development since the 1970s.",
       "score": 57,
       "sourceReliability": 0.7,
       "metadata": {
@@ -301,7 +369,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions. Besides a pathological condition, melancholy could also refer to a mood or temperament and at times it was even used as a description of the human condition in general.\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause \u2013 an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen. Hippocrates and other ancient physicians described melancholia as a distinct disease with mental and physical symptoms, including persistent fears and despondencies, poor appetite, abulia, sleeplessness, irritability, and agitation. Later, fixed delusions were added by Galen and other physicians to the list of symptoms. In the Middle Ages, the understanding of melancholia shifted to a religious perspective, with sadness seen as a vice and demonic possession, rather than somatic causes, as a potential cause of the disease.\nDuring the late 16th and early 17th centuries, a cultural and literary cult of melancholia emerged in England, linked to Neoplatonist and humanist Marsilio Ficino's transformation of melancholia from a sign of vice into a mark of genius. This fashionable melancholy became a prominent theme in literature, art, and music of the era.\nBetween the late 18th and late 19th centuries, melancholia was a common medical diagnosis. In this period, the focus was on the abnormal beliefs associated with the disorder, rather than depression and affective symptoms. In the 19th century, melanc",
+      "body": "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions. Besides a pathological condition, melancholy could also refer to a mood or temperament and at times it was even used as a description of the human condition in general.\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause – an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen. Hippocrates and other ancient physicians described melancholia as a distinct disease with mental and physical symptoms, including persistent fears and despondencies, poor appetite, abulia, sleeplessness, irritability, and agitation. Later, fixed delusions were added by Galen and other physicians to the list of symptoms. In the Middle Ages, the understanding of melancholia shifted to a religious perspective, with sadness seen as a vice and demonic possession, rather than somatic causes, as a potential cause of the disease.\nDuring the late 16th and early 17th centuries, a cultural and literary cult of melancholia emerged in England, linked to Neoplatonist and humanist Marsilio Ficino's transformation of melancholia from a sign of vice into a mark of genius. This fashionable melancholy became a prominent theme in literature, art, and music of the era.\nBetween the late 18th and late 19th centuries, melancholia was a common medical diagnosis. In this period, the focus was on the abnormal beliefs associated with the disorder, rather than depression and affective symptoms. In the 19th century, melanc",
       "score": 50,
       "sourceReliability": 0.7,
       "metadata": {
@@ -386,7 +454,7 @@
       "postedAt": "2026-05-12T03:36:57.091Z",
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
-      "body": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "body": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -454,7 +522,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexico, Silent Light tells the story of a Mennonite married man who falls in love with another woman, threatening his place in the conservative community. The dialogue is in Plautdietsch, the Low German dialect of the Mennonites. The film was selected as the Mexican entry for the Best Foreign Language Oscar at the 80th Academy Awards, but it did not make the shortlist. The film was nominated for Best Foreign Film at the 24th Independent Spirit Awards. It gained nine nominations, including all major categories, in the Ariel Awards, the Mexican national awards.\nMartin Scorsese described the work as \"A surprising picture and a very moving one as well\", while Barry Jenkins in 2019 named it as the best film of the 21st century. It was awarded the Jury Prize at the 2007 Cannes Film Festival. In 2017, the film was named the twenty-third \"Best Film of the 21st Century So Far\" by The New York Times.",
+      "body": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexico, Silent Light tells the story of a Mennonite married man who falls in love with another woman, threatening his place in the conservative community. The dialogue is in Plautdietsch, the Low German dialect of the Mennonites. The film was selected as the Mexican entry for the Best Foreign Language Oscar at the 80th Academy Awards, but it did not make the shortlist. The film was nominated for Best Foreign Film at the 24th Independent Spirit Awards. It gained nine nominations, including all major categories, in the Ariel Awards, the Mexican national awards.\nMartin Scorsese described the work as \"A surprising picture and a very moving one as well\", while Barry Jenkins in 2019 named it as the best film of the 21st century. It was awarded the Jury Prize at the 2007 Cannes Film Festival. In 2017, the film was named the twenty-third \"Best Film of the 21st Century So Far\" by The New York Times.",
       "score": 71,
       "sourceReliability": 0.7,
       "metadata": {
@@ -522,7 +590,7 @@
       "postedAt": "2026-05-12T03:36:57.091Z",
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
-      "body": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "body": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -540,6 +608,23 @@
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
       "body": "The Act of Killing (2012) directed by Joshua Oppenheimer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation",
+      "artifactSlug": "the-banshees-of-inisherin-2022",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-banshees-of-inisherin-2022",
+      "sourceId": "the-banshees-of-inisherin-2022-seed-curation",
+      "postedAt": "2026-05-12T15:20:00.000Z",
+      "fetchedAt": "2026-05-12T15:20:00.000Z",
+      "lang": "en",
+      "body": "The Banshees of Inisherin (2022) directed by Martin McDonagh. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -726,7 +811,7 @@
       "postedAt": "2026-05-12T05:55:31.285Z",
       "fetchedAt": "2026-05-12T05:55:31.285Z",
       "lang": "en",
-      "body": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong Weerasethakul. The film, which explores themes of reincarnation, centers on the last days in the life of its title character, played by Thanapat Saisaymar. Together with his loved ones\u2014including the spirit of his dead wife, Huay, and his lost son, Boonsong, who has returned in a non-human form\u2014Boonmee explores his past lives as he contemplates the reasons for his illness.\nThe film was inspired by the 1983 book A Man Who Can Recall His Past Lives by Buddhist abbot Phra Sripariyattiweti. The film is the final installment in a multi-platform art project by Apichatpong called \"Primitive\". It premiered at the 2010 Cannes Film Festival, where it won the Palme d'Or, becoming the first Thai film to do so. Several critics and publications consider it to be one of the greatest films ever made.",
+      "body": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong Weerasethakul. The film, which explores themes of reincarnation, centers on the last days in the life of its title character, played by Thanapat Saisaymar. Together with his loved ones—including the spirit of his dead wife, Huay, and his lost son, Boonsong, who has returned in a non-human form—Boonmee explores his past lives as he contemplates the reasons for his illness.\nThe film was inspired by the 1983 book A Man Who Can Recall His Past Lives by Buddhist abbot Phra Sripariyattiweti. The film is the final installment in a multi-platform art project by Apichatpong called \"Primitive\". It premiered at the 2010 Cannes Film Festival, where it won the Palme d'Or, becoming the first Thai film to do so. Several critics and publications consider it to be one of the greatest films ever made.",
       "score": 64,
       "sourceReliability": 0.7,
       "metadata": {
@@ -1418,7 +1503,7 @@
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
             "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-            "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to"
+            "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
           ]
         }
       ],
@@ -1833,7 +1918,7 @@
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
             "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-            "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and p"
+            "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
           ]
         }
       ],
@@ -2083,7 +2168,7 @@
           "share": 1,
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
-            "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+            "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
       ],
@@ -2254,7 +2339,7 @@
           "share": 0.5,
           "summary": "devoted cluster derived from mention text classification",
           "sampleQuotes": [
-            "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+            "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
           ]
         }
       ],
@@ -2578,7 +2663,7 @@
           "share": 1,
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
-            "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+            "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
       ],
@@ -3151,7 +3236,7 @@
           "share": 0.5,
           "summary": "devoted cluster derived from mention text classification",
           "sampleQuotes": [
-            "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+            "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
           ]
         }
       ],
@@ -3159,7 +3244,7 @@
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
@@ -3253,7 +3338,7 @@
         "Extraction/classification/summarization only",
         "No invented ratings or criticism"
       ],
-      "confidence": 1.0,
+      "confidence": 1,
       "symbols": [
         {
           "term": "the",
@@ -3332,7 +3417,7 @@
         "Extraction/classification/summarization only",
         "No invented ratings or criticism"
       ],
-      "confidence": 1.0,
+      "confidence": 1,
       "symbols": [
         {
           "term": "showgirls",
@@ -3411,7 +3496,7 @@
         "Extraction/classification/summarization only",
         "No invented ratings or criticism"
       ],
-      "confidence": 1.0,
+      "confidence": 1,
       "symbols": [
         {
           "term": "mad",
@@ -3490,7 +3575,7 @@
         "Extraction/classification/summarization only",
         "No invented ratings or criticism"
       ],
-      "confidence": 1.0,
+      "confidence": 1,
       "symbols": [
         {
           "term": "the",
@@ -3569,7 +3654,7 @@
         "Extraction/classification/summarization only",
         "No invented ratings or criticism"
       ],
-      "confidence": 1.0,
+      "confidence": 1,
       "symbols": [
         {
           "term": "parasite",
@@ -3635,6 +3720,401 @@
           "summary": "analytical cluster derived from mention text classification",
           "sampleQuotes": [
             "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "inception-2010",
+      "generatedAt": "2026-05-12T15:20:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "inception",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "nolan",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "christopher",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Inception (2010) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "enter-the-void-2009",
+      "generatedAt": "2026-05-12T15:20:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "void",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "gaspar",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-banshees-of-inisherin-2022",
+      "generatedAt": "2026-05-12T15:20:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "banshees",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "inisherin",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "mcdonagh",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Banshees of Inisherin (2022) directed by Martin McDonagh. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "dogville-2003",
+      "generatedAt": "2026-05-12T15:20:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "dogville",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "trier",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "lars",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Dogville (2003) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "climax-2018",
+      "generatedAt": "2026-05-12T15:20:00.000Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "climax",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "gaspar",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
           ]
         }
       ],
@@ -7214,7 +7694,7 @@
           "confidence": 0.99,
           "components": {
             "spread": 1.5,
-            "meanScore": 72.0
+            "meanScore": 72
           },
           "evidenceMentionIds": [
             "the-shining-1980:seed-curation:the-shining-1980-seed-curation"
@@ -7224,7 +7704,7 @@
           "value": 12,
           "confidence": 0.98,
           "components": {
-            "spread": 2.0,
+            "spread": 2,
             "distanceFromMidpoint": 1.2
           },
           "evidenceMentionIds": [
@@ -7326,7 +7806,7 @@
           "confidence": 0.91,
           "components": {
             "spread": 15.5,
-            "meanScore": 44.0
+            "meanScore": 44
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
@@ -7438,7 +7918,7 @@
           "confidence": 0.98,
           "components": {
             "spread": 2.5,
-            "meanScore": 70.0
+            "meanScore": 70
           },
           "evidenceMentionIds": [
             "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation"
@@ -7638,7 +8118,7 @@
           "value": 12,
           "confidence": 0.94,
           "components": {
-            "avgLength": 55.0
+            "avgLength": 55
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
@@ -7661,8 +8141,8 @@
           "value": 96,
           "confidence": 0.99,
           "components": {
-            "spread": 1.0,
-            "meanScore": 73.0
+            "spread": 1,
+            "meanScore": 73
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
@@ -7754,6 +8234,521 @@
           },
           "evidenceMentionIds": [
             "parasite-2019:seed-curation:parasite-2019-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "artifactSlug": "inception-2010",
+      "computedAt": "2026-05-12T15:20:00.000Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 91,
+          "confidence": 0.99,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 8,
+          "confidence": 0.98,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 96,
+          "confidence": 0.99,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 71,
+          "confidence": 0.92,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 89,
+          "confidence": 0.97,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 35,
+          "confidence": 0.85,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 82,
+          "confidence": 0.94,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 85,
+          "confidence": 0.92,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 89,
+          "confidence": 0.98,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "inception-2010:seed-curation:inception-2010-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "artifactSlug": "enter-the-void-2009",
+      "computedAt": "2026-05-12T15:20:00.000Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 64,
+          "confidence": 0.91,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 42,
+          "confidence": 0.89,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 78,
+          "confidence": 0.94,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 94,
+          "confidence": 0.98,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.82,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 88,
+          "confidence": 0.96,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 92,
+          "confidence": 0.97,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 18,
+          "confidence": 0.94,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "artifactSlug": "the-banshees-of-inisherin-2022",
+      "computedAt": "2026-05-12T15:20:00.000Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 88,
+          "confidence": 0.96,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 68,
+          "confidence": 0.95,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 74,
+          "confidence": 0.91,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 85,
+          "confidence": 0.93,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 92,
+          "confidence": 0.96,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 21,
+          "confidence": 0.84,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 44,
+          "confidence": 0.89,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 81,
+          "confidence": 0.91,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 79,
+          "confidence": 0.97,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "artifactSlug": "dogville-2003",
+      "computedAt": "2026-05-12T15:20:00.000Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 76,
+          "confidence": 0.94,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 51,
+          "confidence": 0.92,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 82,
+          "confidence": 0.96,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 89,
+          "confidence": 0.95,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 95,
+          "confidence": 0.98,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 84,
+          "confidence": 0.92,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 99,
+          "confidence": 1,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 94,
+          "confidence": 0.97,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 15,
+          "confidence": 0.96,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "dogville-2003:seed-curation:dogville-2003-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "artifactSlug": "climax-2018",
+      "computedAt": "2026-05-12T15:20:00.000Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 72,
+          "confidence": 0.92,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 35,
+          "confidence": 0.88,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 86,
+          "confidence": 0.94,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 97,
+          "confidence": 0.99,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 61,
+          "confidence": 0.84,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 91,
+          "confidence": 0.97,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 96,
+          "confidence": 0.98,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 24,
+          "confidence": 0.91,
+          "components": {
+            "curatedValue": true
+          },
+          "evidenceMentionIds": [
+            "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         }
       },

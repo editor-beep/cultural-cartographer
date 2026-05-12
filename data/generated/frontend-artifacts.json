@@ -546,7 +546,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej \u017bu\u0142awski",
+      "director": "Andrzej Żuławski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -593,7 +593,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -664,7 +664,7 @@
     },
     {
       "slug": "tar",
-      "title": "T\u00e1r",
+      "title": "Tár",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -713,7 +713,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -1144,7 +1144,7 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
         }
       ],
       "afterlife": [
@@ -1283,14 +1283,14 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         }
       ],
       "afterlife": [
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
@@ -2343,6 +2343,286 @@
       "freshness": {
         "lastCollectedAt": "2026-05-12T08:15:00.000Z",
         "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "inception-2010",
+      "title": "Inception",
+      "year": 2010,
+      "director": "Christopher Nolan",
+      "runtime": 148,
+      "catalogue": "ARTX-037",
+      "metrics": {
+        "consensus": 91,
+        "friction": 8,
+        "obsession": 96,
+        "haunting": 71,
+        "symbolic": 89,
+        "cult": 35,
+        "formal": 82,
+        "voltage": 85,
+        "accessibility": 89
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.98,
+        "obsession": 0.99,
+        "haunting": 0.92,
+        "symbolic": 0.97,
+        "cult": 0.85,
+        "formal": 0.94,
+        "voltage": 0.92,
+        "accessibility": 0.98
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "inception",
+        "nolan",
+        "christopher",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Inception (2010) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
+        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+      }
+    },
+    {
+      "slug": "enter-the-void-2009",
+      "title": "Enter the Void",
+      "year": 2009,
+      "director": "Gaspar Noé",
+      "runtime": 161,
+      "catalogue": "ARTX-038",
+      "metrics": {
+        "consensus": 64,
+        "friction": 42,
+        "obsession": 78,
+        "haunting": 94,
+        "symbolic": 72,
+        "cult": 88,
+        "formal": 98,
+        "voltage": 92,
+        "accessibility": 18
+      },
+      "metricConfidence": {
+        "consensus": 0.91,
+        "friction": 0.89,
+        "obsession": 0.94,
+        "haunting": 0.98,
+        "symbolic": 0.82,
+        "cult": 0.96,
+        "formal": 0.99,
+        "voltage": 0.97,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "void",
+        "gaspar",
+        "directed",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
+        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+      }
+    },
+    {
+      "slug": "the-banshees-of-inisherin-2022",
+      "title": "The Banshees of Inisherin",
+      "year": 2022,
+      "director": "Martin McDonagh",
+      "runtime": 114,
+      "catalogue": "ARTX-039",
+      "metrics": {
+        "consensus": 88,
+        "friction": 68,
+        "obsession": 74,
+        "haunting": 85,
+        "symbolic": 92,
+        "cult": 21,
+        "formal": 44,
+        "voltage": 81,
+        "accessibility": 79
+      },
+      "metricConfidence": {
+        "consensus": 0.96,
+        "friction": 0.95,
+        "obsession": 0.91,
+        "haunting": 0.93,
+        "symbolic": 0.96,
+        "cult": 0.84,
+        "formal": 0.89,
+        "voltage": 0.91,
+        "accessibility": 0.97
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "banshees",
+        "inisherin",
+        "mcdonagh",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Banshees of Inisherin (2022) directed by Martin McDonagh. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
+        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+      }
+    },
+    {
+      "slug": "dogville-2003",
+      "title": "Dogville",
+      "year": 2003,
+      "director": "Lars von Trier",
+      "runtime": 178,
+      "catalogue": "ARTX-040",
+      "metrics": {
+        "consensus": 76,
+        "friction": 51,
+        "obsession": 82,
+        "haunting": 89,
+        "symbolic": 95,
+        "cult": 84,
+        "formal": 99,
+        "voltage": 94,
+        "accessibility": 15
+      },
+      "metricConfidence": {
+        "consensus": 0.94,
+        "friction": 0.92,
+        "obsession": 0.96,
+        "haunting": 0.95,
+        "symbolic": 0.98,
+        "cult": 0.92,
+        "formal": 1,
+        "voltage": 0.97,
+        "accessibility": 0.96
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "dogville",
+        "trier",
+        "lars",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Dogville (2003) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
+        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+      }
+    },
+    {
+      "slug": "climax-2018",
+      "title": "Climax",
+      "year": 2018,
+      "director": "Gaspar Noé",
+      "runtime": 96,
+      "catalogue": "ARTX-041",
+      "metrics": {
+        "consensus": 72,
+        "friction": 35,
+        "obsession": 86,
+        "haunting": 97,
+        "symbolic": 61,
+        "cult": 91,
+        "formal": 96,
+        "voltage": 99,
+        "accessibility": 24
+      },
+      "metricConfidence": {
+        "consensus": 0.92,
+        "friction": 0.88,
+        "obsession": 0.94,
+        "haunting": 0.99,
+        "symbolic": 0.84,
+        "cult": 0.97,
+        "formal": 0.98,
+        "voltage": 0.99,
+        "accessibility": 0.91
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "climax",
+        "gaspar",
+        "directed",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
+        "lastComputedAt": "2026-05-12T15:20:00.000Z"
       }
     }
   ]

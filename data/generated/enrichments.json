@@ -648,7 +648,7 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-          "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and \u00c9dith Scob. Lavant plays Mr. Oscar, a man who appears to"
+          "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
         ]
       }
     ],
@@ -1063,7 +1063,7 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
-          "Melancholia or melancholy (Ancient Greek: \u03bc\u03b5\u03bb\u03b1\u03b3\u03c7\u03bf\u03bb\u03af\u03b1, romanized: melanchol\u00eda; from \u03bc\u03ad\u03bb\u03b1\u03b9\u03bd\u03b1 \u03c7\u03bf\u03bb\u03ae, m\u00e9laina chol\u1e17, 'black bile') is a concept found throughout ancient, medieval, and p"
+          "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
         ]
       }
     ],
@@ -1313,7 +1313,7 @@
         "share": 1,
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
-          "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
@@ -1484,7 +1484,7 @@
         "share": 0.5,
         "summary": "devoted cluster derived from mention text classification",
         "sampleQuotes": [
-          "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+          "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
         ]
       }
     ],
@@ -1808,7 +1808,7 @@
         "share": 1,
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
-          "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
@@ -2381,7 +2381,7 @@
         "share": 0.5,
         "summary": "devoted cluster derived from mention text classification",
         "sampleQuotes": [
-          "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         ]
       }
     ],
@@ -2389,7 +2389,7 @@
       {
         "occurredAt": "2026-05-12T05:55:31.285Z",
         "kind": "release",
-        "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+        "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
         "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
         "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
       }
@@ -2483,7 +2483,7 @@
       "Extraction/classification/summarization only",
       "No invented ratings or criticism"
     ],
-    "confidence": 1.0,
+    "confidence": 1,
     "symbols": [
       {
         "term": "the",
@@ -2562,7 +2562,7 @@
       "Extraction/classification/summarization only",
       "No invented ratings or criticism"
     ],
-    "confidence": 1.0,
+    "confidence": 1,
     "symbols": [
       {
         "term": "showgirls",
@@ -2641,7 +2641,7 @@
       "Extraction/classification/summarization only",
       "No invented ratings or criticism"
     ],
-    "confidence": 1.0,
+    "confidence": 1,
     "symbols": [
       {
         "term": "mad",
@@ -2720,7 +2720,7 @@
       "Extraction/classification/summarization only",
       "No invented ratings or criticism"
     ],
-    "confidence": 1.0,
+    "confidence": 1,
     "symbols": [
       {
         "term": "the",
@@ -2799,7 +2799,7 @@
       "Extraction/classification/summarization only",
       "No invented ratings or criticism"
     ],
-    "confidence": 1.0,
+    "confidence": 1,
     "symbols": [
       {
         "term": "parasite",
@@ -2865,6 +2865,401 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "inception-2010",
+    "generatedAt": "2026-05-12T15:20:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "inception",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "nolan",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "christopher",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "inception-2010:seed-curation:inception-2010-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Inception (2010) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "enter-the-void-2009",
+    "generatedAt": "2026-05-12T15:20:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "void",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "gaspar",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-banshees-of-inisherin-2022",
+    "generatedAt": "2026-05-12T15:20:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "banshees",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "inisherin",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "mcdonagh",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-banshees-of-inisherin-2022:seed-curation:the-banshees-of-inisherin-2022-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Banshees of Inisherin (2022) directed by Martin McDonagh. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "dogville-2003",
+    "generatedAt": "2026-05-12T15:20:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "dogville",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "trier",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "lars",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "dogville-2003:seed-curation:dogville-2003-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Dogville (2003) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "climax-2018",
+    "generatedAt": "2026-05-12T15:20:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "climax",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "gaspar",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "climax-2018:seed-curation:climax-2018-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
         ]
       }
     ],
