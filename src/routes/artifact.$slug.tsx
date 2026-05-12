@@ -6,7 +6,6 @@ import {
   type AfterlifeEvent,
   type Faction,
   type Metrics,
-  type AxisKey,
 } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
@@ -44,13 +43,13 @@ export const Route = createFileRoute("/artifact/$slug")({
 function metricsDistance(a: Metrics, b: Metrics): number {
   let s = 0;
   for (const ax of AXES) {
-    const d = (a[ax.key as AxisKey] - b[ax.key as AxisKey]) / 100;
+    const d = (a[ax.key] - b[ax.key]) / 100;
     s += d * d;
   }
   return Math.sqrt(s / AXES.length);
 }
 
-  function Dossier() {
+function Dossier() {
   const { artifact: a } = Route.useLoaderData();
   const others = ARTIFACTS.filter((x) => x.slug !== a.slug)
     .sort((x, y) => metricsDistance(a.metrics, x.metrics) - metricsDistance(a.metrics, y.metrics))
