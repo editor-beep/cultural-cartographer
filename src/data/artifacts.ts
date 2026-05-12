@@ -179,7 +179,7 @@ const CURATED: Artifact[] = [
     year: 1982,
     director: "John Carpenter",
     runtime: 109,
-    catalogue: "ARTX-031",
+    catalogue: "ARTX-040",
     epigraph: "Watch Clark.",
     reading:
       "A high-consensus terror object that now reads as a near-perfect symbolic machine for institutional collapse and social paranoia. The blood-test sequence remains a benchmark for sustained voltage through practical form alone.",
@@ -218,7 +218,7 @@ const CURATED: Artifact[] = [
     year: 2023,
     director: "Greta Gerwig",
     runtime: 114,
-    catalogue: "ARTX-032",
+    catalogue: "ARTX-041",
     epigraph: "She's everything. He's just Ken.",
     reading:
       "A hyper-accessible monolith that preserved symbolic density at global scale. Friction is concentrated around ideological durability and intent rather than basic quality, making it one of the clearest mass-market culture-war objects of the decade.",
@@ -739,7 +739,7 @@ const CURATED: Artifact[] = [
     year: 2013,
     director: "Jonathan Glazer",
     runtime: 108,
-    catalogue: "ARTX-013",
+    catalogue: "ARTX-042",
     epigraph: "I am only visiting this world.",
     reading:
       "A physiological black hole: formally radical, emotionally cold, and permanently invasive in memory once its void-logic takes hold.",
@@ -777,7 +777,7 @@ const CURATED: Artifact[] = [
     year: 1997,
     director: "Paul Verhoeven",
     runtime: 129,
-    catalogue: "ARTX-033",
+    catalogue: "ARTX-043",
     epigraph: "Would you like to know more?",
     reading:
       "A consensus-migration landmark: once dismissed as dumb spectacle, now broadly decoded as a propaganda machine whose satire arrived before its audience could tune to it.",
@@ -815,7 +815,7 @@ const CURATED: Artifact[] = [
     year: 2009,
     director: "Karyn Kusama",
     runtime: 102,
-    catalogue: "ARTX-034",
+    catalogue: "ARTX-044",
     epigraph: "Hell is a teenage girl.",
     reading:
       "A reclamation spike object: institutional rejection at birth followed by high-velocity cult canonization through survivor communities and horror-theory discourse.",
@@ -1036,7 +1036,6 @@ const CURATED: Artifact[] = [
     ],
     symbols: ["the haze", "gold fang", "the sax line", "the missing map"],
     pos: { x: 0.28, y: 0.74 },
-
   },
 ];
 
