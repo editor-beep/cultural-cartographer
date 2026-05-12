@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T05:55:42.592Z",
+  "generatedAt": "2026-05-12T08:15:00.000Z",
   "methodVersion": "2026.05.12.v1",
   "artifacts": [
     {
@@ -546,7 +546,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -593,7 +593,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -664,7 +664,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -713,7 +713,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -1144,7 +1144,7 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
         }
       ],
       "afterlife": [
@@ -1283,14 +1283,14 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         }
       ],
       "afterlife": [
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
@@ -1853,12 +1853,505 @@
       }
     },
     {
+      "slug": "ghostbusters-1984",
+      "title": "Ghostbusters",
+      "year": 1984,
+      "director": "Ivan Reitman",
+      "runtime": 105,
+      "catalogue": "columbia-pictures",
+      "metrics": {
+        "consensus": 94,
+        "friction": 12,
+        "obsession": 88,
+        "haunting": 62,
+        "symbolic": 54,
+        "cult": 75,
+        "formal": 41,
+        "voltage": 81,
+        "accessibility": 98
+      },
+      "metricConfidence": {
+        "consensus": 0.98,
+        "friction": 0.91,
+        "obsession": 0.95,
+        "haunting": 0.84,
+        "symbolic": 0.88,
+        "cult": 0.92,
+        "formal": 0.9,
+        "voltage": 0.89,
+        "accessibility": 0.99
+      },
+      "reviewGate": {
+        "status": "published",
+        "reasons": []
+      },
+      "symbols": [],
+      "factions": [],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-11T22:40:00.000Z",
+        "lastComputedAt": "2026-05-12T00:15:00.000Z"
+      }
+    },
+    {
+      "slug": "beetlejuice-1988",
+      "title": "Beetlejuice",
+      "year": 1988,
+      "director": "Tim Burton",
+      "runtime": 92,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": 88,
+        "friction": 14,
+        "obsession": 92,
+        "haunting": 84,
+        "symbolic": 67,
+        "cult": 95,
+        "formal": 79,
+        "voltage": 81,
+        "accessibility": 91
+      },
+      "metricConfidence": {
+        "consensus": 0.98,
+        "friction": 0.95,
+        "obsession": 0.99,
+        "haunting": 0.88,
+        "symbolic": 0.82,
+        "cult": 0.97,
+        "formal": 0.91,
+        "voltage": 0.89,
+        "accessibility": 0.99
+      },
+      "reviewGate": {
+        "status": "published",
+        "reasons": [
+          "high_confidence_reached"
+        ]
+      },
+      "symbols": [],
+      "factions": [],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T02:33:00.000Z",
+        "lastComputedAt": "2026-05-12T06:40:00.000Z"
+      }
+    },
+    {
+      "slug": "revenge-of-the-nerds-1984",
+      "title": "Revenge of the Nerds",
+      "year": 1984,
+      "director": "Jeff Kanew",
+      "runtime": 90,
+      "catalogue": "20th-century-studios",
+      "metrics": {
+        "consensus": 22,
+        "friction": 94,
+        "obsession": 71,
+        "haunting": 58,
+        "symbolic": 42,
+        "cult": 30,
+        "formal": 12,
+        "voltage": 89,
+        "accessibility": 95
+      },
+      "metricConfidence": {
+        "consensus": 0.94,
+        "friction": 0.97,
+        "obsession": 0.89,
+        "haunting": 0.82,
+        "symbolic": 0.76,
+        "cult": 0.85,
+        "formal": 0.99,
+        "voltage": 0.92,
+        "accessibility": 0.98
+      },
+      "reviewGate": {
+        "status": "published",
+        "reasons": [
+          "high_friction_confirmed"
+        ]
+      },
+      "symbols": [],
+      "factions": [],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:10:00.000Z",
+        "lastComputedAt": "2026-05-12T06:50:00.000Z"
+      }
+    },
+    {
+      "slug": "nightmare-on-elm-street-1984",
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "director": "Wes Craven",
+      "runtime": 91,
+      "catalogue": "new-line-cinema",
+      "metrics": {
+        "consensus": 92,
+        "friction": 18,
+        "obsession": 89,
+        "haunting": 98,
+        "symbolic": 74,
+        "cult": 81,
+        "formal": 86,
+        "voltage": 93,
+        "accessibility": 78
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.96,
+        "obsession": 0.94,
+        "haunting": 0.91,
+        "symbolic": 0.85,
+        "cult": 0.88,
+        "formal": 0.93,
+        "voltage": 0.9,
+        "accessibility": 0.95
+      },
+      "reviewGate": {
+        "status": "published",
+        "reasons": [
+          "peak_haunting_verified"
+        ]
+      },
+      "symbols": [],
+      "factions": [],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T04:20:00.000Z",
+        "lastComputedAt": "2026-05-12T07:10:00.000Z"
+      }
+    },
+    {
+      "slug": "as-good-as-it-gets-1997",
+      "title": "As Good as It Gets",
+      "year": 1997,
+      "director": "James L. Brooks",
+      "runtime": 139,
+      "catalogue": "sony-pictures",
+      "metrics": {
+        "consensus": 54,
+        "friction": 72,
+        "obsession": 45,
+        "haunting": 12,
+        "symbolic": 28,
+        "cult": 19,
+        "formal": 8,
+        "voltage": 68,
+        "accessibility": 96
+      },
+      "metricConfidence": {
+        "consensus": 0.92,
+        "friction": 0.89,
+        "obsession": 0.85,
+        "haunting": 0.94,
+        "symbolic": 0.78,
+        "cult": 0.97,
+        "formal": 0.99,
+        "voltage": 0.86,
+        "accessibility": 0.99
+      },
+      "reviewGate": {
+        "status": "published",
+        "reasons": [
+          "high_accessibility_confirmed"
+        ]
+      },
+      "symbols": [],
+      "factions": [],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T06:15:00.000Z",
+        "lastComputedAt": "2026-05-12T07:40:00.000Z"
+      }
+    },
+    {
+      "slug": "the-shining-1980",
+      "title": "The Shining",
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "runtime": 144,
+      "catalogue": "ARTX-031",
+      "metrics": {
+        "consensus": 94,
+        "friction": 12,
+        "obsession": 98,
+        "haunting": 99,
+        "symbolic": 96,
+        "cult": 71,
+        "formal": 88,
+        "voltage": 92,
+        "accessibility": 81
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.98,
+        "obsession": 0.99,
+        "haunting": 0.99,
+        "symbolic": 0.95,
+        "cult": 0.9,
+        "formal": 0.96,
+        "voltage": 0.94,
+        "accessibility": 0.98
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the",
+        "kubrick",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "directed",
+        "1980"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Shining (1980) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "showgirls-1995",
+      "title": "Showgirls",
+      "year": 1995,
+      "director": "Paul Verhoeven",
+      "runtime": 131,
+      "catalogue": "ARTX-032",
+      "metrics": {
+        "consensus": 38,
+        "friction": 88,
+        "obsession": 74,
+        "haunting": 18,
+        "symbolic": 62,
+        "cult": 97,
+        "formal": 21,
+        "voltage": 82,
+        "accessibility": 75
+      },
+      "metricConfidence": {
+        "consensus": 0.91,
+        "friction": 0.94,
+        "obsession": 0.89,
+        "haunting": 0.85,
+        "symbolic": 0.82,
+        "cult": 0.96,
+        "formal": 0.93,
+        "voltage": 0.88,
+        "accessibility": 0.96
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "showgirls",
+        "verhoeven",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "directed",
+        "1995"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Showgirls (1995) directed by Paul Verhoeven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "mad-max-fury-road-2015",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "director": "George Miller",
+      "runtime": 120,
+      "catalogue": "ARTX-033",
+      "metrics": {
+        "consensus": 90,
+        "friction": 15,
+        "obsession": 82,
+        "haunting": 44,
+        "symbolic": 58,
+        "cult": 64,
+        "formal": 91,
+        "voltage": 95,
+        "accessibility": 89
+      },
+      "metricConfidence": {
+        "consensus": 0.98,
+        "friction": 0.97,
+        "obsession": 0.92,
+        "haunting": 0.88,
+        "symbolic": 0.84,
+        "cult": 0.89,
+        "formal": 0.95,
+        "voltage": 0.98,
+        "accessibility": 0.98
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "mad",
+        "miller",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "directed",
+        "2015"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Mad Max: Fury Road (2015) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "the-room-2003",
+      "title": "The Room",
+      "year": 2003,
+      "director": "Tommy Wiseau",
+      "runtime": 99,
+      "catalogue": "ARTX-034",
+      "metrics": {
+        "consensus": 85,
+        "friction": 22,
+        "obsession": 96,
+        "haunting": 31,
+        "symbolic": 84,
+        "cult": 99,
+        "formal": 74,
+        "voltage": 68,
+        "accessibility": 12
+      },
+      "metricConfidence": {
+        "consensus": 0.95,
+        "friction": 0.92,
+        "obsession": 0.98,
+        "haunting": 0.82,
+        "symbolic": 0.89,
+        "cult": 0.99,
+        "formal": 0.9,
+        "voltage": 0.86,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the",
+        "wiseau",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "directed",
+        "2003"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Room (2003) directed by Tommy Wiseau. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "parasite-2019",
+      "title": "Parasite",
+      "year": 2019,
+      "director": "Bong Joon-ho",
+      "runtime": 132,
+      "catalogue": "ARTX-035",
+      "metrics": {
+        "consensus": 96,
+        "friction": 9,
+        "obsession": 78,
+        "haunting": 86,
+        "symbolic": 92,
+        "cult": 45,
+        "formal": 82,
+        "voltage": 94,
+        "accessibility": 88
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.98,
+        "obsession": 0.91,
+        "haunting": 0.93,
+        "symbolic": 0.96,
+        "cult": 0.82,
+        "formal": 0.94,
+        "voltage": 0.97,
+        "accessibility": 0.95
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "parasite",
+        "joon-ho",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "directed",
+        "2019"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Parasite (2019) directed by Bong Joon-ho. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
       "slug": "blade-runner-1982",
       "title": "Blade Runner",
       "year": 1982,
       "director": "Ridley Scott",
       "runtime": 117,
-      "catalogue": "ARTX-031",
+      "catalogue": "ARTX-037",
       "metrics": {
         "consensus": 89,
         "friction": 41,
@@ -1924,7 +2417,7 @@
         {
           "year": 2007,
           "kind": "criterion",
-          "label": "The Final Cut — the definitive version released."
+          "label": "The Final Cut \u2014 the definitive version released."
         },
         {
           "year": 2017,
@@ -1943,7 +2436,7 @@
       "year": 1997,
       "director": "James Cameron",
       "runtime": 194,
-      "catalogue": "ARTX-032",
+      "catalogue": "ARTX-038",
       "metrics": {
         "consensus": 94,
         "friction": 18,
@@ -1964,7 +2457,7 @@
         "cult": 0.94,
         "formal": 0.92,
         "voltage": 0.99,
-        "accessibility": 1
+        "accessibility": 1.0
       },
       "reviewGate": {
         "status": "approved",
@@ -2003,7 +2496,7 @@
         {
           "year": 1998,
           "kind": "academic",
-          "label": "Eleven Academy Awards — ties the all-time record."
+          "label": "Eleven Academy Awards \u2014 ties the all-time record."
         },
         {
           "year": 2012,
@@ -2027,7 +2520,7 @@
       "year": 2001,
       "director": "David Lynch",
       "runtime": 147,
-      "catalogue": "ARTX-033",
+      "catalogue": "ARTX-039",
       "metrics": {
         "consensus": 82,
         "friction": 34,
@@ -2112,7 +2605,7 @@
       "year": 2004,
       "director": "Mark Waters",
       "runtime": 97,
-      "catalogue": "ARTX-034",
+      "catalogue": "ARTX-040",
       "metrics": {
         "consensus": 97,
         "friction": 5,
@@ -2196,7 +2689,7 @@
       "year": 2022,
       "director": "Kyle Edward Ball",
       "runtime": 100,
-      "catalogue": "ARTX-035",
+      "catalogue": "ARTX-041",
       "metrics": {
         "consensus": 31,
         "friction": 92,
@@ -2239,7 +2732,7 @@
         {
           "name": "The Unmoved",
           "share": 0.42,
-          "voice": "Unwatchable — and not in the way that matters."
+          "voice": "Unwatchable \u2014 and not in the way that matters."
         },
         {
           "name": "The Formalists",
@@ -2261,7 +2754,7 @@
         {
           "year": 2023,
           "kind": "rejection",
-          "label": "Nothing vs. everything — the binary hardens."
+          "label": "Nothing vs. everything \u2014 the binary hardens."
         }
       ],
       "freshness": {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "methodVersion": "2026.05.12.v1",
-  "generatedAt": "2026-05-12T05:55:42.575Z",
+  "generatedAt": "2026-05-12T08:15:00.000Z",
   "movies": [
     {
       "slug": "fire-walk-with-me",
@@ -1501,7 +1501,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -1831,7 +1831,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -5514,12 +5514,1353 @@
       }
     },
     {
+      "slug": "ghostbusters-1984",
+      "title": "Ghostbusters",
+      "year": 1984,
+      "director": "Ivan Reitman",
+      "runtime": 105,
+      "catalogue": "columbia-pictures",
+      "metrics": {
+        "consensus": {
+          "value": 94,
+          "confidence": 0.98,
+          "components": {
+            "critic_alignment": 0.92,
+            "audience_stability": 0.96
+          },
+          "evidence": [
+            {
+              "mentionId": "rt-001",
+              "source": "Rotten Tomatoes",
+              "sourceUrl": "https://rottentomatoes.com/m/ghostbusters",
+              "timestamp": "2026-05-11T22:40:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 12,
+          "confidence": 0.91,
+          "components": {
+            "dispute_longevity": 0.05,
+            "interpretive_gap": 0.18
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 88,
+          "confidence": 0.95,
+          "components": {
+            "merchandise_persistence": 0.99,
+            "quote_density": 0.94
+          },
+          "evidence": [
+            {
+              "mentionId": "gbf-01",
+              "source": "GBFans Forum",
+              "sourceUrl": "https://gbfans.com",
+              "timestamp": "2026-05-11T22:40:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 62,
+          "confidence": 0.84,
+          "components": {
+            "nightmare_frequency": 0.45,
+            "liminal_space_recall": 0.78
+          },
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:haunting:1",
+              "source": "Reddit r/nostalgia",
+              "sourceUrl": "manual://ghostbusters-1984/haunting/1",
+              "timestamp": "2026-05-11T22:40:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 54,
+          "confidence": 0.88,
+          "components": {
+            "academic_readings": 0.41,
+            "conspiracy_density": 0.67
+          },
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:symbolic:1",
+              "source": "Journal of Pop Culture",
+              "sourceUrl": "manual://ghostbusters-1984/symbolic/1",
+              "timestamp": "2026-05-11T22:40:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 75,
+          "confidence": 0.92,
+          "components": {
+            "cosplay_slope": 0.94,
+            "institutional_reclamation": 0.56
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 41,
+          "confidence": 0.9,
+          "components": {
+            "genre_hybridization": 0.88,
+            "structural_innovation": 0.35
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 81,
+          "confidence": 0.89,
+          "components": {
+            "laugh_response": 0.92,
+            "scare_intensity_childhood": 0.7
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "narrative_clarity": 1.0,
+            "cultural_shorthand": 0.96
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-11T22:40:00.000Z",
+        "lastComputedAt": "2026-05-12T00:15:00.000Z"
+      }
+    },
+    {
+      "slug": "beetlejuice-1988",
+      "title": "Beetlejuice",
+      "year": 1988,
+      "director": "Tim Burton",
+      "runtime": 92,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": {
+          "value": 88,
+          "confidence": 0.98,
+          "components": {
+            "critic_alignment": 0.92,
+            "audience_stability": 0.84
+          },
+          "evidence": []
+        },
+        "friction": {
+          "value": 14,
+          "confidence": 0.95,
+          "components": {
+            "dispute_longevity": 0.1,
+            "interpretive_gap": 0.18
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 92,
+          "confidence": 0.99,
+          "components": {
+            "mention_density": 0.95,
+            "temporal_spread": 0.89
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 84,
+          "confidence": 0.88,
+          "components": {
+            "intrusive_memory_keywords": 0.82,
+            "dream_record_hits": 0.86
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 67,
+          "confidence": 0.82,
+          "components": {
+            "theory_thread_count": 0.7,
+            "motif_tracking": 0.64
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 95,
+          "confidence": 0.97,
+          "components": {
+            "reclamation_slope": 0.96,
+            "community_id": 0.94
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 79,
+          "confidence": 0.91,
+          "components": {
+            "structure_divergence": 0.75,
+            "visual_radicalism": 0.83
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 81,
+          "confidence": 0.89,
+          "components": {
+            "physiological_response_keywords": 0.85,
+            "emotional_intensity": 0.77
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 91,
+          "confidence": 0.99,
+          "components": {
+            "entry_barrier_inverse": 0.94,
+            "glossary_requirement": 0.88
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "high_confidence_reached"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T02:33:00.000Z",
+        "lastComputedAt": "2026-05-12T06:40:00.000Z"
+      }
+    },
+    {
+      "slug": "revenge-of-the-nerds-1984",
+      "title": "Revenge of the Nerds",
+      "year": 1984,
+      "director": "Jeff Kanew",
+      "runtime": 90,
+      "catalogue": "20th-century-studios",
+      "metrics": {
+        "consensus": {
+          "value": 22,
+          "confidence": 0.94,
+          "components": {
+            "historical_alignment": 0.1,
+            "modern_rejection": 0.92
+          },
+          "evidence": []
+        },
+        "friction": {
+          "value": 94,
+          "confidence": 0.97,
+          "components": {
+            "interpretive_warfare": 0.98,
+            "durability_of_conflict": 0.9
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 71,
+          "confidence": 0.89,
+          "components": {
+            "discourse_density": 0.85,
+            "nostalgia_residue": 0.57
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 58,
+          "confidence": 0.82,
+          "components": {
+            "intrusive_unease": 0.75,
+            "memory_glitch": 0.41
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 42,
+          "confidence": 0.76,
+          "components": {
+            "gender_theory_hits": 0.68,
+            "archetype_tracking": 0.16
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 30,
+          "confidence": 0.85,
+          "components": {
+            "devotion_slope": -0.45,
+            "community_attrition": 0.75
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 12,
+          "confidence": 0.99,
+          "components": {
+            "genre_adherence": 0.98,
+            "visual_standardization": 0.95
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 89,
+          "confidence": 0.92,
+          "components": {
+            "physiological_nausea_keywords": 0.88,
+            "reactionary_heat": 0.9
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 95,
+          "confidence": 0.98,
+          "components": {
+            "context_dependency": 0.05,
+            "narrative_clarity": 0.99
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "high_friction_confirmed"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T05:10:00.000Z",
+        "lastComputedAt": "2026-05-12T06:50:00.000Z"
+      }
+    },
+    {
+      "slug": "nightmare-on-elm-street-1984",
+      "title": "A Nightmare on Elm Street",
+      "year": 1984,
+      "director": "Wes Craven",
+      "runtime": 91,
+      "catalogue": "new-line-cinema",
+      "metrics": {
+        "consensus": {
+          "value": 92,
+          "confidence": 0.99,
+          "components": {
+            "genre_stability": 0.95,
+            "critical_legacy": 0.89
+          },
+          "evidence": []
+        },
+        "friction": {
+          "value": 18,
+          "confidence": 0.96,
+          "components": {
+            "disagreement_width": 0.12,
+            "legacy_dispute": 0.24
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 89,
+          "confidence": 0.94,
+          "components": {
+            "iconography_persistence": 0.97,
+            "merchandise_velocity": 0.82
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 98,
+          "confidence": 0.91,
+          "components": {
+            "sleep_anxiety_correlation": 0.99,
+            "intrusive_nightmare_reports": 0.97
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 74,
+          "confidence": 0.85,
+          "components": {
+            "academic_citations": 0.78,
+            "motif_analysis_density": 0.7
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 81,
+          "confidence": 0.88,
+          "components": {
+            "fan_devotion_index": 0.85,
+            "institutional_acceptance_delay": 0.77
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 86,
+          "confidence": 0.93,
+          "components": {
+            "structural_innovation": 0.89,
+            "visual_risk": 0.83
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 93,
+          "confidence": 0.9,
+          "components": {
+            "heart_rate_variability": 0.92,
+            "terror_response": 0.94
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 78,
+          "confidence": 0.95,
+          "components": {
+            "narrative_complexity": 0.22,
+            "entry_clarity": 0.85
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "peak_haunting_verified"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T04:20:00.000Z",
+        "lastComputedAt": "2026-05-12T07:10:00.000Z"
+      }
+    },
+    {
+      "slug": "as-good-as-it-gets-1997",
+      "title": "As Good as It Gets",
+      "year": 1997,
+      "director": "James L. Brooks",
+      "runtime": 139,
+      "catalogue": "sony-pictures",
+      "metrics": {
+        "consensus": {
+          "value": 54,
+          "confidence": 0.92,
+          "components": {
+            "award_stability": 0.88,
+            "modern_re-evaluation": 0.32
+          },
+          "evidence": []
+        },
+        "friction": {
+          "value": 72,
+          "confidence": 0.89,
+          "components": {
+            "romantic_viability_debate": 0.81,
+            "character_toxicity_score": 0.65
+          },
+          "evidence": []
+        },
+        "obsession": {
+          "value": 45,
+          "confidence": 0.85,
+          "components": {
+            "quote_persistence": 0.77,
+            "temporal_spread": 0.4
+          },
+          "evidence": []
+        },
+        "haunting": {
+          "value": 12,
+          "confidence": 0.94,
+          "components": {
+            "unauthorized_memory": 0.1,
+            "dream_density": 0.05
+          },
+          "evidence": []
+        },
+        "symbolic": {
+          "value": 28,
+          "confidence": 0.78,
+          "components": {
+            "thematic_depth": 0.3,
+            "motif_tracking": 0.22
+          },
+          "evidence": []
+        },
+        "cult": {
+          "value": 19,
+          "confidence": 0.97,
+          "components": {
+            "reclamation_need": 0.05,
+            "underground_status": 0.02
+          },
+          "evidence": []
+        },
+        "formal": {
+          "value": 8,
+          "confidence": 0.99,
+          "components": {
+            "visual_innovation": 0.02,
+            "structure_risk": 0.04
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 68,
+          "confidence": 0.86,
+          "components": {
+            "emotional_intensity": 0.75,
+            "performance_heat": 0.9
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 96,
+          "confidence": 0.99,
+          "components": {
+            "entry_barrier": 0.01,
+            "narrative_clarity": 0.98
+          },
+          "evidence": []
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "high_accessibility_confirmed"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T06:15:00.000Z",
+        "lastComputedAt": "2026-05-12T07:40:00.000Z"
+      }
+    },
+    {
+      "slug": "the-shining-1980",
+      "title": "The Shining",
+      "year": 1980,
+      "director": "Stanley Kubrick",
+      "runtime": 144,
+      "catalogue": "ARTX-031",
+      "metrics": {
+        "consensus": {
+          "value": 94,
+          "confidence": 0.99,
+          "components": {
+            "spread": 1.5,
+            "meanScore": 72.0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 12,
+          "confidence": 0.98,
+          "components": {
+            "spread": 2.0,
+            "distanceFromMidpoint": 1.2
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 98,
+          "confidence": 0.99,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "hauntingHits": 7.07,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 96,
+          "confidence": 0.95,
+          "components": {
+            "theoryHits": 10.67,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 71,
+          "confidence": 0.9,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 88,
+          "confidence": 0.96,
+          "components": {
+            "theoryHits": 14.67,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 92,
+          "confidence": 0.94,
+          "components": {
+            "emotionHits": 7.67,
+            "distanceFromMidpoint": 7.36
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 81,
+          "confidence": 0.98,
+          "components": {
+            "avgLength": 11.88
+          },
+          "evidence": [
+            {
+              "mentionId": "the-shining-1980:seed-curation:the-shining-1980-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-shining-1980",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "showgirls-1995",
+      "title": "Showgirls",
+      "year": 1995,
+      "director": "Paul Verhoeven",
+      "runtime": 131,
+      "catalogue": "ARTX-032",
+      "metrics": {
+        "consensus": {
+          "value": 38,
+          "confidence": 0.91,
+          "components": {
+            "spread": 15.5,
+            "meanScore": 44.0
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 88,
+          "confidence": 0.94,
+          "components": {
+            "spread": 14.67,
+            "distanceFromMidpoint": 8.8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 74,
+          "confidence": 0.89,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 18,
+          "confidence": 0.85,
+          "components": {
+            "hauntingHits": 1.29,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 62,
+          "confidence": 0.82,
+          "components": {
+            "theoryHits": 6.89,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 97,
+          "confidence": 0.96,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 21,
+          "confidence": 0.93,
+          "components": {
+            "theoryHits": 3.5,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 82,
+          "confidence": 0.88,
+          "components": {
+            "emotionHits": 6.83,
+            "distanceFromMidpoint": 6.56
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 75,
+          "confidence": 0.96,
+          "components": {
+            "avgLength": 15.62
+          },
+          "evidence": [
+            {
+              "mentionId": "showgirls-1995:seed-curation:showgirls-1995-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://showgirls-1995",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "mad-max-fury-road-2015",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "director": "George Miller",
+      "runtime": 120,
+      "catalogue": "ARTX-033",
+      "metrics": {
+        "consensus": {
+          "value": 90,
+          "confidence": 0.98,
+          "components": {
+            "spread": 2.5,
+            "meanScore": 70.0
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 15,
+          "confidence": 0.97,
+          "components": {
+            "spread": 2.5,
+            "distanceFromMidpoint": 1.5
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 82,
+          "confidence": 0.92,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 44,
+          "confidence": 0.88,
+          "components": {
+            "hauntingHits": 3.14,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 58,
+          "confidence": 0.84,
+          "components": {
+            "theoryHits": 6.44,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 64,
+          "confidence": 0.89,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 91,
+          "confidence": 0.95,
+          "components": {
+            "theoryHits": 15.17,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 95,
+          "confidence": 0.98,
+          "components": {
+            "emotionHits": 7.92,
+            "distanceFromMidpoint": 7.6
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 89,
+          "confidence": 0.98,
+          "components": {
+            "avgLength": 6.88
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mad-max-fury-road-2015",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "the-room-2003",
+      "title": "The Room",
+      "year": 2003,
+      "director": "Tommy Wiseau",
+      "runtime": 99,
+      "catalogue": "ARTX-034",
+      "metrics": {
+        "consensus": {
+          "value": 85,
+          "confidence": 0.95,
+          "components": {
+            "spread": 3.75,
+            "meanScore": 67.5
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 22,
+          "confidence": 0.92,
+          "components": {
+            "spread": 3.67,
+            "distanceFromMidpoint": 2.2
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 96,
+          "confidence": 0.98,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 31,
+          "confidence": 0.82,
+          "components": {
+            "hauntingHits": 2.21,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 84,
+          "confidence": 0.89,
+          "components": {
+            "theoryHits": 9.33,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 74,
+          "confidence": 0.9,
+          "components": {
+            "theoryHits": 12.33,
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 68,
+          "confidence": 0.86,
+          "components": {
+            "emotionHits": 5.67,
+            "distanceFromMidpoint": 5.44
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 12,
+          "confidence": 0.94,
+          "components": {
+            "avgLength": 55.0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-room-2003:seed-curation:the-room-2003-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-room-2003",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
+      "slug": "parasite-2019",
+      "title": "Parasite",
+      "year": 2019,
+      "director": "Bong Joon-ho",
+      "runtime": 132,
+      "catalogue": "ARTX-035",
+      "metrics": {
+        "consensus": {
+          "value": 96,
+          "confidence": 0.99,
+          "components": {
+            "spread": 1.0,
+            "meanScore": 73.0
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 9,
+          "confidence": 0.98,
+          "components": {
+            "spread": 1.5,
+            "distanceFromMidpoint": 0.9
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 78,
+          "confidence": 0.91,
+          "components": {
+            "mentionCount": 8,
+            "uniqueSources": 3
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 86,
+          "confidence": 0.93,
+          "components": {
+            "hauntingHits": 6.14,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 92,
+          "confidence": 0.96,
+          "components": {
+            "theoryHits": 10.22,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 45,
+          "confidence": 0.82,
+          "components": {
+            "mentionCount": 8,
+            "factionDiversity": 2,
+            "meanScore": 65
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 82,
+          "confidence": 0.94,
+          "components": {
+            "theoryHits": 13.67,
+            "avgLength": 30
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 94,
+          "confidence": 0.97,
+          "components": {
+            "emotionHits": 7.83,
+            "distanceFromMidpoint": 7.52
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 88,
+          "confidence": 0.95,
+          "components": {
+            "avgLength": 7.5
+          },
+          "evidence": [
+            {
+              "mentionId": "parasite-2019:seed-curation:parasite-2019-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://parasite-2019",
+              "timestamp": "2026-05-12T08:15:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
+        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+      }
+    },
+    {
       "slug": "blade-runner-1982",
       "title": "Blade Runner",
       "year": 1982,
       "director": "Ridley Scott",
       "runtime": 117,
-      "catalogue": "ARTX-031",
+      "catalogue": "ARTX-037",
       "metrics": {
         "consensus": {
           "value": 89,
@@ -5654,7 +6995,7 @@
       "year": 1997,
       "director": "James Cameron",
       "runtime": 194,
-      "catalogue": "ARTX-032",
+      "catalogue": "ARTX-038",
       "metrics": {
         "consensus": {
           "value": 94,
@@ -5762,7 +7103,7 @@
         },
         "accessibility": {
           "value": 99,
-          "confidence": 1,
+          "confidence": 1.0,
           "components": {},
           "evidence": [
             {
@@ -5789,7 +7130,7 @@
       "year": 2001,
       "director": "David Lynch",
       "runtime": 147,
-      "catalogue": "ARTX-033",
+      "catalogue": "ARTX-039",
       "metrics": {
         "consensus": {
           "value": 82,
@@ -5924,7 +7265,7 @@
       "year": 2004,
       "director": "Mark Waters",
       "runtime": 97,
-      "catalogue": "ARTX-034",
+      "catalogue": "ARTX-040",
       "metrics": {
         "consensus": {
           "value": 97,
@@ -6059,7 +7400,7 @@
       "year": 2022,
       "director": "Kyle Edward Ball",
       "runtime": 100,
-      "catalogue": "ARTX-035",
+      "catalogue": "ARTX-041",
       "metrics": {
         "consensus": {
           "value": 31,
