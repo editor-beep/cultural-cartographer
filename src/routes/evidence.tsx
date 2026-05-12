@@ -20,7 +20,7 @@ const SOURCES = [
     category: "Diaristic Records",
     examples: "Letterboxd, Personal Blogs",
     reason:
-      "Captures the raw, "unauthorized" emotional response and rewatch frequency.",
+      "Captures the raw, \"unauthorized\" emotional response and rewatch frequency.",
   },
   {
     category: "Interpretive Hubs",
@@ -44,7 +44,7 @@ const SOURCES = [
     category: "Technical Archives",
     examples: "American Cinematographer, IMDB Technical Specs",
     reason:
-      "Feeds the FRM (Formal Risk) axis. We look for mentions of experimental lenses, unconventional sound design, or structural "failure."",
+      "Feeds the FRM (Formal Risk) axis. We look for mentions of experimental lenses, unconventional sound design, or structural \"failure.\"",
   },
 ];
 
@@ -55,7 +55,7 @@ const EXAMPLES = [
     low: '"That movie was scary."',
     high: '"I still see the woman from the room whenever I walk past a red door."',
     reason:
-      "It demonstrates Intrusive Memory. The film has installed a "trigger" in the viewer's physical environment.",
+      "It demonstrates Intrusive Memory. The film has installed a \"trigger\" in the viewer's physical environment.",
   },
   {
     axis: "FRC",
@@ -64,14 +64,14 @@ const EXAMPLES = [
     detail:
       "If a film's comment sections involve the same two sides arguing the same point five years later, the FRC score remains high.",
     reason:
-      "The work is an "unsettled object." There is no stable cultural account of what the film is.",
+      "The work is an \"unsettled object.\" There is no stable cultural account of what the film is.",
   },
   {
     axis: "OBS",
     label: "The Obsession Axis",
     signal: "The Inverted Recency Curve.",
     detail:
-      "Most films have a spike of mentions at release and then flatline. OBS evidence is found in the "Long Tail." If people are still making 2-hour video essays about Inception's spinning top in 2026, the obsession value is calculated as a ratio of Time Passed : Mention Density.",
+      "Most films have a spike of mentions at release and then flatline. OBS evidence is found in the \"Long Tail.\" If people are still making 2-hour video essays about Inception's spinning top in 2026, the obsession value is calculated as a ratio of Time Passed : Mention Density.",
     reason: null,
   },
 ];

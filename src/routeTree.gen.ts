@@ -12,9 +12,9 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as LexiconRouteImport } from './routes/lexicon'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as DirectoryRouteImport } from './routes/directory'
+import { Route as CompareRouteImport } from './routes/compare'
 import { Route as ColophonRouteImport } from './routes/colophon'
 import { Route as AttuneRouteImport } from './routes/attune'
-import { Route as CompareRouteImport } from './routes/compare'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ArtifactSlugRouteImport } from './routes/artifact.$slug'
 
@@ -33,6 +33,11 @@ const DirectoryRoute = DirectoryRouteImport.update({
   path: '/directory',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CompareRoute = CompareRouteImport.update({
+  id: '/compare',
+  path: '/compare',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ColophonRoute = ColophonRouteImport.update({
   id: '/colophon',
   path: '/colophon',
@@ -41,11 +46,6 @@ const ColophonRoute = ColophonRouteImport.update({
 const AttuneRoute = AttuneRouteImport.update({
   id: '/attune',
   path: '/attune',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CompareRoute = CompareRouteImport.update({
-  id: '/compare',
-  path: '/compare',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -62,8 +62,8 @@ const ArtifactSlugRoute = ArtifactSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
-  '/compare': typeof CompareRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
@@ -72,8 +72,8 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
-  '/compare': typeof CompareRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
@@ -83,8 +83,8 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
-  '/compare': typeof CompareRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
@@ -95,8 +95,8 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/attune'
-    | '/compare'
     | '/colophon'
+    | '/compare'
     | '/directory'
     | '/evidence'
     | '/lexicon'
@@ -105,8 +105,8 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/attune'
-    | '/compare'
     | '/colophon'
+    | '/compare'
     | '/directory'
     | '/evidence'
     | '/lexicon'
@@ -115,8 +115,8 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/attune'
-    | '/compare'
     | '/colophon'
+    | '/compare'
     | '/directory'
     | '/evidence'
     | '/lexicon'
@@ -126,8 +126,8 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AttuneRoute: typeof AttuneRoute
-  CompareRoute: typeof CompareRoute
   ColophonRoute: typeof ColophonRoute
+  CompareRoute: typeof CompareRoute
   DirectoryRoute: typeof DirectoryRoute
   EvidenceRoute: typeof EvidenceRoute
   LexiconRoute: typeof LexiconRoute
@@ -143,11 +143,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LexiconRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/evidence': {
+      id: '/evidence'
+      path: '/evidence'
+      fullPath: '/evidence'
+      preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/directory': {
       id: '/directory'
       path: '/directory'
       fullPath: '/directory'
       preLoaderRoute: typeof DirectoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/compare': {
+      id: '/compare'
+      path: '/compare'
+      fullPath: '/compare'
+      preLoaderRoute: typeof CompareRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/colophon': {
@@ -157,25 +171,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ColophonRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/evidence': {
-      id: '/evidence'
-      path: '/evidence'
-      fullPath: '/evidence'
-      preLoaderRoute: typeof EvidenceRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/attune': {
       id: '/attune'
       path: '/attune'
       fullPath: '/attune'
       preLoaderRoute: typeof AttuneRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/compare': {
-      id: '/compare'
-      path: '/compare'
-      fullPath: '/compare'
-      preLoaderRoute: typeof CompareRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -198,8 +198,8 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AttuneRoute: AttuneRoute,
-  CompareRoute: CompareRoute,
   ColophonRoute: ColophonRoute,
+  CompareRoute: CompareRoute,
   DirectoryRoute: DirectoryRoute,
   EvidenceRoute: EvidenceRoute,
   LexiconRoute: LexiconRoute,
