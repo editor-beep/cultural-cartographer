@@ -1737,17 +1737,16 @@
     },
     {
       "artifactSlug": "inland-empire",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:50:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
       "metrics": {
         "consensus": {
-          "value": 86,
-          "confidence": 0.35,
+          "value": 31,
+          "confidence": 0.94,
           "components": {
-            "spread": 3.5,
-            "meanScore": 53.5
+            "narrative_disarray": 0.98
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1755,11 +1754,10 @@
           ]
         },
         "friction": {
-          "value": 24.15,
-          "confidence": 0.35,
+          "value": 62,
+          "confidence": 0.89,
           "components": {
-            "spread": 3.5,
-            "distanceFromMidpoint": 3.5
+            "meaning_refusal": 0.85
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1767,11 +1765,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.96,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "forum_archaeology": 0.97
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1779,11 +1776,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 98,
+          "confidence": 0.98,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "uncanny_valley_residue": 0.99
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1791,11 +1787,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 99,
+          "confidence": 0.97,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "semiotic_overload": 1.0
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1803,12 +1798,10 @@
           ]
         },
         "cult": {
-          "value": 50.6,
-          "confidence": 0.35,
+          "value": 85,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 2,
-            "meanScore": 53.5
+            "auteur_devotion": 0.92
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1816,11 +1809,10 @@
           ]
         },
         "formal": {
-          "value": 75.08,
-          "confidence": 0.35,
+          "value": 98,
+          "confidence": 0.98,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 136.5
+            "lo_fi_abstraction": 0.95
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1828,11 +1820,10 @@
           ]
         },
         "voltage": {
-          "value": 3.85,
-          "confidence": 0.35,
+          "value": 84,
+          "confidence": 0.92,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 3.5
+            "dread_sustain": 0.9
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1840,10 +1831,10 @@
           ]
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 5,
+          "confidence": 0.99,
           "components": {
-            "avgLength": 136.5
+            "non_linear_hostility": 0.98
           },
           "evidenceMentionIds": [
             "inland-empire:seed-curation:inland-empire-seed-curation",
@@ -1852,11 +1843,8 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
@@ -2605,105 +2593,96 @@
     },
     {
       "artifactSlug": "the-act-of-killing",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:50:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 82,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "moral_unanimity": 0.9
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 71,
+          "confidence": 0.9,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "representational_ethics": 0.95
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 64,
+          "confidence": 0.88,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "academic_citation": 0.82
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 99,
+          "confidence": 0.99,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "ethical_trauma_residue": 1.0
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 78,
+          "confidence": 0.91,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "performative_theory": 0.94
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 18,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "documentary_prestige": 0.9
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "formal": {
-          "value": 10.45,
-          "confidence": 0.18,
+          "value": 96,
+          "confidence": 0.97,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 19
+            "meta_documentary_structure": 0.98
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 97,
+          "confidence": 0.98,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "moral_nausea": 0.99
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 69.6,
-          "confidence": 0.18,
+          "value": 31,
+          "confidence": 0.89,
           "components": {
-            "avgLength": 19
+            "psychological_toll": 0.95
           },
           "evidenceMentionIds": [
             "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
@@ -2711,115 +2690,103 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
       "artifactSlug": "mandy",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:50:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 76,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "genre_reception": 0.82
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 34,
+          "confidence": 0.85,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "tonal_split": 0.4
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 82,
+          "confidence": 0.9,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "merchandise_velocity": 0.88,
+            "visual_quotation": 0.91
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 71,
+          "confidence": 0.87,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "color_saturation_persistence": 0.85
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 54,
+          "confidence": 0.82,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "mythic_archetypes": 0.7
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 92,
+          "confidence": 0.94,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "instant_canonization": 0.95
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "formal": {
-          "value": 8.8,
-          "confidence": 0.18,
+          "value": 79,
+          "confidence": 0.91,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 16
+            "maximalist_texture": 0.88
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 94,
+          "confidence": 0.95,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "heavy_metal_catharsis": 0.96
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 74.4,
-          "confidence": 0.18,
+          "value": 58,
+          "confidence": 0.88,
           "components": {
-            "avgLength": 16
+            "genre_familiarity": 0.75
           },
           "evidenceMentionIds": [
             "mandy:seed-curation:mandy-seed-curation"
@@ -2827,12 +2794,8 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
@@ -3417,105 +3380,96 @@
     },
     {
       "artifactSlug": "the-witch",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:50:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 79,
+          "confidence": 0.95,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critical_favor": 0.9
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 51,
+          "confidence": 0.91,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "elevated_horror_debate": 0.88
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 77,
+          "confidence": 0.89,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "historical_accuracy_tracking": 0.85
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 86,
+          "confidence": 0.94,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "folk_terror_residue": 0.91
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 84,
+          "confidence": 0.92,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "puritan_theology": 0.89
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 55,
+          "confidence": 0.84,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "aesthetic_adoption": 0.6
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "formal": {
-          "value": 9.35,
-          "confidence": 0.18,
+          "value": 72,
+          "confidence": 0.9,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 17
+            "linguistic_rigor": 0.95
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 73,
+          "confidence": 0.88,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "dread_pressure": 0.82
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 72.8,
-          "confidence": 0.18,
+          "value": 52,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 17
+            "dialect_barrier": 0.7
           },
           "evidenceMentionIds": [
             "the-witch:seed-curation:the-witch-seed-curation"
@@ -3523,12 +3477,8 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
@@ -4075,96 +4025,96 @@
     },
     {
       "artifactSlug": "inception-2010",
-      "computedAt": "2026-05-12T15:20:00.000Z",
+      "computedAt": "2026-05-12T05:50:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 91,
-          "confidence": 0.99,
+          "value": 88,
+          "confidence": 0.97,
           "components": {
-            "curatedValue": true
+            "blockbuster_stability": 0.95
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "friction": {
-          "value": 8,
-          "confidence": 0.98,
+          "value": 42,
+          "confidence": 0.92,
           "components": {
-            "curatedValue": true
+            "ending_debate": 0.98
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "obsession": {
-          "value": 96,
-          "confidence": 0.99,
+          "value": 85,
+          "confidence": 0.94,
           "components": {
-            "curatedValue": true
+            "diagram_culture": 0.99
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "haunting": {
-          "value": 71,
-          "confidence": 0.92,
+          "value": 48,
+          "confidence": 0.86,
           "components": {
-            "curatedValue": true
+            "concept_persistence": 0.6
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 89,
-          "confidence": 0.97,
+          "value": 61,
+          "confidence": 0.9,
           "components": {
-            "curatedValue": true
+            "structural_mapping": 0.92
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "cult": {
-          "value": 35,
-          "confidence": 0.85,
+          "value": 12,
+          "confidence": 0.88,
           "components": {
-            "curatedValue": true
+            "mass_market_integration": 0.95
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "formal": {
-          "value": 82,
-          "confidence": 0.94,
+          "value": 68,
+          "confidence": 0.93,
           "components": {
-            "curatedValue": true
+            "narrative_complexity": 0.85
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "voltage": {
-          "value": 85,
-          "confidence": 0.92,
+          "value": 81,
+          "confidence": 0.91,
           "components": {
-            "curatedValue": true
+            "spectacle_intensity": 0.88
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 89,
-          "confidence": 0.98,
+          "value": 74,
+          "confidence": 0.95,
           "components": {
-            "curatedValue": true
+            "exposition_delivery": 0.9
           },
           "evidenceMentionIds": [
             "inception-2010:seed-curation:inception-2010-seed-curation"
@@ -4172,7 +4122,7 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       }
     },
