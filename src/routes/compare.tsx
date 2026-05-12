@@ -71,24 +71,23 @@ function Compare() {
       {/* Slot selectors */}
       <section className="relative z-10 mx-auto mt-10 max-w-[1400px] px-8">
         <div className="flex flex-wrap items-center gap-3">
-          {[0, 1].map((i) => (
+          {[0, 1, 2]
+            .filter(
+              (i) =>
+                i < 2 ||
+                (artA && artB) ||
+                (Boolean(slugs[2]) && Boolean(artA || artB)),
+            )
+            .map((i) => (
             <SlotSelector
               key={i}
               color={SLOT_COLORS[i]}
               value={slugs[i]}
               onChange={(v) => setSlot(i, v)}
               exclude={slugs.filter((_, j) => j !== i).filter(Boolean) as string[]}
+              placeholder={i === 2 ? "— add third —" : undefined}
             />
           ))}
-          {artA && artB && (
-            <SlotSelector
-              color={SLOT_COLORS[2]}
-              value={slugs[2]}
-              onChange={(v) => setSlot(2, v)}
-              exclude={[a, b].filter(Boolean) as string[]}
-              placeholder="— add third —"
-            />
-          )}
         </div>
       </section>
 
