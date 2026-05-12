@@ -134,11 +134,11 @@ function describeViewerShape(metrics: Metrics) {
     };
   }
 
-  const dominant = AXES.reduce((best, axis) =>
-    metrics[axis.key] > metrics[best] ? axis.key : best,
+  const dominantAxis = AXES.map((axis) => axis.key).reduce((bestKey, key) =>
+    metrics[key] > metrics[bestKey] ? key : bestKey,
   AXES[0].key);
 
-  return SHAPE_BY_AXIS[dominant];
+  return SHAPE_BY_AXIS[dominantAxis];
 }
 
 function centerOfGravity(metrics: Metrics) {
