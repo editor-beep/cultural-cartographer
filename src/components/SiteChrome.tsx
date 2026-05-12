@@ -2,6 +2,7 @@ import { Link, useLocation } from "@tanstack/react-router";
 
 const NAV = [
   { to: "/", label: "Atlas" },
+  { to: "/directory", label: "Directory" },
   { to: "/attune", label: "Attune" },
   { to: "/lexicon", label: "Lexicon" },
   { to: "/colophon", label: "Colophon" },
