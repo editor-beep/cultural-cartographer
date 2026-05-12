@@ -1501,7 +1501,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -1831,7 +1831,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -2004,11 +2004,11 @@
       "catalogue": "ARTX-013",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 72,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critic_alignment": 0.85,
+            "audience_split": 0.59
           },
           "evidence": [
             {
@@ -2026,11 +2026,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 45,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "interpretive_drift": 0.4
           },
           "evidence": [
             {
@@ -2048,11 +2047,11 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "long_tail_mentions": 0.92,
+            "visual_citation": 0.86
           },
           "evidence": [
             {
@@ -2070,11 +2069,11 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 96,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "dream_lexicon": 0.98,
+            "visceral_recall": 0.94
           },
           "evidence": [
             {
@@ -2092,11 +2091,11 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "academic_volume": 0.78,
+            "motif_tracking": 0.85
           },
           "evidence": [
             {
@@ -2114,12 +2113,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 61,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "reclamation_slope": 0.55
           },
           "evidence": [
             {
@@ -2137,11 +2134,11 @@
           ]
         },
         "formal": {
-          "value": 6.6,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 12
+            "structural_risk": 0.88,
+            "audio_abstraction": 0.94
           },
           "evidence": [
             {
@@ -2159,11 +2156,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 78,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "physiological_response": 0.82
           },
           "evidence": [
             {
@@ -2181,10 +2177,10 @@
           ]
         },
         "accessibility": {
-          "value": 80.8,
-          "confidence": 0.35,
+          "value": 28,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 12
+            "entry_barrier": 0.72
           },
           "evidence": [
             {
@@ -2203,15 +2199,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:22:10.000Z",
+        "lastComputedAt": "2026-05-12T02:00:00.000Z"
       }
     },
     {
@@ -2223,11 +2216,10 @@
       "catalogue": "ARTX-014",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 15,
+          "confidence": 0.98,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "polarization_index": 0.95
           },
           "evidence": [
             {
@@ -2245,11 +2237,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "discourse_longevity": 0.88
           },
           "evidence": [
             {
@@ -2267,11 +2258,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 68,
+          "confidence": 0.85,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "rewatch_curiosity": 0.72
           },
           "evidence": [
             {
@@ -2289,11 +2279,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 84,
+          "confidence": 0.9,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "intrusive_imagery": 0.89
           },
           "evidence": [
             {
@@ -2311,11 +2300,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 97,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "allegorical_density": 0.98
           },
           "evidence": [
             {
@@ -2333,12 +2321,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 42,
+          "confidence": 0.8,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "advocacy_growth": 0.45
           },
           "evidence": [
             {
@@ -2356,11 +2342,10 @@
           ]
         },
         "formal": {
-          "value": 36.3,
-          "confidence": 0.35,
+          "value": 88,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 66
+            "camera_subjectivity": 0.92
           },
           "evidence": [
             {
@@ -2378,11 +2363,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 95,
+          "confidence": 0.97,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "anxiety_induction": 0.98
           },
           "evidence": [
             {
@@ -2400,10 +2384,10 @@
           ]
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 35,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 66
+            "metaphorical_barrier": 0.68
           },
           "evidence": [
             {
@@ -2422,15 +2406,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T12:00:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2442,11 +2423,10 @@
       "catalogue": "ARTX-015",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 52,
+          "confidence": 0.9,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "prestige_agreement": 0.75
           },
           "evidence": [
             {
@@ -2464,11 +2444,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 67,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "pacing_dispute": 0.8
           },
           "evidence": [
             {
@@ -2486,11 +2465,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.94,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "philosophical_utility": 0.95
           },
           "evidence": [
             {
@@ -2508,11 +2486,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 87,
+          "confidence": 0.92,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "nostalgic_residue": 0.9
           },
           "evidence": [
             {
@@ -2530,11 +2507,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "theological_density": 0.98
           },
           "evidence": [
             {
@@ -2552,12 +2528,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 38,
+          "confidence": 0.81,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "institutional_support": 0.9
           },
           "evidence": [
             {
@@ -2575,11 +2549,10 @@
           ]
         },
         "formal": {
-          "value": 31.08,
-          "confidence": 0.35,
+          "value": 93,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 56.5
+            "non_linear_structure": 0.94
           },
           "evidence": [
             {
@@ -2597,11 +2570,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "aesthetic_awe": 0.95
           },
           "evidence": [
             {
@@ -2619,10 +2591,10 @@
           ]
         },
         "accessibility": {
-          "value": 9.6,
-          "confidence": 0.35,
+          "value": 22,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 56.5
+            "narrative_opacity": 0.88
           },
           "evidence": [
             {
@@ -2641,15 +2613,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:45:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -6215,11 +6184,10 @@
       "catalogue": "ARTX-032",
       "metrics": {
         "consensus": {
-          "value": 38,
-          "confidence": 0.91,
+          "value": 24,
+          "confidence": 0.96,
           "components": {
-            "spread": 15.5,
-            "meanScore": 44
+            "ironic_gap": 0.92
           },
           "evidence": [
             {
@@ -6231,11 +6199,10 @@
           ]
         },
         "friction": {
-          "value": 88,
-          "confidence": 0.94,
+          "value": 81,
+          "confidence": 0.93,
           "components": {
-            "spread": 14.67,
-            "distanceFromMidpoint": 8.8
+            "intent_debate": 0.95
           },
           "evidence": [
             {
@@ -6247,11 +6214,10 @@
           ]
         },
         "obsession": {
-          "value": 74,
-          "confidence": 0.89,
+          "value": 86,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "camp_longevity": 0.89
           },
           "evidence": [
             {
@@ -6263,11 +6229,10 @@
           ]
         },
         "haunting": {
-          "value": 18,
-          "confidence": 0.85,
+          "value": 31,
+          "confidence": 0.82,
           "components": {
-            "hauntingHits": 1.29,
-            "symbolDensity": 8
+            "unintentional_recall": 0.4
           },
           "evidence": [
             {
@@ -6279,11 +6244,10 @@
           ]
         },
         "symbolic": {
-          "value": 62,
-          "confidence": 0.82,
+          "value": 79,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 6.89,
-            "symbolDensity": 8
+            "satirical_reconstruction": 0.82
           },
           "evidence": [
             {
@@ -6295,12 +6259,10 @@
           ]
         },
         "cult": {
-          "value": 97,
-          "confidence": 0.96,
+          "value": 98,
+          "confidence": 0.97,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "critical_reclamation": 0.99
           },
           "evidence": [
             {
@@ -6312,11 +6274,10 @@
           ]
         },
         "formal": {
-          "value": 21,
-          "confidence": 0.93,
+          "value": 55,
+          "confidence": 0.85,
           "components": {
-            "theoryHits": 3.5,
-            "avgLength": 30
+            "stylistic_excess": 0.88
           },
           "evidence": [
             {
@@ -6328,11 +6289,10 @@
           ]
         },
         "voltage": {
-          "value": 82,
-          "confidence": 0.88,
+          "value": 72,
+          "confidence": 0.89,
           "components": {
-            "emotionHits": 6.83,
-            "distanceFromMidpoint": 6.56
+            "performative_intensity": 0.78
           },
           "evidence": [
             {
@@ -6344,10 +6304,10 @@
           ]
         },
         "accessibility": {
-          "value": 75,
-          "confidence": 0.96,
+          "value": 85,
+          "confidence": 0.94,
           "components": {
-            "avgLength": 15.62
+            "textual_simplicity": 0.9
           },
           "evidence": [
             {
@@ -6360,12 +6320,12 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-11T20:15:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -6539,11 +6499,10 @@
       "catalogue": "ARTX-034",
       "metrics": {
         "consensus": {
-          "value": 85,
-          "confidence": 0.95,
+          "value": 98,
+          "confidence": 0.99,
           "components": {
-            "spread": 3.75,
-            "meanScore": 67.5
+            "universal_agreement_on_failure": 1.0
           },
           "evidence": [
             {
@@ -6555,11 +6514,10 @@
           ]
         },
         "friction": {
-          "value": 22,
-          "confidence": 0.92,
+          "value": 12,
+          "confidence": 0.95,
           "components": {
-            "spread": 3.67,
-            "distanceFromMidpoint": 2.2
+            "static_discourse": 0.9
           },
           "evidence": [
             {
@@ -6571,11 +6529,10 @@
           ]
         },
         "obsession": {
-          "value": 96,
+          "value": 95,
           "confidence": 0.98,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "ritualistic_repetition": 0.99
           },
           "evidence": [
             {
@@ -6587,11 +6544,10 @@
           ]
         },
         "haunting": {
-          "value": 31,
-          "confidence": 0.82,
+          "value": 24,
+          "confidence": 0.84,
           "components": {
-            "hauntingHits": 2.21,
-            "symbolDensity": 8
+            "meme_echo": 0.7
           },
           "evidence": [
             {
@@ -6603,11 +6559,10 @@
           ]
         },
         "symbolic": {
-          "value": 84,
-          "confidence": 0.89,
+          "value": 18,
+          "confidence": 0.8,
           "components": {
-            "theoryHits": 9.33,
-            "symbolDensity": 8
+            "interpretive_void": 0.95
           },
           "evidence": [
             {
@@ -6622,9 +6577,7 @@
           "value": 99,
           "confidence": 0.99,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "audience_participation": 1.0
           },
           "evidence": [
             {
@@ -6636,11 +6589,10 @@
           ]
         },
         "formal": {
-          "value": 74,
-          "confidence": 0.9,
+          "value": 15,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 12.33,
-            "avgLength": 20
+            "unintentional_deviation": 0.9
           },
           "evidence": [
             {
@@ -6652,11 +6604,10 @@
           ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 88,
+          "confidence": 0.92,
           "components": {
-            "emotionHits": 5.67,
-            "distanceFromMidpoint": 5.44
+            "laughter_as_physiology": 0.94
           },
           "evidence": [
             {
@@ -6668,10 +6619,10 @@
           ]
         },
         "accessibility": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 92,
+          "confidence": 0.96,
           "components": {
-            "avgLength": 55
+            "comprehension_ease": 0.98
           },
           "evidence": [
             {
@@ -6684,12 +6635,12 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T01:10:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -7011,7 +6962,7 @@
       "slug": "enter-the-void-2009",
       "title": "Enter the Void",
       "year": 2009,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 161,
       "catalogue": "ARTX-038",
       "metrics": {
@@ -7470,15 +7421,15 @@
       "slug": "climax-2018",
       "title": "Climax",
       "year": 2018,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 96,
       "catalogue": "ARTX-041",
       "metrics": {
         "consensus": {
-          "value": 72,
-          "confidence": 0.92,
+          "value": 62,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "genre_alignment": 0.65
           },
           "evidence": [
             {
@@ -7490,10 +7441,10 @@
           ]
         },
         "friction": {
-          "value": 35,
-          "confidence": 0.88,
+          "value": 58,
+          "confidence": 0.84,
           "components": {
-            "curatedValue": true
+            "ethical_dispute": 0.62
           },
           "evidence": [
             {
@@ -7505,10 +7456,10 @@
           ]
         },
         "obsession": {
-          "value": 86,
-          "confidence": 0.94,
+          "value": 74,
+          "confidence": 0.88,
           "components": {
-            "curatedValue": true
+            "visual_looping": 0.81
           },
           "evidence": [
             {
@@ -7520,10 +7471,10 @@
           ]
         },
         "haunting": {
-          "value": 97,
-          "confidence": 0.99,
+          "value": 89,
+          "confidence": 0.92,
           "components": {
-            "curatedValue": true
+            "auditory_persistence": 0.85
           },
           "evidence": [
             {
@@ -7535,10 +7486,10 @@
           ]
         },
         "symbolic": {
-          "value": 61,
-          "confidence": 0.84,
+          "value": 41,
+          "confidence": 0.82,
           "components": {
-            "curatedValue": true
+            "thematic_simplicity": 0.7
           },
           "evidence": [
             {
@@ -7550,10 +7501,10 @@
           ]
         },
         "cult": {
-          "value": 91,
-          "confidence": 0.97,
+          "value": 77,
+          "confidence": 0.87,
           "components": {
-            "curatedValue": true
+            "subculture_adoption": 0.88
           },
           "evidence": [
             {
@@ -7565,10 +7516,10 @@
           ]
         },
         "formal": {
-          "value": 96,
-          "confidence": 0.98,
+          "value": 95,
+          "confidence": 0.95,
           "components": {
-            "curatedValue": true
+            "cinematographic_risk": 0.98
           },
           "evidence": [
             {
@@ -7580,10 +7531,10 @@
           ]
         },
         "voltage": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 98,
+          "confidence": 0.96,
           "components": {
-            "curatedValue": true
+            "kinetic_overload": 0.99
           },
           "evidence": [
             {
@@ -7595,10 +7546,10 @@
           ]
         },
         "accessibility": {
-          "value": 24,
-          "confidence": 0.91,
+          "value": 44,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "sensory_barrier": 0.75
           },
           "evidence": [
             {
@@ -7611,12 +7562,12 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
-        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+        "lastCollectedAt": "2026-05-10T09:30:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     }
   ]
