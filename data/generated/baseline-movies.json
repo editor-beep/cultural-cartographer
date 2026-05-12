@@ -1,0 +1,1999 @@
+{
+  "schemaVersion": "1.0.0",
+  "methodVersion": "2026.05.12.v1",
+  "generatedAt": "2026-05-12T03:37:03.176Z",
+  "movies": [
+    {
+      "slug": "fire-walk-with-me",
+      "title": "Twin Peaks: Fire Walk with Me",
+      "year": 1992,
+      "director": "David Lynch",
+      "runtime": 134,
+      "catalogue": "ARTX-001",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidence": [
+            {
+              "mentionId": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://fire-walk-with-me",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "mulholland-dr",
+      "title": "Mulholland Dr.",
+      "year": 2001,
+      "director": "David Lynch",
+      "runtime": 147,
+      "catalogue": "ARTX-002",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidence": [
+            {
+              "mentionId": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://mulholland-dr",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "hereditary",
+      "title": "Hereditary",
+      "year": 2018,
+      "director": "Ari Aster",
+      "runtime": 127,
+      "catalogue": "ARTX-003",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "hereditary:seed-curation:hereditary-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://hereditary",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "synecdoche-new-york",
+      "title": "Synecdoche, New York",
+      "year": 2008,
+      "director": "Charlie Kaufman",
+      "runtime": 124,
+      "catalogue": "ARTX-004",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://synecdoche-new-york",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "in-the-mood-for-love",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "director": "Wong Kar-wai",
+      "runtime": 98,
+      "catalogue": "ARTX-005",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 57
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 6.3,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 57
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 7.7,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://in-the-mood-for-love",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "stalker",
+      "title": "Stalker",
+      "year": 1979,
+      "director": "Andrei Tarkovsky",
+      "runtime": 162,
+      "catalogue": "ARTX-006",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "stalker:seed-curation:stalker-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://stalker",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "killers-of-the-flower-moon",
+      "title": "Killers of the Flower Moon",
+      "year": 2023,
+      "director": "Martin Scorsese",
+      "runtime": 206,
+      "catalogue": "ARTX-007",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidence": [
+            {
+              "mentionId": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://killers-of-the-flower-moon",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "the-master",
+      "title": "The Master",
+      "year": 2012,
+      "director": "Paul Thomas Anderson",
+      "runtime": 137,
+      "catalogue": "ARTX-008",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "the-master:seed-curation:the-master-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://the-master",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "annihilation",
+      "title": "Annihilation",
+      "year": 2018,
+      "director": "Alex Garland",
+      "runtime": 115,
+      "catalogue": "ARTX-009",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "annihilation:seed-curation:annihilation-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://annihilation",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "possession",
+      "title": "Possession",
+      "year": 1981,
+      "director": "Andrzej Żuławski",
+      "runtime": 124,
+      "catalogue": "ARTX-010",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "possession:seed-curation:possession-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://possession",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "eyes-wide-shut",
+      "title": "Eyes Wide Shut",
+      "year": 1999,
+      "director": "Stanley Kubrick",
+      "runtime": 159,
+      "catalogue": "ARTX-011",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidence": [
+            {
+              "mentionId": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://eyes-wide-shut",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "tar",
+      "title": "Tár",
+      "year": 2022,
+      "director": "Todd Field",
+      "runtime": 158,
+      "catalogue": "ARTX-012",
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidence": [
+            {
+              "mentionId": "tar:seed-curation:tar-seed-curation",
+              "source": "seed-curation",
+              "sourceUrl": "seed://tar",
+              "timestamp": "2026-05-12T03:36:57.091Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "annihilation:seed-curation:annihilation-seed-curation",
+    "artifactSlug": "annihilation",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://annihilation",
+    "sourceId": "annihilation-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation",
+    "artifactSlug": "eyes-wide-shut",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://eyes-wide-shut",
+    "sourceId": "eyes-wide-shut-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Eyes Wide Shut (1999) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation",
+    "artifactSlug": "fire-walk-with-me",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://fire-walk-with-me",
+    "sourceId": "fire-walk-with-me-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Twin Peaks: Fire Walk with Me (1992) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "hereditary:seed-curation:hereditary-seed-curation",
+    "artifactSlug": "hereditary",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://hereditary",
+    "sourceId": "hereditary-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation",
+    "artifactSlug": "in-the-mood-for-love",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://in-the-mood-for-love",
+    "sourceId": "in-the-mood-for-love-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 57,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
+    "artifactSlug": "killers-of-the-flower-moon",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://killers-of-the-flower-moon",
+    "sourceId": "killers-of-the-flower-moon-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "mulholland-dr:seed-curation:mulholland-dr-seed-curation",
+    "artifactSlug": "mulholland-dr",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://mulholland-dr",
+    "sourceId": "mulholland-dr-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Mulholland Dr. (2001) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "possession:seed-curation:possession-seed-curation",
+    "artifactSlug": "possession",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://possession",
+    "sourceId": "possession-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "stalker:seed-curation:stalker-seed-curation",
+    "artifactSlug": "stalker",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://stalker",
+    "sourceId": "stalker-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation",
+    "artifactSlug": "synecdoche-new-york",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://synecdoche-new-york",
+    "sourceId": "synecdoche-new-york-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Synecdoche, New York (2008) directed by Charlie Kaufman. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "tar:seed-curation:tar-seed-curation",
+    "artifactSlug": "tar",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://tar",
+    "sourceId": "tar-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  },
+  {
+    "id": "the-master:seed-curation:the-master-seed-curation",
+    "artifactSlug": "the-master",
+    "source": "seed-curation",
+    "sourceKind": "seed",
+    "sourceUrl": "seed://the-master",
+    "sourceId": "the-master-seed-curation",
+    "postedAt": "2026-05-12T03:36:57.091Z",
+    "fetchedAt": "2026-05-12T03:36:57.091Z",
+    "lang": "en",
+    "body": "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+    "score": 50,
+    "sourceReliability": 0.5,
+    "metadata": {
+      "method": "systematic-movie-pipeline"
+    }
+  }
+]

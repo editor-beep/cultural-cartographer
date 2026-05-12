@@ -1,0 +1,726 @@
+{
+  "generatedAt": "2026-05-12T03:37:03.180Z",
+  "methodVersion": "2026.05.12.v1",
+  "artifacts": [
+    {
+      "slug": "fire-walk-with-me",
+      "title": "Twin Peaks: Fire Walk with Me",
+      "year": 1992,
+      "director": "David Lynch",
+      "runtime": 134,
+      "catalogue": "ARTX-001",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "peaks",
+        "directed",
+        "david",
+        "lynch",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Twin Peaks: Fire Walk with Me (1992) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "mulholland-dr",
+      "title": "Mulholland Dr.",
+      "year": 2001,
+      "director": "David Lynch",
+      "runtime": 147,
+      "catalogue": "ARTX-002",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 73
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "mulholland",
+        "directed",
+        "david",
+        "lynch",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Mulholland Dr. (2001) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "hereditary",
+      "title": "Hereditary",
+      "year": 2018,
+      "director": "Ari Aster",
+      "runtime": 127,
+      "catalogue": "ARTX-003",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "hereditary",
+        "directed",
+        "aster",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "synecdoche-new-york",
+      "title": "Synecdoche, New York",
+      "year": 2008,
+      "director": "Charlie Kaufman",
+      "runtime": 124,
+      "catalogue": "ARTX-004",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 71
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "synecdoche",
+        "directed",
+        "charlie",
+        "kaufman",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Synecdoche, New York (2008) directed by Charlie Kaufman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "in-the-mood-for-love",
+      "title": "In the Mood for Love",
+      "year": 2000,
+      "director": "Wong Kar-wai",
+      "runtime": 98,
+      "catalogue": "ARTX-005",
+      "metrics": {
+        "consensus": 100,
+        "friction": 6,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 11,
+        "voltage": 8,
+        "accessibility": 68
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "directed",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration",
+        "systematic",
+        "scoring"
+      ],
+      "factions": [
+        {
+          "name": "devoted",
+          "share": 1,
+          "voice": "In the Mood for Love (2000) directed by Wong Kar-wai. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "stalker",
+      "title": "Stalker",
+      "year": 1979,
+      "director": "Andrei Tarkovsky",
+      "runtime": 162,
+      "catalogue": "ARTX-006",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "stalker",
+        "directed",
+        "andrei",
+        "tarkovsky",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "killers-of-the-flower-moon",
+      "title": "Killers of the Flower Moon",
+      "year": 2023,
+      "director": "Martin Scorsese",
+      "runtime": 206,
+      "catalogue": "ARTX-007",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 11,
+        "voltage": 0,
+        "accessibility": 68
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "killers",
+        "flower",
+        "directed",
+        "martin",
+        "scorsese",
+        "curated",
+        "baseline",
+        "artifact"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "the-master",
+      "title": "The Master",
+      "year": 2012,
+      "director": "Paul Thomas Anderson",
+      "runtime": 137,
+      "catalogue": "ARTX-008",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 71
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "master",
+        "directed",
+        "thomas",
+        "anderson",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "annihilation",
+      "title": "Annihilation",
+      "year": 2018,
+      "director": "Alex Garland",
+      "runtime": 115,
+      "catalogue": "ARTX-009",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "annihilation",
+        "directed",
+        "garland",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "possession",
+      "title": "Possession",
+      "year": 1981,
+      "director": "Andrzej Żuławski",
+      "runtime": 124,
+      "catalogue": "ARTX-010",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "possession",
+        "directed",
+        "andrzej",
+        "awski",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "eyes-wide-shut",
+      "title": "Eyes Wide Shut",
+      "year": 1999,
+      "director": "Stanley Kubrick",
+      "runtime": 159,
+      "catalogue": "ARTX-011",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 10,
+        "voltage": 0,
+        "accessibility": 71
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "directed",
+        "stanley",
+        "kubrick",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Eyes Wide Shut (1999) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    },
+    {
+      "slug": "tar",
+      "title": "Tár",
+      "year": 2022,
+      "director": "Todd Field",
+      "runtime": 158,
+      "catalogue": "ARTX-012",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 9,
+        "voltage": 0,
+        "accessibility": 74
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [
+        "directed",
+        "field",
+        "curated",
+        "baseline",
+        "artifact",
+        "metric",
+        "calibration",
+        "systematic"
+      ],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T03:36:57.091Z",
+        "lastComputedAt": "2026-05-12T03:37:03.176Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1398 @@
+{
+  "methodVersion": "2026.05.12.v1",
+  "computedAt": "2026-05-12T03:37:03.176Z",
+  "snapshots": [
+    {
+      "artifactSlug": "fire-walk-with-me",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11.55,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 66.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 21
+          },
+          "evidenceMentionIds": [
+            "fire-walk-with-me:seed-curation:fire-walk-with-me-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mulholland-dr",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "mulholland-dr:seed-curation:mulholland-dr-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "hereditary",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "hereditary:seed-curation:hereditary-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "synecdoche-new-york",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "synecdoche-new-york:seed-curation:synecdoche-new-york-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "in-the-mood-for-love",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 6.3,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 7.7,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "in-the-mood-for-love:seed-curation:in-the-mood-for-love-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "stalker",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "stalker:seed-curation:stalker-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "killers-of-the-flower-moon",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 11,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 68,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 20
+          },
+          "evidenceMentionIds": [
+            "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-master",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "the-master:seed-curation:the-master-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "annihilation",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "annihilation:seed-curation:annihilation-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "possession",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "possession:seed-curation:possession-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "eyes-wide-shut",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.9,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 71.2,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 18
+          },
+          "evidenceMentionIds": [
+            "eyes-wide-shut:seed-curation:eyes-wide-shut-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "tar",
+      "computedAt": "2026-05-12T03:37:03.176Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "tar:seed-curation:tar-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    }
+  ]
+}
