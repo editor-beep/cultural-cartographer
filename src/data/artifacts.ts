@@ -594,7 +594,7 @@ function adaptGenerated(g: GeneratedArtifact): Artifact {
 }
 
 const curatedSlugs = new Set(CURATED.map((a) => a.slug));
-const generatedExtras: Artifact[] = (generatedData.artifacts as GeneratedArtifact[])
+const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
   .filter((g) => !curatedSlugs.has(g.slug))
   .map(adaptGenerated);
 
