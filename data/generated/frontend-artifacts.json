@@ -2344,6 +2344,423 @@
         "lastCollectedAt": "2026-05-12T08:15:00.000Z",
         "lastComputedAt": "2026-05-12T08:15:00.000Z"
       }
+    },
+    {
+      "slug": "blade-runner-1982",
+      "title": "Blade Runner",
+      "year": 1982,
+      "director": "Ridley Scott",
+      "runtime": 117,
+      "catalogue": "ARTX-037",
+      "metrics": {
+        "consensus": 89,
+        "friction": 41,
+        "obsession": 95,
+        "haunting": 86,
+        "symbolic": 88,
+        "cult": 94,
+        "formal": 82,
+        "voltage": 76,
+        "accessibility": 58
+      },
+      "metricConfidence": {
+        "consensus": 0.98,
+        "friction": 0.94,
+        "obsession": 0.99,
+        "haunting": 0.92,
+        "symbolic": 0.95,
+        "cult": 0.97,
+        "formal": 0.93,
+        "voltage": 0.89,
+        "accessibility": 0.96
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "tears in rain",
+        "the unicorn",
+        "the replicant test",
+        "the origami",
+        "the eyes",
+        "the owl"
+      ],
+      "factions": [
+        {
+          "name": "The Replicant Theorists",
+          "share": 0.44,
+          "voice": "The unicorn is not ambiguous. The film has always known."
+        },
+        {
+          "name": "The Empiricists",
+          "share": 0.29,
+          "voice": "Deckard is human. The clues are misdirection."
+        },
+        {
+          "name": "The Aesthetes",
+          "share": 0.27,
+          "voice": "The argument is irrelevant. The city is the answer."
+        }
+      ],
+      "afterlife": [
+        {
+          "year": 1982,
+          "kind": "release",
+          "label": "Opens to mixed reviews and a disappointing box office."
+        },
+        {
+          "year": 1992,
+          "kind": "reissue",
+          "label": "Director's Cut restores the unicorn dream; reframes the debate."
+        },
+        {
+          "year": 2007,
+          "kind": "criterion",
+          "label": "The Final Cut \u2014 the definitive version released."
+        },
+        {
+          "year": 2017,
+          "kind": "rediscovery",
+          "label": "Blade Runner 2049 reignites the Deckard question."
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:30:00.000Z",
+        "lastComputedAt": "2026-05-12T08:30:00.000Z"
+      }
+    },
+    {
+      "slug": "titanic-1997",
+      "title": "Titanic",
+      "year": 1997,
+      "director": "James Cameron",
+      "runtime": 194,
+      "catalogue": "ARTX-038",
+      "metrics": {
+        "consensus": 94,
+        "friction": 18,
+        "obsession": 88,
+        "haunting": 42,
+        "symbolic": 31,
+        "cult": 22,
+        "formal": 45,
+        "voltage": 98,
+        "accessibility": 99
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.96,
+        "obsession": 0.95,
+        "haunting": 0.88,
+        "symbolic": 0.82,
+        "cult": 0.94,
+        "formal": 0.92,
+        "voltage": 0.99,
+        "accessibility": 1.0
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the necklace",
+        "the door",
+        "the bow",
+        "the iceberg",
+        "the sketch"
+      ],
+      "factions": [
+        {
+          "name": "The Weepers",
+          "share": 0.55,
+          "voice": "The body responds the same way every time. That is not nothing."
+        },
+        {
+          "name": "The Cynics",
+          "share": 0.29,
+          "voice": "A perfectly engineered machine for producing tears."
+        },
+        {
+          "name": "The Formalists",
+          "share": 0.16,
+          "voice": "The iceberg sequences are where the filmmaking lives."
+        }
+      ],
+      "afterlife": [
+        {
+          "year": 1997,
+          "kind": "release",
+          "label": "Record-breaking box office; cultural saturation from opening weekend."
+        },
+        {
+          "year": 1998,
+          "kind": "academic",
+          "label": "Eleven Academy Awards \u2014 ties the all-time record."
+        },
+        {
+          "year": 2012,
+          "kind": "reissue",
+          "label": "3D re-release marks the centenary of the disaster."
+        },
+        {
+          "year": 2023,
+          "kind": "reissue",
+          "label": "25th anniversary theatrical return."
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:30:00.000Z",
+        "lastComputedAt": "2026-05-12T08:30:00.000Z"
+      }
+    },
+    {
+      "slug": "mulholland-drive-2001",
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "director": "David Lynch",
+      "runtime": 147,
+      "catalogue": "ARTX-039",
+      "metrics": {
+        "consensus": 82,
+        "friction": 34,
+        "obsession": 79,
+        "haunting": 97,
+        "symbolic": 99,
+        "cult": 81,
+        "formal": 96,
+        "voltage": 89,
+        "accessibility": 24
+      },
+      "metricConfidence": {
+        "consensus": 0.94,
+        "friction": 0.91,
+        "obsession": 0.95,
+        "haunting": 0.98,
+        "symbolic": 0.99,
+        "cult": 0.88,
+        "formal": 0.97,
+        "voltage": 0.92,
+        "accessibility": 0.94
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the blue box",
+        "the red curtain",
+        "the cowboy",
+        "the diner",
+        "club silencio",
+        "the key"
+      ],
+      "factions": [
+        {
+          "name": "The Decoders",
+          "share": 0.48,
+          "voice": "Everything maps. Every object is a key."
+        },
+        {
+          "name": "The Surrendered",
+          "share": 0.32,
+          "voice": "Stop decoding. Let it install itself."
+        },
+        {
+          "name": "Hollywood-as-Hell",
+          "share": 0.2,
+          "voice": "The dream factory eating the dreamer."
+        }
+      ],
+      "afterlife": [
+        {
+          "year": 2001,
+          "kind": "release",
+          "label": "Palme d'Or-adjacent critical embrace after pilot rejection."
+        },
+        {
+          "year": 2010,
+          "kind": "rediscovery",
+          "label": "Decade-end polls canonize it."
+        },
+        {
+          "year": 2016,
+          "kind": "academic",
+          "label": "Sight & Sound top ten of the century."
+        },
+        {
+          "year": 2022,
+          "kind": "meme",
+          "label": "Club Silencio sequence circulates as a TikTok loop."
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:30:00.000Z",
+        "lastComputedAt": "2026-05-12T08:30:00.000Z"
+      }
+    },
+    {
+      "slug": "mean-girls-2004",
+      "title": "Mean Girls",
+      "year": 2004,
+      "director": "Mark Waters",
+      "runtime": 97,
+      "catalogue": "ARTX-040",
+      "metrics": {
+        "consensus": 97,
+        "friction": 5,
+        "obsession": 98,
+        "haunting": 12,
+        "symbolic": 45,
+        "cult": 15,
+        "formal": 11,
+        "voltage": 72,
+        "accessibility": 98
+      },
+      "metricConfidence": {
+        "consensus": 0.99,
+        "friction": 0.98,
+        "obsession": 0.99,
+        "haunting": 0.94,
+        "symbolic": 0.82,
+        "cult": 0.91,
+        "formal": 0.98,
+        "voltage": 0.88,
+        "accessibility": 0.99
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the burn book",
+        "the plastics",
+        "the halloween costume",
+        "fetch",
+        "october 3rd"
+      ],
+      "factions": [
+        {
+          "name": "The Speakers",
+          "share": 0.62,
+          "voice": "I do not quote it. I speak it."
+        },
+        {
+          "name": "The Formalists",
+          "share": 0.24,
+          "voice": "Tina Fey operating at situation comedy's highest formal register."
+        },
+        {
+          "name": "The Nostalgics",
+          "share": 0.14,
+          "voice": "A document of an exact cultural moment that cannot be revisited."
+        }
+      ],
+      "afterlife": [
+        {
+          "year": 2004,
+          "kind": "release",
+          "label": "Immediate cultural saturation; quotation begins on opening weekend."
+        },
+        {
+          "year": 2013,
+          "kind": "meme",
+          "label": "On Wednesdays we wear pink enters the calendar as ritual."
+        },
+        {
+          "year": 2018,
+          "kind": "reissue",
+          "label": "Broadway musical adaptation."
+        },
+        {
+          "year": 2024,
+          "kind": "rediscovery",
+          "label": "Film remake confirms franchise status."
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:30:00.000Z",
+        "lastComputedAt": "2026-05-12T08:30:00.000Z"
+      }
+    },
+    {
+      "slug": "skinamarink-2022",
+      "title": "Skinamarink",
+      "year": 2022,
+      "director": "Kyle Edward Ball",
+      "runtime": 100,
+      "catalogue": "ARTX-041",
+      "metrics": {
+        "consensus": 31,
+        "friction": 92,
+        "obsession": 54,
+        "haunting": 96,
+        "symbolic": 77,
+        "cult": 84,
+        "formal": 98,
+        "voltage": 85,
+        "accessibility": 8
+      },
+      "metricConfidence": {
+        "consensus": 0.89,
+        "friction": 0.95,
+        "obsession": 0.82,
+        "haunting": 0.98,
+        "symbolic": 0.91,
+        "cult": 0.93,
+        "formal": 0.99,
+        "voltage": 0.94,
+        "accessibility": 0.96
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": []
+      },
+      "symbols": [
+        "the ceiling",
+        "the carpet",
+        "the door",
+        "the tv static",
+        "the voice"
+      ],
+      "factions": [
+        {
+          "name": "The Destroyed",
+          "share": 0.44,
+          "voice": "It reached something I did not know was still accessible."
+        },
+        {
+          "name": "The Unmoved",
+          "share": 0.42,
+          "voice": "Unwatchable \u2014 and not in the way that matters."
+        },
+        {
+          "name": "The Formalists",
+          "share": 0.14,
+          "voice": "A threshold object in the history of horror form."
+        }
+      ],
+      "afterlife": [
+        {
+          "year": 2022,
+          "kind": "release",
+          "label": "Fantasia Film Festival premiere; immediate cult formation."
+        },
+        {
+          "year": 2023,
+          "kind": "rediscovery",
+          "label": "Shudder release triggers a second wave of discourse."
+        },
+        {
+          "year": 2023,
+          "kind": "rejection",
+          "label": "Nothing vs. everything \u2014 the binary hardens."
+        }
+      ],
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T08:30:00.000Z",
+        "lastComputedAt": "2026-05-12T08:30:00.000Z"
+      }
     }
   ]
 }
