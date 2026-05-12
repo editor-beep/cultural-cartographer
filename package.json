@@ -17,8 +17,10 @@
     "data:export": "node scripts/pipeline/systematic-movie-pipeline.mjs export",
     "data:refresh": "node scripts/pipeline/systematic-movie-pipeline.mjs refresh"
   },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "dependencies": {
-    "@cloudflare/vite-plugin": "^1.25.5",
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",
