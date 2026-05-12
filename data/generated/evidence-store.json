@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T03:37:03.180Z",
+  "generatedAt": "2026-05-12T05:55:42.592Z",
   "methodVersion": "2026.05.12.v1",
   "mentions": [
     {
@@ -13,6 +13,57 @@
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
       "body": "Annihilation (2018) directed by Alex Garland. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+      "artifactSlug": "beau-is-afraid",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://beau-is-afraid",
+      "sourceId": "beau-is-afraid-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Beau Is Afraid (2023) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "beau-is-afraid:wikipedia:66811047",
+      "artifactSlug": "beau-is-afraid",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
+      "sourceId": "66811047",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The film stars Joaquin Phoenix as the title character, and also includes a supporting cast consisting of Patti LuPone, Nathan Lane, Amy Ryan, Kylie Rogers, Parker Posey, Stephen McKinley Henderson, Hayley Squires, Michael Gandolfini, Zoe Lister-Jones, Armen Nahapetian, and Richard Kind. Its plot follows the mild-mannered but paranoia-ridden Beau as he embarks on a surreal odyssey to get home to his mother's house, realizing his greatest fears along the way.\nDistributed by A24, Beau Is Afraid premiered at the Alamo Drafthouse Cinema on April 1, 2023, and began a limited theatrical release in the United States on April 14, 2023, before a wide release the following week. The film received generally positive reviews from critics but was a box-office bomb, grossing $12 million against a net production cost of $35 million. Phoenix received a Golden Globe nomination for his performance.",
+      "score": 57,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "enemy:seed-curation:enemy-seed-curation",
+      "artifactSlug": "enemy",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://enemy",
+      "sourceId": "enemy-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Enemy (2013) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -54,6 +105,23 @@
       }
     },
     {
+      "id": "first-reformed:seed-curation:first-reformed-seed-curation",
+      "artifactSlug": "first-reformed",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://first-reformed",
+      "sourceId": "first-reformed-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "First Reformed (2017) directed by Paul Schrader. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "hereditary:seed-curation:hereditary-seed-curation",
       "artifactSlug": "hereditary",
       "source": "seed-curation",
@@ -66,6 +134,40 @@
       "body": "Hereditary (2018) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "holy-motors:seed-curation:holy-motors-seed-curation",
+      "artifactSlug": "holy-motors",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://holy-motors",
+      "sourceId": "holy-motors-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "holy-motors:wikipedia:32818732",
+      "artifactSlug": "holy-motors",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
+      "sourceId": "32818732",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to have a job as an actor, as he is seen dressing up in different costumes and performing various roles in several locations around Paris over the course of a day, though no cameras or audiences are ever seen around him. The film competed for the Palme d'Or at the 2012 Cannes Film Festival.",
+      "score": 50,
+      "sourceReliability": 0.7,
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
@@ -88,6 +190,40 @@
       }
     },
     {
+      "id": "inland-empire:seed-curation:inland-empire-seed-curation",
+      "artifactSlug": "inland-empire",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://inland-empire",
+      "sourceId": "inland-empire-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Inland Empire (2006) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "inland-empire:wikipedia:47523622",
+      "artifactSlug": "inland-empire",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inland_Empire",
+      "sourceId": "47523622",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing around the cities in Riverside and San Bernardino county with Los Angeles County and Orange County to the west. The region, at its narrowest definition, includes the cities of northwestern Riverside County and southwestern San Bernardino County that are part of the contiguous urbanized area of Greater Los Angeles. It is sometimes considered to include the desert communities of the Coachella and Victor Valleys, respectively on the other sides of the San Gorgonio Pass and San Bernardino Mountains from the Santa Ana River watershed that creates the majority of the Inland Empire. A much wider definition includes the entireties of Riverside and San Bernardino counties, stretching east to the Nevada and Arizona borders and covering a larger area than West Virginia; this definition is primarily used by the US Census Bureau, which exclusively delineates metropolitan areas at the county level.\nThe U.S. Census Bureau–defined Riverside–San Bernardino–Ontario metropolitan area, which comprises Riverside County and San Bernardino, California, covers more than 27,000 sq mi (70,000 km2) and had a population of about 4.6 million in 2020. At the end of the 19th century, the Inland Empire was a major center of agriculture, including citrus, dairy and winemaking. Agriculture declined through the 20th century and a rapidly increasing population, helped by families migrating in search of affordable housing, has led to more residential, industrial and commercial development since the 1970s.",
+      "score": 57,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "killers-of-the-flower-moon:seed-curation:killers-of-the-flower-moon-seed-curation",
       "artifactSlug": "killers-of-the-flower-moon",
       "source": "seed-curation",
@@ -100,6 +236,91 @@
       "body": "Killers of the Flower Moon (2023) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "mandy:seed-curation:mandy-seed-curation",
+      "artifactSlug": "mandy",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://mandy",
+      "sourceId": "mandy-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Mandy (2018) directed by Panos Cosmatos. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "melancholia:seed-curation:melancholia-seed-curation",
+      "artifactSlug": "melancholia",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://melancholia",
+      "sourceId": "melancholia-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "melancholia:wikipedia:20875",
+      "artifactSlug": "melancholia",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
+      "sourceId": "20875",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and premodern medicine in Europe that describes a condition characterized by markedly depressed mood, bodily complaints, and sometimes hallucinations and delusions. Besides a pathological condition, melancholy could also refer to a mood or temperament and at times it was even used as a description of the human condition in general.\nMelancholy (or more precisely the 'black bile', from which melancholy derives its name) was regarded as one of the four temperaments matching the four humours. Until the 18th century, doctors and other scholars classified melancholic conditions as such by their perceived common cause – an excess of a notional fluid known as \"black bile\", which was commonly linked to the spleen. Hippocrates and other ancient physicians described melancholia as a distinct disease with mental and physical symptoms, including persistent fears and despondencies, poor appetite, abulia, sleeplessness, irritability, and agitation. Later, fixed delusions were added by Galen and other physicians to the list of symptoms. In the Middle Ages, the understanding of melancholia shifted to a religious perspective, with sadness seen as a vice and demonic possession, rather than somatic causes, as a potential cause of the disease.\nDuring the late 16th and early 17th centuries, a cultural and literary cult of melancholia emerged in England, linked to Neoplatonist and humanist Marsilio Ficino's transformation of melancholia from a sign of vice into a mark of genius. This fashionable melancholy became a prominent theme in literature, art, and music of the era.\nBetween the late 18th and late 19th centuries, melancholia was a common medical diagnosis. In this period, the focus was on the abnormal beliefs associated with the disorder, rather than depression and affective symptoms. In the 19th century, melanc",
+      "score": 50,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "mother:seed-curation:mother-seed-curation",
+      "artifactSlug": "mother",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://mother",
+      "sourceId": "mother-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Mother! (2017) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "mother:wikipedia:48213513",
+      "artifactSlug": "mother",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mother!",
+      "sourceId": "48213513",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawrence, Javier Bardem, Ed Harris, Michelle Pfeiffer, Domhnall Gleeson, Brian Gleeson, and Kristen Wiig. Its plot follows a young woman whose tranquil life with her husband at their country home is disrupted by the arrival of a mysterious couple, leading to a series of increasingly chaotic and destructive events.\nMother! premiered on September 5, 2017, at the 74th Venice International Film Festival, where it competed for the Golden Lion. It was released in the United States by Paramount Pictures on September 15 to generally positive reviews from critics. The film grossed $44.5 million worldwide on $30 million production budget.",
+      "score": 50,
+      "sourceReliability": 0.7,
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
@@ -139,6 +360,57 @@
       }
     },
     {
+      "id": "saint-maud:seed-curation:saint-maud-seed-curation",
+      "artifactSlug": "saint-maud",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://saint-maud",
+      "sourceId": "saint-maud-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Saint Maud (2019) directed by Rose Glass. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "silent-light:seed-curation:silent-light-seed-curation",
+      "artifactSlug": "silent-light",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://silent-light",
+      "sourceId": "silent-light-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Silent Light (2007) directed by Carlos Reygadas. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "silent-light:wikipedia:12646576",
+      "artifactSlug": "silent-light",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Silent_Light",
+      "sourceId": "12646576",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexico, Silent Light tells the story of a Mennonite married man who falls in love with another woman, threatening his place in the conservative community. The dialogue is in Plautdietsch, the Low German dialect of the Mennonites. The film was selected as the Mexican entry for the Best Foreign Language Oscar at the 80th Academy Awards, but it did not make the shortlist. The film was nominated for Best Foreign Film at the 24th Independent Spirit Awards. It gained nine nominations, including all major categories, in the Ariel Awards, the Mexican national awards.\nMartin Scorsese described the work as \"A surprising picture and a very moving one as well\", while Barry Jenkins in 2019 named it as the best film of the 21st century. It was awarded the Jury Prize at the 2007 Cannes Film Festival. In 2017, the film was named the twenty-third \"Best Film of the 21st Century So Far\" by The New York Times.",
+      "score": 71,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "stalker:seed-curation:stalker-seed-curation",
       "artifactSlug": "stalker",
       "source": "seed-curation",
@@ -149,6 +421,23 @@
       "fetchedAt": "2026-05-12T03:36:57.091Z",
       "lang": "en",
       "body": "Stalker (1979) directed by Andrei Tarkovsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
+      "artifactSlug": "suspiria-2018",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://suspiria-2018",
+      "sourceId": "suspiria-2018-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Suspiria (2018) directed by Luca Guadagnino. Curated baseline artifact for metric calibration and systematic scoring initialization.",
       "score": 50,
       "sourceReliability": 0.5,
       "metadata": {
@@ -190,6 +479,23 @@
       }
     },
     {
+      "id": "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation",
+      "artifactSlug": "the-act-of-killing",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-act-of-killing",
+      "sourceId": "the-act-of-killing-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Act of Killing (2012) directed by Joshua Oppenheimer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
       "id": "the-master:seed-curation:the-master-seed-curation",
       "artifactSlug": "the-master",
       "source": "seed-curation",
@@ -205,12 +511,182 @@
       "metadata": {
         "method": "systematic-movie-pipeline"
       }
+    },
+    {
+      "id": "the-northman:seed-curation:the-northman-seed-curation",
+      "artifactSlug": "the-northman",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-northman",
+      "sourceId": "the-northman-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Northman (2022) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+      "artifactSlug": "the-tree-of-life",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-tree-of-life",
+      "sourceId": "the-tree-of-life-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Tree of Life (2011) directed by Terrence Malick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-tree-of-life:wikipedia:30710",
+      "artifactSlug": "the-tree-of-life",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Tree_of_Life",
+      "sourceId": "30710",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The tree of life is a fundamental archetype in many of the world's mythological, religious, and philosophical traditions. It is closely related to the concept of the sacred tree. The tree of the knowledge of good and evil and the tree of life which appear in Genesis' Garden of Eden as part of the Jewish cosmology of creation, and the tree of knowledge connecting to heaven and the underworld such as Yggdrasil, are forms of the world tree or cosmic tree, and are portrayed in various religions and philosophies as the same tree.\n\n",
+      "score": 50,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-witch:seed-curation:the-witch-seed-curation",
+      "artifactSlug": "the-witch",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-witch",
+      "sourceId": "the-witch-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Witch (2015) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+      "artifactSlug": "the-zone-of-interest",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://the-zone-of-interest",
+      "sourceId": "the-zone-of-interest-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "The Zone of Interest (2023) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "the-zone-of-interest:wikipedia:76335487",
+      "artifactSlug": "the-zone-of-interest",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
+      "sourceId": "76335487",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Zone of Interest or The Zone of Interest can refer to:\n\nZone of Interest (Auschwitz), an area surrounding Auschwitz concentration camp\nThe Zone of Interest (novel), a 2014 novel by Martin Amis, named after the above\nThe Zone of Interest (film), a 2023 film by Jonathan Glazer, loosely adapted from Amis's novel",
+      "score": 50,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+      "artifactSlug": "uncle-boonmee",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://uncle-boonmee",
+      "sourceId": "uncle-boonmee-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Uncle Boonmee Who Can Recall His Past Lives (2010) directed by Apichatpong Weerasethakul. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "uncle-boonmee:wikipedia:26978753",
+      "artifactSlug": "uncle-boonmee",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
+      "sourceId": "26978753",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong Weerasethakul. The film, which explores themes of reincarnation, centers on the last days in the life of its title character, played by Thanapat Saisaymar. Together with his loved ones—including the spirit of his dead wife, Huay, and his lost son, Boonsong, who has returned in a non-human form—Boonmee explores his past lives as he contemplates the reasons for his illness.\nThe film was inspired by the 1983 book A Man Who Can Recall His Past Lives by Buddhist abbot Phra Sripariyattiweti. The film is the final installment in a multi-platform art project by Apichatpong called \"Primitive\". It premiered at the 2010 Cannes Film Festival, where it won the Palme d'Or, becoming the first Thai film to do so. Several critics and publications consider it to be one of the greatest films ever made.",
+      "score": 64,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "under-the-skin:seed-curation:under-the-skin-seed-curation",
+      "artifactSlug": "under-the-skin",
+      "source": "seed-curation",
+      "sourceKind": "seed",
+      "sourceUrl": "seed://under-the-skin",
+      "sourceId": "under-the-skin-seed-curation",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Under the Skin (2013) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+      "score": 50,
+      "sourceReliability": 0.5,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
+    },
+    {
+      "id": "under-the-skin:wikipedia:7282204",
+      "artifactSlug": "under-the-skin",
+      "source": "wikipedia",
+      "sourceKind": "reference",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Under_the_Skin",
+      "sourceId": "7282204",
+      "postedAt": "2026-05-12T05:55:31.285Z",
+      "fetchedAt": "2026-05-12T05:55:31.285Z",
+      "lang": "en",
+      "body": "Under the Skin may refer to:",
+      "score": 50,
+      "sourceReliability": 0.7,
+      "metadata": {
+        "method": "systematic-movie-pipeline"
+      }
     }
   ],
   "enrichments": [
     {
       "artifactSlug": "annihilation",
-      "generatedAt": "2026-05-12T03:37:03.172Z",
+      "generatedAt": "2026-05-12T05:55:42.556Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -288,8 +764,185 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "beau-is-afraid",
+      "generatedAt": "2026-05-12T05:55:42.558Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "afraid",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "aster",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "phoenix",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "april",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "release",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "received",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        {
+          "term": "million",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 0.5,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Beau Is Afraid (2023) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        },
+        {
+          "label": "devoted",
+          "share": 0.5,
+          "summary": "devoted cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The film stars Joaquin Phoenix as the title character, and also "
+          ]
+        }
+      ],
+      "afterlifeEvents": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The ",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
+          "evidenceMentionId": "beau-is-afraid:wikipedia:66811047"
+        }
+      ]
+    },
+    {
+      "artifactSlug": "enemy",
+      "generatedAt": "2026-05-12T05:55:42.558Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "enemy",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "denis",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "villeneuve",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Enemy (2013) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "eyes-wide-shut",
-      "generatedAt": "2026-05-12T03:37:03.172Z",
+      "generatedAt": "2026-05-12T05:55:42.558Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -368,7 +1021,7 @@
     },
     {
       "artifactSlug": "fire-walk-with-me",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.559Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -446,8 +1099,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "first-reformed",
+      "generatedAt": "2026-05-12T05:55:42.559Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "first",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "reformed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "schrader",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "First Reformed (2017) directed by Paul Schrader. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "hereditary",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.559Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -525,8 +1257,99 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "holy-motors",
+      "generatedAt": "2026-05-12T05:55:42.561Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "motors",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        {
+          "term": "carax",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        {
+          "term": "lavant",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        {
+          "term": "around",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
+          ]
+        }
+      ],
+      "afterlifeEvents": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant ",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
+          "evidenceMentionId": "holy-motors:wikipedia:32818732"
+        }
+      ]
+    },
+    {
       "artifactSlug": "in-the-mood-for-love",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.561Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -604,8 +1427,97 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "inland-empire",
+      "generatedAt": "2026-05-12T05:55:42.563Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "county",
+          "weight": 7,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "bernardino",
+          "weight": 6,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "inland",
+          "weight": 5,
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "riverside",
+          "weight": 5,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "empire",
+          "weight": 4,
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "metropolitan",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "angeles",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        {
+          "term": "definition",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "inland-empire:wikipedia:47523622"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 0.5,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Inland Empire (2006) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        },
+        {
+          "label": "devoted",
+          "share": 0.5,
+          "summary": "devoted cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing"
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "killers-of-the-flower-moon",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.563Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -683,8 +1595,260 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "mandy",
+      "generatedAt": "2026-05-12T05:55:42.564Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "mandy",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "panos",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "cosmatos",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Mandy (2018) directed by Panos Cosmatos. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "melancholia",
+      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "melancholia",
+          "weight": 7,
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "melancholy",
+          "weight": 5,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "ancient",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "black",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "condition",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "other",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "symptoms",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        {
+          "term": "delusions",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "melancholia:wikipedia:20875"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "mother",
+      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "mother",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "darren",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "aronofsky",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "gleeson",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "september",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "million",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "mother:wikipedia:48213513"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Mother! (2017) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawrence, Javier Bardem, Ed Harris, Michelle Pfeiffer, Domhnall Gl"
+          ]
+        }
+      ],
+      "afterlifeEvents": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawren",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Mother!",
+          "evidenceMentionId": "mother:wikipedia:48213513"
+        }
+      ]
+    },
+    {
       "artifactSlug": "mulholland-dr",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.566Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -763,7 +1927,7 @@
     },
     {
       "artifactSlug": "possession",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.566Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -841,8 +2005,187 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "saint-maud",
+      "generatedAt": "2026-05-12T05:55:42.566Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "saint",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "glass",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Saint Maud (2019) directed by Rose Glass. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "silent-light",
+      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "awards",
+          "weight": 4,
+          "evidenceMentionIds": [
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "silent",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "light",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "carlos",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "reygadas",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "plautdietsch",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        {
+          "term": "mennonite",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "silent-light:wikipedia:12646576"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 0.5,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Silent Light (2007) directed by Carlos Reygadas. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        },
+        {
+          "label": "devoted",
+          "share": 0.5,
+          "summary": "devoted cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+          ]
+        }
+      ],
+      "afterlifeEvents": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Silent_Light",
+          "evidenceMentionId": "silent-light:wikipedia:12646576"
+        }
+      ]
+    },
+    {
       "artifactSlug": "stalker",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.567Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -920,8 +2263,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "suspiria-2018",
+      "generatedAt": "2026-05-12T05:55:42.567Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "suspiria",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "guadagnino",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Suspiria (2018) directed by Luca Guadagnino. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "synecdoche-new-york",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.567Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1000,7 +2422,7 @@
     },
     {
       "artifactSlug": "tar",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.567Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1078,8 +2500,87 @@
       "afterlifeEvents": []
     },
     {
+      "artifactSlug": "the-act-of-killing",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "killing",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "joshua",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "oppenheimer",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Act of Killing (2012) directed by Joshua Oppenheimer. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
       "artifactSlug": "the-master",
-      "generatedAt": "2026-05-12T03:37:03.173Z",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
       "method": "heuristic-safe-extraction",
       "guardrails": [
         "Extraction/classification/summarization only",
@@ -1155,12 +2656,515 @@
         }
       ],
       "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-northman",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "northman",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "robert",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "eggers",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Northman (2022) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-tree-of-life",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "world",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        {
+          "term": "knowledge",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        },
+        {
+          "term": "terrence",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        },
+        {
+          "term": "malick",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Tree of Life (2011) directed by Terrence Malick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "The tree of life is a fundamental archetype in many of the world's mythological, religious, and philosophical traditions. It is closely related to the concept of the sacred tree. T"
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-witch",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.43,
+      "symbols": [
+        {
+          "term": "witch",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "robert",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "eggers",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Witch (2015) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "the-zone-of-interest",
+      "generatedAt": "2026-05-12T05:55:42.568Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "interest",
+          "weight": 6,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        {
+          "term": "novel",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        {
+          "term": "jonathan",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        {
+          "term": "glazer",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        {
+          "term": "auschwitz",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "The Zone of Interest (2023) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "Zone of Interest or The Zone of Interest can refer to:\n\nZone of Interest (Auschwitz), an area surrounding Auschwitz concentration camp\nThe Zone of Interest (novel), a 2014 novel by"
+          ]
+        }
+      ],
+      "afterlifeEvents": []
+    },
+    {
+      "artifactSlug": "uncle-boonmee",
+      "generatedAt": "2026-05-12T05:55:42.569Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "lives",
+          "weight": 4,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "boonmee",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "recall",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "apichatpong",
+          "weight": 3,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "uncle",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "directed",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "weerasethakul",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        {
+          "term": "explores",
+          "weight": 2,
+          "evidenceMentionIds": [
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 0.5,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Uncle Boonmee Who Can Recall His Past Lives (2010) directed by Apichatpong Weerasethakul. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          ]
+        },
+        {
+          "label": "devoted",
+          "share": 0.5,
+          "summary": "devoted cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          ]
+        }
+      ],
+      "afterlifeEvents": [
+        {
+          "occurredAt": "2026-05-12T05:55:31.285Z",
+          "kind": "release",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
+          "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
+        }
+      ]
+    },
+    {
+      "artifactSlug": "under-the-skin",
+      "generatedAt": "2026-05-12T05:55:42.569Z",
+      "method": "heuristic-safe-extraction",
+      "guardrails": [
+        "Extraction/classification/summarization only",
+        "No invented ratings or criticism"
+      ],
+      "confidence": 0.51,
+      "symbols": [
+        {
+          "term": "directed",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "jonathan",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "glazer",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "curated",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "baseline",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "artifact",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "metric",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        },
+        {
+          "term": "calibration",
+          "weight": 1,
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation"
+          ]
+        }
+      ],
+      "discourseClusters": [
+        {
+          "label": "analytical",
+          "share": 1,
+          "summary": "analytical cluster derived from mention text classification",
+          "sampleQuotes": [
+            "Under the Skin (2013) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+            "Under the Skin may refer to:"
+          ]
+        }
+      ],
+      "afterlifeEvents": []
     }
   ],
   "snapshots": [
     {
       "artifactSlug": "fire-walk-with-me",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1276,7 +3280,7 @@
     },
     {
       "artifactSlug": "mulholland-dr",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1392,7 +3396,7 @@
     },
     {
       "artifactSlug": "hereditary",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1508,7 +3512,7 @@
     },
     {
       "artifactSlug": "synecdoche-new-york",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1624,7 +3628,7 @@
     },
     {
       "artifactSlug": "in-the-mood-for-love",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1740,7 +3744,7 @@
     },
     {
       "artifactSlug": "stalker",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1856,7 +3860,7 @@
     },
     {
       "artifactSlug": "killers-of-the-flower-moon",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -1972,7 +3976,7 @@
     },
     {
       "artifactSlug": "the-master",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2088,7 +4092,7 @@
     },
     {
       "artifactSlug": "annihilation",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2204,7 +4208,7 @@
     },
     {
       "artifactSlug": "possession",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2320,7 +4324,7 @@
     },
     {
       "artifactSlug": "eyes-wide-shut",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2436,7 +4440,7 @@
     },
     {
       "artifactSlug": "tar",
-      "computedAt": "2026-05-12T03:37:03.176Z",
+      "computedAt": "2026-05-12T05:55:42.575Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
@@ -2538,6 +4542,2174 @@
           },
           "evidenceMentionIds": [
             "tar:seed-curation:tar-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "under-the-skin",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "formal": {
+          "value": 6.6,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 12
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        },
+        "accessibility": {
+          "value": 80.8,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 12
+          },
+          "evidenceMentionIds": [
+            "under-the-skin:seed-curation:under-the-skin-seed-curation",
+            "under-the-skin:wikipedia:7282204"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mother",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "formal": {
+          "value": 36.3,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 66
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 66
+          },
+          "evidenceMentionIds": [
+            "mother:seed-curation:mother-seed-curation",
+            "mother:wikipedia:48213513"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-tree-of-life",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "formal": {
+          "value": 31.08,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 56.5
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        },
+        "accessibility": {
+          "value": 9.6,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 56.5
+          },
+          "evidenceMentionIds": [
+            "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
+            "the-tree-of-life:wikipedia:30710"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "inland-empire",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 86,
+          "confidence": 0.35,
+          "components": {
+            "spread": 3.5,
+            "meanScore": 53.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "friction": {
+          "value": 24.15,
+          "confidence": 0.35,
+          "components": {
+            "spread": 3.5,
+            "distanceFromMidpoint": 3.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "cult": {
+          "value": 50.6,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 2,
+            "meanScore": 53.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "formal": {
+          "value": 75.08,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 136.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "voltage": {
+          "value": 3.85,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 3.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 136.5
+          },
+          "evidenceMentionIds": [
+            "inland-empire:seed-curation:inland-empire-seed-curation",
+            "inland-empire:wikipedia:47523622"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "melancholia",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "formal": {
+          "value": 87.45,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 159
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "voltage": {
+          "value": 12,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 1,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 159
+          },
+          "evidenceMentionIds": [
+            "melancholia:seed-curation:melancholia-seed-curation",
+            "melancholia:wikipedia:20875"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-zone-of-interest",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "formal": {
+          "value": 19.53,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 35.5
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        },
+        "accessibility": {
+          "value": 43.2,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 35.5
+          },
+          "evidenceMentionIds": [
+            "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+            "the-zone-of-interest:wikipedia:76335487"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "silent-light",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 58,
+          "confidence": 0.35,
+          "components": {
+            "spread": 10.5,
+            "meanScore": 60.5
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "friction": {
+          "value": 72.45,
+          "confidence": 0.35,
+          "components": {
+            "spread": 10.5,
+            "distanceFromMidpoint": 10.5
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "cult": {
+          "value": 50.6,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 2,
+            "meanScore": 60.5
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "formal": {
+          "value": 55,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 100
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "voltage": {
+          "value": 11.55,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 10.5
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 100
+          },
+          "evidenceMentionIds": [
+            "silent-light:seed-curation:silent-light-seed-curation",
+            "silent-light:wikipedia:12646576"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "holy-motors",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "cult": {
+          "value": 35.2,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "formal": {
+          "value": 28.05,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 51
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        },
+        "accessibility": {
+          "value": 18.4,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 51
+          },
+          "evidenceMentionIds": [
+            "holy-motors:seed-curation:holy-motors-seed-curation",
+            "holy-motors:wikipedia:32818732"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "uncle-boonmee",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "spread": 7,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "friction": {
+          "value": 48.3,
+          "confidence": 0.35,
+          "components": {
+            "spread": 7,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "cult": {
+          "value": 50.6,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 2,
+            "meanScore": 57
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "formal": {
+          "value": 50.6,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 92
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "voltage": {
+          "value": 7.7,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 7
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 92
+          },
+          "evidenceMentionIds": [
+            "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+            "uncle-boonmee:wikipedia:26978753"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "beau-is-afraid",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 2,
+      "sourceCount": 2,
+      "metrics": {
+        "consensus": {
+          "value": 86,
+          "confidence": 0.35,
+          "components": {
+            "spread": 3.5,
+            "meanScore": 53.5
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "friction": {
+          "value": 24.15,
+          "confidence": 0.35,
+          "components": {
+            "spread": 3.5,
+            "distanceFromMidpoint": 3.5
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "obsession": {
+          "value": 32,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "uniqueSources": 2
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.35,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "cult": {
+          "value": 50.6,
+          "confidence": 0.35,
+          "components": {
+            "mentionCount": 2,
+            "factionDiversity": 2,
+            "meanScore": 53.5
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "formal": {
+          "value": 48.4,
+          "confidence": 0.35,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 88
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "voltage": {
+          "value": 15.85,
+          "confidence": 0.35,
+          "components": {
+            "emotionHits": 1,
+            "distanceFromMidpoint": 3.5
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        },
+        "accessibility": {
+          "value": 0,
+          "confidence": 0.35,
+          "components": {
+            "avgLength": 88
+          },
+          "evidenceMentionIds": [
+            "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+            "beau-is-afraid:wikipedia:66811047"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:2<5",
+          "confidence_below_threshold:0.35<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-act-of-killing",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 10.45,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 69.6,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 19
+          },
+          "evidenceMentionIds": [
+            "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "mandy",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "mandy:seed-curation:mandy-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "enemy",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "enemy:seed-curation:enemy-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "suspiria-2018",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 8.8,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 74.4,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 16
+          },
+          "evidenceMentionIds": [
+            "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-northman",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-northman:seed-curation:the-northman-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "saint-maud",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "saint-maud:seed-curation:saint-maud-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "first-reformed",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "first-reformed:seed-curation:first-reformed-seed-curation"
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      }
+    },
+    {
+      "artifactSlug": "the-witch",
+      "computedAt": "2026-05-12T05:55:42.575Z",
+      "methodVersion": "2026.05.12.v1",
+      "mentionCount": 1,
+      "sourceCount": 1,
+      "metrics": {
+        "consensus": {
+          "value": 100,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "friction": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "spread": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "obsession": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "uniqueSources": 1
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "haunting": {
+          "value": 16,
+          "confidence": 0.18,
+          "components": {
+            "hauntingHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "symbolic": {
+          "value": 72,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "symbolDensity": 8
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "cult": {
+          "value": 25.3,
+          "confidence": 0.18,
+          "components": {
+            "mentionCount": 1,
+            "factionDiversity": 1,
+            "meanScore": 50
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "formal": {
+          "value": 9.35,
+          "confidence": 0.18,
+          "components": {
+            "theoryHits": 0,
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "voltage": {
+          "value": 0,
+          "confidence": 0.18,
+          "components": {
+            "emotionHits": 0,
+            "distanceFromMidpoint": 0
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
+          ]
+        },
+        "accessibility": {
+          "value": 72.8,
+          "confidence": 0.18,
+          "components": {
+            "avgLength": 17
+          },
+          "evidenceMentionIds": [
+            "the-witch:seed-curation:the-witch-seed-curation"
           ]
         }
       },

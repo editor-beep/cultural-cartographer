@@ -1,7 +1,7 @@
 [
   {
     "artifactSlug": "annihilation",
-    "generatedAt": "2026-05-12T03:37:03.172Z",
+    "generatedAt": "2026-05-12T05:55:42.556Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -79,8 +79,185 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "beau-is-afraid",
+    "generatedAt": "2026-05-12T05:55:42.558Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "afraid",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "aster",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "phoenix",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "april",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "release",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "received",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      },
+      {
+        "term": "million",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "beau-is-afraid:wikipedia:66811047"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 0.5,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Beau Is Afraid (2023) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      },
+      {
+        "label": "devoted",
+        "share": 0.5,
+        "summary": "devoted cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The film stars Joaquin Phoenix as the title character, and also "
+        ]
+      }
+    ],
+    "afterlifeEvents": [
+      {
+        "occurredAt": "2026-05-12T05:55:31.285Z",
+        "kind": "release",
+        "label": "Beau Is Afraid is a 2023 American epic surrealist tragicomedy film written, directed, and co-produced by Ari Aster. The ",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
+        "evidenceMentionId": "beau-is-afraid:wikipedia:66811047"
+      }
+    ]
+  },
+  {
+    "artifactSlug": "enemy",
+    "generatedAt": "2026-05-12T05:55:42.558Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "enemy",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "denis",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "villeneuve",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "enemy:seed-curation:enemy-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Enemy (2013) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
     "artifactSlug": "eyes-wide-shut",
-    "generatedAt": "2026-05-12T03:37:03.172Z",
+    "generatedAt": "2026-05-12T05:55:42.558Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -159,7 +336,7 @@
   },
   {
     "artifactSlug": "fire-walk-with-me",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.559Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -237,8 +414,87 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "first-reformed",
+    "generatedAt": "2026-05-12T05:55:42.559Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "first",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "reformed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "schrader",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "first-reformed:seed-curation:first-reformed-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "First Reformed (2017) directed by Paul Schrader. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
     "artifactSlug": "hereditary",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.559Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -316,8 +572,99 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "holy-motors",
+    "generatedAt": "2026-05-12T05:55:42.561Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "motors",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation",
+          "holy-motors:wikipedia:32818732"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation",
+          "holy-motors:wikipedia:32818732"
+        ]
+      },
+      {
+        "term": "carax",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation",
+          "holy-motors:wikipedia:32818732"
+        ]
+      },
+      {
+        "term": "lavant",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "holy-motors:wikipedia:32818732"
+        ]
+      },
+      {
+        "term": "around",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "holy-motors:wikipedia:32818732"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "holy-motors:seed-curation:holy-motors-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Holy Motors (2012) directed by Leos Carax. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant and Édith Scob. Lavant plays Mr. Oscar, a man who appears to"
+        ]
+      }
+    ],
+    "afterlifeEvents": [
+      {
+        "occurredAt": "2026-05-12T05:55:31.285Z",
+        "kind": "release",
+        "label": "Holy Motors is a 2012 French surrealist fantasy drama film written and directed by Leos Carax and starring Denis Lavant ",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
+        "evidenceMentionId": "holy-motors:wikipedia:32818732"
+      }
+    ]
+  },
+  {
     "artifactSlug": "in-the-mood-for-love",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.561Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -395,8 +742,97 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "inland-empire",
+    "generatedAt": "2026-05-12T05:55:42.563Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "county",
+        "weight": 7,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "bernardino",
+        "weight": 6,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "inland",
+        "weight": 5,
+        "evidenceMentionIds": [
+          "inland-empire:seed-curation:inland-empire-seed-curation",
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "riverside",
+        "weight": 5,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "empire",
+        "weight": 4,
+        "evidenceMentionIds": [
+          "inland-empire:seed-curation:inland-empire-seed-curation",
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "metropolitan",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "angeles",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      },
+      {
+        "term": "definition",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "inland-empire:wikipedia:47523622"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 0.5,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Inland Empire (2006) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      },
+      {
+        "label": "devoted",
+        "share": 0.5,
+        "summary": "devoted cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Inland Empire (commonly abbreviated as the IE) is a metropolitan area and region inland of and adjacent to coastal Southern California in the Greater Los Angeles area, focusing"
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
     "artifactSlug": "killers-of-the-flower-moon",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.563Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -474,8 +910,260 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "mandy",
+    "generatedAt": "2026-05-12T05:55:42.564Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "mandy",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "panos",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "cosmatos",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mandy:seed-curation:mandy-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Mandy (2018) directed by Panos Cosmatos. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "melancholia",
+    "generatedAt": "2026-05-12T05:55:42.566Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "melancholia",
+        "weight": 7,
+        "evidenceMentionIds": [
+          "melancholia:seed-curation:melancholia-seed-curation",
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "melancholy",
+        "weight": 5,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "ancient",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "black",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "condition",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "other",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "symptoms",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      },
+      {
+        "term": "delusions",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "melancholia:wikipedia:20875"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Melancholia (2011) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "Melancholia or melancholy (Ancient Greek: μελαγχολία, romanized: melancholía; from μέλαινα χολή, mélaina cholḗ, 'black bile') is a concept found throughout ancient, medieval, and p"
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "mother",
+    "generatedAt": "2026-05-12T05:55:42.566Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "mother",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "mother:seed-curation:mother-seed-curation",
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:seed-curation:mother-seed-curation",
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "darren",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:seed-curation:mother-seed-curation",
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "aronofsky",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:seed-curation:mother-seed-curation",
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "gleeson",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "september",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "million",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "mother:wikipedia:48213513"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mother:seed-curation:mother-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Mother! (2017) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawrence, Javier Bardem, Ed Harris, Michelle Pfeiffer, Domhnall Gl"
+        ]
+      }
+    ],
+    "afterlifeEvents": [
+      {
+        "occurredAt": "2026-05-12T05:55:31.285Z",
+        "kind": "release",
+        "label": "Mother! is a 2017 American psychological horror, film written and directed by Darren Aronofsky. It stars Jennifer Lawren",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Mother!",
+        "evidenceMentionId": "mother:wikipedia:48213513"
+      }
+    ]
+  },
+  {
     "artifactSlug": "mulholland-dr",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.566Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -554,7 +1242,7 @@
   },
   {
     "artifactSlug": "possession",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.566Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -632,8 +1320,187 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "saint-maud",
+    "generatedAt": "2026-05-12T05:55:42.566Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "saint",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "glass",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "saint-maud:seed-curation:saint-maud-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Saint Maud (2019) directed by Rose Glass. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "silent-light",
+    "generatedAt": "2026-05-12T05:55:42.567Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "awards",
+        "weight": 4,
+        "evidenceMentionIds": [
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "silent",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "silent-light:seed-curation:silent-light-seed-curation",
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "light",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "silent-light:seed-curation:silent-light-seed-curation",
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "silent-light:seed-curation:silent-light-seed-curation",
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "carlos",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "silent-light:seed-curation:silent-light-seed-curation",
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "reygadas",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "silent-light:seed-curation:silent-light-seed-curation",
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "plautdietsch",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "silent-light:wikipedia:12646576"
+        ]
+      },
+      {
+        "term": "mennonite",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "silent-light:wikipedia:12646576"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 0.5,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Silent Light (2007) directed by Carlos Reygadas. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      },
+      {
+        "label": "devoted",
+        "share": 0.5,
+        "summary": "devoted cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
+        ]
+      }
+    ],
+    "afterlifeEvents": [
+      {
+        "occurredAt": "2026-05-12T05:55:31.285Z",
+        "kind": "release",
+        "label": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Silent_Light",
+        "evidenceMentionId": "silent-light:wikipedia:12646576"
+      }
+    ]
+  },
+  {
     "artifactSlug": "stalker",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.567Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -711,8 +1578,87 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "suspiria-2018",
+    "generatedAt": "2026-05-12T05:55:42.567Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "suspiria",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "guadagnino",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "suspiria-2018:seed-curation:suspiria-2018-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Suspiria (2018) directed by Luca Guadagnino. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
     "artifactSlug": "synecdoche-new-york",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.567Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -791,7 +1737,7 @@
   },
   {
     "artifactSlug": "tar",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.567Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -869,8 +1815,87 @@
     "afterlifeEvents": []
   },
   {
+    "artifactSlug": "the-act-of-killing",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "killing",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "joshua",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "oppenheimer",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-act-of-killing:seed-curation:the-act-of-killing-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Act of Killing (2012) directed by Joshua Oppenheimer. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
     "artifactSlug": "the-master",
-    "generatedAt": "2026-05-12T03:37:03.173Z",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
     "method": "heuristic-safe-extraction",
     "guardrails": [
       "Extraction/classification/summarization only",
@@ -942,6 +1967,509 @@
         "summary": "analytical cluster derived from mention text classification",
         "sampleQuotes": [
           "The Master (2012) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-northman",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "northman",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "robert",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "eggers",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-northman:seed-curation:the-northman-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Northman (2022) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-tree-of-life",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "world",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "the-tree-of-life:wikipedia:30710"
+        ]
+      },
+      {
+        "term": "knowledge",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "the-tree-of-life:wikipedia:30710"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      },
+      {
+        "term": "terrence",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      },
+      {
+        "term": "malick",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Tree of Life (2011) directed by Terrence Malick. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "The tree of life is a fundamental archetype in many of the world's mythological, religious, and philosophical traditions. It is closely related to the concept of the sacred tree. T"
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-witch",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.43,
+    "symbols": [
+      {
+        "term": "witch",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "robert",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "eggers",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-witch:seed-curation:the-witch-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Witch (2015) directed by Robert Eggers. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-zone-of-interest",
+    "generatedAt": "2026-05-12T05:55:42.568Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "interest",
+        "weight": 6,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+          "the-zone-of-interest:wikipedia:76335487"
+        ]
+      },
+      {
+        "term": "novel",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:wikipedia:76335487"
+        ]
+      },
+      {
+        "term": "jonathan",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+          "the-zone-of-interest:wikipedia:76335487"
+        ]
+      },
+      {
+        "term": "glazer",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
+          "the-zone-of-interest:wikipedia:76335487"
+        ]
+      },
+      {
+        "term": "auschwitz",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:wikipedia:76335487"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Zone of Interest (2023) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "Zone of Interest or The Zone of Interest can refer to:\n\nZone of Interest (Auschwitz), an area surrounding Auschwitz concentration camp\nThe Zone of Interest (novel), a 2014 novel by"
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "uncle-boonmee",
+    "generatedAt": "2026-05-12T05:55:42.569Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "lives",
+        "weight": 4,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "boonmee",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "recall",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "apichatpong",
+        "weight": 3,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "uncle",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "weerasethakul",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      },
+      {
+        "term": "explores",
+        "weight": 2,
+        "evidenceMentionIds": [
+          "uncle-boonmee:wikipedia:26978753"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 0.5,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Uncle Boonmee Who Can Recall His Past Lives (2010) directed by Apichatpong Weerasethakul. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      },
+      {
+        "label": "devoted",
+        "share": 0.5,
+        "summary": "devoted cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+        ]
+      }
+    ],
+    "afterlifeEvents": [
+      {
+        "occurredAt": "2026-05-12T05:55:31.285Z",
+        "kind": "release",
+        "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
+        "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
+      }
+    ]
+  },
+  {
+    "artifactSlug": "under-the-skin",
+    "generatedAt": "2026-05-12T05:55:42.569Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.51,
+    "symbols": [
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "jonathan",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "glazer",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "curated",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "baseline",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "artifact",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "metric",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      },
+      {
+        "term": "calibration",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-skin:seed-curation:under-the-skin-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Under the Skin (2013) directed by Jonathan Glazer. Curated baseline artifact for metric calibration and systematic scoring initialization.",
+          "Under the Skin may refer to:"
         ]
       }
     ],
