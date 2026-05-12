@@ -786,33 +786,30 @@
       "runtime": 121,
       "catalogue": "ARTX-014",
       "metrics": {
-        "consensus": 100,
-        "friction": 0,
-        "obsession": 32,
-        "haunting": 16,
-        "symbolic": 72,
-        "cult": 35,
-        "formal": 36,
-        "voltage": 0,
-        "accessibility": 0
+        "consensus": 15,
+        "friction": 94,
+        "obsession": 68,
+        "haunting": 84,
+        "symbolic": 97,
+        "cult": 42,
+        "formal": 88,
+        "voltage": 95,
+        "accessibility": 35
       },
       "metricConfidence": {
-        "consensus": 0.35,
-        "friction": 0.35,
-        "obsession": 0.35,
-        "haunting": 0.35,
-        "symbolic": 0.35,
-        "cult": 0.35,
-        "formal": 0.35,
-        "voltage": 0.35,
-        "accessibility": 0.35
+        "consensus": 0.98,
+        "friction": 0.92,
+        "obsession": 0.85,
+        "haunting": 0.9,
+        "symbolic": 0.96,
+        "cult": 0.8,
+        "formal": 0.94,
+        "voltage": 0.97,
+        "accessibility": 0.91
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "symbols": [
         "mother",
@@ -841,8 +838,8 @@
         }
       ],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T12:00:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -853,33 +850,30 @@
       "runtime": 139,
       "catalogue": "ARTX-015",
       "metrics": {
-        "consensus": 100,
-        "friction": 0,
-        "obsession": 32,
-        "haunting": 16,
-        "symbolic": 72,
-        "cult": 35,
-        "formal": 31,
-        "voltage": 0,
-        "accessibility": 10
+        "consensus": 52,
+        "friction": 67,
+        "obsession": 91,
+        "haunting": 87,
+        "symbolic": 94,
+        "cult": 38,
+        "formal": 93,
+        "voltage": 82,
+        "accessibility": 22
       },
       "metricConfidence": {
-        "consensus": 0.35,
-        "friction": 0.35,
-        "obsession": 0.35,
-        "haunting": 0.35,
-        "symbolic": 0.35,
-        "cult": 0.35,
-        "formal": 0.35,
-        "voltage": 0.35,
-        "accessibility": 0.35
+        "consensus": 0.9,
+        "friction": 0.88,
+        "obsession": 0.94,
+        "haunting": 0.92,
+        "symbolic": 0.95,
+        "cult": 0.81,
+        "formal": 0.96,
+        "voltage": 0.9,
+        "accessibility": 0.93
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "symbols": [
         "world",
@@ -900,8 +894,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:45:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2126,29 +2120,29 @@
       "runtime": 131,
       "catalogue": "ARTX-032",
       "metrics": {
-        "consensus": 38,
-        "friction": 88,
-        "obsession": 74,
-        "haunting": 18,
-        "symbolic": 62,
-        "cult": 97,
-        "formal": 21,
-        "voltage": 82,
-        "accessibility": 75
+        "consensus": 24,
+        "friction": 81,
+        "obsession": 86,
+        "haunting": 31,
+        "symbolic": 79,
+        "cult": 98,
+        "formal": 55,
+        "voltage": 72,
+        "accessibility": 85
       },
       "metricConfidence": {
-        "consensus": 0.91,
-        "friction": 0.94,
-        "obsession": 0.89,
-        "haunting": 0.85,
-        "symbolic": 0.82,
-        "cult": 0.96,
-        "formal": 0.93,
-        "voltage": 0.88,
-        "accessibility": 0.96
+        "consensus": 0.96,
+        "friction": 0.93,
+        "obsession": 0.91,
+        "haunting": 0.82,
+        "symbolic": 0.88,
+        "cult": 0.97,
+        "formal": 0.85,
+        "voltage": 0.89,
+        "accessibility": 0.94
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "symbols": [
@@ -2170,8 +2164,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-11T20:15:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2238,29 +2232,29 @@
       "runtime": 99,
       "catalogue": "ARTX-034",
       "metrics": {
-        "consensus": 85,
-        "friction": 22,
-        "obsession": 96,
-        "haunting": 31,
-        "symbolic": 84,
+        "consensus": 98,
+        "friction": 12,
+        "obsession": 95,
+        "haunting": 24,
+        "symbolic": 18,
         "cult": 99,
-        "formal": 74,
-        "voltage": 68,
-        "accessibility": 12
+        "formal": 15,
+        "voltage": 88,
+        "accessibility": 92
       },
       "metricConfidence": {
-        "consensus": 0.95,
-        "friction": 0.92,
+        "consensus": 0.99,
+        "friction": 0.95,
         "obsession": 0.98,
-        "haunting": 0.82,
-        "symbolic": 0.89,
+        "haunting": 0.84,
+        "symbolic": 0.8,
         "cult": 0.99,
-        "formal": 0.9,
-        "voltage": 0.86,
-        "accessibility": 0.94
+        "formal": 0.88,
+        "voltage": 0.92,
+        "accessibility": 0.96
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "symbols": [
@@ -2282,8 +2276,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T01:10:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2574,29 +2568,29 @@
       "runtime": 96,
       "catalogue": "ARTX-041",
       "metrics": {
-        "consensus": 72,
-        "friction": 35,
-        "obsession": 86,
-        "haunting": 97,
-        "symbolic": 61,
-        "cult": 91,
-        "formal": 96,
-        "voltage": 99,
-        "accessibility": 24
+        "consensus": 62,
+        "friction": 58,
+        "obsession": 74,
+        "haunting": 89,
+        "symbolic": 41,
+        "cult": 77,
+        "formal": 95,
+        "voltage": 98,
+        "accessibility": 44
       },
       "metricConfidence": {
-        "consensus": 0.92,
-        "friction": 0.88,
-        "obsession": 0.94,
-        "haunting": 0.99,
-        "symbolic": 0.84,
-        "cult": 0.97,
-        "formal": 0.98,
-        "voltage": 0.99,
-        "accessibility": 0.91
+        "consensus": 0.89,
+        "friction": 0.84,
+        "obsession": 0.88,
+        "haunting": 0.92,
+        "symbolic": 0.82,
+        "cult": 0.87,
+        "formal": 0.95,
+        "voltage": 0.96,
+        "accessibility": 0.89
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "symbols": [
@@ -2618,8 +2612,8 @@
       ],
       "afterlife": [],
       "freshness": {
-        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
-        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+        "lastCollectedAt": "2026-05-10T09:30:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     }
   ]
