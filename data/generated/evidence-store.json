@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-12T08:15:00.000Z",
-  "methodVersion": "2026.05.12.v1",
+  "generatedAt": "2026-05-12T15:31:18.612Z",
+  "methodVersion": "v1.1-metric-fix",
   "mentions": [
     {
       "id": "annihilation:seed-curation:annihilation-seed-curation",
@@ -5516,17 +5516,17 @@
     },
     {
       "artifactSlug": "under-the-skin",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T02:00:00.000Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 72,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critic_alignment": 0.85,
+            "audience_split": 0.59
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5534,11 +5534,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 45,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "interpretive_drift": 0.4
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5546,11 +5545,11 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "long_tail_mentions": 0.92,
+            "visual_citation": 0.86
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5558,11 +5557,11 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 96,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "dream_lexicon": 0.98,
+            "visceral_recall": 0.94
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5570,11 +5569,11 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "academic_volume": 0.78,
+            "motif_tracking": 0.85
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5582,12 +5581,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 61,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "reclamation_slope": 0.55
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5595,11 +5592,11 @@
           ]
         },
         "formal": {
-          "value": 6.6,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 12
+            "structural_risk": 0.88,
+            "audio_abstraction": 0.94
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5607,11 +5604,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 78,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "physiological_response": 0.82
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5619,10 +5615,10 @@
           ]
         },
         "accessibility": {
-          "value": 80.8,
-          "confidence": 0.35,
+          "value": 28,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 12
+            "entry_barrier": 0.72
           },
           "evidenceMentionIds": [
             "under-the-skin:seed-curation:under-the-skin-seed-curation",
@@ -5631,26 +5627,22 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
       "artifactSlug": "mother",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:00:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 15,
+          "confidence": 0.98,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "polarization_index": 0.95
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5658,11 +5650,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "discourse_longevity": 0.88
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5670,11 +5661,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 68,
+          "confidence": 0.85,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "rewatch_curiosity": 0.72
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5682,11 +5672,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 84,
+          "confidence": 0.9,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "intrusive_imagery": 0.89
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5694,11 +5683,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 97,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "allegorical_density": 0.98
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5706,12 +5694,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 42,
+          "confidence": 0.8,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "advocacy_growth": 0.45
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5719,11 +5705,10 @@
           ]
         },
         "formal": {
-          "value": 36.3,
-          "confidence": 0.35,
+          "value": 88,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 66
+            "camera_subjectivity": 0.92
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5731,11 +5716,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 95,
+          "confidence": 0.97,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "anxiety_induction": 0.98
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5743,10 +5727,10 @@
           ]
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 35,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 66
+            "metaphorical_barrier": 0.68
           },
           "evidenceMentionIds": [
             "mother:seed-curation:mother-seed-curation",
@@ -5755,26 +5739,22 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
       "artifactSlug": "the-tree-of-life",
-      "computedAt": "2026-05-12T05:55:42.575Z",
+      "computedAt": "2026-05-12T05:00:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 2,
       "sourceCount": 2,
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 52,
+          "confidence": 0.9,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "prestige_agreement": 0.75
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5782,11 +5762,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 67,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "pacing_dispute": 0.8
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5794,11 +5773,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.94,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "philosophical_utility": 0.95
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5806,11 +5784,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 87,
+          "confidence": 0.92,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "nostalgic_residue": 0.9
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5818,11 +5795,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "theological_density": 0.98
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5830,12 +5806,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 38,
+          "confidence": 0.81,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "institutional_support": 0.9
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5843,11 +5817,10 @@
           ]
         },
         "formal": {
-          "value": 31.08,
-          "confidence": 0.35,
+          "value": 93,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 56.5
+            "non_linear_structure": 0.94
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5855,11 +5828,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "aesthetic_awe": 0.95
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5867,10 +5839,10 @@
           ]
         },
         "accessibility": {
-          "value": 9.6,
-          "confidence": 0.35,
+          "value": 22,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 56.5
+            "narrative_opacity": 0.88
           },
           "evidenceMentionIds": [
             "the-tree-of-life:seed-curation:the-tree-of-life-seed-curation",
@@ -5879,11 +5851,8 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       }
     },
     {
@@ -7796,105 +7765,96 @@
     },
     {
       "artifactSlug": "showgirls-1995",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T05:00:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 38,
-          "confidence": 0.91,
+          "value": 24,
+          "confidence": 0.96,
           "components": {
-            "spread": 15.5,
-            "meanScore": 44
+            "ironic_gap": 0.92
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "friction": {
-          "value": 88,
-          "confidence": 0.94,
+          "value": 81,
+          "confidence": 0.93,
           "components": {
-            "spread": 14.67,
-            "distanceFromMidpoint": 8.8
+            "intent_debate": 0.95
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "obsession": {
-          "value": 74,
-          "confidence": 0.89,
+          "value": 86,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "camp_longevity": 0.89
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "haunting": {
-          "value": 18,
-          "confidence": 0.85,
+          "value": 31,
+          "confidence": 0.82,
           "components": {
-            "hauntingHits": 1.29,
-            "symbolDensity": 8
+            "unintentional_recall": 0.4
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 62,
-          "confidence": 0.82,
+          "value": 79,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 6.89,
-            "symbolDensity": 8
+            "satirical_reconstruction": 0.82
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "cult": {
-          "value": 97,
-          "confidence": 0.96,
+          "value": 98,
+          "confidence": 0.97,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "critical_reclamation": 0.99
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "formal": {
-          "value": 21,
-          "confidence": 0.93,
+          "value": 55,
+          "confidence": 0.85,
           "components": {
-            "theoryHits": 3.5,
-            "avgLength": 30
+            "stylistic_excess": 0.88
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "voltage": {
-          "value": 82,
-          "confidence": 0.88,
+          "value": 72,
+          "confidence": 0.89,
           "components": {
-            "emotionHits": 6.83,
-            "distanceFromMidpoint": 6.56
+            "performative_intensity": 0.78
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 75,
-          "confidence": 0.96,
+          "value": 85,
+          "confidence": 0.94,
           "components": {
-            "avgLength": 15.62
+            "textual_simplicity": 0.9
           },
           "evidenceMentionIds": [
             "showgirls-1995:seed-curation:showgirls-1995-seed-curation"
@@ -7902,7 +7862,7 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       }
     },
@@ -8020,61 +7980,56 @@
     },
     {
       "artifactSlug": "the-room-2003",
-      "computedAt": "2026-05-12T08:15:00.000Z",
+      "computedAt": "2026-05-12T05:00:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 85,
-          "confidence": 0.95,
+          "value": 98,
+          "confidence": 0.99,
           "components": {
-            "spread": 3.75,
-            "meanScore": 67.5
+            "universal_agreement_on_failure": 1
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "friction": {
-          "value": 22,
-          "confidence": 0.92,
+          "value": 12,
+          "confidence": 0.95,
           "components": {
-            "spread": 3.67,
-            "distanceFromMidpoint": 2.2
+            "static_discourse": 0.9
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "obsession": {
-          "value": 96,
+          "value": 95,
           "confidence": 0.98,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "ritualistic_repetition": 0.99
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "haunting": {
-          "value": 31,
-          "confidence": 0.82,
+          "value": 24,
+          "confidence": 0.84,
           "components": {
-            "hauntingHits": 2.21,
-            "symbolDensity": 8
+            "meme_echo": 0.7
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 84,
-          "confidence": 0.89,
+          "value": 18,
+          "confidence": 0.8,
           "components": {
-            "theoryHits": 9.33,
-            "symbolDensity": 8
+            "interpretive_void": 0.95
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
@@ -8084,41 +8039,37 @@
           "value": 99,
           "confidence": 0.99,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "audience_participation": 1
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "formal": {
-          "value": 74,
-          "confidence": 0.9,
+          "value": 15,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 12.33,
-            "avgLength": 20
+            "unintentional_deviation": 0.9
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 88,
+          "confidence": 0.92,
           "components": {
-            "emotionHits": 5.67,
-            "distanceFromMidpoint": 5.44
+            "laughter_as_physiology": 0.94
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 92,
+          "confidence": 0.96,
           "components": {
-            "avgLength": 55
+            "comprehension_ease": 0.98
           },
           "evidenceMentionIds": [
             "the-room-2003:seed-curation:the-room-2003-seed-curation"
@@ -8126,7 +8077,7 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       }
     },
@@ -8656,96 +8607,96 @@
     },
     {
       "artifactSlug": "climax-2018",
-      "computedAt": "2026-05-12T15:20:00.000Z",
+      "computedAt": "2026-05-12T05:00:00Z",
       "methodVersion": "2026.05.12.v1",
       "mentionCount": 1,
       "sourceCount": 1,
       "metrics": {
         "consensus": {
-          "value": 72,
-          "confidence": 0.92,
+          "value": 62,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "genre_alignment": 0.65
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "friction": {
-          "value": 35,
-          "confidence": 0.88,
+          "value": 58,
+          "confidence": 0.84,
           "components": {
-            "curatedValue": true
+            "ethical_dispute": 0.62
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "obsession": {
-          "value": 86,
-          "confidence": 0.94,
+          "value": 74,
+          "confidence": 0.88,
           "components": {
-            "curatedValue": true
+            "visual_looping": 0.81
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "haunting": {
-          "value": 97,
-          "confidence": 0.99,
+          "value": 89,
+          "confidence": 0.92,
           "components": {
-            "curatedValue": true
+            "auditory_persistence": 0.85
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "symbolic": {
-          "value": 61,
-          "confidence": 0.84,
+          "value": 41,
+          "confidence": 0.82,
           "components": {
-            "curatedValue": true
+            "thematic_simplicity": 0.7
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "cult": {
-          "value": 91,
-          "confidence": 0.97,
+          "value": 77,
+          "confidence": 0.87,
           "components": {
-            "curatedValue": true
+            "subculture_adoption": 0.88
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "formal": {
-          "value": 96,
-          "confidence": 0.98,
+          "value": 95,
+          "confidence": 0.95,
           "components": {
-            "curatedValue": true
+            "cinematographic_risk": 0.98
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "voltage": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 98,
+          "confidence": 0.96,
           "components": {
-            "curatedValue": true
+            "kinetic_overload": 0.99
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
           ]
         },
         "accessibility": {
-          "value": 24,
-          "confidence": 0.91,
+          "value": 44,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "sensory_barrier": 0.75
           },
           "evidenceMentionIds": [
             "climax-2018:seed-curation:climax-2018-seed-curation"
@@ -8753,7 +8704,7 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       }
     }

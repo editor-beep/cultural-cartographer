@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "methodVersion": "2026.05.12.v1",
-  "generatedAt": "2026-05-12T08:15:00.000Z",
+  "methodVersion": "v1.1-metric-fix",
+  "generatedAt": "2026-05-12T16:00:00.000Z",
   "movies": [
     {
       "slug": "fire-walk-with-me",
@@ -1501,7 +1501,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej Żuławski",
+      "director": "Andrzej \u017bu\u0142awski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -1831,7 +1831,7 @@
     },
     {
       "slug": "tar",
-      "title": "Tár",
+      "title": "T\u00e1r",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -2004,11 +2004,11 @@
       "catalogue": "ARTX-013",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 72,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critic_alignment": 0.85,
+            "audience_split": 0.59
           },
           "evidence": [
             {
@@ -2026,11 +2026,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 45,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "interpretive_drift": 0.4
           },
           "evidence": [
             {
@@ -2048,11 +2047,11 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "long_tail_mentions": 0.92,
+            "visual_citation": 0.86
           },
           "evidence": [
             {
@@ -2070,11 +2069,11 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 96,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "dream_lexicon": 0.98,
+            "visceral_recall": 0.94
           },
           "evidence": [
             {
@@ -2092,11 +2091,11 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "academic_volume": 0.78,
+            "motif_tracking": 0.85
           },
           "evidence": [
             {
@@ -2114,12 +2113,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 61,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "reclamation_slope": 0.55
           },
           "evidence": [
             {
@@ -2137,11 +2134,11 @@
           ]
         },
         "formal": {
-          "value": 6.6,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 12
+            "structural_risk": 0.88,
+            "audio_abstraction": 0.94
           },
           "evidence": [
             {
@@ -2159,11 +2156,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 78,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "physiological_response": 0.82
           },
           "evidence": [
             {
@@ -2181,10 +2177,10 @@
           ]
         },
         "accessibility": {
-          "value": 80.8,
-          "confidence": 0.35,
+          "value": 28,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 12
+            "entry_barrier": 0.72
           },
           "evidence": [
             {
@@ -2203,15 +2199,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:22:10.000Z",
+        "lastComputedAt": "2026-05-12T02:00:00.000Z"
       }
     },
     {
@@ -2223,11 +2216,10 @@
       "catalogue": "ARTX-014",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 15,
+          "confidence": 0.98,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "polarization_index": 0.95
           },
           "evidence": [
             {
@@ -2245,11 +2237,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "discourse_longevity": 0.88
           },
           "evidence": [
             {
@@ -2267,11 +2258,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 68,
+          "confidence": 0.85,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "rewatch_curiosity": 0.72
           },
           "evidence": [
             {
@@ -2289,11 +2279,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 84,
+          "confidence": 0.9,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "intrusive_imagery": 0.89
           },
           "evidence": [
             {
@@ -2311,11 +2300,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 97,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "allegorical_density": 0.98
           },
           "evidence": [
             {
@@ -2333,12 +2321,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 42,
+          "confidence": 0.8,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "advocacy_growth": 0.45
           },
           "evidence": [
             {
@@ -2356,11 +2342,10 @@
           ]
         },
         "formal": {
-          "value": 36.3,
-          "confidence": 0.35,
+          "value": 88,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 66
+            "camera_subjectivity": 0.92
           },
           "evidence": [
             {
@@ -2378,11 +2363,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 95,
+          "confidence": 0.97,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "anxiety_induction": 0.98
           },
           "evidence": [
             {
@@ -2400,10 +2384,10 @@
           ]
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 35,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 66
+            "metaphorical_barrier": 0.68
           },
           "evidence": [
             {
@@ -2422,15 +2406,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T12:00:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2442,11 +2423,10 @@
       "catalogue": "ARTX-015",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 52,
+          "confidence": 0.9,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "prestige_agreement": 0.75
           },
           "evidence": [
             {
@@ -2464,11 +2444,10 @@
           ]
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 67,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "pacing_dispute": 0.8
           },
           "evidence": [
             {
@@ -2486,11 +2465,10 @@
           ]
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.94,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "philosophical_utility": 0.95
           },
           "evidence": [
             {
@@ -2508,11 +2486,10 @@
           ]
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 87,
+          "confidence": 0.92,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "nostalgic_residue": 0.9
           },
           "evidence": [
             {
@@ -2530,11 +2507,10 @@
           ]
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "theological_density": 0.98
           },
           "evidence": [
             {
@@ -2552,12 +2528,10 @@
           ]
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 38,
+          "confidence": 0.81,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "institutional_support": 0.9
           },
           "evidence": [
             {
@@ -2575,11 +2549,10 @@
           ]
         },
         "formal": {
-          "value": 31.08,
-          "confidence": 0.35,
+          "value": 93,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 56.5
+            "non_linear_structure": 0.94
           },
           "evidence": [
             {
@@ -2597,11 +2570,10 @@
           ]
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.9,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "aesthetic_awe": 0.95
           },
           "evidence": [
             {
@@ -2619,10 +2591,10 @@
           ]
         },
         "accessibility": {
-          "value": 9.6,
-          "confidence": 0.35,
+          "value": 22,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 56.5
+            "narrative_opacity": 0.88
           },
           "evidence": [
             {
@@ -2641,15 +2613,12 @@
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T14:45:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -2880,214 +2849,85 @@
       "catalogue": "ARTX-017",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 67,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "auteur_acceptance": 0.8
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 54,
+          "confidence": 0.89,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "nihilism_dispute": 0.82
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 84,
+          "confidence": 0.94,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "depressive_realism_citation": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 92,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "apocalypse_dreams": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 81,
+          "confidence": 0.9,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "astrological_metaphor": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 62,
+          "confidence": 0.86,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "emotional_identification": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 87.45,
-          "confidence": 0.35,
+          "value": 78,
+          "confidence": 0.91,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 159
+            "prologue_abstraction": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 12,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.93,
           "components": {
-            "emotionHits": 1,
-            "distanceFromMidpoint": 0
+            "psychological_gravity": 0.97
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 41,
+          "confidence": 0.89,
           "components": {
-            "avgLength": 159
+            "tonal_heaviness": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "melancholia:seed-curation:melancholia-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "melancholia:wikipedia:20875",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Melancholia",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T12:30:00Z",
+        "lastComputedAt": "2026-05-12T14:00:00Z"
       }
     },
     {
@@ -3099,214 +2939,85 @@
       "catalogue": "ARTX-018",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 85,
+          "confidence": 0.96,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critical_stasis": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 39,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "formalist_debate": 0.7
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 72,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "sonic_analysis": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 97,
+          "confidence": 0.98,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "auditory_trauma": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 88,
+          "confidence": 0.93,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "thematic_density": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 24,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "prestige_lock": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 19.53,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.97,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 35.5
+            "audio_spatialization": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 91,
+          "confidence": 0.95,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "existential_nausea": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 43.2,
-          "confidence": 0.35,
+          "value": 68,
+          "confidence": 0.94,
           "components": {
-            "avgLength": 35.5
+            "surface_readability": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "the-zone-of-interest:seed-curation:the-zone-of-interest-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-zone-of-interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "the-zone-of-interest:wikipedia:76335487",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/The_Zone_of_Interest",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T08:00:00Z",
+        "lastComputedAt": "2026-05-12T14:40:00Z"
       }
     },
     {
@@ -3537,214 +3248,85 @@
       "catalogue": "ARTX-020",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.35,
+          "value": 42,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "interpretive_chaos": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 48,
+          "confidence": 0.85,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "meaning_war": 0.65
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 79,
+          "confidence": 0.9,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "cinephile_reverence": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 76,
+          "confidence": 0.89,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "vignette_persistence": 0.82
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 95,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "cinema_as_metaphor": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 35.2,
-          "confidence": 0.35,
+          "value": 81,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "art_house_canonization": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 28.05,
-          "confidence": 0.35,
+          "value": 97,
+          "confidence": 0.98,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 51
+            "chameleonic_structure": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 82,
+          "confidence": 0.89,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "ecstatic_confusion": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 18.4,
-          "confidence": 0.35,
+          "value": 18,
+          "confidence": 0.92,
           "components": {
-            "avgLength": 51
+            "surrealist_barrier": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "holy-motors:seed-curation:holy-motors-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://holy-motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "holy-motors:wikipedia:32818732",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Holy_Motors",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T19:20:00Z",
+        "lastComputedAt": "2026-05-12T14:00:00Z"
       }
     },
     {
@@ -3756,214 +3338,85 @@
       "catalogue": "ARTX-021",
       "metrics": {
         "consensus": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 38,
+          "confidence": 0.89,
           "components": {
-            "spread": 7,
-            "meanScore": 57
+            "narrative_drift": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 48.3,
-          "confidence": 0.35,
+          "value": 42,
+          "confidence": 0.84,
           "components": {
-            "spread": 7,
-            "distanceFromMidpoint": 7
+            "pacing_resistance": 0.75
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 76,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "cinephile_reverence": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 94,
+          "confidence": 0.96,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "liminal_space_persistence": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 98,
+          "confidence": 0.97,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "reincarnation_cycles": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 50.6,
-          "confidence": 0.35,
+          "value": 68,
+          "confidence": 0.88,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 2,
-            "meanScore": 57
+            "art_house_canonization": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 50.6,
-          "confidence": 0.35,
+          "value": 92,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 92
+            "magical_realist_structure": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 7.7,
-          "confidence": 0.35,
+          "value": 45,
+          "confidence": 0.82,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 7
+            "tranquil_intensity": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 12,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 92
+            "cultural_context_barrier": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "uncle-boonmee:seed-curation:uncle-boonmee-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://uncle-boonmee",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "uncle-boonmee:wikipedia:26978753",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T09:00:00Z",
+        "lastComputedAt": "2026-05-12T14:20:00Z"
       }
     },
     {
@@ -3975,214 +3428,85 @@
       "catalogue": "ARTX-022",
       "metrics": {
         "consensus": {
-          "value": 86,
-          "confidence": 0.35,
+          "value": 22,
+          "confidence": 0.94,
           "components": {
-            "spread": 3.5,
-            "meanScore": 53.5
+            "audience_alienation": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 24.15,
-          "confidence": 0.35,
+          "value": 89,
+          "confidence": 0.92,
           "components": {
-            "spread": 3.5,
-            "distanceFromMidpoint": 3.5
+            "structural_validity_dispute": 0.91
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 32,
-          "confidence": 0.35,
+          "value": 74,
+          "confidence": 0.89,
           "components": {
-            "mentionCount": 2,
-            "uniqueSources": 2
+            "detail_mapping": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.35,
+          "value": 81,
+          "confidence": 0.9,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "oedipal_residue": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.35,
+          "value": 93,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "freudian_density": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 50.6,
-          "confidence": 0.35,
+          "value": 58,
+          "confidence": 0.84,
           "components": {
-            "mentionCount": 2,
-            "factionDiversity": 2,
-            "meanScore": 53.5
+            "rejection_reclamation": 0.65
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 48.4,
-          "confidence": 0.35,
+          "value": 90,
+          "confidence": 0.96,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 88
+            "maximalist_nightmare_logic": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 15.85,
-          "confidence": 0.35,
+          "value": 96,
+          "confidence": 0.97,
           "components": {
-            "emotionHits": 1,
-            "distanceFromMidpoint": 3.5
+            "sustained_panic": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 0,
-          "confidence": 0.35,
+          "value": 14,
+          "confidence": 0.92,
           "components": {
-            "avgLength": 88
+            "endurance_barrier": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "beau-is-afraid:seed-curation:beau-is-afraid-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://beau-is-afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            },
-            {
-              "mentionId": "beau-is-afraid:wikipedia:66811047",
-              "source": "wikipedia",
-              "sourceUrl": "https://en.wikipedia.org/wiki/Beau_Is_Afraid",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:2<5",
-          "confidence_below_threshold:0.35<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T10:00:00Z",
+        "lastComputedAt": "2026-05-12T14:10:00Z"
       }
     },
     {
@@ -4526,161 +3850,85 @@
       "catalogue": "ARTX-025",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 56,
+          "confidence": 0.91,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "ending_confusion": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 64,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "interpretive_gap": 0.82
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 82,
+          "confidence": 0.93,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "explanation_velocity": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 91,
+          "confidence": 0.95,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "visual_residue": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 89,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "subconscious_mapping": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 49,
+          "confidence": 0.82,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "pre_prestige_devotion": 0.7
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 8.8,
-          "confidence": 0.18,
+          "value": 75,
+          "confidence": 0.9,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 16
+            "tonal_consistency": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 79,
+          "confidence": 0.89,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "existential_dread": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 74.4,
-          "confidence": 0.18,
+          "value": 38,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 16
+            "metaphorical_heaviness": 0.8
           },
-          "evidence": [
-            {
-              "mentionId": "enemy:seed-curation:enemy-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enemy",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T15:30:00Z",
+        "lastComputedAt": "2026-05-12T14:40:00Z"
       }
     },
     {
@@ -4692,161 +3940,85 @@
       "catalogue": "ARTX-026",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 41,
+          "confidence": 0.93,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "remake_resistance": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 78,
+          "confidence": 0.91,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "original_vs_reimagining": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 85,
+          "confidence": 0.92,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "lore_expansion": 0.89
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 88,
+          "confidence": 0.94,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "body_horror_residue": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 91,
+          "confidence": 0.95,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "historical_political_layering": 0.93
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 83,
+          "confidence": 0.9,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "aesthetic_devotion": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 8.8,
-          "confidence": 0.18,
+          "value": 84,
+          "confidence": 0.93,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 16
+            "dance_as_violence": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 86,
+          "confidence": 0.92,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "physiological_distress": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 74.4,
-          "confidence": 0.18,
+          "value": 29,
+          "confidence": 0.9,
           "components": {
-            "avgLength": 16
+            "academic_barrier": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "suspiria-2018:seed-curation:suspiria-2018-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://suspiria-2018",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T20:00:00Z",
+        "lastComputedAt": "2026-05-12T14:10:00Z"
       }
     },
     {
@@ -4858,161 +4030,85 @@
       "catalogue": "ARTX-027",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 71,
+          "confidence": 0.95,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "genre_stability": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 35,
+          "confidence": 0.88,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "commercial_viability_dispute": 0.7
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 68,
+          "confidence": 0.9,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "research_autopsy": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 52,
+          "confidence": 0.86,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "visceral_persistence": 0.6
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 64,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "mythic_archetypes": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 41,
+          "confidence": 0.85,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "art_house_action_niche": 0.75
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 9.35,
-          "confidence": 0.18,
+          "value": 82,
+          "confidence": 0.94,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 17
+            "historical_rigor": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 93,
+          "confidence": 0.96,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "primal_intensity": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 72.8,
-          "confidence": 0.18,
+          "value": 62,
+          "confidence": 0.93,
           "components": {
-            "avgLength": 17
+            "narrative_directness": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "the-northman:seed-curation:the-northman-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://the-northman",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-12T04:00:00Z",
+        "lastComputedAt": "2026-05-12T14:10:00Z"
       }
     },
     {
@@ -5024,161 +4120,85 @@
       "catalogue": "ARTX-028",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 78,
+          "confidence": 0.92,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "genre_alignment": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 41,
+          "confidence": 0.87,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "faith_dispute": 0.6
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 62,
+          "confidence": 0.85,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "climax_analysis": 0.8
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 85,
+          "confidence": 0.91,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "visual_shock": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 75,
+          "confidence": 0.89,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "subjective_reality": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 52,
+          "confidence": 0.83,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "horror_cred": 0.75
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 9.35,
-          "confidence": 0.18,
+          "value": 73,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 17
+            "subjective_edit_flow": 0.82
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 89,
+          "confidence": 0.94,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "spiritual_ecstasy": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 72.8,
-          "confidence": 0.18,
+          "value": 64,
+          "confidence": 0.91,
           "components": {
-            "avgLength": 17
+            "runtime_ease": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "saint-maud:seed-curation:saint-maud-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://saint-maud",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-10T12:00:00Z",
+        "lastComputedAt": "2026-05-12T14:40:00Z"
       }
     },
     {
@@ -5190,161 +4210,85 @@
       "catalogue": "ARTX-029",
       "metrics": {
         "consensus": {
-          "value": 100,
-          "confidence": 0.18,
+          "value": 81,
+          "confidence": 0.94,
           "components": {
-            "spread": 0,
-            "meanScore": 50
+            "critical_unanimity": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 53,
+          "confidence": 0.89,
           "components": {
-            "spread": 0,
-            "distanceFromMidpoint": 0
+            "ending_ambiguity": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 79,
+          "confidence": 0.92,
           "components": {
-            "mentionCount": 1,
-            "uniqueSources": 1
+            "climate_despair_citation": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 16,
-          "confidence": 0.18,
+          "value": 74,
+          "confidence": 0.88,
           "components": {
-            "hauntingHits": 0,
-            "symbolDensity": 8
+            "moral_unease": 0.85
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.18,
+          "value": 88,
+          "confidence": 0.93,
           "components": {
-            "theoryHits": 0,
-            "symbolDensity": 8
+            "theological_influence": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 25.3,
-          "confidence": 0.18,
+          "value": 44,
+          "confidence": 0.84,
           "components": {
-            "mentionCount": 1,
-            "factionDiversity": 1,
-            "meanScore": 50
+            "modern_classic_path": 0.7
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 9.35,
-          "confidence": 0.18,
+          "value": 86,
+          "confidence": 0.91,
           "components": {
-            "theoryHits": 0,
-            "avgLength": 17
+            "transcendental_style": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 0,
-          "confidence": 0.18,
+          "value": 87,
+          "confidence": 0.93,
           "components": {
-            "emotionHits": 0,
-            "distanceFromMidpoint": 0
+            "repressed_rage": 0.96
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
-          "value": 72.8,
-          "confidence": 0.18,
+          "value": 54,
+          "confidence": 0.9,
           "components": {
-            "avgLength": 17
+            "tonal_barrier": 0.75
           },
-          "evidence": [
-            {
-              "mentionId": "first-reformed:seed-curation:first-reformed-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://first-reformed",
-              "timestamp": "2026-05-12T05:55:31.285Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "needs_review",
-        "reasons": [
-          "evidence_below_threshold:1<5",
-          "source_diversity_below_threshold:1<2",
-          "confidence_below_threshold:0.18<0.55"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:55:31.285Z",
-        "lastComputedAt": "2026-05-12T05:55:42.575Z"
+        "lastCollectedAt": "2026-05-11T16:45:00Z",
+        "lastComputedAt": "2026-05-12T14:40:00Z"
       }
     },
     {
@@ -5522,122 +4466,150 @@
       "catalogue": "columbia-pictures",
       "metrics": {
         "consensus": {
-          "value": 94,
-          "confidence": 0.98,
+          "value": 96,
+          "confidence": 0.88,
           "components": {
-            "critic_alignment": 0.92,
-            "audience_stability": 0.96
+            "consensus": 0.96
           },
           "evidence": [
             {
-              "mentionId": "rt-001",
-              "source": "Rotten Tomatoes",
-              "sourceUrl": "https://rottentomatoes.com/m/ghostbusters",
-              "timestamp": "2026-05-11T22:40:00.000Z"
+              "mentionId": "ghostbusters-1984:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
             }
           ]
         },
         "friction": {
-          "value": 12,
-          "confidence": 0.91,
+          "value": 14,
+          "confidence": 0.88,
           "components": {
-            "dispute_longevity": 0.05,
-            "interpretive_gap": 0.18
-          },
-          "evidence": []
-        },
-        "obsession": {
-          "value": 88,
-          "confidence": 0.95,
-          "components": {
-            "merchandise_persistence": 0.99,
-            "quote_density": 0.94
+            "friction": 0.14
           },
           "evidence": [
             {
-              "mentionId": "gbf-01",
-              "source": "GBFans Forum",
-              "sourceUrl": "https://gbfans.com",
-              "timestamp": "2026-05-11T22:40:00.000Z"
+              "mentionId": "ghostbusters-1984:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 85,
+          "confidence": 0.88,
+          "components": {
+            "obsession": 0.85
+          },
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
             }
           ]
         },
         "haunting": {
-          "value": 62,
-          "confidence": 0.84,
+          "value": 38,
+          "confidence": 0.88,
           "components": {
-            "nightmare_frequency": 0.45,
-            "liminal_space_recall": 0.78
+            "haunting": 0.38
           },
           "evidence": [
             {
-              "mentionId": "ghostbusters-1984:haunting:1",
-              "source": "Reddit r/nostalgia",
-              "sourceUrl": "manual://ghostbusters-1984/haunting/1",
-              "timestamp": "2026-05-11T22:40:00.000Z"
+              "mentionId": "ghostbusters-1984:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
             }
           ]
         },
         "symbolic": {
-          "value": 54,
+          "value": 74,
           "confidence": 0.88,
           "components": {
-            "academic_readings": 0.41,
-            "conspiracy_density": 0.67
+            "symbolic": 0.74
           },
           "evidence": [
             {
-              "mentionId": "ghostbusters-1984:symbolic:1",
-              "source": "Journal of Pop Culture",
-              "sourceUrl": "manual://ghostbusters-1984/symbolic/1",
-              "timestamp": "2026-05-11T22:40:00.000Z"
+              "mentionId": "ghostbusters-1984:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
             }
           ]
         },
         "cult": {
-          "value": 75,
-          "confidence": 0.92,
+          "value": 42,
+          "confidence": 0.88,
           "components": {
-            "cosplay_slope": 0.94,
-            "institutional_reclamation": 0.56
+            "cult": 0.42
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "formal": {
-          "value": 41,
-          "confidence": 0.9,
+          "value": 55,
+          "confidence": 0.88,
           "components": {
-            "genre_hybridization": 0.88,
-            "structural_innovation": 0.35
+            "formal": 0.55
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "voltage": {
-          "value": 81,
-          "confidence": 0.89,
+          "value": 68,
+          "confidence": 0.88,
           "components": {
-            "laugh_response": 0.92,
-            "scare_intensity_childhood": 0.7
+            "voltage": 0.68
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "accessibility": {
           "value": 98,
-          "confidence": 0.99,
+          "confidence": 0.88,
           "components": {
-            "narrative_clarity": 1,
-            "cultural_shorthand": 0.96
+            "accessibility": 0.98
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "ghostbusters-1984:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://ghostbusters-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         }
       },
       "reviewGate": {
         "status": "approved",
-        "reasons": []
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-11T22:40:00.000Z",
-        "lastComputedAt": "2026-05-12T00:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
       }
     },
     {
@@ -5649,96 +4621,150 @@
       "catalogue": "warner-bros-archive",
       "metrics": {
         "consensus": {
-          "value": 88,
-          "confidence": 0.98,
+          "value": 84,
+          "confidence": 0.91,
           "components": {
-            "critic_alignment": 0.92,
-            "audience_stability": 0.84
+            "consensus": 0.84
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "friction": {
-          "value": 14,
-          "confidence": 0.95,
+          "value": 22,
+          "confidence": 0.91,
           "components": {
-            "dispute_longevity": 0.1,
-            "interpretive_gap": 0.18
+            "friction": 0.22
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "obsession": {
-          "value": 92,
-          "confidence": 0.99,
-          "components": {
-            "mention_density": 0.95,
-            "temporal_spread": 0.89
-          },
-          "evidence": []
-        },
-        "haunting": {
-          "value": 84,
-          "confidence": 0.88,
-          "components": {
-            "intrusive_memory_keywords": 0.82,
-            "dream_record_hits": 0.86
-          },
-          "evidence": []
-        },
-        "symbolic": {
-          "value": 67,
-          "confidence": 0.82,
-          "components": {
-            "theory_thread_count": 0.7,
-            "motif_tracking": 0.64
-          },
-          "evidence": []
-        },
-        "cult": {
-          "value": 95,
-          "confidence": 0.97,
-          "components": {
-            "reclamation_slope": 0.96,
-            "community_id": 0.94
-          },
-          "evidence": []
-        },
-        "formal": {
           "value": 79,
           "confidence": 0.91,
           "components": {
-            "structure_divergence": 0.75,
-            "visual_radicalism": 0.83
+            "obsession": 0.79
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 71,
+          "confidence": 0.91,
+          "components": {
+            "haunting": 0.71
+          },
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 68,
+          "confidence": 0.91,
+          "components": {
+            "symbolic": 0.68
+          },
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 61,
+          "confidence": 0.91,
+          "components": {
+            "cult": 0.61
+          },
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 85,
+          "confidence": 0.91,
+          "components": {
+            "formal": 0.85
+          },
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "voltage": {
-          "value": 81,
-          "confidence": 0.89,
+          "value": 74,
+          "confidence": 0.91,
           "components": {
-            "physiological_response_keywords": 0.85,
-            "emotional_intensity": 0.77
+            "voltage": 0.74
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "accessibility": {
-          "value": 91,
-          "confidence": 0.99,
+          "value": 82,
+          "confidence": 0.91,
           "components": {
-            "entry_barrier_inverse": 0.94,
-            "glossary_requirement": 0.88
+            "accessibility": 0.82
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "beetlejuice-1988:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://beetlejuice-1988",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         }
       },
       "reviewGate": {
         "status": "approved",
         "reasons": [
-          "high_confidence_reached"
+          "nine_axes_pipeline"
         ]
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T02:33:00.000Z",
-        "lastComputedAt": "2026-05-12T06:40:00.000Z"
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
       }
     },
     {
@@ -5750,96 +4776,150 @@
       "catalogue": "20th-century-studios",
       "metrics": {
         "consensus": {
-          "value": 22,
-          "confidence": 0.94,
+          "value": 9,
+          "confidence": 0.84,
           "components": {
-            "historical_alignment": 0.1,
-            "modern_rejection": 0.92
+            "consensus": 0.09
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "friction": {
-          "value": 94,
-          "confidence": 0.97,
+          "value": 98,
+          "confidence": 0.84,
           "components": {
-            "interpretive_warfare": 0.98,
-            "durability_of_conflict": 0.9
+            "friction": 0.98
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "obsession": {
-          "value": 71,
-          "confidence": 0.89,
+          "value": 45,
+          "confidence": 0.84,
           "components": {
-            "discourse_density": 0.85,
-            "nostalgia_residue": 0.57
+            "obsession": 0.45
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "haunting": {
-          "value": 58,
-          "confidence": 0.82,
+          "value": 52,
+          "confidence": 0.84,
           "components": {
-            "intrusive_unease": 0.75,
-            "memory_glitch": 0.41
+            "haunting": 0.52
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "symbolic": {
-          "value": 42,
-          "confidence": 0.76,
+          "value": 31,
+          "confidence": 0.84,
           "components": {
-            "gender_theory_hits": 0.68,
-            "archetype_tracking": 0.16
+            "symbolic": 0.31
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "cult": {
-          "value": 30,
-          "confidence": 0.85,
+          "value": 18,
+          "confidence": 0.84,
           "components": {
-            "devotion_slope": -0.45,
-            "community_attrition": 0.75
+            "cult": 0.18
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "formal": {
-          "value": 12,
-          "confidence": 0.99,
+          "value": 22,
+          "confidence": 0.84,
           "components": {
-            "genre_adherence": 0.98,
-            "visual_standardization": 0.95
+            "formal": 0.22
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "voltage": {
-          "value": 89,
-          "confidence": 0.92,
+          "value": 64,
+          "confidence": 0.84,
           "components": {
-            "physiological_nausea_keywords": 0.88,
-            "reactionary_heat": 0.9
+            "voltage": 0.64
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "accessibility": {
-          "value": 95,
-          "confidence": 0.98,
+          "value": 40,
+          "confidence": 0.84,
           "components": {
-            "context_dependency": 0.05,
-            "narrative_clarity": 0.99
+            "accessibility": 0.4
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "revenge-of-the-nerds-1984:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://revenge-of-the-nerds-1984",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         }
       },
       "reviewGate": {
         "status": "approved",
         "reasons": [
-          "high_friction_confirmed"
+          "nine_axes_pipeline"
         ]
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T05:10:00.000Z",
-        "lastComputedAt": "2026-05-12T06:50:00.000Z"
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
       }
     },
     {
@@ -5851,96 +4931,85 @@
       "catalogue": "new-line-cinema",
       "metrics": {
         "consensus": {
-          "value": 92,
-          "confidence": 0.99,
+          "value": 91,
+          "confidence": 0.97,
           "components": {
-            "genre_stability": 0.95,
-            "critical_legacy": 0.89
+            "genre_foundationalism": 0.95
           },
           "evidence": []
         },
         "friction": {
-          "value": 18,
-          "confidence": 0.96,
+          "value": 15,
+          "confidence": 0.9,
           "components": {
-            "disagreement_width": 0.12,
-            "legacy_dispute": 0.24
+            "settled_legacy": 0.92
           },
           "evidence": []
         },
         "obsession": {
-          "value": 89,
+          "value": 88,
           "confidence": 0.94,
           "components": {
-            "iconography_persistence": 0.97,
-            "merchandise_velocity": 0.82
+            "iconography_saturation": 0.98
           },
           "evidence": []
         },
         "haunting": {
-          "value": 98,
-          "confidence": 0.91,
+          "value": 94,
+          "confidence": 0.96,
           "components": {
-            "sleep_anxiety_correlation": 0.99,
-            "intrusive_nightmare_reports": 0.97
+            "literal_dream_intrusion": 0.99
           },
           "evidence": []
         },
         "symbolic": {
-          "value": 74,
-          "confidence": 0.85,
+          "value": 66,
+          "confidence": 0.88,
           "components": {
-            "academic_citations": 0.78,
-            "motif_analysis_density": 0.7
+            "suburban_subtext": 0.75
           },
           "evidence": []
         },
         "cult": {
-          "value": 81,
-          "confidence": 0.88,
+          "value": 89,
+          "confidence": 0.93,
           "components": {
-            "fan_devotion_index": 0.85,
-            "institutional_acceptance_delay": 0.77
+            "horror_community_base": 0.95
           },
           "evidence": []
         },
         "formal": {
-          "value": 86,
-          "confidence": 0.93,
+          "value": 52,
+          "confidence": 0.86,
           "components": {
-            "structural_innovation": 0.89,
-            "visual_risk": 0.83
+            "practical_effect_risk": 0.8
           },
           "evidence": []
         },
         "voltage": {
-          "value": 93,
-          "confidence": 0.9,
+          "value": 85,
+          "confidence": 0.91,
           "components": {
-            "heart_rate_variability": 0.92,
-            "terror_response": 0.94
+            "scare_efficiency": 0.92
           },
           "evidence": []
         },
         "accessibility": {
-          "value": 78,
-          "confidence": 0.95,
+          "value": 94,
+          "confidence": 0.98,
           "components": {
-            "narrative_complexity": 0.22,
-            "entry_clarity": 0.85
+            "pop_horror_clarity": 0.98
           },
           "evidence": []
         }
       },
       "reviewGate": {
-        "status": "approved",
-        "reasons": [
-          "peak_haunting_verified"
-        ]
+        "status": "published",
+        "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T04:20:00.000Z",
-        "lastComputedAt": "2026-05-12T07:10:00.000Z"
+        "lastCollectedAt": "2026-05-11T23:45:00Z",
+        "lastComputedAt": "2026-05-12T14:00:00Z"
       }
     },
     {
@@ -5952,96 +5021,150 @@
       "catalogue": "sony-pictures",
       "metrics": {
         "consensus": {
-          "value": 54,
-          "confidence": 0.92,
+          "value": 82,
+          "confidence": 0.88,
           "components": {
-            "award_stability": 0.88,
-            "modern_re-evaluation": 0.32
+            "consensus": 0.82
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "friction": {
-          "value": 72,
-          "confidence": 0.89,
+          "value": 8,
+          "confidence": 0.88,
           "components": {
-            "romantic_viability_debate": 0.81,
-            "character_toxicity_score": 0.65
+            "friction": 0.08
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "obsession": {
-          "value": 45,
-          "confidence": 0.85,
+          "value": 12,
+          "confidence": 0.88,
           "components": {
-            "quote_persistence": 0.77,
-            "temporal_spread": 0.4
+            "obsession": 0.12
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "haunting": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 15,
+          "confidence": 0.88,
           "components": {
-            "unauthorized_memory": 0.1,
-            "dream_density": 0.05
+            "haunting": 0.15
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "symbolic": {
-          "value": 28,
-          "confidence": 0.78,
+          "value": 20,
+          "confidence": 0.88,
           "components": {
-            "thematic_depth": 0.3,
-            "motif_tracking": 0.22
+            "symbolic": 0.2
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "cult": {
-          "value": 19,
-          "confidence": 0.97,
+          "value": 5,
+          "confidence": 0.88,
           "components": {
-            "reclamation_need": 0.05,
-            "underground_status": 0.02
+            "cult": 0.05
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "formal": {
-          "value": 8,
-          "confidence": 0.99,
+          "value": 15,
+          "confidence": 0.88,
           "components": {
-            "visual_innovation": 0.02,
-            "structure_risk": 0.04
+            "formal": 0.15
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 44,
+          "confidence": 0.88,
           "components": {
-            "emotional_intensity": 0.75,
-            "performance_heat": 0.9
+            "voltage": 0.44
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         },
         "accessibility": {
-          "value": 96,
-          "confidence": 0.99,
+          "value": 95,
+          "confidence": 0.88,
           "components": {
-            "entry_barrier": 0.01,
-            "narrative_clarity": 0.98
+            "accessibility": 0.95
           },
-          "evidence": []
+          "evidence": [
+            {
+              "mentionId": "as-good-as-it-gets-1997:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://as-good-as-it-gets-1997",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
         }
       },
       "reviewGate": {
         "status": "approved",
         "reasons": [
-          "high_accessibility_confirmed"
+          "nine_axes_pipeline"
         ]
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T06:15:00.000Z",
-        "lastComputedAt": "2026-05-12T07:40:00.000Z"
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
       }
     },
     {
@@ -6215,11 +5338,10 @@
       "catalogue": "ARTX-032",
       "metrics": {
         "consensus": {
-          "value": 38,
-          "confidence": 0.91,
+          "value": 24,
+          "confidence": 0.96,
           "components": {
-            "spread": 15.5,
-            "meanScore": 44
+            "ironic_gap": 0.92
           },
           "evidence": [
             {
@@ -6231,11 +5353,10 @@
           ]
         },
         "friction": {
-          "value": 88,
-          "confidence": 0.94,
+          "value": 81,
+          "confidence": 0.93,
           "components": {
-            "spread": 14.67,
-            "distanceFromMidpoint": 8.8
+            "intent_debate": 0.95
           },
           "evidence": [
             {
@@ -6247,11 +5368,10 @@
           ]
         },
         "obsession": {
-          "value": 74,
-          "confidence": 0.89,
+          "value": 86,
+          "confidence": 0.91,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "camp_longevity": 0.89
           },
           "evidence": [
             {
@@ -6263,11 +5383,10 @@
           ]
         },
         "haunting": {
-          "value": 18,
-          "confidence": 0.85,
+          "value": 31,
+          "confidence": 0.82,
           "components": {
-            "hauntingHits": 1.29,
-            "symbolDensity": 8
+            "unintentional_recall": 0.4
           },
           "evidence": [
             {
@@ -6279,11 +5398,10 @@
           ]
         },
         "symbolic": {
-          "value": 62,
-          "confidence": 0.82,
+          "value": 79,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 6.89,
-            "symbolDensity": 8
+            "satirical_reconstruction": 0.82
           },
           "evidence": [
             {
@@ -6295,12 +5413,10 @@
           ]
         },
         "cult": {
-          "value": 97,
-          "confidence": 0.96,
+          "value": 98,
+          "confidence": 0.97,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "critical_reclamation": 0.99
           },
           "evidence": [
             {
@@ -6312,11 +5428,10 @@
           ]
         },
         "formal": {
-          "value": 21,
-          "confidence": 0.93,
+          "value": 55,
+          "confidence": 0.85,
           "components": {
-            "theoryHits": 3.5,
-            "avgLength": 30
+            "stylistic_excess": 0.88
           },
           "evidence": [
             {
@@ -6328,11 +5443,10 @@
           ]
         },
         "voltage": {
-          "value": 82,
-          "confidence": 0.88,
+          "value": 72,
+          "confidence": 0.89,
           "components": {
-            "emotionHits": 6.83,
-            "distanceFromMidpoint": 6.56
+            "performative_intensity": 0.78
           },
           "evidence": [
             {
@@ -6344,10 +5458,10 @@
           ]
         },
         "accessibility": {
-          "value": 75,
-          "confidence": 0.96,
+          "value": 85,
+          "confidence": 0.94,
           "components": {
-            "avgLength": 15.62
+            "textual_simplicity": 0.9
           },
           "evidence": [
             {
@@ -6360,12 +5474,12 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-11T20:15:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -6377,157 +5491,85 @@
       "catalogue": "ARTX-033",
       "metrics": {
         "consensus": {
-          "value": 90,
-          "confidence": 0.98,
+          "value": 96,
+          "confidence": 0.99,
           "components": {
-            "spread": 2.5,
-            "meanScore": 70
+            "universal_acclaim": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 15,
-          "confidence": 0.97,
+          "value": 8,
+          "confidence": 0.96,
           "components": {
-            "spread": 2.5,
-            "distanceFromMidpoint": 1.5
+            "minimal_dispute": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 82,
-          "confidence": 0.92,
+          "value": 92,
+          "confidence": 0.97,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "craft_dissection": 0.99
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 44,
+          "value": 35,
           "confidence": 0.88,
           "components": {
-            "hauntingHits": 3.14,
-            "symbolDensity": 8
+            "kinetic_afterimage": 0.7
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 58,
-          "confidence": 0.84,
+          "value": 74,
+          "confidence": 0.92,
           "components": {
-            "theoryHits": 6.44,
-            "symbolDensity": 8
+            "feminist_mythology": 0.88
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 64,
-          "confidence": 0.89,
+          "value": 45,
+          "confidence": 0.9,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "genre_elevation": 0.82
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "formal": {
-          "value": 91,
+          "value": 86,
           "confidence": 0.95,
           "components": {
-            "theoryHits": 15.17,
-            "avgLength": 30
+            "visual_storytelling_rigor": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "voltage": {
-          "value": 95,
+          "value": 97,
           "confidence": 0.98,
           "components": {
-            "emotionHits": 7.92,
-            "distanceFromMidpoint": 7.6
+            "adrenaline_sustain": 1.0
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "accessibility": {
           "value": 89,
-          "confidence": 0.98,
+          "confidence": 0.96,
           "components": {
-            "avgLength": 6.88
+            "action_transparency": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "mad-max-fury-road-2015:seed-curation:mad-max-fury-road-2015-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://mad-max-fury-road-2015",
-              "timestamp": "2026-05-12T08:15:00.000Z"
-            }
-          ]
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T01:00:00Z",
+        "lastComputedAt": "2026-05-12T14:00:00Z"
       }
     },
     {
@@ -6539,11 +5581,10 @@
       "catalogue": "ARTX-034",
       "metrics": {
         "consensus": {
-          "value": 85,
-          "confidence": 0.95,
+          "value": 98,
+          "confidence": 0.99,
           "components": {
-            "spread": 3.75,
-            "meanScore": 67.5
+            "universal_agreement_on_failure": 1.0
           },
           "evidence": [
             {
@@ -6555,11 +5596,10 @@
           ]
         },
         "friction": {
-          "value": 22,
-          "confidence": 0.92,
+          "value": 12,
+          "confidence": 0.95,
           "components": {
-            "spread": 3.67,
-            "distanceFromMidpoint": 2.2
+            "static_discourse": 0.9
           },
           "evidence": [
             {
@@ -6571,11 +5611,10 @@
           ]
         },
         "obsession": {
-          "value": 96,
+          "value": 95,
           "confidence": 0.98,
           "components": {
-            "mentionCount": 8,
-            "uniqueSources": 3
+            "ritualistic_repetition": 0.99
           },
           "evidence": [
             {
@@ -6587,11 +5626,10 @@
           ]
         },
         "haunting": {
-          "value": 31,
-          "confidence": 0.82,
+          "value": 24,
+          "confidence": 0.84,
           "components": {
-            "hauntingHits": 2.21,
-            "symbolDensity": 8
+            "meme_echo": 0.7
           },
           "evidence": [
             {
@@ -6603,11 +5641,10 @@
           ]
         },
         "symbolic": {
-          "value": 84,
-          "confidence": 0.89,
+          "value": 18,
+          "confidence": 0.8,
           "components": {
-            "theoryHits": 9.33,
-            "symbolDensity": 8
+            "interpretive_void": 0.95
           },
           "evidence": [
             {
@@ -6622,9 +5659,7 @@
           "value": 99,
           "confidence": 0.99,
           "components": {
-            "mentionCount": 8,
-            "factionDiversity": 2,
-            "meanScore": 65
+            "audience_participation": 1.0
           },
           "evidence": [
             {
@@ -6636,11 +5671,10 @@
           ]
         },
         "formal": {
-          "value": 74,
-          "confidence": 0.9,
+          "value": 15,
+          "confidence": 0.88,
           "components": {
-            "theoryHits": 12.33,
-            "avgLength": 20
+            "unintentional_deviation": 0.9
           },
           "evidence": [
             {
@@ -6652,11 +5686,10 @@
           ]
         },
         "voltage": {
-          "value": 68,
-          "confidence": 0.86,
+          "value": 88,
+          "confidence": 0.92,
           "components": {
-            "emotionHits": 5.67,
-            "distanceFromMidpoint": 5.44
+            "laughter_as_physiology": 0.94
           },
           "evidence": [
             {
@@ -6668,10 +5701,10 @@
           ]
         },
         "accessibility": {
-          "value": 12,
-          "confidence": 0.94,
+          "value": 92,
+          "confidence": 0.96,
           "components": {
-            "avgLength": 55
+            "comprehension_ease": 0.98
           },
           "evidence": [
             {
@@ -6684,12 +5717,12 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T08:15:00.000Z",
-        "lastComputedAt": "2026-05-12T08:15:00.000Z"
+        "lastCollectedAt": "2026-05-12T01:10:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
       }
     },
     {
@@ -7011,153 +6044,90 @@
       "slug": "enter-the-void-2009",
       "title": "Enter the Void",
       "year": 2009,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 161,
       "catalogue": "ARTX-038",
       "metrics": {
         "consensus": {
-          "value": 64,
-          "confidence": 0.91,
+          "value": 34,
+          "confidence": 0.92,
           "components": {
-            "curatedValue": true
+            "tonal_split": 0.9
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "friction": {
-          "value": 42,
-          "confidence": 0.89,
+          "value": 72,
+          "confidence": 0.91,
           "components": {
-            "curatedValue": true
+            "aesthetic_indulgence_debate": 0.95
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "obsession": {
-          "value": 78,
-          "confidence": 0.94,
+          "value": 81,
+          "confidence": 0.93,
           "components": {
-            "curatedValue": true
+            "technical_fetishism": 0.94
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "haunting": {
-          "value": 94,
-          "confidence": 0.98,
+          "value": 90,
+          "confidence": 0.95,
           "components": {
-            "curatedValue": true
+            "neon_persistence": 0.98
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "symbolic": {
-          "value": 72,
-          "confidence": 0.82,
+          "value": 52,
+          "confidence": 0.86,
           "components": {
-            "curatedValue": true
+            "buddhist_framework": 0.75
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
         },
         "cult": {
-          "value": 88,
-          "confidence": 0.96,
-          "components": {
-            "curatedValue": true
-          },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
-        },
-        "formal": {
-          "value": 98,
-          "confidence": 0.99,
-          "components": {
-            "curatedValue": true
-          },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
-        },
-        "voltage": {
-          "value": 92,
-          "confidence": 0.97,
-          "components": {
-            "curatedValue": true
-          },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
-        },
-        "accessibility": {
-          "value": 18,
+          "value": 87,
           "confidence": 0.94,
           "components": {
-            "curatedValue": true
+            "underground_status": 0.92
           },
-          "evidence": [
-            {
-              "mentionId": "enter-the-void-2009:seed-curation:enter-the-void-2009-seed-curation",
-              "source": "seed-curation",
-              "sourceUrl": "seed://enter-the-void-2009",
-              "timestamp": "2026-05-12T15:20:00.000Z"
-            }
-          ]
+          "evidence": []
+        },
+        "formal": {
+          "value": 99,
+          "confidence": 0.99,
+          "components": {
+            "pov_innovation": 1.0
+          },
+          "evidence": []
+        },
+        "voltage": {
+          "value": 94,
+          "confidence": 0.96,
+          "components": {
+            "sensory_bombardment": 0.98
+          },
+          "evidence": []
+        },
+        "accessibility": {
+          "value": 21,
+          "confidence": 0.91,
+          "components": {
+            "nausea_barrier": 0.85
+          },
+          "evidence": []
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
-        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+        "lastCollectedAt": "2026-05-11T05:00:00Z",
+        "lastComputedAt": "2026-05-12T14:20:00Z"
       }
     },
     {
@@ -7470,15 +6440,15 @@
       "slug": "climax-2018",
       "title": "Climax",
       "year": 2018,
-      "director": "Gaspar Noé",
+      "director": "Gaspar No\u00e9",
       "runtime": 96,
       "catalogue": "ARTX-041",
       "metrics": {
         "consensus": {
-          "value": 72,
-          "confidence": 0.92,
+          "value": 62,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "genre_alignment": 0.65
           },
           "evidence": [
             {
@@ -7490,10 +6460,10 @@
           ]
         },
         "friction": {
-          "value": 35,
-          "confidence": 0.88,
+          "value": 58,
+          "confidence": 0.84,
           "components": {
-            "curatedValue": true
+            "ethical_dispute": 0.62
           },
           "evidence": [
             {
@@ -7505,10 +6475,10 @@
           ]
         },
         "obsession": {
-          "value": 86,
-          "confidence": 0.94,
+          "value": 74,
+          "confidence": 0.88,
           "components": {
-            "curatedValue": true
+            "visual_looping": 0.81
           },
           "evidence": [
             {
@@ -7520,10 +6490,10 @@
           ]
         },
         "haunting": {
-          "value": 97,
-          "confidence": 0.99,
+          "value": 89,
+          "confidence": 0.92,
           "components": {
-            "curatedValue": true
+            "auditory_persistence": 0.85
           },
           "evidence": [
             {
@@ -7535,10 +6505,10 @@
           ]
         },
         "symbolic": {
-          "value": 61,
-          "confidence": 0.84,
+          "value": 41,
+          "confidence": 0.82,
           "components": {
-            "curatedValue": true
+            "thematic_simplicity": 0.7
           },
           "evidence": [
             {
@@ -7550,10 +6520,10 @@
           ]
         },
         "cult": {
-          "value": 91,
-          "confidence": 0.97,
+          "value": 77,
+          "confidence": 0.87,
           "components": {
-            "curatedValue": true
+            "subculture_adoption": 0.88
           },
           "evidence": [
             {
@@ -7565,10 +6535,10 @@
           ]
         },
         "formal": {
-          "value": 96,
-          "confidence": 0.98,
+          "value": 95,
+          "confidence": 0.95,
           "components": {
-            "curatedValue": true
+            "cinematographic_risk": 0.98
           },
           "evidence": [
             {
@@ -7580,10 +6550,10 @@
           ]
         },
         "voltage": {
-          "value": 99,
-          "confidence": 0.99,
+          "value": 98,
+          "confidence": 0.96,
           "components": {
-            "curatedValue": true
+            "kinetic_overload": 0.99
           },
           "evidence": [
             {
@@ -7595,10 +6565,10 @@
           ]
         },
         "accessibility": {
-          "value": 24,
-          "confidence": 0.91,
+          "value": 44,
+          "confidence": 0.89,
           "components": {
-            "curatedValue": true
+            "sensory_barrier": 0.75
           },
           "evidence": [
             {
@@ -7611,12 +6581,942 @@
         }
       },
       "reviewGate": {
-        "status": "approved",
+        "status": "published",
         "reasons": []
       },
       "freshness": {
-        "lastCollectedAt": "2026-05-12T15:20:00.000Z",
-        "lastComputedAt": "2026-05-12T15:20:00.000Z"
+        "lastCollectedAt": "2026-05-10T09:30:00Z",
+        "lastComputedAt": "2026-05-12T05:00:00Z"
+      }
+    },
+    {
+      "slug": "interstellar-2014",
+      "title": "Interstellar",
+      "year": 2014,
+      "director": "Christopher Nolan",
+      "runtime": 169,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": {
+          "value": 68,
+          "confidence": 0.97,
+          "components": {
+            "consensus": 0.68
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 42,
+          "confidence": 0.97,
+          "components": {
+            "friction": 0.42
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 98,
+          "confidence": 0.97,
+          "components": {
+            "obsession": 0.98
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 64,
+          "confidence": 0.97,
+          "components": {
+            "haunting": 0.64
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 93,
+          "confidence": 0.97,
+          "components": {
+            "symbolic": 0.93
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 35,
+          "confidence": 0.97,
+          "components": {
+            "cult": 0.35
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 81,
+          "confidence": 0.97,
+          "components": {
+            "formal": 0.81
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 96,
+          "confidence": 0.97,
+          "components": {
+            "voltage": 0.96
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 74,
+          "confidence": 0.97,
+          "components": {
+            "accessibility": 0.74
+          },
+          "evidence": [
+            {
+              "mentionId": "interstellar-2014:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://interstellar-2014",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "mad-max-1979",
+      "title": "Mad Max",
+      "year": 1979,
+      "director": "George Miller",
+      "runtime": 88,
+      "catalogue": "ARTX-036",
+      "metrics": {
+        "consensus": {
+          "value": 58,
+          "confidence": 0.92,
+          "components": {
+            "consensus": 0.58
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 61,
+          "confidence": 0.92,
+          "components": {
+            "friction": 0.61
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 74,
+          "confidence": 0.92,
+          "components": {
+            "obsession": 0.74
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 82,
+          "confidence": 0.92,
+          "components": {
+            "haunting": 0.82
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 67,
+          "confidence": 0.92,
+          "components": {
+            "symbolic": 0.67
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 94,
+          "confidence": 0.92,
+          "components": {
+            "cult": 0.94
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 89,
+          "confidence": 0.92,
+          "components": {
+            "formal": 0.89
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 78,
+          "confidence": 0.92,
+          "components": {
+            "voltage": 0.78
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 62,
+          "confidence": 0.92,
+          "components": {
+            "accessibility": 0.62
+          },
+          "evidence": [
+            {
+              "mentionId": "mad-max-1979:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://mad-max-1979",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "pink-flamingos-1972",
+      "title": "Pink Flamingos",
+      "year": 1972,
+      "director": "John Waters",
+      "runtime": 93,
+      "catalogue": "new-line-cinema",
+      "metrics": {
+        "consensus": {
+          "value": 41,
+          "confidence": 0.91,
+          "components": {
+            "consensus": 0.41
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 82,
+          "confidence": 0.91,
+          "components": {
+            "friction": 0.82
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 77,
+          "confidence": 0.91,
+          "components": {
+            "obsession": 0.77
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 88,
+          "confidence": 0.91,
+          "components": {
+            "haunting": 0.88
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 45,
+          "confidence": 0.91,
+          "components": {
+            "symbolic": 0.45
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 99,
+          "confidence": 0.91,
+          "components": {
+            "cult": 0.99
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 64,
+          "confidence": 0.91,
+          "components": {
+            "formal": 0.64
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 95,
+          "confidence": 0.91,
+          "components": {
+            "voltage": 0.95
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 6,
+          "confidence": 0.91,
+          "components": {
+            "accessibility": 0.06
+          },
+          "evidence": [
+            {
+              "mentionId": "pink-flamingos-1972:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://pink-flamingos-1972",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-matrix-1999",
+      "title": "The Matrix",
+      "year": 1999,
+      "director": "The Wachowskis",
+      "runtime": 136,
+      "catalogue": "warner-bros-archive",
+      "metrics": {
+        "consensus": {
+          "value": 92,
+          "confidence": 0.94,
+          "components": {
+            "consensus": 0.92
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 84,
+          "confidence": 0.94,
+          "components": {
+            "friction": 0.84
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 96,
+          "confidence": 0.94,
+          "components": {
+            "obsession": 0.96
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 71,
+          "confidence": 0.94,
+          "components": {
+            "haunting": 0.71
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 89,
+          "confidence": 0.94,
+          "components": {
+            "symbolic": 0.89
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 12,
+          "confidence": 0.94,
+          "components": {
+            "cult": 0.12
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 78,
+          "confidence": 0.94,
+          "components": {
+            "formal": 0.78
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 65,
+          "confidence": 0.94,
+          "components": {
+            "voltage": 0.65
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 88,
+          "confidence": 0.94,
+          "components": {
+            "accessibility": 0.88
+          },
+          "evidence": [
+            {
+              "mentionId": "the-matrix-1999:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://the-matrix-1999",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "under-the-silver-lake-2018",
+      "title": "Under the Silver Lake",
+      "year": 2018,
+      "director": "David Robert Mitchell",
+      "runtime": 139,
+      "catalogue": "a24",
+      "metrics": {
+        "consensus": {
+          "value": 22,
+          "confidence": 0.89,
+          "components": {
+            "consensus": 0.22
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 84,
+          "confidence": 0.89,
+          "components": {
+            "friction": 0.84
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 91,
+          "confidence": 0.89,
+          "components": {
+            "obsession": 0.91
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 76,
+          "confidence": 0.89,
+          "components": {
+            "haunting": 0.76
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 98,
+          "confidence": 0.89,
+          "components": {
+            "symbolic": 0.98
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 89,
+          "confidence": 0.89,
+          "components": {
+            "cult": 0.89
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 68,
+          "confidence": 0.89,
+          "components": {
+            "formal": 0.68
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 54,
+          "confidence": 0.89,
+          "components": {
+            "voltage": 0.54
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 18,
+          "confidence": 0.89,
+          "components": {
+            "accessibility": 0.18
+          },
+          "evidence": [
+            {
+              "mentionId": "under-the-silver-lake-2018:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://under-the-silver-lake-2018",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "back-to-the-future-1985",
+      "title": "Back to the Future",
+      "year": 1985,
+      "director": "Robert Zemeckis",
+      "runtime": 116,
+      "catalogue": "universal-pictures",
+      "metrics": {
+        "consensus": {
+          "value": 99,
+          "confidence": 0.98,
+          "components": {
+            "consensus": 0.99
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:consensus",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "friction": {
+          "value": 11,
+          "confidence": 0.98,
+          "components": {
+            "friction": 0.11
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:friction",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "obsession": {
+          "value": 94,
+          "confidence": 0.98,
+          "components": {
+            "obsession": 0.94
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:obsession",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "haunting": {
+          "value": 62,
+          "confidence": 0.98,
+          "components": {
+            "haunting": 0.62
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:haunting",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "symbolic": {
+          "value": 88,
+          "confidence": 0.98,
+          "components": {
+            "symbolic": 0.88
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:symbolic",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "cult": {
+          "value": 30,
+          "confidence": 0.98,
+          "components": {
+            "cult": 0.3
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:cult",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "formal": {
+          "value": 42,
+          "confidence": 0.98,
+          "components": {
+            "formal": 0.42
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:formal",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "voltage": {
+          "value": 89,
+          "confidence": 0.98,
+          "components": {
+            "voltage": 0.89
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:voltage",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        },
+        "accessibility": {
+          "value": 99,
+          "confidence": 0.98,
+          "components": {
+            "accessibility": 0.99
+          },
+          "evidence": [
+            {
+              "mentionId": "back-to-the-future-1985:nine-axes:accessibility",
+              "source": "nine-axes-pipeline",
+              "sourceUrl": "pipeline://back-to-the-future-1985",
+              "timestamp": "2026-05-12T16:00:00.000Z"
+            }
+          ]
+        }
+      },
+      "reviewGate": {
+        "status": "approved",
+        "reasons": [
+          "nine_axes_pipeline"
+        ]
+      },
+      "freshness": {
+        "lastCollectedAt": "2026-05-12T16:00:00.000Z",
+        "lastComputedAt": "2026-05-12T16:00:00.000Z"
       }
     }
   ]

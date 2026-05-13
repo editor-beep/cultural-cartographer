@@ -10,7 +10,9 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as LexiconRouteImport } from './routes/lexicon'
+import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as DirectoryRouteImport } from './routes/directory'
+import { Route as CompareRouteImport } from './routes/compare'
 import { Route as ColophonRouteImport } from './routes/colophon'
 import { Route as AttuneRouteImport } from './routes/attune'
 import { Route as IndexRouteImport } from './routes/index'
@@ -21,9 +23,19 @@ const LexiconRoute = LexiconRouteImport.update({
   path: '/lexicon',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EvidenceRoute = EvidenceRouteImport.update({
+  id: '/evidence',
+  path: '/evidence',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DirectoryRoute = DirectoryRouteImport.update({
   id: '/directory',
   path: '/directory',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CompareRoute = CompareRouteImport.update({
+  id: '/compare',
+  path: '/compare',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ColophonRoute = ColophonRouteImport.update({
@@ -51,7 +63,9 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
+  '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
@@ -59,7 +73,9 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
+  '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
@@ -68,7 +84,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/attune': typeof AttuneRoute
   '/colophon': typeof ColophonRoute
+  '/compare': typeof CompareRoute
   '/directory': typeof DirectoryRoute
+  '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
@@ -78,7 +96,9 @@ export interface FileRouteTypes {
     | '/'
     | '/attune'
     | '/colophon'
+    | '/compare'
     | '/directory'
+    | '/evidence'
     | '/lexicon'
     | '/artifact/$slug'
   fileRoutesByTo: FileRoutesByTo
@@ -86,7 +106,9 @@ export interface FileRouteTypes {
     | '/'
     | '/attune'
     | '/colophon'
+    | '/compare'
     | '/directory'
+    | '/evidence'
     | '/lexicon'
     | '/artifact/$slug'
   id:
@@ -94,7 +116,9 @@ export interface FileRouteTypes {
     | '/'
     | '/attune'
     | '/colophon'
+    | '/compare'
     | '/directory'
+    | '/evidence'
     | '/lexicon'
     | '/artifact/$slug'
   fileRoutesById: FileRoutesById
@@ -103,7 +127,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AttuneRoute: typeof AttuneRoute
   ColophonRoute: typeof ColophonRoute
+  CompareRoute: typeof CompareRoute
   DirectoryRoute: typeof DirectoryRoute
+  EvidenceRoute: typeof EvidenceRoute
   LexiconRoute: typeof LexiconRoute
   ArtifactSlugRoute: typeof ArtifactSlugRoute
 }
@@ -117,11 +143,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LexiconRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/evidence': {
+      id: '/evidence'
+      path: '/evidence'
+      fullPath: '/evidence'
+      preLoaderRoute: typeof EvidenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/directory': {
       id: '/directory'
       path: '/directory'
       fullPath: '/directory'
       preLoaderRoute: typeof DirectoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/compare': {
+      id: '/compare'
+      path: '/compare'
+      fullPath: '/compare'
+      preLoaderRoute: typeof CompareRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/colophon': {
@@ -159,7 +199,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AttuneRoute: AttuneRoute,
   ColophonRoute: ColophonRoute,
+  CompareRoute: CompareRoute,
   DirectoryRoute: DirectoryRoute,
+  EvidenceRoute: EvidenceRoute,
   LexiconRoute: LexiconRoute,
   ArtifactSlugRoute: ArtifactSlugRoute,
 }

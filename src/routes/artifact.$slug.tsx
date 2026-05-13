@@ -1,5 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction } from "@/data/artifacts";
+import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction, type Metrics, type AxisKey } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 
@@ -33,9 +33,20 @@ export const Route = createFileRoute("/artifact/$slug")({
   ),
 });
 
+function metricsDistance(a: Metrics, b: Metrics): number {
+  let s = 0;
+  for (const ax of AXES) {
+    const d = (a[ax.key as AxisKey] - b[ax.key as AxisKey]) / 100;
+    s += d * d;
+  }
+  return Math.sqrt(s / AXES.length);
+}
+
 function Dossier() {
   const { artifact: a } = Route.useLoaderData();
-  const others = ARTIFACTS.filter((x) => x.slug !== a.slug).slice(0, 3);
+  const others = ARTIFACTS.filter((x) => x.slug !== a.slug)
+    .sort((x, y) => metricsDistance(a.metrics, x.metrics) - metricsDistance(a.metrics, y.metrics))
+    .slice(0, 3);
 
   return (
     <div className="relative min-h-screen">
@@ -47,8 +58,17 @@ function Dossier() {
           <Link to="/" className="smallcaps text-[10px] text-vellum-dim hover:text-vellum">
             ← Atlas
           </Link>
-          <div className="font-mono text-[10px] text-vellum-dim smallcaps">
-            {a.catalogue} · acquired {a.year} · running time {a.runtime}m
+          <div className="flex items-baseline gap-6">
+            <Link
+              to="/compare"
+              search={{ a: a.slug }}
+              className="smallcaps text-[10px] text-vellum-dim hover:text-vellum"
+            >
+              Compare ↗
+            </Link>
+            <div className="font-mono text-[10px] text-vellum-dim smallcaps">
+              {a.catalogue} · acquired {a.year} · running time {a.runtime}m
+            </div>
           </div>
         </div>
 

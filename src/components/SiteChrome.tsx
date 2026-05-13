@@ -5,6 +5,7 @@ const NAV = [
   { to: "/directory", label: "Directory" },
   { to: "/attune", label: "Attune" },
   { to: "/lexicon", label: "Lexicon" },
+  { to: "/evidence", label: "Evidence" },
   { to: "/colophon", label: "Colophon" },
 ] as const;
 

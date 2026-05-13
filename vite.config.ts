@@ -1,15 +1,26 @@
 // @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
 // or the app will break with duplicate plugins:
-//   - tanstackStart, viteReact, tailwindcss, tsConfigPaths, cloudflare (build-only),
+//   - tanstackStart, viteReact, tailwindcss, tsConfigPaths,
 //     componentTagger (dev-only), VITE_* env injection, @ path alias, React/TanStack dedupe,
 //     error logger plugins, and sandbox detection (port/host/strictPort).
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-// Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-// @cloudflare/vite-plugin builds from this — wrangler.jsonc main alone is insufficient.
+// cloudflare: false prevents @cloudflare/vite-plugin from overriding the build output.
+// Vercel deployment is handled by scripts/vercel-output.mjs (runs after vite build).
+//
+// environments.ssr.resolve.noExternal: true bundles all npm packages into the SSR
+// output instead of externalizing them. This is required for the Vercel Edge Function
+// which has no access to node_modules at runtime.
 export default defineConfig({
-  tanstackStart: {
-    server: { entry: "server" },
+  cloudflare: false,
+  vite: {
+    environments: {
+      ssr: {
+        resolve: {
+          noExternal: true,
+        },
+      },
+    },
   },
 });
