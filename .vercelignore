@@ -1,0 +1,6 @@
+.lovable
+node_modules
+dist
+.wrangler
+data/pipeline
+scripts/pipeline
