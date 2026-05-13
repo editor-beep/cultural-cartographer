@@ -8,6 +8,19 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // cloudflare: false prevents @cloudflare/vite-plugin from overriding the build output.
 // Vercel deployment is handled by scripts/vercel-output.mjs (runs after vite build).
+//
+// environments.ssr.resolve.noExternal: true bundles all npm packages into the SSR
+// output instead of externalizing them. This is required for the Vercel Edge Function
+// which has no access to node_modules at runtime.
 export default defineConfig({
   cloudflare: false,
+  vite: {
+    environments: {
+      ssr: {
+        resolve: {
+          noExternal: true,
+        },
+      },
+    },
+  },
 });
