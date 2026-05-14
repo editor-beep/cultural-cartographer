@@ -132,4 +132,9 @@
     font-variant: all-small-caps;
     letter-spacing: 0.18em;
   }
+
+  @keyframes nav-cascade {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 }

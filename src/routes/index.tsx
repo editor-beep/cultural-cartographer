@@ -68,41 +68,47 @@ function Atlas() {
           </div>
         </div>
 
-        <div className="relative aspect-[16/10] w-full overflow-hidden border border-border bg-umber/30">
-          {/* faint cartographic gridlines */}
-          <svg className="absolute inset-0 h-full w-full opacity-30" aria-hidden>
-            <defs>
-              <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-                <path d="M 80 0 L 0 0 0 80" fill="none" stroke="var(--vellum)" strokeOpacity="0.08" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#grid)" />
-          </svg>
+        {/*
+          Two-layer map: background is clipped to the aspect-ratio frame;
+          the sigil layer overflows so hover labels can escape below/above
+          the chart boundary without being cut off.
+        */}
+        <div className="relative aspect-[16/10] w-full">
+          {/* Background layer — clipped to frame */}
+          <div className="absolute inset-0 overflow-hidden border border-border bg-umber/30">
+            {/* faint cartographic gridlines */}
+            <svg className="absolute inset-0 h-full w-full opacity-30" aria-hidden>
+              <defs>
+                <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+                  <path d="M 80 0 L 0 0 0 80" fill="none" stroke="var(--vellum)" strokeOpacity="0.08" strokeWidth="0.5" />
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
 
-          {/* corner crosshairs */}
-          {[
-            { l: 12, t: 12 },
-            { r: 12, t: 12 },
-            { l: 12, b: 12 },
-            { r: 12, b: 12 },
-          ].map((p, i) => (
-            <div
-              key={i}
-              className="pointer-events-none absolute"
-              style={{
-                left: p.l,
-                right: p.r,
-                top: p.t,
-                bottom: p.b,
-              }}
-            >
-              <div className="h-px w-4 bg-vellum/30" />
-              <div className="-mt-px h-4 w-px bg-vellum/30" />
-            </div>
-          ))}
+            {/* corner crosshairs */}
+            {[
+              { l: 12, t: 12 },
+              { r: 12, t: 12 },
+              { l: 12, b: 12 },
+              { r: 12, b: 12 },
+            ].map((p, i) => (
+              <div
+                key={i}
+                className="pointer-events-none absolute"
+                style={{ left: p.l, right: p.r, top: p.t, bottom: p.b }}
+              >
+                <div className="h-px w-4 bg-vellum/30" />
+                <div className="-mt-px h-4 w-px bg-vellum/30" />
+              </div>
+            ))}
+          </div>
 
+          {/* Sigil layer — overflow visible so labels escape the frame */}
           {ARTIFACTS.map((a) => {
             const size = 90 + a.metrics.obsession * 0.9;
+            // Flip label above the sigil when near the bottom to avoid map overlap
+            const labelAbove = a.pos.y > 0.55;
             return (
               <Link
                 key={a.slug}
@@ -116,6 +122,7 @@ function Atlas() {
                   top: `${a.pos.y * 100}%`,
                   width: size,
                   height: size,
+                  zIndex: hovered === a.slug ? 20 : 10,
                 }}
               >
                 <div className="relative h-full w-full opacity-70 transition-opacity duration-300 group-hover:opacity-100">
@@ -123,7 +130,11 @@ function Atlas() {
                 </div>
                 <div
                   className={
-                    "pointer-events-none absolute left-1/2 top-full -translate-x-1/2 translate-y-2 whitespace-nowrap text-center transition-opacity duration-200 " +
+                    "pointer-events-none absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-center transition-opacity duration-200 " +
+                    (labelAbove
+                      ? "bottom-full mb-2"
+                      : "top-full mt-2") +
+                    " " +
                     (hovered === a.slug ? "opacity-100" : "opacity-0")
                   }
                 >
