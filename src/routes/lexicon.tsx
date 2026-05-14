@@ -10,7 +10,7 @@ export const Route = createFileRoute("/lexicon")({
       {
         name: "description",
         content:
-          "The nine axes of the Artifact Index, defined as language rather than formula.",
+          "The thirteen axes of the Artifact Index, defined as language rather than formula.",
       },
     ],
   }),
@@ -62,6 +62,26 @@ const DEFINITIONS: Record<(typeof AXES)[number]["key"], { gloss: string; reads: 
     reads: "Easy to enter; no glossary required.",
     warns: "Inversely correlated with most other axes here. This is a feature, not a defect.",
   },
+  reach: {
+    gloss: "How far the work's imagery, references, and language have spread into the general cultural record, beyond dedicated film discourse.",
+    reads: "The work has escaped its own medium; it circulates in registers that do not require having seen it.",
+    warns: "Reach is not depth. A work can achieve enormous reach on a single image while remaining largely unseen.",
+  },
+  progeny: {
+    gloss: "The density of documented generative influence: how many works explicitly cite it, how many aesthetics it has defined, how often it appears as an originating reference.",
+    reads: "The work is not just remembered — it is being inherited.",
+    warns: "Influence is frequently uncredited. This measures acknowledged lineage, not silent borrowing.",
+  },
+  arc: {
+    gloss: "The degree to which time has revised the work's initial verdict — not current volume of discussion, but the distance between original and current reading.",
+    reads: "The work was not finished at release. Its reputation continued to be written.",
+    warns: "Not about current esteem — that is obsession. A well-received film that holds steady scores low. A condemned film that becomes essential scores high.",
+  },
+  transgression: {
+    gloss: "The degree to which the work's content operated at or beyond social, moral, or political limits — independent of its formal choices or interpretive difficulty.",
+    reads: "The work was considered dangerous, not merely difficult.",
+    warns: "Distinct from formal risk and friction. A formally conventional film can score high transgression. A formally radical film can score near zero.",
+  },
 };
 
 function Lexicon() {
@@ -71,8 +91,8 @@ function Lexicon() {
       <section className="relative z-10 mx-auto mt-16 max-w-[1100px] px-8">
         <div className="font-mono text-[10px] smallcaps text-oxblood">Method · v0.1</div>
         <h1 className="mt-3 font-display text-6xl leading-[1.02] text-vellum">
-          The nine axes.
-        </h1>
+          The thirteen axes.
+</h1>
         <p className="mt-6 max-w-2xl font-display text-xl italic text-vellum-dim">
           Each axis is a language before it is a number. The number is a
           summary; the language is the claim. Disagree with the language.

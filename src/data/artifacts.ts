@@ -8,6 +8,10 @@ export const AXES = [
   { key: "formal", label: "Formal Risk", short: "FRM" },
   { key: "voltage", label: "Emotional Voltage", short: "VLT" },
   { key: "accessibility", label: "Accessibility", short: "ACC" },
+  { key: "reach", label: "Reach", short: "RCH" },
+  { key: "progeny", label: "Progeny", short: "PRG" },
+  { key: "arc", label: "Cultural Arc", short: "ARC" },
+  { key: "transgression", label: "Transgression", short: "TRX" },
 ] as const;
 
 export type AxisKey = (typeof AXES)[number]["key"];
@@ -74,6 +78,10 @@ const CURATED: Artifact[] = [
       formal: 91,
       voltage: 97,
       accessibility: 14,
+      reach: 55,
+      progeny: 45,
+      arc: 92,
+      transgression: 75,
     },
     notes: {
       consensus: "Critic and audience opinion still violently disagree thirty years on.",
@@ -116,6 +124,10 @@ const CURATED: Artifact[] = [
       formal: 89,
       voltage: 88,
       accessibility: 28,
+      reach: 72,
+      progeny: 78,
+      arc: 62,
+      transgression: 35,
     },
     notes: {
       symbolic: "Highest theory-post density in the post-2000 film set.",
@@ -154,6 +166,10 @@ const CURATED: Artifact[] = [
       formal: 72,
       voltage: 99,
       accessibility: 64,
+      reach: 78,
+      progeny: 42,
+      arc: 22,
+      transgression: 65,
     },
     notes: {
       voltage: "Impact language is physiological: nausea, panic, cold-sweat dread.",
@@ -193,6 +209,10 @@ const CURATED: Artifact[] = [
       formal: 84,
       voltage: 93,
       accessibility: 82,
+      reach: 80,
+      progeny: 85,
+      arc: 65,
+      transgression: 55,
     },
     notes: {
       haunting: "Practical body horror still produces long-tail recall decades later.",
@@ -232,6 +252,10 @@ const CURATED: Artifact[] = [
       formal: 48,
       voltage: 75,
       accessibility: 98,
+      reach: 95,
+      progeny: 18,
+      arc: 15,
+      transgression: 20,
     },
     notes: {
       symbolic: "Mojo Dojo Casa House operates as a portable critique system.",
@@ -270,6 +294,10 @@ const CURATED: Artifact[] = [
       formal: 99,
       voltage: 87,
       accessibility: 14,
+      reach: 55,
+      progeny: 88,
+      arc: 55,
+      transgression: 45,
     },
     notes: {
       formal: "Near-maximum risk profile through anti-linear structure and texture-first design.",
@@ -308,6 +336,10 @@ const CURATED: Artifact[] = [
       formal: 62,
       voltage: 68,
       accessibility: 99,
+      reach: 90,
+      progeny: 52,
+      arc: 42,
+      transgression: 8,
     },
     notes: {
       symbolic: "Title functions as global shorthand for recursive lived experience.",
@@ -346,6 +378,10 @@ const CURATED: Artifact[] = [
       formal: 96,
       voltage: 98,
       accessibility: 12,
+      reach: 45,
+      progeny: 55,
+      arc: 38,
+      transgression: 12,
     },
     notes: {
       symbolic: "Peak symbolic density: recursive representation expands until map and world become indistinguishable.",
@@ -386,6 +422,10 @@ const CURATED: Artifact[] = [
       formal: 96,
       voltage: 76,
       accessibility: 68,
+      reach: 62,
+      progeny: 72,
+      arc: 32,
+      transgression: 8,
     },
     notes: {
       consensus: "One of the most tightly-agreed-upon films of the century.",
@@ -424,6 +464,10 @@ const CURATED: Artifact[] = [
       formal: 96,
       voltage: 62,
       accessibility: 15,
+      reach: 42,
+      progeny: 88,
+      arc: 48,
+      transgression: 5,
     },
     notes: { symbolic: "Highest interpretive-divergence index in the catalogue." },
     afterlife: [
@@ -461,6 +505,10 @@ const CURATED: Artifact[] = [
       formal: 78,
       voltage: 80,
       accessibility: 52,
+      reach: 88,
+      progeny: 15,
+      arc: 18,
+      transgression: 42,
     },
     notes: {},
     afterlife: [
@@ -496,6 +544,10 @@ const CURATED: Artifact[] = [
       formal: 92,
       voltage: 82,
       accessibility: 30,
+      reach: 58,
+      progeny: 38,
+      arc: 55,
+      transgression: 25,
     },
     notes: {
       friction: "Critic/audience gap is durable; neither side concedes ground.",
@@ -533,6 +585,10 @@ const CURATED: Artifact[] = [
       formal: 80,
       voltage: 88,
       accessibility: 48,
+      reach: 68,
+      progeny: 38,
+      arc: 28,
+      transgression: 30,
     },
     notes: {},
     afterlife: [
@@ -568,6 +624,10 @@ const CURATED: Artifact[] = [
       formal: 86,
       voltage: 99,
       accessibility: 9,
+      reach: 38,
+      progeny: 58,
+      arc: 78,
+      transgression: 85,
     },
     notes: {
       voltage: "Highest sustained-intensity reading in the catalogue.",
@@ -608,6 +668,10 @@ const CURATED: Artifact[] = [
       formal: 90,
       voltage: 78,
       accessibility: 40,
+      reach: 75,
+      progeny: 55,
+      arc: 70,
+      transgression: 55,
     },
     notes: {},
     afterlife: [
@@ -644,6 +708,10 @@ const CURATED: Artifact[] = [
       formal: 88,
       voltage: 74,
       accessibility: 38,
+      reach: 82,
+      progeny: 12,
+      arc: 18,
+      transgression: 28,
     },
     notes: {
       friction: "Polarization driven by political reading more than aesthetic disagreement.",
@@ -681,6 +749,10 @@ const CURATED: Artifact[] = [
       formal: 52,
       voltage: 88,
       accessibility: 96,
+      reach: 88,
+      progeny: 35,
+      arc: 42,
+      transgression: 5,
     },
     notes: {
       obsession: "Functions as a nostalgic compass rather than a one-time watch.",
@@ -719,6 +791,10 @@ const CURATED: Artifact[] = [
       formal: 82,
       voltage: 93,
       accessibility: 78,
+      reach: 92,
+      progeny: 72,
+      arc: 38,
+      transgression: 60,
     },
     notes: {
       friction: "Interpretive conflict is structural and durable, not transient.",
@@ -757,6 +833,10 @@ const CURATED: Artifact[] = [
       formal: 97,
       voltage: 84,
       accessibility: 15,
+      reach: 45,
+      progeny: 50,
+      arc: 35,
+      transgression: 40,
     },
     notes: {
       formal: "Hidden-camera capture and non-actor architecture drive its extreme formal-risk score.",
@@ -796,6 +876,10 @@ const CURATED: Artifact[] = [
       formal: 68,
       voltage: 74,
       accessibility: 42,
+      reach: 30,
+      progeny: 28,
+      arc: 32,
+      transgression: 5,
     },
     notes: {
       symbolic: "State-tracking across realities drives its high symbolic workload.",
@@ -835,6 +919,10 @@ const CURATED: Artifact[] = [
       formal: 93,
       voltage: 95,
       accessibility: 31,
+      reach: 55,
+      progeny: 38,
+      arc: 28,
+      transgression: 45,
     },
     notes: {
       formal: "1.19:1 framing and period dialect are core to the film's high formal-risk profile.",
@@ -874,6 +962,10 @@ const CURATED: Artifact[] = [
       formal: 98,
       voltage: 72,
       accessibility: 9,
+      reach: 20,
+      progeny: 32,
+      arc: 30,
+      transgression: 35,
     },
     notes: {
       accessibility: "Refuses traditional narrative arc in favor of texture and durational atmosphere.",
@@ -913,6 +1005,10 @@ const CURATED: Artifact[] = [
       formal: 78,
       voltage: 76,
       accessibility: 81,
+      reach: 75,
+      progeny: 68,
+      arc: 88,
+      transgression: 45,
     },
     notes: {
       consensus: "Public interpretation converged over decades rather than at release.",
@@ -951,6 +1047,10 @@ const CURATED: Artifact[] = [
       formal: 44,
       voltage: 91,
       accessibility: 88,
+      reach: 65,
+      progeny: 28,
+      arc: 82,
+      transgression: 42,
     },
     notes: {
       cult: "One of the steepest reclamation trajectories in the catalogue.",
@@ -989,6 +1089,10 @@ const CURATED: Artifact[] = [
       formal: 48,
       voltage: 89,
       accessibility: 86,
+      reach: 55,
+      progeny: 35,
+      arc: 55,
+      transgression: 48,
     },
     notes: {
       voltage: "High-frequency erotic tension remains the film's live wire.",
@@ -1027,6 +1131,10 @@ const CURATED: Artifact[] = [
       formal: 79,
       voltage: 74,
       accessibility: 75,
+      reach: 75,
+      progeny: 42,
+      arc: 48,
+      transgression: 25,
     },
     notes: {
       cult: "Near-maximal rite-of-passage status in suburban-surrealist canon.",
@@ -1065,6 +1173,10 @@ const CURATED: Artifact[] = [
       formal: 89,
       voltage: 95,
       accessibility: 92,
+      reach: 85,
+      progeny: 58,
+      arc: 30,
+      transgression: 50,
     },
     notes: {
       formal: "Anti-climax and sonic austerity carry the film's core risk.",
@@ -1103,6 +1215,10 @@ const CURATED: Artifact[] = [
       formal: 67,
       voltage: 98,
       accessibility: 97,
+      reach: 90,
+      progeny: 38,
+      arc: 22,
+      transgression: 65,
     },
     notes: {
       friction: "Discourse conflict reliably reactivates across contexts and years.",
@@ -1141,6 +1257,10 @@ const CURATED: Artifact[] = [
       formal: 92,
       voltage: 54,
       accessibility: 22,
+      reach: 52,
+      progeny: 35,
+      arc: 38,
+      transgression: 15,
     },
     notes: {
       accessibility: "Opacity is intentional and structural, not incidental.",
@@ -1179,6 +1299,10 @@ const CURATED: Artifact[] = [
       formal: 88,
       voltage: 92,
       accessibility: 81,
+      reach: 95,
+      progeny: 92,
+      arc: 55,
+      transgression: 45,
     },
     notes: {
       haunting: "The benchmark Haunting score in the catalogue — its iconography is immune to removal.",
@@ -1219,6 +1343,10 @@ const CURATED: Artifact[] = [
       formal: 79,
       voltage: 81,
       accessibility: 91,
+      reach: 88,
+      progeny: 45,
+      arc: 32,
+      transgression: 10,
     },
     notes: {
       cult: "Multi-generational cult formation; high accessibility drives the broadest possible initiation base.",
@@ -1257,6 +1385,10 @@ const CURATED: Artifact[] = [
       formal: 68,
       voltage: 74,
       accessibility: 96,
+      reach: 88,
+      progeny: 48,
+      arc: 42,
+      transgression: 20,
     },
     notes: {
       cult: "Theoretical maximum Cult Formation — Lebowski Fest, Dudeism, and annual rituals constitute a genuine religion.",
@@ -1297,6 +1429,10 @@ const CURATED: Artifact[] = [
       formal: 82,
       voltage: 94,
       accessibility: 88,
+      reach: 90,
+      progeny: 42,
+      arc: 25,
+      transgression: 30,
     },
     notes: {
       consensus: "Near-perfect consensus — the rarest reading in the catalogue for a formally ambitious work.",
@@ -1336,6 +1472,10 @@ const CURATED: Artifact[] = [
       formal: 97,
       voltage: 96,
       accessibility: 15,
+      reach: 48,
+      progeny: 45,
+      arc: 38,
+      transgression: 80,
     },
     notes: {
       friction: "Near-maximum friction; the film's entire architecture is designed to generate and sustain irresolvable viewer discomfort.",
@@ -1376,6 +1516,10 @@ const CURATED: Artifact[] = [
       formal: 74,
       voltage: 85,
       accessibility: 88,
+      reach: 75,
+      progeny: 52,
+      arc: 32,
+      transgression: 10,
     },
     notes: {
       formal: "The formal grammar Anderson established here became so widespread it is now invisible — absorbed into the broader aesthetic vocabulary.",
@@ -1415,6 +1559,10 @@ const CURATED: Artifact[] = [
       formal: 92,
       voltage: 58,
       accessibility: 42,
+      reach: 45,
+      progeny: 30,
+      arc: 28,
+      transgression: 12,
     },
     notes: {
       formal: "High-contrast monochrome creates the feel of a found artifact — cinema as forensic document.",
@@ -1454,6 +1602,10 @@ const CURATED: Artifact[] = [
       formal: 85,
       voltage: 81,
       accessibility: 54,
+      reach: 45,
+      progeny: 28,
+      arc: 30,
+      transgression: 15,
     },
     notes: {
       symbolic: "The density is in the system: Schrödinger's cat and the Dybbuk serve as dual cosmological frameworks that cancel each other.",
@@ -1493,6 +1645,10 @@ const CURATED: Artifact[] = [
       formal: 94,
       voltage: 52,
       accessibility: 3,
+      reach: 52,
+      progeny: 38,
+      arc: 40,
+      transgression: 5,
     },
     notes: {
       accessibility: "The absolute floor of accessibility in the catalogue — a deliberate act of formal exclusion.",
@@ -1533,6 +1689,10 @@ const CURATED: Artifact[] = [
       formal: 98,
       voltage: 81,
       accessibility: 52,
+      reach: 98,
+      progeny: 98,
+      arc: 55,
+      transgression: 20,
     },
     notes: {
       symbolic: "The monolith refuses to mean any single thing, guaranteeing infinite symbolic re-entry.",
@@ -1574,6 +1734,10 @@ const CURATED: Artifact[] = [
       formal: 97,
       voltage: 89,
       accessibility: 79,
+      reach: 85,
+      progeny: 75,
+      arc: 32,
+      transgression: 20,
     },
     notes: {
       formal: "Formal risk by radical subtraction: no score, no resolution, no monster, no explanation.",
@@ -1615,6 +1779,10 @@ const CURATED: Artifact[] = [
       formal: 81,
       voltage: 94,
       accessibility: 85,
+      reach: 68,
+      progeny: 40,
+      arc: 25,
+      transgression: 28,
     },
     notes: {
       voltage: "Physiological language ('heartbeat', 'breathless') dominates the discourse at an unusual rate.",
@@ -1654,6 +1822,10 @@ const CURATED: Artifact[] = [
       formal: 88,
       voltage: 96,
       accessibility: 89,
+      reach: 62,
+      progeny: 18,
+      arc: 20,
+      transgression: 50,
     },
     notes: {
       formal: "The tonal-rupture structure is the film's primary formal gamble — genre implosion by mid-film recontextualization.",
@@ -1694,6 +1866,10 @@ const CURATED: Artifact[] = [
       formal: 21,
       voltage: 78,
       accessibility: 95,
+      reach: 80,
+      progeny: 30,
+      arc: 65,
+      transgression: 25,
     },
     notes: {
       friction: "Friction is entirely temporal: the delta between its 2006 reading (dumb comedy) and 2026 reading (documentary).",
@@ -1728,7 +1904,7 @@ const CURATED: Artifact[] = [
     epigraph: "All the anxiety we bear with us, all our thwarted dreams, the incomprehensible cruelty, our fear of extinction.",
     reading:
       "Cinema's most surgical self-examination. Bergman places two women in a house by the sea and allows their identities to dissolve into each other — or perhaps into the film's own substrate. The shot of the film melting and breaking midway is not a joke; it is the thesis. Fifty years of psychoanalytic, feminist, and semiotic scholarship have not closed the questions it opened.",
-    metrics: { consensus: 90, friction: 38, obsession: 88, haunting: 94, symbolic: 99, cult: 74, formal: 97, voltage: 84, accessibility: 12 },
+    metrics: { consensus: 90, friction: 38, obsession: 88, haunting: 94, symbolic: 99, cult: 74, formal: 97, voltage: 84, accessibility: 12, reach: 68, progeny: 88, arc: 40, transgression: 35 },
     notes: {
       symbolic: "Higher symbolic density than any other entry in the catalogue. Every element is contested, every reading provisional.",
       formal: "The film breaks itself — literally. The splice, the projector, the frames melting are not accidents.",
@@ -1758,7 +1934,7 @@ const CURATED: Artifact[] = [
     epigraph: "I want knowledge, not faith — not surmise, but knowledge.",
     reading:
       "Death plays chess with a knight returning from the Crusades, and the image became so thoroughly absorbed into Western visual culture that it now operates as pure shorthand for mortality's negotiability. Yet the film beneath the icon is far stranger and more tender than the silhouette suggests: it is also a circus, a strawberry, a young couple on a hillside.",
-    metrics: { consensus: 94, friction: 18, obsession: 88, haunting: 72, symbolic: 96, cult: 56, formal: 82, voltage: 74, accessibility: 44 },
+    metrics: { consensus: 94, friction: 18, obsession: 88, haunting: 72, symbolic: 96, cult: 56, formal: 82, voltage: 74, accessibility: 44, reach: 72, progeny: 82, arc: 38, transgression: 10 },
     notes: {
       symbolic: "The chess game has become among the most referenced images in cinema; its symbolic weight continues to accumulate.",
       obsession: "The image of Death at the chessboard is now global shorthand, cited far beyond film discourse.",
@@ -1787,7 +1963,7 @@ const CURATED: Artifact[] = [
     epigraph: "I discovered that I was dead.",
     reading:
       "The gentlest of Bergman's films, and the most ruthless about old age. A retired professor drives to receive an honorary degree and understands, through a series of waking dreams and backward looks, that he has spent his life maintaining distance from everything that mattered. The haunting is not spectacular but chronic — the quiet kind that accumulates over decades.",
-    metrics: { consensus: 95, friction: 12, obsession: 82, haunting: 90, symbolic: 88, cult: 42, formal: 76, voltage: 80, accessibility: 62 },
+    metrics: { consensus: 95, friction: 12, obsession: 82, haunting: 90, symbolic: 88, cult: 42, formal: 76, voltage: 80, accessibility: 62, reach: 55, progeny: 60, arc: 30, transgression: 5 },
     notes: {
       haunting: "The haunting is memorial, not horrific — the kind that returns at 3am when the subject is mortality and regret.",
       consensus: "Among the most agreed-upon films in the catalogue; Bergman's warmest and most broadly loved work.",
@@ -1815,7 +1991,7 @@ const CURATED: Artifact[] = [
     epigraph: "After all, I'm an asshole.",
     reading:
       "Jump-cut cinema into a new era and spent the following sixty years being cited by everyone who followed. The formal radicalism is now so absorbed that it is difficult to recover the shock — which is itself a measure of how completely Godard's gambit succeeded. Michel Poiccard remains one of cinema's defining anti-heroes: charming, nihilistic, and constitutionally incapable of consequence.",
-    metrics: { consensus: 90, friction: 30, obsession: 84, haunting: 46, symbolic: 86, cult: 60, formal: 99, voltage: 66, accessibility: 72 },
+    metrics: { consensus: 90, friction: 30, obsession: 84, haunting: 46, symbolic: 86, cult: 60, formal: 99, voltage: 66, accessibility: 72, reach: 62, progeny: 88, arc: 38, transgression: 30 },
     notes: {
       formal: "The jump cut was not an error — it was a manifesto. Maximum formal risk for its moment, now invisibly absorbed into cinema's grammar.",
       obsession: "It is cited as origin point so frequently that the film itself can feel secondary to its afterimage.",
@@ -1844,7 +2020,7 @@ const CURATED: Artifact[] = [
     epigraph: "The child is neither good nor bad — he simply responds to what the world gives him.",
     reading:
       "Autobiographical cinema at its most transparent and its most precise. Antoine Doinel runs from every institution that claims to contain him and arrives, finally, at the sea — and the freeze frame that ends the film has been holding its breath for sixty-five years. The documentary gaze Truffaut brought to childhood was new in 1959 and remains unrepeated at this scale.",
-    metrics: { consensus: 95, friction: 14, obsession: 80, haunting: 86, symbolic: 78, cult: 44, formal: 74, voltage: 78, accessibility: 78 },
+    metrics: { consensus: 95, friction: 14, obsession: 80, haunting: 86, symbolic: 78, cult: 44, formal: 74, voltage: 78, accessibility: 78, reach: 60, progeny: 80, arc: 35, transgression: 15 },
     notes: {
       haunting: "The freeze frame at the ocean is among cinema's most persistent involuntary recall images.",
       consensus: "One of the most agreed-upon films in the index — settled as a masterpiece within a decade of release.",
@@ -1872,7 +2048,7 @@ const CURATED: Artifact[] = [
     epigraph: "We don't want other worlds. We want mirrors.",
     reading:
       "The planet Solaris does not communicate — it materializes. It produces embodied versions of memory, guilt, and grief and leaves them with the cosmonauts aboard the station. Tarkovsky's response to Lem's novel is a meditation on the limits of human consciousness, the shape of love after death, and whether understanding is ever actually the point. Haart and Kris's story is the most sustained study of mourning in science fiction.",
-    metrics: { consensus: 82, friction: 48, obsession: 88, haunting: 96, symbolic: 94, cult: 80, formal: 91, voltage: 74, accessibility: 18 },
+    metrics: { consensus: 82, friction: 48, obsession: 88, haunting: 96, symbolic: 94, cult: 80, formal: 91, voltage: 74, accessibility: 18, reach: 50, progeny: 78, arc: 45, transgression: 8 },
     notes: {
       haunting: "Hari's reappearance is the film's thesis: grief does not end, it takes new form.",
       accessibility: "The three-hour runtime and slow-cinema grammar constitute significant barriers; rewards patience absolutely.",
@@ -1901,7 +2077,7 @@ const CURATED: Artifact[] = [
     epigraph: "I have nothing to say, but I want to say it anyway.",
     reading:
       "A film director cannot make his film and so makes a film about not being able to make his film. Fellini's meta-self-portrait is the supreme model for blocked-artist cinema, and its harem fantasy, dream sequences, and final parade have generated a century's worth of imitation. The symbolic density is total — it is impossible to watch a scene without reading it as a symbolic system — and this is entirely intentional.",
-    metrics: { consensus: 92, friction: 32, obsession: 88, haunting: 78, symbolic: 97, cult: 64, formal: 94, voltage: 76, accessibility: 38 },
+    metrics: { consensus: 92, friction: 32, obsession: 88, haunting: 78, symbolic: 97, cult: 64, formal: 94, voltage: 76, accessibility: 38, reach: 70, progeny: 90, arc: 38, transgression: 25 },
     notes: {
       symbolic: "The blocked-artist meta-structure means every element is simultaneously character, symbol, and statement about cinema itself.",
       formal: "Dream and reality are merged without warning or transition; this was new in 1963.",
@@ -1930,7 +2106,7 @@ const CURATED: Artifact[] = [
     epigraph: "She smelled bad, I think.",
     reading:
       "Mona Bergeron is found frozen in a ditch in the opening shot. The film then reconstructs the last weeks of her life through the testimonies of those who encountered her. Varda refuses every explanation and every sentimentality — she is not a free spirit to be romanticized or a cautionary tale to be moralized. The film's refusal to resolve Mona is its ethical core.",
-    metrics: { consensus: 86, friction: 30, obsession: 64, haunting: 90, symbolic: 82, cult: 54, formal: 84, voltage: 86, accessibility: 68 },
+    metrics: { consensus: 86, friction: 30, obsession: 64, haunting: 90, symbolic: 82, cult: 54, formal: 84, voltage: 86, accessibility: 68, reach: 35, progeny: 52, arc: 32, transgression: 25 },
     notes: {
       haunting: "Mona's face in the final freeze frame recurs with the same involuntary force as Doinel's — both films end at the border of what they can explain.",
       formal: "The mock-documentary testimonial structure is quietly radical — the witnesses are unreliable narrators of their own discomfort.",
@@ -1961,7 +2137,7 @@ const CURATED: Artifact[] = [
     epigraph: "You talkin' to me?",
     reading:
       "Travis Bickle's New York is a hallucination of filth and righteousness, and the film is undecided about whether he is a savior or a monster — or whether those are different things. The mirror monologue became cultural shorthand for masculine self-delusion before the decade was out. The Hinckley assassination attempt introduced a new axis of real-world horror to its afterlife.",
-    metrics: { consensus: 94, friction: 44, obsession: 96, haunting: 86, symbolic: 90, cult: 84, formal: 86, voltage: 94, accessibility: 72 },
+    metrics: { consensus: 94, friction: 44, obsession: 96, haunting: 86, symbolic: 90, cult: 84, formal: 86, voltage: 94, accessibility: 72, reach: 92, progeny: 88, arc: 42, transgression: 68 },
     notes: {
       friction: "The Travis-as-incel reading, emerging in the 2010s, reopened a debate that seemed settled: is the film endorsing or diagnosing?",
       obsession: "The mirror monologue and 'you talkin' to me' are among the most quoted lines in cinema history.",
@@ -1990,7 +2166,7 @@ const CURATED: Artifact[] = [
     epigraph: "I've done a lot of bad things, Joey. Maybe it's coming back to me.",
     reading:
       "Scorsese and De Niro's most sustained collaboration produces a film about self-destruction that is itself a form of beautiful destruction — the choice to shoot in black and white for a 1980 film, the slow-motion violence, De Niro's physical transformation. Jake LaMotta cannot be redeemed; the film does not try. It watches, with terrible patience, as a man destroys everything he has.",
-    metrics: { consensus: 96, friction: 22, obsession: 90, haunting: 84, symbolic: 88, cult: 60, formal: 94, voltage: 94, accessibility: 68 },
+    metrics: { consensus: 96, friction: 22, obsession: 90, haunting: 84, symbolic: 88, cult: 60, formal: 94, voltage: 94, accessibility: 68, reach: 75, progeny: 72, arc: 48, transgression: 55 },
     notes: {
       formal: "The decision to shoot in black and white for a 1980 film was radical; the slow-motion violence choreography was unprecedented.",
       consensus: "Often cited as the greatest film of the 1980s; few canonical works are more settled than this.",
@@ -2019,7 +2195,7 @@ const CURATED: Artifact[] = [
     epigraph: "I'm finished.",
     reading:
       "Plainview drinks Eli's milkshake and the oil age announces itself complete. Daniel Day-Lewis's performance is among the most inhabited in cinema history — a man who has converted every human impulse into extraction — and Jonny Greenwood's score treats the California earth as something that has been violated and is screaming. The film's final scene lands with the weight of an entire century collapsing.",
-    metrics: { consensus: 94, friction: 38, obsession: 94, haunting: 88, symbolic: 94, cult: 76, formal: 91, voltage: 94, accessibility: 64 },
+    metrics: { consensus: 94, friction: 38, obsession: 94, haunting: 88, symbolic: 94, cult: 76, formal: 91, voltage: 94, accessibility: 64, reach: 82, progeny: 68, arc: 35, transgression: 30 },
     notes: {
       obsession: "The 'I drink your milkshake' line penetrated general culture almost immediately after release.",
       symbolic: "Oil as American original sin; religion and capital as competitors for the same human desperation.",
@@ -2048,7 +2224,7 @@ const CURATED: Artifact[] = [
     epigraph: "We may be through with the past, but the past ain't through with us.",
     reading:
       "It rains frogs in the San Fernando Valley and everyone begins to sing, and PTA commits to this without irony or apology. Three hours of intersecting lives in crisis build to a climax that is either the bravest scene in 1990s cinema or its most deluded, depending entirely on what you think sincerity is worth. The Aimee Mann songs stop being background and become the film's conscience.",
-    metrics: { consensus: 72, friction: 80, obsession: 86, haunting: 80, symbolic: 90, cult: 82, formal: 88, voltage: 92, accessibility: 52 },
+    metrics: { consensus: 72, friction: 80, obsession: 86, haunting: 80, symbolic: 90, cult: 82, formal: 88, voltage: 92, accessibility: 52, reach: 65, progeny: 52, arc: 40, transgression: 28 },
     notes: {
       friction: "The frog scene polarizes on a fundamental level: is sincerity earned or performed? The debate has not resolved.",
       cult: "The devotees of Magnolia are among the most loyal in the catalogue — they have internalized its argument about coincidence and forgiveness.",
@@ -2076,7 +2252,7 @@ const CURATED: Artifact[] = [
     epigraph: "Ernest Hemingway once wrote: the world is a fine place and worth fighting for. I agree with the second part.",
     reading:
       "John Doe has already won when Somerset and Mills arrive at the film. The box is the point — the question of what's inside it generates dread for twenty years after the answer is given — and the killer's victory is structured into the genre with a cold precision Fincher would never quite repeat. Se7en convinced a decade of filmmakers that gray rain and moral defeat were the proper mode for serious crime cinema.",
-    metrics: { consensus: 88, friction: 44, obsession: 94, haunting: 90, symbolic: 84, cult: 74, formal: 84, voltage: 97, accessibility: 82 },
+    metrics: { consensus: 88, friction: 44, obsession: 94, haunting: 90, symbolic: 84, cult: 74, formal: 84, voltage: 97, accessibility: 82, reach: 88, progeny: 72, arc: 30, transgression: 65 },
     notes: {
       voltage: "The box sequence remains among the highest-voltage endings in genre cinema; the build is what makes it.",
       obsession: "'What's in the box' is cultural reflex — the question outlasted the answer.",
@@ -2104,7 +2280,7 @@ const CURATED: Artifact[] = [
     epigraph: "I need to know who did it.",
     reading:
       "Fincher's most mature film is about obsession itself — not the serial killer, but the men who cannot stop looking. The Zodiac was never caught, and the film builds a three-hour procedural around an absence that will never be filled. Graysmith's need to know destroys his marriage, his safety, and his coherence, and the film watches this without judgment or resolution. The final confrontation with Rick Marshall is among the most unsettling scenes in Fincher's career: nothing is confirmed.",
-    metrics: { consensus: 84, friction: 64, obsession: 92, haunting: 86, symbolic: 88, cult: 78, formal: 88, voltage: 82, accessibility: 72 },
+    metrics: { consensus: 84, friction: 64, obsession: 92, haunting: 86, symbolic: 88, cult: 78, formal: 88, voltage: 82, accessibility: 72, reach: 72, progeny: 48, arc: 38, transgression: 35 },
     notes: {
       obsession: "The film is literally about obsession — Graysmith's and Fincher's — and its length is not a flaw but the argument.",
       haunting: "The unknowing haunts: Rick Marshall's face and Graysmith's 'I know it was you' — unresolved, it stays.",
@@ -2132,7 +2308,7 @@ const CURATED: Artifact[] = [
     epigraph: "It's a strange world.",
     reading:
       "Jeffrey Beaumont finds a severed ear in a field and follows it into the American suburban unconscious. Dennis Hopper's Frank Booth is Lynch's most direct portrait of the id — libido organized entirely around domination and destruction — and Isabella Rossellini's Dorothy exists in a space of erotic horror that the film refuses to explain or resolve. The opening slow zoom into the lawn hides what it will spend two hours pulling to the surface.",
-    metrics: { consensus: 86, friction: 76, obsession: 90, haunting: 93, symbolic: 96, cult: 86, formal: 90, voltage: 94, accessibility: 54 },
+    metrics: { consensus: 86, friction: 76, obsession: 90, haunting: 93, symbolic: 96, cult: 86, formal: 90, voltage: 94, accessibility: 54, reach: 72, progeny: 82, arc: 42, transgression: 75 },
     notes: {
       symbolic: "The ear is the portal and the answer simultaneously; everything underneath suburban America is what the ear leads to.",
       haunting: "Frank Booth's threat — 'don't you fucking look at me' — recurs in the viewer's ear without warning.",
@@ -2161,7 +2337,7 @@ const CURATED: Artifact[] = [
     epigraph: "What's it going to be then, eh?",
     reading:
       "Alex DeLarge conducts ultraviolence to Beethoven and then undergoes aversion therapy that removes his capacity for choice. Kubrick's adaptation of Burgess asks whether a person without free will is still a person — and offers no answer. The film was withdrawn from UK distribution by Kubrick himself after copycat incidents; it was not shown there for twenty-seven years. The droogs' costumes became instantly iconic and have never entirely left the culture.",
-    metrics: { consensus: 86, friction: 82, obsession: 96, haunting: 90, symbolic: 92, cult: 92, formal: 93, voltage: 96, accessibility: 56 },
+    metrics: { consensus: 86, friction: 82, obsession: 96, haunting: 90, symbolic: 92, cult: 92, formal: 93, voltage: 96, accessibility: 56, reach: 85, progeny: 80, arc: 38, transgression: 92 },
     notes: {
       friction: "Free will vs. state control; glorification vs. critique of violence — the debate has never fully resolved.",
       cult: "Among the most devout cult followings in the catalogue; the droogs' aesthetic has been continuously imitated.",
@@ -2190,7 +2366,7 @@ const CURATED: Artifact[] = [
     epigraph: "The dead know only one thing: it is better to be alive.",
     reading:
       "The film breaks in half. Part one is Gunnery Sergeant Hartman's boot camp — a perfect enclosure of dehumanization — and Part two is Vietnam, fragmentary and unresolved. The break is the argument: military training produces one thing, war produces another, and the two have no coherent relationship. Pyle's breakdown in the bathroom is among the most devastating scene transitions in American cinema.",
-    metrics: { consensus: 88, friction: 68, obsession: 92, haunting: 80, symbolic: 86, cult: 82, formal: 88, voltage: 92, accessibility: 76 },
+    metrics: { consensus: 88, friction: 68, obsession: 92, haunting: 80, symbolic: 86, cult: 82, formal: 88, voltage: 92, accessibility: 76, reach: 82, progeny: 72, arc: 32, transgression: 65 },
     notes: {
       friction: "The diptych structure remains contested: is the break a flaw or the point? The debate maps onto larger questions about war-film coherence.",
       obsession: "Hartman's dialogue has achieved full meme saturation; it is quoted in contexts entirely unrelated to the film.",
@@ -2218,7 +2394,7 @@ const CURATED: Artifact[] = [
     epigraph: "Whoever saves one life, saves the world entire.",
     reading:
       "Shot in black and white on the streets of Kraków, Spielberg's Holocaust film achieves a scale of emotional devastation that few popular films attempt. The girl in the red coat is the film's center of gravity — the only moment of color, and therefore of individuality, in a world being systematically drained of it. The debate about whether Spielberg had the right to this story is real; so is the overwhelming evidence that it changed how a generation understood the Holocaust.",
-    metrics: { consensus: 96, friction: 24, obsession: 92, haunting: 90, symbolic: 88, cult: 32, formal: 86, voltage: 97, accessibility: 88 },
+    metrics: { consensus: 96, friction: 24, obsession: 92, haunting: 90, symbolic: 88, cult: 32, formal: 86, voltage: 97, accessibility: 88, reach: 90, progeny: 60, arc: 30, transgression: 40 },
     notes: {
       voltage: "The shower scene, the liquidation of the ghetto, and the final grave-laying sequence produce sustained physiological grief.",
       symbolic: "The red coat is cinema's most analyzed instance of color as moral grammar.",
@@ -2250,7 +2426,7 @@ const CURATED: Artifact[] = [
     epigraph: "Wouldst thou like to live deliciously?",
     reading:
       "A Puritan family is expelled from their colonial plantation and settles at the edge of a wood, and everything they believe about sin, salvation, and female autonomy becomes the mechanism of their destruction. Thomasin's final scene — her body lifted into the trees — refuses to determine whether she is liberated or destroyed. Black Phillip has become the most effective advertising slogan for damnation in modern cinema.",
-    metrics: { consensus: 82, friction: 68, obsession: 80, haunting: 90, symbolic: 90, cult: 82, formal: 88, voltage: 86, accessibility: 54 },
+    metrics: { consensus: 82, friction: 68, obsession: 80, haunting: 90, symbolic: 90, cult: 82, formal: 88, voltage: 86, accessibility: 54, reach: 60, progeny: 42, arc: 25, transgression: 52 },
     notes: {
       haunting: "Black Phillip's offer follows viewers. 'Wouldst thou like to live deliciously' recurs in the mind with unusual persistence.",
       friction: "The Thomasin ending: liberation or possession? The film refuses to determine, and readers are still at war.",
@@ -2278,7 +2454,7 @@ const CURATED: Artifact[] = [
     epigraph: "Let her cry.",
     reading:
       "Dani's grief is real before the cult is — the opening tragedy is where the film's voltage actually lives. The Swedish commune provides a mirror for the relationship's toxicity and offers Dani a community that, however horrible, actually witnesses her. The bear. The runes. The maypole. The director's cut is even slower, more ritual, and more cathartic. It is one of the few horror films whose devoted cult is overwhelmingly women who watched it through a breakup.",
-    metrics: { consensus: 72, friction: 84, obsession: 86, haunting: 88, symbolic: 92, cult: 86, formal: 84, voltage: 92, accessibility: 64 },
+    metrics: { consensus: 72, friction: 84, obsession: 86, haunting: 88, symbolic: 92, cult: 86, formal: 84, voltage: 92, accessibility: 64, reach: 72, progeny: 38, arc: 22, transgression: 62 },
     notes: {
       cult: "Unusually gender-specific cult formation: the film found its core audience among women processing loss and codependency.",
       friction: "Breakup film? Grief film? Feminist revenge fantasy? Folk horror? The genre question generates ongoing heat.",
@@ -2307,7 +2483,7 @@ const CURATED: Artifact[] = [
     epigraph: "I'm sorry, Mom.",
     reading:
       "Three hours of anxiety made architecturally literal, with Jewish guilt, maternal suffocation, and the male fear of accountability layered into a structure that refuses genre, logic, and resolution. The animated sequence is a film-within-the-film that is better than most films. Critics were split on whether this was Aster's masterpiece or his self-indulgent collapse. The CinemaScore is irrelevant.",
-    metrics: { consensus: 38, friction: 96, obsession: 74, haunting: 86, symbolic: 94, cult: 68, formal: 95, voltage: 90, accessibility: 18 },
+    metrics: { consensus: 38, friction: 96, obsession: 74, haunting: 86, symbolic: 94, cult: 68, formal: 95, voltage: 90, accessibility: 18, reach: 45, progeny: 15, arc: 18, transgression: 38 },
     notes: {
       friction: "Near-maximum friction: the critics who called it a masterpiece and the critics who called it unwatchable share almost no common vocabulary.",
       formal: "The animated chapter constitutes a fully independent formal risk inside a film that is already one.",
@@ -2335,7 +2511,7 @@ const CURATED: Artifact[] = [
     epigraph: "Suzy, do you know anything about... witches?",
     reading:
       "The dance academy is already a witch coven before Suzy arrives; the question is only when the architecture will reveal itself. Argento deploys color saturation, Goblin's prog-rock score, and a logic of pure dream to produce something that functions less as narrative than as sustained assault on the viewer's nervous system. The score alone — that whispered 'witch, witch, witch' — is installed permanently upon first contact.",
-    metrics: { consensus: 86, friction: 48, obsession: 90, haunting: 94, symbolic: 84, cult: 94, formal: 93, voltage: 90, accessibility: 62 },
+    metrics: { consensus: 86, friction: 48, obsession: 90, haunting: 94, symbolic: 84, cult: 94, formal: 93, voltage: 90, accessibility: 62, reach: 58, progeny: 75, arc: 45, transgression: 60 },
     notes: {
       haunting: "The Goblin score is the primary mechanism — it is written to install itself in the listener and not leave.",
       cult: "The peak giallo cult object; the devoted community maintains it as the genre's defining achievement.",
@@ -2364,7 +2540,7 @@ const CURATED: Artifact[] = [
     epigraph: "Long live the new flesh.",
     reading:
       "Max Renn watches snuff television until the television watches him back. Cronenberg's media theory horror arrives at its thesis — flesh and screen are merging, and the boundary between viewer and content has already dissolved — with a consistency that only deepens with each decade. In 2025, it reads as a document of something that has already happened. The VHS slot in Renn's abdomen is the image of the century.",
-    metrics: { consensus: 78, friction: 74, obsession: 86, haunting: 90, symbolic: 96, cult: 88, formal: 90, voltage: 88, accessibility: 44 },
+    metrics: { consensus: 78, friction: 74, obsession: 86, haunting: 90, symbolic: 96, cult: 88, formal: 90, voltage: 88, accessibility: 44, reach: 52, progeny: 72, arc: 48, transgression: 80 },
     notes: {
       symbolic: "Media, body, and technology collapse is not the subtext — it is the architecture of every scene.",
       obsession: "The film accrues new relevance with each new media technology. The 1983 argument has not dated.",
@@ -2393,7 +2569,7 @@ const CURATED: Artifact[] = [
     epigraph: "I'm somebody now.",
     reading:
       "Four people collapse in parallel — heroin, television, diet pills, loneliness — and Aronofsky deploys every technique in the arsenal to make the viewer experience the collapse physiologically. It is one of the least rewatchable films in the index. Lux Aeterna has become culturally disembodied from its source, appearing in trailers for decades. Sara Goldfarb's refrigerator terror remains the most accurate depiction of stimulant psychosis in popular cinema.",
-    metrics: { consensus: 84, friction: 52, obsession: 90, haunting: 97, symbolic: 84, cult: 84, formal: 90, voltage: 99, accessibility: 58 },
+    metrics: { consensus: 84, friction: 52, obsession: 90, haunting: 97, symbolic: 84, cult: 84, formal: 90, voltage: 99, accessibility: 58, reach: 78, progeny: 58, arc: 28, transgression: 82 },
     notes: {
       haunting: "The film recurs involuntarily and without warning. Multiple viewers report avoidance strategies specifically to prevent intrusion.",
       voltage: "Maximum physiological distress. The split-screen finale is the index's highest-voltage extended sequence.",
@@ -2422,7 +2598,7 @@ const CURATED: Artifact[] = [
     epigraph: "I give and give and give. It's never enough.",
     reading:
       "An F CinemaScore from general audiences and near-universal praise from critics represents the catalogue's most dramatic reception bifurcation. The film is a Biblical allegory detonated inside a domestic horror — Jennifer Lawrence is Earth, Javier Bardem is God, and the poem being consumed is Creation. The final sequence is among the most extreme conclusions in mainstream cinema. Aronofsky refused to explain it and the refusal was the correct choice.",
-    metrics: { consensus: 34, friction: 99, obsession: 84, haunting: 90, symbolic: 99, cult: 80, formal: 90, voltage: 99, accessibility: 28 },
+    metrics: { consensus: 34, friction: 99, obsession: 84, haunting: 90, symbolic: 99, cult: 80, formal: 90, voltage: 99, accessibility: 28, reach: 65, progeny: 30, arc: 28, transgression: 72 },
     notes: {
       friction: "Maximum friction: the critic consensus and the audience consensus are so divergent that they appear to describe different films.",
       symbolic: "Every element is a symbol with no non-symbolic alternative: the film operates as pure allegory throughout.",
@@ -2450,7 +2626,7 @@ const CURATED: Artifact[] = [
     epigraph: "Is it about the rabbit?",
     reading:
       "Lynch's last and least forgiving film dissolves an actress into her role into a Polish folk tale into a Hollywood set into a corridor that may not have an end. Shot on consumer DV — deliberately degraded — it is the most formally hostile entry in the catalogue. Even Lynch devotees are divided. The Axxon N. sequences are among the most genuinely disorienting passages in narrative cinema. Laura Dern's performance holds the whole fragmented mass together through sheer presence.",
-    metrics: { consensus: 52, friction: 94, obsession: 78, haunting: 96, symbolic: 97, cult: 80, formal: 99, voltage: 90, accessibility: 8 },
+    metrics: { consensus: 52, friction: 94, obsession: 78, haunting: 96, symbolic: 97, cult: 80, formal: 99, voltage: 90, accessibility: 8, reach: 38, progeny: 42, arc: 35, transgression: 25 },
     notes: {
       accessibility: "Lowest accessibility in the catalogue. No handholds are provided and none are coming.",
       formal: "Shot on DV, deliberately. The degraded image is the argument about cinema consuming itself.",
@@ -2481,7 +2657,7 @@ const CURATED: Artifact[] = [
     epigraph: "Laugh and the world laughs with you. Weep and you weep alone.",
     reading:
       "Oh Dae-su is imprisoned for fifteen years for reasons he does not know and released into a revenge narrative whose resolution rewrites everything that came before. Park's film is a machine built to produce one specific devastating revelation at a specific moment, and it succeeds completely. The corridor fight — one continuous take, exhausted, real — remains the defining action sequence of Korean cinema.",
-    metrics: { consensus: 88, friction: 64, obsession: 94, haunting: 96, symbolic: 90, cult: 88, formal: 90, voltage: 97, accessibility: 74 },
+    metrics: { consensus: 88, friction: 64, obsession: 94, haunting: 96, symbolic: 90, cult: 88, formal: 90, voltage: 97, accessibility: 74, reach: 68, progeny: 65, arc: 35, transgression: 88 },
     notes: {
       haunting: "The revelation reframes the entire preceding film and does not leave. Viewers report the film returning to them at odd moments for years.",
       obsession: "The corridor fight is among the most referenced sequences in world cinema — cited for craft independently of the film's narrative.",
@@ -2510,7 +2686,7 @@ const CURATED: Artifact[] = [
     epigraph: "TETSUO!",
     reading:
       "Neo-Tokyo 2019: a city rebuilt on the crater of the bomb, now destined to be cratered again. Otomo's adaptation of his own manga is a technical achievement of an order that had not been seen in animation and arguably has not been equaled since — hand-drawn at 24fps, with lip-sync recorded before the images were drawn. Tetsuo's mutation sequence remains the most viscerally overwhelming in anime history. It arrived in the West with the force of revelation.",
-    metrics: { consensus: 94, friction: 28, obsession: 96, haunting: 90, symbolic: 92, cult: 98, formal: 96, voltage: 94, accessibility: 78 },
+    metrics: { consensus: 94, friction: 28, obsession: 96, haunting: 90, symbolic: 92, cult: 98, formal: 96, voltage: 94, accessibility: 78, reach: 82, progeny: 90, arc: 45, transgression: 40 },
     notes: {
       formal: "Hand-drawn at 24fps; lip-sync pre-recorded; an unprecedented technical achievement that defined what animation could be.",
       cult: "Defining text of the anime cult in the West; millions' gateway drug into the form.",
@@ -2539,7 +2715,7 @@ const CURATED: Artifact[] = [
     epigraph: "Who are you?",
     reading:
       "Mima Kirigoe quits her idol group to become an actress and finds her image and identity distributed across the internet before the internet was what it became. Satoshi Kon's first feature is a horror film about the female body as public property and the mind's inability to maintain coherent selfhood under surveillance. Darren Aronofsky purchased the remake rights and used two sequences directly in Requiem for a Dream.",
-    metrics: { consensus: 92, friction: 38, obsession: 92, haunting: 97, symbolic: 94, cult: 90, formal: 92, voltage: 90, accessibility: 64 },
+    metrics: { consensus: 92, friction: 38, obsession: 92, haunting: 97, symbolic: 94, cult: 90, formal: 92, voltage: 90, accessibility: 64, reach: 62, progeny: 78, arc: 48, transgression: 70 },
     notes: {
       haunting: "Mima's doppelganger is one of cinema's most persistent hostile presences — she returns.",
       symbolic: "Celebrity, image, the female body as public property, and identity dissolution are not the film's themes: they are its architecture.",
@@ -2568,7 +2744,7 @@ const CURATED: Artifact[] = [
     epigraph: "I hate humans!",
     reading:
       "The forest gods are dying and no one is simply wrong. Miyazaki's greatest political film refuses the narrative convenience of a villain — Eboshi is building a future for society's discarded people and destroying a sacred forest simultaneously; San belongs to the wolves but was born human; Ashitaka can love both sides and save neither. The Forest Spirit's head is detached and the world floods white.",
-    metrics: { consensus: 96, friction: 18, obsession: 92, haunting: 84, symbolic: 90, cult: 74, formal: 90, voltage: 84, accessibility: 82 },
+    metrics: { consensus: 96, friction: 18, obsession: 92, haunting: 84, symbolic: 90, cult: 74, formal: 90, voltage: 84, accessibility: 82, reach: 80, progeny: 68, arc: 32, transgression: 25 },
     notes: {
       consensus: "Among the most agreed-upon films in world cinema. Unusually, its moral complexity has not generated sustained interpretive war.",
       symbolic: "The ecology and industrialization allegory is complete and present in every scene without becoming didactic.",
@@ -2597,7 +2773,7 @@ const CURATED: Artifact[] = [
     epigraph: "Every day we brush past so many people. People we may never meet. Or people who may become close friends.",
     reading:
       "Two loneliness stories in Hong Kong, loosely held together by a snack bar and California Dreamin'. WKW shot it in six weeks as a break from the production of Ashes of Time and produced the defining romantic-urban film of the 1990s. Faye's wiggly dance behind the counter and Cop 663's conversations with his soap are among cinema's most precise portraits of the specific sadness of new love not yet arriving.",
-    metrics: { consensus: 94, friction: 22, obsession: 88, haunting: 88, symbolic: 84, cult: 80, formal: 90, voltage: 80, accessibility: 74 },
+    metrics: { consensus: 94, friction: 22, obsession: 88, haunting: 88, symbolic: 84, cult: 80, formal: 90, voltage: 80, accessibility: 74, reach: 55, progeny: 68, arc: 35, transgression: 5 },
     notes: {
       haunting: "The pining quality of Wong's cinema is specifically haunting — it installs a kind of anticipatory sadness that returns.",
       formal: "Step-printing and handheld intimacy produced a visual language that defined a generation of independent cinema.",
@@ -2626,7 +2802,7 @@ const CURATED: Artifact[] = [
     epigraph: "Once you've met someone you never really forget them.",
     reading:
       "Chihiro enters the spirit world because her parents ate the gods' food and became pigs. The logic of the bathhouse — its hierarchies, its work ethics, its spirit-guests — is complete and internally consistent without ever being explained. No-Face's trajectory from lonely hunger to quiet guest is the film's most precise emotional movement. It remains the only non-English-language film to win the Academy Award for Best Animated Feature.",
-    metrics: { consensus: 98, friction: 6, obsession: 96, haunting: 90, symbolic: 94, cult: 64, formal: 92, voltage: 84, accessibility: 92 },
+    metrics: { consensus: 98, friction: 6, obsession: 96, haunting: 90, symbolic: 94, cult: 64, formal: 92, voltage: 84, accessibility: 92, reach: 88, progeny: 62, arc: 30, transgression: 8 },
     notes: {
       consensus: "Among the most agreed-upon films in the index — adults and children, critics and audiences, East and West.",
       symbolic: "The bathhouse economy reads as Japanese workplace culture; as capitalism; as childhood; as Shinto cosmology. All simultaneously.",
@@ -2654,7 +2830,7 @@ const CURATED: Artifact[] = [
     epigraph: "Dreams are instantaneous, aren't they? You know how it feels to live an entire life and then wake up.",
     reading:
       "A device that allows therapists to enter patients' dreams is stolen, and the dreams begin invading waking reality — the parade of dolls and kitchen appliances marching through Tokyo while Japanese folk songs play is the most purely cinematic sequence Kon ever produced. Christopher Nolan's acknowledged debts for Inception make this entry in the catalogue doubly interesting: it is the dream architecture that the blockbuster version smoothed into comprehensibility.",
-    metrics: { consensus: 86, friction: 42, obsession: 86, haunting: 90, symbolic: 92, cult: 82, formal: 93, voltage: 82, accessibility: 64 },
+    metrics: { consensus: 86, friction: 42, obsession: 86, haunting: 90, symbolic: 92, cult: 82, formal: 93, voltage: 82, accessibility: 64, reach: 48, progeny: 72, arc: 40, transgression: 15 },
     notes: {
       formal: "The reality/dream layering is not a device but a formal commitment — each scene operates simultaneously in both registers.",
       obsession: "Inception's relationship to Paprika has added an entire discursive layer: the comparison keeps both films in active discussion.",
@@ -2686,7 +2862,7 @@ const CURATED: Artifact[] = [
     epigraph: "You know what I say? I say one down, a couple hundred thousand to go.",
     reading:
       "Chris goes to meet his white girlfriend's parents and the American liberal imagination is dissected with surgical precision. Peele's horror works because the terror is structurally real — the sunken place is not metaphor alone — and the white family's performance of progressive values is accurate enough to be indistinguishable from observation. The teacup. The bingo card. The auction. Each element is both narrative and sociological argument.",
-    metrics: { consensus: 96, friction: 44, obsession: 97, haunting: 88, symbolic: 94, cult: 74, formal: 88, voltage: 92, accessibility: 90 },
+    metrics: { consensus: 96, friction: 44, obsession: 97, haunting: 88, symbolic: 94, cult: 74, formal: 88, voltage: 92, accessibility: 90, reach: 88, progeny: 52, arc: 25, transgression: 45 },
     notes: {
       obsession: "The sunken place entered general cultural usage almost immediately and has maintained velocity — it is now used in contexts completely disconnected from the film.",
       symbolic: "The liberal-racism allegory is not subtext: the film is structured as argument, with each horror beat also functioning as a thesis statement.",
@@ -2715,7 +2891,7 @@ const CURATED: Artifact[] = [
     epigraph: "The only thing I know is that we have to be kind.",
     reading:
       "A laundromat owner discovers she can access alternate-universe versions of herself and faces a nihilist multiverse god who turns out to be her daughter. The Daniels answer cosmic meaninglessness with googly eyes and the accumulated texture of everyday family life, and a generation that had been taught to distrust sincerity watched it and cried in a specific way that was difficult to explain. The most commercially successful A24 release is also one of its most formally insane.",
-    metrics: { consensus: 90, friction: 56, obsession: 94, haunting: 76, symbolic: 88, cult: 84, formal: 86, voltage: 92, accessibility: 76 },
+    metrics: { consensus: 90, friction: 56, obsession: 94, haunting: 76, symbolic: 88, cult: 84, formal: 86, voltage: 92, accessibility: 76, reach: 85, progeny: 32, arc: 20, transgression: 22 },
     notes: {
       friction: "The maximalism divide: does the visual chaos earn the emotional climax, or is sincerity being purchased with exhaustion?",
       obsession: "Googly eyes became the film's distributed symbol system — appearing on objects worldwide within weeks of release.",
@@ -2743,7 +2919,7 @@ const CURATED: Artifact[] = [
     epigraph: "We've built such a great life here. I want to carry on.",
     reading:
       "The Höss family tends their garden while the Auschwitz crematoria smoke next door. Glazer's camera never crosses the wall; the sound does. The wall is the formal argument: the banality of participation requires only the refusal to look. The surveillance-camera aesthetic produces a horror that never announces itself as horror — it accumulates through domestic mundanity until it is unbearable. The children sleep peacefully.",
-    metrics: { consensus: 90, friction: 52, obsession: 80, haunting: 97, symbolic: 94, cult: 48, formal: 97, voltage: 90, accessibility: 42 },
+    metrics: { consensus: 90, friction: 52, obsession: 80, haunting: 97, symbolic: 94, cult: 48, formal: 97, voltage: 90, accessibility: 42, reach: 62, progeny: 28, arc: 18, transgression: 55 },
     notes: {
       haunting: "What is not shown haunts more completely than any direct depiction could. The wall becomes a permanent presence in the viewer's mind.",
       formal: "The absence as technique — the offscreen atrocity — is the most radical formal choice in recent Holocaust cinema.",
@@ -2771,7 +2947,7 @@ const CURATED: Artifact[] = [
     epigraph: "Life on earth is evil. No one will miss it.",
     reading:
       "A planet is approaching that will destroy the Earth. Justine, deeply depressed, is the only character who is not afraid. Von Trier's most rigorous diptych: the first half is a wedding from hell (formalism via Dogme's opposite); the second is a slow planetary approach scored to Wagner's Tristan und Isolde. The film's thesis — that depression is not illness but lucidity, a correct reading of an evil world — is simultaneously consoling and appalling.",
-    metrics: { consensus: 82, friction: 66, obsession: 86, haunting: 97, symbolic: 94, cult: 76, formal: 88, voltage: 90, accessibility: 46 },
+    metrics: { consensus: 82, friction: 66, obsession: 86, haunting: 97, symbolic: 94, cult: 76, formal: 88, voltage: 90, accessibility: 46, reach: 55, progeny: 38, arc: 30, transgression: 20 },
     notes: {
       haunting: "The end of the world as relief from depression is an idea that haunts in a specific and personal way.",
       symbolic: "The planet Melancholia is not metaphor — it is the literalization of the depressive's worldview given planetary scale.",
@@ -2799,7 +2975,7 @@ const CURATED: Artifact[] = [
     epigraph: "I have come to ask for your help.",
     reading:
       "A bare stage. Chalk lines indicate walls. Houses have names painted on the ground. Grace arrives and the town of Dogville, Nebraska accommodates her, then exploits her, then destroys her. Von Trier strips cinema of every visual pleasure and leaves pure narrative and moral argument — the absence of sets forces the viewer to complete the world and implicates them in it. The ending, in which the town is destroyed, plays over photographs of American poverty.",
-    metrics: { consensus: 68, friction: 86, obsession: 80, haunting: 82, symbolic: 94, cult: 72, formal: 97, voltage: 86, accessibility: 22 },
+    metrics: { consensus: 68, friction: 86, obsession: 80, haunting: 82, symbolic: 94, cult: 72, formal: 97, voltage: 86, accessibility: 22, reach: 45, progeny: 40, arc: 30, transgression: 50 },
     notes: {
       formal: "The radical elimination of sets is not an affectation — it is the argument: the social contract requires only imagined walls to function.",
       friction: "American audiences largely rejected it; European critics embraced it; the transatlantic split remains ongoing.",
@@ -2827,7 +3003,7 @@ const CURATED: Artifact[] = [
     epigraph: "Who is doing this to us?",
     reading:
       "A bourgeois Parisian family receives surveillance tapes of their own home and a child's drawing of a bleeding head, and Georges Laurent does not want to know why. The film is about colonial guilt refusing to surface — Algeria, 1961, the Paris Massacre — and the impossibility of confronting what one has suppressed. Who sent the tapes? Haneke never says. The final shot, in the background, contains something almost everyone misses the first time.",
-    metrics: { consensus: 86, friction: 80, obsession: 82, haunting: 90, symbolic: 92, cult: 64, formal: 90, voltage: 82, accessibility: 52 },
+    metrics: { consensus: 86, friction: 80, obsession: 82, haunting: 90, symbolic: 92, cult: 64, formal: 90, voltage: 82, accessibility: 52, reach: 42, progeny: 48, arc: 32, transgression: 30 },
     notes: {
       friction: "The unanswered question is not a failure — it is the thesis: the guilty party is the viewer who has not yet asked the question of themselves.",
       haunting: "The Majid scene and its aftermath recur. Haneke constructs a specific kind of guilt that does not resolve.",
@@ -2855,7 +3031,7 @@ const CURATED: Artifact[] = [
     epigraph: "I cannot begin my day with a confrontation.",
     reading:
       "Reynolds Woodcock is a dressmaker of genius and an impossible man, and Alma feeds him mushrooms. PTA's most controlled film and Daniel Day-Lewis's final performance ask whether love and domination can be separated, whether the artist's need for control is a pathology or a necessity, and whether the only way to love a man who requires submission is to poison him until he requires you. The poisoning is consensual by the end. That is the most disturbing thing about it.",
-    metrics: { consensus: 88, friction: 74, obsession: 86, haunting: 84, symbolic: 88, cult: 70, formal: 90, voltage: 86, accessibility: 54 },
+    metrics: { consensus: 88, friction: 74, obsession: 86, haunting: 84, symbolic: 88, cult: 70, formal: 90, voltage: 86, accessibility: 54, reach: 55, progeny: 35, arc: 28, transgression: 15 },
     notes: {
       friction: "The poisoning: romantic inevitability or domestic abuse with aestheticized consent? The debate has not resolved.",
       formal: "Greenwood's score is the film's most precise formal instrument — it is playing the power dynamics in real time.",
@@ -2883,7 +3059,7 @@ const CURATED: Artifact[] = [
     epigraph: "She is not crazy. She just loves too much.",
     reading:
       "Mabel Longhetti is institutionalized for behavior that is unconventional and exhausting and that a man would never be hospitalized for. Cassavetes and Gena Rowlands produced the most forensic portrait of female psychological experience being diagnosed as mental illness in American cinema — and did so with what appears to be documentary intimacy. The film's discomfort is indistinguishable from compassion. It takes two hours and thirty-five minutes and does not feel long.",
-    metrics: { consensus: 86, friction: 44, obsession: 74, haunting: 90, symbolic: 82, cult: 62, formal: 84, voltage: 94, accessibility: 58 },
+    metrics: { consensus: 86, friction: 44, obsession: 74, haunting: 90, symbolic: 82, cult: 62, formal: 84, voltage: 94, accessibility: 58, reach: 38, progeny: 60, arc: 52, transgression: 30 },
     notes: {
       voltage: "Rowlands' performance produces sustained physiological response — the discomfort is real, not stylized.",
       haunting: "Mabel's face at specific moments — the party scene, the homecoming — recurs in the memory of the viewer.",
@@ -2911,7 +3087,7 @@ const CURATED: Artifact[] = [
     epigraph: "Was I false to you?",
     reading:
       "A Texas childhood in the 1950s is bracketed by the creation of the universe and the resurrection of the dead. Malick's most ambitious film is also his most literal statement of purpose: cinema as prayer, as cosmogenesis, as the attempt to find grace inside ordinary daylight. The dinosaur scene is not a mistake or an indulgence; it is the argument. Walk of life — way of nature versus way of grace — structures every moment.",
-    metrics: { consensus: 68, friction: 88, obsession: 84, haunting: 90, symbolic: 96, cult: 80, formal: 95, voltage: 84, accessibility: 28 },
+    metrics: { consensus: 68, friction: 88, obsession: 84, haunting: 90, symbolic: 96, cult: 80, formal: 95, voltage: 84, accessibility: 28, reach: 62, progeny: 42, arc: 42, transgression: 12 },
     notes: {
       friction: "The Cannes audience booed and awarded it the Palme d'Or simultaneously. The dinosaur scene remains the primary battleground.",
       formal: "The most formally ambitious American film of the decade: non-linear, whispered voiceover, the creation sequence.",

@@ -28,23 +28,27 @@ const DEFAULTS: Metrics = {
   formal: 50,
   voltage: 50,
   accessibility: 50,
+  reach: 50,
+  progeny: 50,
+  arc: 50,
+  transgression: 50,
 };
 
 const PRESETS: { name: string; gloss: string; metrics: Metrics }[] = [
   {
     name: "The Wound",
     gloss: "Low consensus, high haunting, high voltage.",
-    metrics: { consensus: 25, friction: 90, obsession: 88, haunting: 96, symbolic: 80, cult: 90, formal: 85, voltage: 95, accessibility: 18 },
+    metrics: { consensus: 25, friction: 90, obsession: 88, haunting: 96, symbolic: 80, cult: 90, formal: 85, voltage: 95, accessibility: 18, reach: 30, progeny: 55, arc: 85, transgression: 70 },
   },
   {
     name: "The Cathedral",
     gloss: "Settled, dense, slow-burning.",
-    metrics: { consensus: 88, friction: 30, obsession: 70, haunting: 78, symbolic: 92, cult: 60, formal: 88, voltage: 60, accessibility: 35 },
+    metrics: { consensus: 88, friction: 30, obsession: 70, haunting: 78, symbolic: 92, cult: 60, formal: 88, voltage: 60, accessibility: 35, reach: 45, progeny: 75, arc: 50, transgression: 20 },
   },
   {
     name: "The Fever",
     gloss: "Cult-shaped, accessible, loud.",
-    metrics: { consensus: 55, friction: 60, obsession: 92, haunting: 65, symbolic: 60, cult: 95, formal: 55, voltage: 90, accessibility: 70 },
+    metrics: { consensus: 55, friction: 60, obsession: 92, haunting: 65, symbolic: 60, cult: 95, formal: 55, voltage: 90, accessibility: 70, reach: 80, progeny: 45, arc: 40, transgression: 35 },
   },
 ];
 
@@ -92,6 +96,22 @@ const SHAPE_BY_AXIS: Record<AxisKey, { name: string; description: string }> = {
     name: "The Guide",
     description: "You prefer works that invite entry without demanding prior initiation.",
   },
+  reach: {
+    name: "The Emissary",
+    description: "You gravitate toward works that have crossed into the general culture — seen by everyone, understood differently by each.",
+  },
+  progeny: {
+    name: "The Ancestor",
+    description: "You are drawn to originating works — the ones that made other works possible.",
+  },
+  arc: {
+    name: "The Revisionist",
+    description: "You prefer works whose reputation has been rewritten by time rather than confirmed by it.",
+  },
+  transgression: {
+    name: "The Limit-Tester",
+    description: "You seek works that operated at or beyond the boundaries of what was considered permissible.",
+  },
 };
 
 // Short match descriptions for the resonance breakdown
@@ -105,6 +125,10 @@ const AXIS_MATCH_GLOSS: Record<AxisKey, string> = {
   formal: "shared formal risk",
   voltage: "shared emotional intensity",
   accessibility: "shared ease of entry",
+  reach: "shared cultural permeation",
+  progeny: "shared generative lineage",
+  arc: "shared reversal of reception",
+  transgression: "shared proximity to social limits",
 };
 
 function normalizeTitle(value: string) {
