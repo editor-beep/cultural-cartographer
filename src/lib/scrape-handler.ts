@@ -6,12 +6,16 @@ const RequestSchema = z.object({
   title: z.string().min(1).max(300),
 });
 
-export async function handleScrapeRequest(request: Request): Promise<Response> {
+export async function handleScrapeRequest(
+  request: Request,
+  env: Record<string, string | undefined>,
+): Promise<Response> {
   if (request.method !== "POST") {
     return Response.json({ error: "Method not allowed" }, { status: 405 });
   }
 
-  if (!process.env['GEMINI_API_KEY']) {
+  const apiKey = env["GEMINI_API_KEY"];
+  if (!apiKey) {
     return Response.json({ error: "GEMINI_API_KEY is not configured" }, { status: 500 });
   }
 
@@ -31,7 +35,7 @@ export async function handleScrapeRequest(request: Request): Promise<Response> {
   }
 
   try {
-    const record = await analyzeMovie(parsed.data.title);
+    const record = await analyzeMovie(parsed.data.title, apiKey);
     saveUserMovie(record);
     return Response.json(record, { status: 200 });
   } catch (err) {

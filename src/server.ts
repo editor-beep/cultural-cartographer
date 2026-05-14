@@ -72,7 +72,7 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === "/api/scrape") {
-      return handleScrapeRequest(request);
+      return handleScrapeRequest(request, (env as Record<string, string | undefined>) ?? {});
     }
 
     try {
