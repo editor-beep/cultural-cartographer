@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AXES } from "@/data/artifacts";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { SHAPE_BY_AXIS } from "./attune";
 
 export const Route = createFileRoute("/lexicon")({
   component: Lexicon,
@@ -98,30 +100,64 @@ function Lexicon() {
           summary; the language is the claim. Disagree with the language.
         </p>
         <div className="rule mt-12" />
-        <div className="mt-8 space-y-12">
+        <Accordion type="multiple" className="mt-4 w-full">
           {AXES.map((axis, i) => {
             const d = DEFINITIONS[axis.key];
             return (
-              <article key={axis.key} className="grid grid-cols-12 gap-8">
-                <div className="col-span-12 md:col-span-3">
-                  <div className="font-mono text-[10px] text-vellum-dim smallcaps">
-                    Axis {String(i + 1).padStart(2, "0")} · {axis.short}
+              <AccordionItem key={axis.key} value={axis.key} className="border-vellum/10">
+                <AccordionTrigger className="hover:no-underline py-5 group">
+                  <div className="flex items-baseline gap-4">
+                    <span className="font-mono text-[10px] text-vellum-dim smallcaps shrink-0">
+                      {String(i + 1).padStart(2, "0")} · {axis.short}
+                    </span>
+                    <span className="font-display text-2xl text-vellum group-hover:underline">
+                      {axis.label}
+                    </span>
                   </div>
-                  <h2 className="mt-2 font-display text-3xl text-vellum">
-                    {axis.label}
-                  </h2>
-                </div>
-                <div className="col-span-12 md:col-span-9 space-y-3">
-                  <p className="font-display text-lg italic text-vellum">
-                    {d.gloss}
-                  </p>
-                  <p className="text-vellum/90">{d.reads}</p>
-                  <p className="text-sm text-vellum-dim">— {d.warns}</p>
-                </div>
-              </article>
+                </AccordionTrigger>
+                <AccordionContent className="pb-6">
+                  <div className="grid grid-cols-12 gap-8 pl-12">
+                    <div className="col-span-12 space-y-3">
+                      <p className="font-display text-lg italic text-vellum">{d.gloss}</p>
+                      <p className="text-vellum/90">{d.reads}</p>
+                      <p className="text-sm text-vellum-dim">— {d.warns}</p>
+                    </div>
+                  </div>
+                </AccordionContent>
+              </AccordionItem>
             );
           })}
-        </div>
+        </Accordion>
+
+        <div className="rule mt-16" />
+        <h2 className="mt-10 font-display text-5xl leading-[1.02] text-vellum">
+          The viewer shapes.
+        </h2>
+        <p className="mt-4 max-w-2xl font-display text-xl italic text-vellum-dim">
+          Each axis produces an archetype when it dominates a viewer's fingerprint. These are tendencies, not diagnoses.
+        </p>
+        <Accordion type="multiple" className="mt-8 w-full">
+          {AXES.map((axis) => {
+            const shape = SHAPE_BY_AXIS[axis.key];
+            return (
+              <AccordionItem key={axis.key} value={`shape-${axis.key}`} className="border-vellum/10">
+                <AccordionTrigger className="hover:no-underline py-5 group">
+                  <div className="flex items-baseline gap-4">
+                    <span className="font-mono text-[10px] text-vellum-dim smallcaps shrink-0">
+                      via {axis.label} · {axis.short}
+                    </span>
+                    <span className="font-display text-2xl text-vellum group-hover:underline">
+                      {shape.name}
+                    </span>
+                  </div>
+                </AccordionTrigger>
+                <AccordionContent className="pb-6">
+                  <p className="pl-12 text-vellum/90">{shape.description}</p>
+                </AccordionContent>
+              </AccordionItem>
+            );
+          })}
+        </Accordion>
       </section>
       <SiteFooter />
     </div>

@@ -59,7 +59,7 @@ const AXIS_LABELS: Record<AxisKey, string> = AXES.reduce(
   {} as Record<AxisKey, string>,
 );
 
-const SHAPE_BY_AXIS: Record<AxisKey, { name: string; description: string }> = {
+export const SHAPE_BY_AXIS: Record<AxisKey, { name: string; description: string }> = {
   consensus: {
     name: "The Harmonizer",
     description: "You seek works that hold a stable shared reading across audiences.",
