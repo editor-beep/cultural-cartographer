@@ -146,6 +146,36 @@ function aggregateMetrics(favorites: Artifact[]): Metrics {
 }
 
 function describeViewerShape(metrics: Metrics) {
+  // 3-axis composites first (most specific)
+  if (metrics.haunting >= 70 && metrics.voltage >= 70 && metrics.consensus <= 40) {
+    return {
+      name: "The Wound-Dweller",
+      description:
+        "High-intensity films that linger without consensus — you live in the ones that left a mark nobody else quite agreed on.",
+    };
+  }
+  if (metrics.formal >= 70 && metrics.symbolic >= 70 && metrics.accessibility <= 40) {
+    return {
+      name: "The Initiate",
+      description:
+        "Pure art cinema: demanding form, dense meaning, and no concession to the uninitiated. You arrived prepared.",
+    };
+  }
+  if (metrics.obsession >= 70 && metrics.haunting >= 70 && metrics.consensus <= 40) {
+    return {
+      name: "The Cultist",
+      description:
+        "You re-watch films that most people either missed or moved on from — not for community, but because something in them won't release you.",
+    };
+  }
+  if (metrics.reach >= 70 && metrics.consensus >= 70 && metrics.accessibility >= 70) {
+    return {
+      name: "The Bridge",
+      description:
+        "You gravitate toward works that crossed into the general culture and held — seen by everyone, and for good reason.",
+    };
+  }
+  // 2-axis composites
   if (metrics.accessibility <= 35 && metrics.symbolic >= 70) {
     return {
       name: "The Mapper",
@@ -165,6 +195,27 @@ function describeViewerShape(metrics: Metrics) {
       name: "The Devotee",
       description:
         "Your center of gravity sits in films that generate communities of long-term devotion.",
+    };
+  }
+  if (metrics.transgression >= 70 && metrics.voltage >= 70) {
+    return {
+      name: "The Nerve",
+      description:
+        "Extreme cinema as felt experience — you seek works that push against permissibility and register it in the body.",
+    };
+  }
+  if (metrics.progeny >= 70 && metrics.arc >= 70) {
+    return {
+      name: "The Excavator",
+      description:
+        "Originating works whose reputation history had to correct — you are drawn to the films that made everything else possible and were recognized late.",
+    };
+  }
+  if (metrics.arc >= 70 && metrics.consensus <= 40) {
+    return {
+      name: "The Vindicator",
+      description:
+        "You specifically seek films that time had to correct — works whose initial reception was wrong and whose rehabilitation is the point.",
     };
   }
   const dominantAxis = AXES.map((axis) => axis.key).reduce((bestKey, key) =>
