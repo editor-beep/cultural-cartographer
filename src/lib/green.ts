@@ -127,7 +127,7 @@ export type MovieRecord = {
 };
 
 export async function analyzeMovie(title: string): Promise<MovieRecord> {
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env['GEMINI_API_KEY'] });
   const slug = toSlug(title);
 
   const response = await ai.models.generateContent({
