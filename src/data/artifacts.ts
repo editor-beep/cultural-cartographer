@@ -814,7 +814,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.67, y: 0.49 },
   },
   {
-    slug: "under-the-skin-2013",
+    slug: "under-the-skin",
     title: "Under the Skin",
     year: 2013,
     director: "Jonathan Glazer",
@@ -2417,7 +2417,7 @@ const CURATED: Artifact[] = [
   // ── Horror & Extreme Cinema ─────────────────────────────────────────────────
 
   {
-    slug: "the-witch-2015",
+    slug: "the-witch",
     title: "The Witch",
     year: 2015,
     director: "Robert Eggers",
@@ -2474,7 +2474,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.28, y: 0.78 },
   },
   {
-    slug: "beau-is-afraid-2023",
+    slug: "beau-is-afraid",
     title: "Beau Is Afraid",
     year: 2023,
     director: "Ari Aster",
@@ -2589,7 +2589,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.50, y: 0.88 },
   },
   {
-    slug: "mother-2017",
+    slug: "mother",
     title: "mother!",
     year: 2017,
     director: "Darren Aronofsky",
@@ -2617,7 +2617,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.64, y: 0.88 },
   },
   {
-    slug: "inland-empire-2006",
+    slug: "inland-empire",
     title: "Inland Empire",
     year: 2006,
     director: "David Lynch",
@@ -2910,7 +2910,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.48, y: 0.66 },
   },
   {
-    slug: "the-zone-of-interest-2023",
+    slug: "the-zone-of-interest",
     title: "The Zone of Interest",
     year: 2023,
     director: "Jonathan Glazer",
@@ -2938,7 +2938,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.62, y: 0.66 },
   },
   {
-    slug: "melancholia-2011",
+    slug: "melancholia",
     title: "Melancholia",
     year: 2011,
     director: "Lars von Trier",
@@ -3078,7 +3078,7 @@ const CURATED: Artifact[] = [
     pos: { x: 0.36, y: 0.33 },
   },
   {
-    slug: "the-tree-of-life-2011",
+    slug: "the-tree-of-life",
     title: "The Tree of Life",
     year: 2011,
     director: "Terrence Malick",
