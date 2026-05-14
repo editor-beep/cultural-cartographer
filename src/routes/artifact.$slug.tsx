@@ -3,6 +3,72 @@ import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction, type M
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 
+type AxisBands = [string, string, string, string]; // subdued, present, elevated, extreme
+
+const AXIS_BANDS: Record<AxisKey, AxisBands> = {
+  consensus: [
+    "Fractured — no stable reading has formed across populations.",
+    "Contested — a dominant reading exists but is regularly challenged.",
+    "Settled — broad alignment with pockets of dissent.",
+    "Resolved — wide, durable agreement across critic and audience record.",
+  ],
+  friction: [
+    "Quiet — the interpretive gap has closed or never opened.",
+    "Simmering — disagreement exists but has not hardened.",
+    "Active — the gap is current, unresolved, and generating heat.",
+    "Contested — the work refuses every attempt at assimilation.",
+  ],
+  obsession: [
+    "Inert — the work has receded from active discourse.",
+    "Present — being referenced, but not dwelt upon.",
+    "Persistent — returning regularly to cultural attention.",
+    "Consumed — being lived with over time, not filed away.",
+  ],
+  haunting: [
+    "Quiet — the work does not follow viewers beyond the screening.",
+    "Occasional — some residual presence reported, but not systematic.",
+    "Recurring — viewers report unwilled return across the years.",
+    "Installed — the work recurs without invitation; it has moved in.",
+  ],
+  symbolic: [
+    "Transparent — read as story rather than system.",
+    "Legible — some motif-tracking, but not theory-heavy.",
+    "Layered — sustained interpretive activity; the film is being decoded.",
+    "Dense — read as territory to map; multiple competing frameworks.",
+  ],
+  cult: [
+    "Mainstream — no distinct devotional community has formed.",
+    "Emerging — pockets of strong attachment, but no unified identity.",
+    "Formed — a distinct custodial community exists and is active.",
+    "Entrenched — deep devotion, often shaped by initial rejection and reclamation.",
+  ],
+  formal: [
+    "Conventional — works within accepted shapes and structures.",
+    "Deviating — notable formal choices, but within legible tradition.",
+    "Risky — sustained formal experimentation that tests viewer tolerance.",
+    "Radical — the work refused every known shape and chose another.",
+  ],
+  voltage: [
+    "Cool — measured emotional register; no extreme physiological reports.",
+    "Engaged — notable response, contained within normal range.",
+    "Charged — physiological reactions documented: tears, tension, unease.",
+    "Extreme — the work moves bodies; crying, panic, awe, nausea in the record.",
+  ],
+  accessibility: [
+    "Demanding — requires prior context, tolerance, or significant preparation.",
+    "Selective — available to prepared viewers; rewards prior knowledge.",
+    "Open — most viewers can enter without special context.",
+    "Universal — no glossary required; the work provides its own entry.",
+  ],
+};
+
+function getAxisBand(key: AxisKey, value: number): { label: string; description: string } {
+  const bands = AXIS_BANDS[key];
+  const labels = ["Subdued", "Present", "Elevated", "Extreme"];
+  const idx = value <= 25 ? 0 : value <= 50 ? 1 : value <= 75 ? 2 : 3;
+  return { label: labels[idx], description: bands[idx] };
+}
+
 export const Route = createFileRoute("/artifact/$slug")({
   component: Dossier,
   loader: ({ params }) => {
@@ -110,12 +176,16 @@ function Dossier() {
           {AXES.map((axis) => {
             const v = a.metrics[axis.key];
             const note = a.notes[axis.key];
+            const band = getAxisBand(axis.key, v);
             return (
               <div key={axis.key} className="border-b border-border py-5">
                 <div className="flex items-baseline justify-between">
                   <div className="font-display text-lg text-vellum">{axis.label}</div>
-                  <div className="font-mono text-2xl tabular-nums text-oxblood">
-                    {String(v).padStart(2, "0")}
+                  <div className="flex items-baseline gap-3">
+                    <span className="font-mono text-[10px] text-vellum-dim smallcaps">{band.label}</span>
+                    <span className="font-mono text-2xl tabular-nums text-oxblood">
+                      {String(v).padStart(2, "0")}
+                    </span>
                   </div>
                 </div>
                 <div className="mt-2 h-px w-full bg-vellum/10">
@@ -124,8 +194,9 @@ function Dossier() {
                     style={{ width: `${v}%` }}
                   />
                 </div>
+                <p className="mt-2 text-[11px] text-vellum/50">{band.description}</p>
                 {note && (
-                  <p className="mt-3 font-display text-sm italic text-vellum-dim">{note}</p>
+                  <p className="mt-2 font-display text-sm italic text-vellum-dim">{note}</p>
                 )}
               </div>
             );
