@@ -1,0 +1,295 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { useState } from "react";
+import type { MovieRecord } from "@/lib/green";
+
+export const Route = createFileRoute("/submit")({
+  component: Submit,
+  head: () => ({
+    meta: [
+      { title: "Submit a Film — The Artifact Index" },
+      {
+        name: "description",
+        content: "Send a film to the green for a cultural reading.",
+      },
+    ],
+  }),
+});
+
+type Status = "idle" | "loading" | "done" | "error";
+
+const AXIS_LABELS: Record<string, string> = {
+  consensus: "Consensus",
+  friction: "Friction",
+  obsession: "Obsession",
+  haunting: "Haunting",
+  symbolic: "Symbolic",
+  cult: "Cult",
+  formal: "Formal Risk",
+  voltage: "Voltage",
+  accessibility: "Accessibility",
+  reach: "Reach",
+  progeny: "Progeny",
+  arc: "Arc",
+  transgression: "Transgression",
+};
+
+function Submit() {
+  const [title, setTitle] = useState("");
+  const [status, setStatus] = useState<Status>("idle");
+  const [result, setResult] = useState<MovieRecord | null>(null);
+  const [errorMsg, setErrorMsg] = useState("");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!title.trim()) return;
+
+    setStatus("loading");
+    setResult(null);
+    setErrorMsg("");
+
+    try {
+      const res = await fetch("/api/scrape", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: title.trim() }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error((data as { error?: string }).error ?? `HTTP ${res.status}`);
+      }
+
+      setResult(data as MovieRecord);
+      setStatus("done");
+    } catch (err) {
+      setErrorMsg(err instanceof Error ? err.message : "Unknown error");
+      setStatus("error");
+    }
+  }
+
+  return (
+    <div className="relative min-h-screen">
+      <SiteHeader />
+
+      <section className="relative z-10 mx-auto mt-16 max-w-[1400px] px-8">
+        <div className="grid grid-cols-12 gap-8">
+          <div className="col-span-12 md:col-span-7">
+            <div className="font-mono text-[10px] smallcaps text-oxblood">
+              Submit · request a reading
+            </div>
+            <h1 className="mt-4 font-display text-5xl leading-[1.05] text-vellum md:text-7xl">
+              Send a film{" "}
+              <em className="text-oxblood">to the green.</em>
+            </h1>
+            <p className="mt-6 max-w-xl font-display text-lg italic leading-relaxed text-vellum-dim">
+              The green scrapes the open record of how a film is actually
+              held — critic prose, audience admissions, diaristic residue —
+              and returns a reading across the nine axes.
+            </p>
+          </div>
+
+          <div className="col-span-12 md:col-span-5">
+            <div className="rule mb-4" />
+            <div className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[10px] text-vellum-dim smallcaps">
+              <div>Method · green v1</div>
+              <div>Model · Gemini 2.5 Pro</div>
+              <div>Output · nine axes</div>
+              <div>Storage · user-movies.json</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Form */}
+      <section className="relative z-10 mx-auto mt-20 max-w-[1400px] px-8">
+        <div className="rule mb-8" />
+        <form onSubmit={handleSubmit} className="max-w-2xl">
+          <label className="block font-mono text-[10px] smallcaps text-vellum-dim mb-3">
+            Film title
+          </label>
+          <div className="flex gap-4">
+            <input
+              type="text"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder="e.g. Inland Empire"
+              disabled={status === "loading"}
+              className={
+                "flex-1 border border-border bg-transparent px-4 py-3 font-display text-xl text-vellum placeholder:text-vellum-dim/40 " +
+                "focus:border-oxblood focus:outline-none disabled:opacity-40"
+              }
+            />
+            <button
+              type="submit"
+              disabled={status === "loading" || !title.trim()}
+              className={
+                "border border-oxblood px-6 py-3 font-mono text-[11px] smallcaps text-oxblood " +
+                "transition-colors hover:bg-oxblood hover:text-umber disabled:opacity-40 disabled:cursor-not-allowed"
+              }
+            >
+              {status === "loading" ? "Reading…" : "Submit"}
+            </button>
+          </div>
+
+          {status === "loading" && (
+            <p className="mt-4 font-mono text-[10px] text-vellum-dim smallcaps animate-pulse">
+              The green is scraping the open record —
+            </p>
+          )}
+          {status === "error" && (
+            <p className="mt-4 font-mono text-[10px] text-oxblood smallcaps">
+              Error · {errorMsg}
+            </p>
+          )}
+        </form>
+      </section>
+
+      {/* Result */}
+      {status === "done" && result && (
+        <section className="relative z-10 mx-auto mt-16 max-w-[1400px] px-8 pb-8">
+          <div className="rule mb-8" />
+
+          <div className="grid grid-cols-12 gap-8">
+            {/* Header */}
+            <div className="col-span-12">
+              <div className="font-mono text-[10px] smallcaps text-vellum-dim">
+                {result.catalogue} · {result.year} · {result.director}
+              </div>
+              <h2 className="mt-2 font-display text-4xl text-vellum">{result.title}</h2>
+              {result.epigraph && (
+                <p className="mt-3 font-display text-lg italic text-vellum-dim">
+                  "{result.epigraph}"
+                </p>
+              )}
+            </div>
+
+            {/* Reading */}
+            {result.reading && (
+              <div className="col-span-12 md:col-span-7">
+                <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
+                  Reading
+                </div>
+                <p className="font-display text-base leading-relaxed text-vellum-dim">
+                  {result.reading}
+                </p>
+              </div>
+            )}
+
+            {/* Metrics */}
+            <div className="col-span-12 md:col-span-5">
+              <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
+                Nine Axes
+              </div>
+              <ul className="space-y-2">
+                {Object.entries(result.metrics).map(([key, val]) => (
+                  <li key={key} className="flex items-center gap-3">
+                    <span className="w-28 font-mono text-[10px] smallcaps text-vellum-dim">
+                      {AXIS_LABELS[key] ?? key}
+                    </span>
+                    <div className="flex-1 h-px bg-border relative">
+                      <div
+                        className="absolute left-0 top-1/2 -translate-y-1/2 h-[3px] bg-oxblood"
+                        style={{ width: `${val}%` }}
+                      />
+                    </div>
+                    <span className="w-8 text-right font-mono text-[10px] text-vellum">
+                      {val}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Factions */}
+            {result.factions?.length > 0 && (
+              <div className="col-span-12 md:col-span-7">
+                <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
+                  Factions
+                </div>
+                <ul className="space-y-4">
+                  {result.factions.map((f, i) => (
+                    <li key={i}>
+                      <div className="flex items-baseline gap-2 mb-1">
+                        <span className="font-mono text-[10px] smallcaps text-vellum">
+                          {f.name}
+                        </span>
+                        <span className="font-mono text-[10px] text-vellum-dim">
+                          {Math.round(f.share * 100)}%
+                        </span>
+                      </div>
+                      <p className="font-display text-sm italic text-vellum-dim">
+                        {f.voice}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Symbols */}
+            {result.symbols?.length > 0 && (
+              <div className="col-span-12 md:col-span-5">
+                <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
+                  Symbols
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {result.symbols.map((s, i) => (
+                    <span
+                      key={i}
+                      className="border border-border px-2 py-1 font-mono text-[10px] smallcaps text-vellum-dim"
+                    >
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Afterlife */}
+            {result.afterlife?.length > 0 && (
+              <div className="col-span-12">
+                <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
+                  Afterlife
+                </div>
+                <ul className="flex flex-wrap gap-6">
+                  {result.afterlife.map((ev, i) => (
+                    <li key={i} className="flex items-baseline gap-2">
+                      <span className="font-mono text-[10px] text-vellum-dim">
+                        {ev.year}
+                      </span>
+                      <span className="font-mono text-[10px] smallcaps text-oxblood">
+                        {ev.kind}
+                      </span>
+                      <span className="font-display text-sm italic text-vellum-dim">
+                        {ev.label}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Submit another */}
+            <div className="col-span-12">
+              <div className="rule mt-4 mb-6" />
+              <button
+                onClick={() => {
+                  setStatus("idle");
+                  setResult(null);
+                  setTitle("");
+                }}
+                className="font-mono text-[11px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
+              >
+                ← Submit another film
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
+
+      <SiteFooter />
+    </div>
+  );
+}

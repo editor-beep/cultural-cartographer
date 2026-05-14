@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SubmitRouteImport } from './routes/submit'
 import { Route as LexiconRouteImport } from './routes/lexicon'
 import { Route as EvidenceRouteImport } from './routes/evidence'
 import { Route as DirectoryRouteImport } from './routes/directory'
@@ -18,6 +19,11 @@ import { Route as AttuneRouteImport } from './routes/attune'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ArtifactSlugRouteImport } from './routes/artifact.$slug'
 
+const SubmitRoute = SubmitRouteImport.update({
+  id: '/submit',
+  path: '/submit',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LexiconRoute = LexiconRouteImport.update({
   id: '/lexicon',
   path: '/lexicon',
@@ -67,6 +73,7 @@ export interface FileRoutesByFullPath {
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
+  '/submit': typeof SubmitRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
 export interface FileRoutesByTo {
@@ -77,6 +84,7 @@ export interface FileRoutesByTo {
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
+  '/submit': typeof SubmitRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
 export interface FileRoutesById {
@@ -88,6 +96,7 @@ export interface FileRoutesById {
   '/directory': typeof DirectoryRoute
   '/evidence': typeof EvidenceRoute
   '/lexicon': typeof LexiconRoute
+  '/submit': typeof SubmitRoute
   '/artifact/$slug': typeof ArtifactSlugRoute
 }
 export interface FileRouteTypes {
@@ -100,6 +109,7 @@ export interface FileRouteTypes {
     | '/directory'
     | '/evidence'
     | '/lexicon'
+    | '/submit'
     | '/artifact/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -110,6 +120,7 @@ export interface FileRouteTypes {
     | '/directory'
     | '/evidence'
     | '/lexicon'
+    | '/submit'
     | '/artifact/$slug'
   id:
     | '__root__'
@@ -120,6 +131,7 @@ export interface FileRouteTypes {
     | '/directory'
     | '/evidence'
     | '/lexicon'
+    | '/submit'
     | '/artifact/$slug'
   fileRoutesById: FileRoutesById
 }
@@ -131,11 +143,19 @@ export interface RootRouteChildren {
   DirectoryRoute: typeof DirectoryRoute
   EvidenceRoute: typeof EvidenceRoute
   LexiconRoute: typeof LexiconRoute
+  SubmitRoute: typeof SubmitRoute
   ArtifactSlugRoute: typeof ArtifactSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/submit': {
+      id: '/submit'
+      path: '/submit'
+      fullPath: '/submit'
+      preLoaderRoute: typeof SubmitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/lexicon': {
       id: '/lexicon'
       path: '/lexicon'
@@ -203,6 +223,7 @@ const rootRouteChildren: RootRouteChildren = {
   DirectoryRoute: DirectoryRoute,
   EvidenceRoute: EvidenceRoute,
   LexiconRoute: LexiconRoute,
+  SubmitRoute: SubmitRoute,
   ArtifactSlugRoute: ArtifactSlugRoute,
 }
 export const routeTree = rootRouteImport
