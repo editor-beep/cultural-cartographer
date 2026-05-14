@@ -11,8 +11,8 @@ export async function handleScrapeRequest(request: Request): Promise<Response> {
     return Response.json({ error: "Method not allowed" }, { status: 405 });
   }
 
-  if (!process.env.ANTHROPIC_API_KEY) {
-    return Response.json({ error: "ANTHROPIC_API_KEY is not configured" }, { status: 500 });
+  if (!process.env.GEMINI_API_KEY) {
+    return Response.json({ error: "GEMINI_API_KEY is not configured" }, { status: 500 });
   }
 
   let body: unknown;
