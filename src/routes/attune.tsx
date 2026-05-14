@@ -62,55 +62,68 @@ const AXIS_LABELS: Record<AxisKey, string> = AXES.reduce(
 export const SHAPE_BY_AXIS: Record<AxisKey, { name: string; description: string }> = {
   consensus: {
     name: "The Harmonizer",
-    description: "You seek works that hold a stable shared reading across audiences.",
+    description:
+      "You are drawn to works whose reading has stabilized — where the interpretive argument has concluded and a settled, shared sense of the film exists across critics, audiences, and time. This is not passivity; it is a preference for the communal object, the work that has achieved a stable resting temperature in the culture. You trust consensus as a form of collective intelligence, and you find something clarifying in a film that everyone arrives at together.",
   },
   friction: {
     name: "The Contrarian",
-    description: "You gravitate toward unresolved interpretive conflict and durable disagreement.",
+    description:
+      "You live in the interpretive gap. What draws you is not the film that provoked at release, but the film whose argument is still running years on — where the disagreement is structural, not superficial, and no reading has yet won. You are not interested in being contrary; you are interested in the wound that will not close, the work that resists assimilation and remains alive precisely because it refuses to settle.",
   },
   obsession: {
     name: "The Archivist",
-    description: "You return to works that can be lived with over long periods of time.",
+    description:
+      "You form long-term relationships with films. What you are after is not the first viewing but the fifth, the tenth — the work that reveals itself slowly and accumulates meaning over years of returning. A film that exhausts itself on first contact does not hold you. You are drawn to the ones that remain generative, that have something new to show you each time, that reward the patience of dwelling.",
   },
   haunting: {
     name: "The Revenant",
-    description: "You value films that linger and recur long after the credits.",
+    description:
+      "The films you value are the ones that return to you uninvited — arriving in dreams, surfacing during unrelated experiences, installing themselves without your permission. You do not pursue this effect; you recognize it after the fact, often long after. The test of a film for you is whether it stays in the body, whether it becomes part of the perceptual texture of daily life long after the credits have ended.",
   },
   symbolic: {
     name: "The Mapper",
-    description: "You read films as territories of meaning to chart and decode.",
+    description:
+      "For you, a film is a system first — a territory with a logic, a grammar, and a set of internal claims that can be traced and contested. You read films the way a cartographer reads unfamiliar ground: noting the landmarks, measuring the distances, looking for the places where the map contradicts itself. The film is not something to be felt and moved on from. It is something to be understood, annotated, and returned to as evidence.",
   },
   cult: {
     name: "The Acolyte",
-    description: "You are drawn to devotion arcs and communal reclamation rituals.",
+    description:
+      "You are drawn not just to the film itself but to the community that forms around it — the devotion arc, the reclamation story. What interests you is the work that was rejected or ignored, that found its people anyway, that became a site of collective rescue. The history of the film's reception is part of its meaning. To love it is to participate in something larger than a personal taste: the ongoing argument that the initial verdict was wrong.",
   },
   formal: {
     name: "The Insurgent",
-    description: "You prioritize formal risk and structural refusal over convention.",
+    description:
+      "What you are drawn to is the refusal — the work that chose a form no one had used, or used a known form against its intended purpose. Technical virtuosity interests you only when it is in the service of rupture. You are looking for evidence that a filmmaker chose to make things differently, knew exactly what conventions they were abandoning, and accepted the consequences. The form is the argument; everything else is decoration.",
   },
   voltage: {
     name: "The Conduit",
-    description: "You pursue high-intensity works that move the body before the thesis.",
+    description:
+      "You go to film for the physical experience first. Crying, panic, awe, nausea — these are not side effects but the event itself. You are drawn to works where the emotional current is sustained and unambiguous, where the body responds before the mind has had time to construct a thesis. The analysis comes later, if at all. The work has to move you before it has the right to mean anything.",
   },
   accessibility: {
     name: "The Guide",
-    description: "You prefer works that invite entry without demanding prior initiation.",
+    description:
+      "You are drawn to works that are genuinely available — that do not require a glossary, a cultural history, or prior initiation to enter and feel something. This is not a preference for simplicity; it is a preference for generosity. You value the film that earns its emotional effects without demanding preparation, that treats the arriving viewer as a full participant rather than an unprepared student. Cinema as open door.",
   },
   reach: {
     name: "The Emissary",
-    description: "You gravitate toward works that have crossed into the general culture — seen by everyone, understood differently by each.",
+    description:
+      "The films you gravitate toward have escaped their own medium. Their images, phrases, and gestures circulate in registers that do not require having seen the source — they are part of the shared furniture of the culture, references available to people who have never encountered the original. You are drawn to the work that achieved this crossing, that became a common language, that entered the general record as something more than a film.",
   },
   progeny: {
     name: "The Ancestor",
-    description: "You are drawn to originating works — the ones that made other works possible.",
+    description:
+      "You are interested in the source — the films that made other films possible, that defined an aesthetic or an approach before it had a name. What draws you is the originating work, the one that later filmmakers are in dialogue with whether they acknowledge it or not. You read influence backward, tracing the current film to the upstream work that generated it, and you find the ancestor more interesting than the inheritance.",
   },
   arc: {
     name: "The Revisionist",
-    description: "You prefer works whose reputation has been rewritten by time rather than confirmed by it.",
+    description:
+      "What you prefer is the rehabilitated work — the one that was wrong initially, and that time had to correct. Not the film whose esteem held steady, but the one that was dismissed or misread at release and whose current reputation required an act of deliberate critical revision. The distance between the original verdict and the current one is the measure of the film's depth, and you are drawn to the distance, not the destination.",
   },
   transgression: {
     name: "The Limit-Tester",
-    description: "You seek works that operated at or beyond the boundaries of what was considered permissible.",
+    description:
+      "You are drawn to films that operated at or beyond the limits of what the culture was willing to permit — not because of formal difficulty, but because of what the film was willing to say, show, or do. The work that was considered genuinely dangerous, not merely provocative or difficult. You are interested in the edges of permissibility, in what it costs to make something at those edges, and in what survives the making.",
   },
 };
 
@@ -151,28 +164,28 @@ function describeViewerShape(metrics: Metrics) {
     return {
       name: "The Wound-Dweller",
       description:
-        "High-intensity films that linger without consensus — you live in the ones that left a mark nobody else quite agreed on.",
+        "You live in the films that left a mark nobody else quite agreed on — high-intensity works that haven't settled, that keep returning to you whether you seek them out or not. The lack of consensus is part of it: you don't want the work confirmed, you want it alive. These are the films that installed something in you and then refused to explain what it was.",
     };
   }
   if (metrics.formal >= 70 && metrics.symbolic >= 70 && metrics.accessibility <= 40) {
     return {
       name: "The Initiate",
       description:
-        "Pure art cinema: demanding form, dense meaning, and no concession to the uninitiated. You arrived prepared.",
+        "You are drawn to cinema that makes no concessions to the unprepared — formally demanding, symbolically dense, and entirely unconcerned with whether a new viewer can find their footing. You arrived ready for this. What you are looking for is a film that takes its own logic seriously enough to exclude those who haven't done the work, and rewards those who have with something that cannot be unlocked any other way.",
     };
   }
   if (metrics.obsession >= 70 && metrics.haunting >= 70 && metrics.consensus <= 40) {
     return {
       name: "The Cultist",
       description:
-        "You re-watch films that most people either missed or moved on from — not for community, but because something in them won't release you.",
+        "You re-watch films that most people either missed or moved on from — not out of loyalty to a community, but because something in the work will not release you. These are films that operate outside the settled record, whose meaning hasn't been agreed upon, whose presence in your life is more like a recurring symptom than a preference. You are not chasing novelty. You are returning to the same unresolved thing.",
     };
   }
   if (metrics.reach >= 70 && metrics.consensus >= 70 && metrics.accessibility >= 70) {
     return {
       name: "The Bridge",
       description:
-        "You gravitate toward works that crossed into the general culture and held — seen by everyone, and for good reason.",
+        "You gravitate toward works that crossed into the general culture and held — films that are genuinely for everyone and earned that reach, rather than merely achieving it. The broad consensus here is not a warning sign but evidence: these are the works that managed to be accessible and resonant simultaneously, that entered the shared record without losing their integrity. You find value in the commonly held object.",
     };
   }
   // 2-axis composites
@@ -180,42 +193,42 @@ function describeViewerShape(metrics: Metrics) {
     return {
       name: "The Mapper",
       description:
-        "Low accessibility with high symbolic density: you view film as territory to be conquered, not merely narrated.",
+        "You treat film as territory to be studied, not stories to be received. Low accessibility doesn't deter you — it signals that the work has a logic requiring effort to enter, and the symbolic density means there is enough there to justify the effort. You are less interested in being moved than in understanding how the system works, what it claims, where its internal argument breaks down or holds.",
     };
   }
   if (metrics.friction >= 70 && metrics.formal >= 70) {
     return {
       name: "The Insurgent",
       description:
-        "You choose works that resist consensus and reward structural risk over comfort.",
+        "What draws you is the double refusal: works that resist settled readings and also resist conventional form. You are not looking for difficulty for its own sake, but for films where structural risk and interpretive conflict reinforce each other — where the way the thing is made produces the argument it refuses to resolve. These are the films that stay combative long after their release.",
     };
   }
   if (metrics.cult >= 80 && metrics.obsession >= 80) {
     return {
       name: "The Devotee",
       description:
-        "Your center of gravity sits in films that generate communities of long-term devotion.",
+        "Your center of gravity is in the films that generate long-term communities of attention — works that people return to not casually but ritually, that accumulate meaning through repeated collective engagement. You are drawn to the devotion itself as a signal: when a film sustains this kind of commitment across years, something in it is worth investigating beyond the initial viewing.",
     };
   }
   if (metrics.transgression >= 70 && metrics.voltage >= 70) {
     return {
       name: "The Nerve",
       description:
-        "Extreme cinema as felt experience — you seek works that push against permissibility and register it in the body.",
+        "You seek the films that pushed against what the culture was willing to permit and registered that pressure in the body — extreme cinema as felt experience, where the transgression is not an intellectual category but a physical one. You are not looking for provocation as a pose. You are looking for the works that cost something to make and cost something to watch, and where those two costs are related.",
     };
   }
   if (metrics.progeny >= 70 && metrics.arc >= 70) {
     return {
       name: "The Excavator",
       description:
-        "Originating works whose reputation history had to correct — you are drawn to the films that made everything else possible and were recognized late.",
+        "You are drawn to originating works that were not recognized as such until later — films that defined an aesthetic or opened a formal possibility before anyone had named it, whose foundational status required time to become visible. The combination of high progeny and a revised arc tells a particular story: the work mattered enormously, and we had to be corrected before we could see it.",
     };
   }
   if (metrics.arc >= 70 && metrics.consensus <= 40) {
     return {
       name: "The Vindicator",
       description:
-        "You specifically seek films that time had to correct — works whose initial reception was wrong and whose rehabilitation is the point.",
+        "You are specifically drawn to films that time had to correct — works where the initial reception was wrong, where the rehabilitation is not just a pleasant revision but the essential fact about the film. The low consensus tells you the correction is incomplete; the high arc tells you the distance is real. You are interested in the gap itself, and in what it says about the conditions that produced the original verdict.",
     };
   }
   const dominantAxis = AXES.map((axis) => axis.key).reduce((bestKey, key) =>
