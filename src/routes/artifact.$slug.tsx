@@ -60,6 +60,30 @@ const AXIS_BANDS: Record<AxisKey, AxisBands> = {
     "Open — most viewers can enter without special context.",
     "Universal — no glossary required; the work provides its own entry.",
   ],
+  reach: [
+    "Contained — circulates primarily within dedicated film discourse.",
+    "Spreading — occasional reference outside film culture; some imagery in wider circulation.",
+    "Permeating — imagery and language used by people who have not seen the work.",
+    "Saturated — a shared reference in the general cultural vocabulary.",
+  ],
+  progeny: [
+    "Terminal — no documented lineage; no works cite it as formative.",
+    "Acknowledged — named as an influence by a handful of subsequent filmmakers.",
+    "Generative — a clear aesthetic lineage can be traced through subsequent work.",
+    "Foundational — a genre, subgenre, or movement traces its origin here.",
+  ],
+  arc: [
+    "Stable — arrived at roughly its current standing and has remained.",
+    "Revised — time has shifted the reading somewhat; the initial verdict has softened or hardened.",
+    "Overturned — the work's cultural position is substantially different from its initial reception.",
+    "Transformed — near-complete reversal in standing since release.",
+  ],
+  transgression: [
+    "Safe — the work's content operates well within accepted social limits.",
+    "Uncomfortable — touches sensitive territory but does not breach social limits.",
+    "Provocative — content was considered transgressive; controversy around what it showed or said.",
+    "Prohibited — banned, censored, or formally classified as socially harmful in one or more contexts.",
+  ],
 };
 
 function getAxisBand(key: AxisKey, value: number): { label: string; description: string } {
