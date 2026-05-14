@@ -1,7 +1,7 @@
 
 # The Artifact Index — Build Plan
 
-A film analysis engine that reads cultural pressure, not consumer approval. Each work renders as a **radial sigil** whose shape encodes nine metrics. No scores. No ranks.
+A film analysis engine that reads cultural pressure, not consumer approval. Each work renders as a **radial sigil** whose shape encodes thirteen metrics. No scores. No ranks.
 
 ---
 
@@ -19,13 +19,17 @@ A film analysis engine that reads cultural pressure, not consumer approval. Each
 ```text
 /                        index — drifting field of sigils (the Atlas)
 /artifact/$slug          single work — the full sigil + dossier
-/lexicon                 the nine metrics, defined as language not formulas
+/lexicon                 the thirteen metrics, defined as language not formulas
 /colophon                what this is, what it isn't ("not a score")
+/compare                 side-by-side metric shape comparison for multiple films
+/directory               browsable film catalog with filtering
+/submit                  user-curated film suggestions
+/evidence                source trails and citations for metric computations
 ```
 
 ### The Sigil component
-SVG, asymmetric polar plot, nine axes:
-Consensus · Friction · Obsession · Residual Haunting · Symbolic Density · Cult Formation · Formal Risk · Emotional Voltage · Accessibility (inverted)
+SVG, asymmetric polar plot, thirteen axes:
+Consensus · Friction · Obsession · Residual Haunting · Symbolic Density · Cult Formation · Formal Risk · Emotional Voltage · Accessibility (inverted) · Reach · Progeny · Cultural Arc · Transgression
 
 - Each axis a hairline; the metric value pushes a vertex outward.
 - The shape is closed with a single oxblood stroke, vellum fill at low opacity.
@@ -41,8 +45,8 @@ Sigils float on a dark field at varying scales. Hover reveals title + year in ve
 - **Discourse factions**: 2–4 named clusters with representative language samples.
 - **Recurring symbols**: a small list of motifs surfaced from text.
 
-### Seed data (Phase 1 ships with this)
-Twelve hand-curated films chosen to span the metric space: Fire Walk with Me, Mulholland Dr., Hereditary, Synecdoche NY, In the Mood for Love, Stalker, Killers of the Flower Moon, The Master, Annihilation, Possession (1981), Eyes Wide Shut, Tár. Stored as typed JSON in `src/data/seed-artifacts.ts`.
+### Seed data (current catalog)
+Over sixty curated films spanning the metric space, seeded from `data/seed/movies.csv` and extended with hand-authored artifact data in `src/data/artifacts.ts`. The original twelve (Fire Walk with Me, Mulholland Dr., Hereditary, Synecdoche NY, In the Mood for Love, Stalker, Killers of the Flower Moon, The Master, Annihilation, Possession, Eyes Wide Shut, Tár) established the aesthetic range; subsequent additions cover 1957–2026 across prestige art cinema, cult horror, experimental film, and high-friction blockbusters.
 
 ---
 
@@ -84,6 +88,10 @@ A nightly job rebuilds `metric_snapshots` from `mentions`:
 - **Formal Risk** — LLM classifier over critic blurbs + symbol diversity.
 - **Emotional Voltage** — sentiment magnitude (not polarity) + emotion-word density.
 - **Accessibility** — inverse of average review length and vocabulary complexity.
+- **Reach** — total cross-platform footprint; TMDb popularity + Reddit subscriber overlap + Wikipedia view volume.
+- **Progeny** — count of downstream works citing the artifact as influence; sequel/remake/homage density.
+- **Cultural Arc** — trajectory of reception over time: rising, stable, declining, or resurgent (computed from mention-volume slope in rolling 3-year windows).
+- **Transgression** — intensity of boundary-violation discourse: censorship events, content-warning prevalence, moral-panic indicators in critic blurbs.
 
 ### LLM use (Lovable AI Gateway, server-only)
 Used **only** for: symbol extraction, faction clustering of comment embeddings, afterlife-event summarization. Never to invent ratings or write criticism in the system's own voice.
@@ -109,6 +117,6 @@ Used **only** for: symbol extraction, faction clustering of comment embeddings, 
 ---
 
 ## What Phase 1 looks like when done
-A dark, grain-washed homepage. A field of twelve hand-drawn-feeling sigils drifting on a vellum-on-ink palette. Click Mulholland Dr. — its sigil expands, axes unfold into prose, the afterlife timeline traces from 2001 → 2026 with marked rediscoveries. Nothing says "8.2/10". Nothing says "you might also like". The page reads like a field report on an object that won't sit still.
+A dark, grain-washed homepage. A field of sigils drifting on a vellum-on-ink palette — each one a thirteen-pointed closed polygon encoding cultural pressure rather than consumer approval. Click Mulholland Dr. — its sigil expands, axes unfold into prose, the afterlife timeline traces from 2001 → 2026 with marked rediscoveries. Nothing says "8.2/10". Nothing says "you might also like". The page reads like a field report on an object that won't sit still.
 
 Phase 2 then makes that report self-updating.
