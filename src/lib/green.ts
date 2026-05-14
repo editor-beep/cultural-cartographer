@@ -1,4 +1,4 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { GoogleGenAI } from "@google/genai";
 
 const SYSTEM_PROMPT = `You are obsessed with what other people think about movies.
 You scrape the web and you rank them based on nine categories 0 to 100.
@@ -127,29 +127,19 @@ export type MovieRecord = {
 };
 
 export async function analyzeMovie(title: string): Promise<MovieRecord> {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   const slug = toSlug(title);
 
-  const message = await client.messages.create({
-    model: "claude-opus-4-7",
-    max_tokens: 4096,
-    system: [
-      {
-        type: "text",
-        text: SYSTEM_PROMPT,
-        cache_control: { type: "ephemeral" },
-      },
-    ],
-    messages: [
-      {
-        role: "user",
-        content: `Analyze the film "${title}". Use the slug "${slug}". Return only the raw JSON object — no markdown, no explanation.`,
-      },
-    ],
+  const response = await ai.models.generateContent({
+    model: "gemini-2.5-pro",
+    config: {
+      systemInstruction: SYSTEM_PROMPT,
+      temperature: 0.4,
+    },
+    contents: `Analyze the film "${title}". Use the slug "${slug}". Return only the raw JSON object — no markdown, no explanation.`,
   });
 
-  const text =
-    message.content[0].type === "text" ? message.content[0].text.trim() : "";
+  const text = (response.text ?? "").trim();
 
   // Strip any accidental markdown fences
   const stripped = text.replace(/^```(?:json)?\n?/i, "").replace(/\n?```$/, "");
@@ -158,7 +148,6 @@ export async function analyzeMovie(title: string): Promise<MovieRecord> {
   try {
     record = JSON.parse(stripped);
   } catch {
-    // Try extracting the first JSON object as a fallback
     const match = stripped.match(/\{[\s\S]+\}/);
     if (!match) throw new Error("Green returned no parseable JSON");
     record = JSON.parse(match[0]);
