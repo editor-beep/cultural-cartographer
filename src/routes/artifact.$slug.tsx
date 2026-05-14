@@ -334,21 +334,66 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
     wound: "var(--oxblood)",
   };
 
+  // Greedy lane assignment: even lanes = above axis, odd lanes = below axis.
+  // Each additional pair of lanes is one level further from the axis.
+  // This prevents label crowding when events cluster at nearby years.
+  const LABEL_W = 160;
+  const APPROX_W = 820; // estimated usable timeline width in px
+  const pxPerYear = APPROX_W / span;
+
+  const laneLastPx: number[] = [];
+  const eventLanes = events.map((e) => {
+    const xPx = (e.year - minY) * pxPerYear;
+    for (let l = 0; l < laneLastPx.length; l++) {
+      if (xPx - laneLastPx[l] >= LABEL_W) {
+        laneLastPx[l] = xPx;
+        return l;
+      }
+    }
+    const l = laneLastPx.length;
+    laneLastPx.push(xPx);
+    return l;
+  });
+
+  const maxAboveLevel = eventLanes
+    .filter((l) => l % 2 === 0)
+    .reduce((m, l) => Math.max(m, Math.floor(l / 2)), 0);
+  const maxBelowLevel = eventLanes
+    .filter((l) => l % 2 === 1)
+    .reduce((m, l) => Math.max(m, Math.floor(l / 2)), 0);
+
+  const BASE_CONN = 16; // minimum connector height in px
+  const LEVEL_STEP = 52; // px per additional stagger level
+  const LABEL_H = 44; // estimated label text block height in px
+  const PAD = 12; // top/bottom padding
+
+  const axisTopPx = PAD + LABEL_H + BASE_CONN + maxAboveLevel * LEVEL_STEP;
+  const containerH = axisTopPx + BASE_CONN + LABEL_H + PAD + maxBelowLevel * LEVEL_STEP;
+
+  const connectorHeight = (lane: number) => BASE_CONN + Math.floor(lane / 2) * LEVEL_STEP;
+
   return (
     <div className="relative">
-      <div className="relative h-40 w-full border border-border bg-umber/30">
+      <div
+        className="relative w-full border border-border bg-umber/30"
+        style={{ height: containerH }}
+      >
         {/* axis */}
-        <div className="absolute inset-x-8 top-1/2 h-px bg-vellum/20" />
-        {/* decades */}
+        <div
+          className="absolute inset-x-8 h-px bg-vellum/20"
+          style={{ top: axisTopPx }}
+        />
+
+        {/* year marks */}
         {Array.from({ length: Math.ceil(span / 5) + 1 }).map((_, i) => {
           const y = minY + i * 5;
           if (y > maxY) return null;
-          const left = ((y - minY) / span) * 100;
+          const xPct = ((y - minY) / span) * 94;
           return (
             <div
               key={y}
-              className="absolute top-1/2 -translate-x-1/2"
-              style={{ left: `calc(${left}% * 0.94 + 2rem)` }}
+              className="absolute -translate-x-1/2"
+              style={{ left: `calc(${xPct}% + 2rem)`, top: axisTopPx }}
             >
               <div className="h-2 w-px bg-vellum/30" />
               <div className="mt-1 font-mono text-[9px] text-vellum-dim smallcaps">{y}</div>
@@ -358,45 +403,51 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
 
         {/* events */}
         {events.map((e, i) => {
-          const left = ((e.year - minY) / span) * 100;
-          const above = i % 2 === 0;
+          const xPct = ((e.year - minY) / span) * 94;
+          const leftExpr = `calc(${xPct}% + 2rem)`;
+          const lane = eventLanes[i];
+          const above = lane % 2 === 0;
+          const connH = connectorHeight(lane);
+
           return (
-            <div
-              key={i}
-              className="absolute top-1/2"
-              style={{ left: `calc(${left}% * 0.94 + 2rem)` }}
-            >
+            <div key={i} className="absolute inset-y-0" style={{ left: leftExpr }}>
+              {/* dot on axis */}
               <div
-                className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2"
-                style={{ width: 8, height: 8, background: colorByKind[e.kind] }}
-              />
-              <div
-                className="absolute left-1/2 -translate-x-1/2"
                 style={{
-                  top: above ? -64 : 16,
-                  width: 180,
+                  position: "absolute",
+                  top: axisTopPx,
+                  width: 8,
+                  height: 8,
+                  background: colorByKind[e.kind],
+                  transform: "translate(-50%, -50%)",
+                }}
+              />
+              {/* connector */}
+              <div
+                style={{
+                  position: "absolute",
+                  top: above ? axisTopPx - connH : axisTopPx,
+                  width: 1,
+                  height: connH,
+                  background: "var(--vellum-dim)",
+                  opacity: 0.4,
+                  transform: "translateX(-50%)",
+                }}
+              />
+              {/* label */}
+              <div
+                style={{
+                  position: "absolute",
+                  top: above ? axisTopPx - connH - LABEL_H : axisTopPx + connH,
+                  width: LABEL_W,
+                  transform: "translateX(-50%)",
                 }}
               >
-                <div
-                  className="mx-auto h-8 w-px"
-                  style={{
-                    background: "var(--vellum-dim)",
-                    opacity: 0.5,
-                  }}
-                />
-                <div
-                  className={
-                    "absolute left-1/2 -translate-x-1/2 " +
-                    (above ? "bottom-8" : "top-8")
-                  }
-                  style={{ width: 180 }}
-                >
-                  <div className="font-mono text-[9px] smallcaps text-oxblood">
-                    {e.year} · {e.kind}
-                  </div>
-                  <div className="mt-1 font-display text-[13px] italic leading-snug text-vellum">
-                    {e.label}
-                  </div>
+                <div className="font-mono text-[9px] smallcaps text-oxblood">
+                  {e.year} · {e.kind}
+                </div>
+                <div className="mt-0.5 font-display text-[13px] italic leading-snug text-vellum">
+                  {e.label}
                 </div>
               </div>
             </div>
