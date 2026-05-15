@@ -3264,5 +3264,3691 @@
       }
     ],
     "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "as-good-as-it-gets-1997",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "good",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "gets",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "1997",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "as-good-as-it-gets-1997:seed-curation:as-good-as-it-gets-1997-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "As Good as It Gets (1997) directed by James L. Brooks. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "back-to-the-future-1985",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "back",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "back-to-the-future-1985:seed-curation:back-to-the-future-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "future",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "back-to-the-future-1985:seed-curation:back-to-the-future-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "1985",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "back-to-the-future-1985:seed-curation:back-to-the-future-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "back-to-the-future-1985:seed-curation:back-to-the-future-1985-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Back to the Future (1985) directed by Robert Zemeckis. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "beetlejuice-1988",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "beetlejuice",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+        ]
+      },
+      {
+        "term": "1988",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "beetlejuice-1988:seed-curation:beetlejuice-1988-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Beetlejuice (1988) directed by Tim Burton. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "ghostbusters-1984",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "ghostbusters",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "1984",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "ghostbusters-1984:seed-curation:ghostbusters-1984-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Ghostbusters (1984) directed by Ivan Reitman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "interstellar-2014",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "interstellar",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "2014",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "interstellar-2014:seed-curation:interstellar-2014-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Interstellar (2014) directed by Christopher Nolan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "mad-max-1979",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "mad",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+        ]
+      },
+      {
+        "term": "max",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+        ]
+      },
+      {
+        "term": "1979",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "mad-max-1979:seed-curation:mad-max-1979-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Mad Max (1979) directed by George Miller. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "nightmare-on-elm-street-1984",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "nightmare",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "elm",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "street",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "1984",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "nightmare-on-elm-street-1984:seed-curation:nightmare-on-elm-street-1984-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "A Nightmare on Elm Street (1984) directed by Wes Craven. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "pink-flamingos-1972",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "pink",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+        ]
+      },
+      {
+        "term": "flamingos",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+        ]
+      },
+      {
+        "term": "1972",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pink-flamingos-1972:seed-curation:pink-flamingos-1972-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Pink Flamingos (1972) directed by John Waters. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "revenge-of-the-nerds-1984",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "revenge",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "nerds",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "1984",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "revenge-of-the-nerds-1984:seed-curation:revenge-of-the-nerds-1984-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Revenge of the Nerds (1984) directed by Jeff Kanew. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-matrix-1999",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "matrix",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "1999",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-matrix-1999:seed-curation:the-matrix-1999-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Matrix (1999) directed by The Wachowskis. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "under-the-silver-lake-2018",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "under",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "silver",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "lake",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "2018",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "under-the-silver-lake-2018:seed-curation:under-the-silver-lake-2018-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Under the Silver Lake (2018) directed by David Robert Mitchell. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "2001-a-space-odyssey-1968",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "2001",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "2001-a-space-odyssey-1968:seed-curation:2001-a-space-odyssey-1968-seed-curation"
+        ]
+      },
+      {
+        "term": "space",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "2001-a-space-odyssey-1968:seed-curation:2001-a-space-odyssey-1968-seed-curation"
+        ]
+      },
+      {
+        "term": "odyssey",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "2001-a-space-odyssey-1968:seed-curation:2001-a-space-odyssey-1968-seed-curation"
+        ]
+      },
+      {
+        "term": "1968",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "2001-a-space-odyssey-1968:seed-curation:2001-a-space-odyssey-1968-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "2001: A Space Odyssey (1968) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "a-ghost-story-2017",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "ghost",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-ghost-story-2017:seed-curation:a-ghost-story-2017-seed-curation"
+        ]
+      },
+      {
+        "term": "story",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-ghost-story-2017:seed-curation:a-ghost-story-2017-seed-curation"
+        ]
+      },
+      {
+        "term": "2017",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-ghost-story-2017:seed-curation:a-ghost-story-2017-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-ghost-story-2017:seed-curation:a-ghost-story-2017-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "A Ghost Story (2017) directed by David Lowery. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "a-history-of-violence-2005",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "history",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-history-of-violence-2005:seed-curation:a-history-of-violence-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "violence",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-history-of-violence-2005:seed-curation:a-history-of-violence-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "2005",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-history-of-violence-2005:seed-curation:a-history-of-violence-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-history-of-violence-2005:seed-curation:a-history-of-violence-2005-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "A History of Violence (2005) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "a-serious-man-2009",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "serious",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-serious-man-2009:seed-curation:a-serious-man-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "man",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-serious-man-2009:seed-curation:a-serious-man-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "2009",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-serious-man-2009:seed-curation:a-serious-man-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "a-serious-man-2009:seed-curation:a-serious-man-2009-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "A Serious Man (2009) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "antichrist-2009",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "antichrist",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "antichrist-2009:seed-curation:antichrist-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "2009",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "antichrist-2009:seed-curation:antichrist-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "antichrist-2009:seed-curation:antichrist-2009-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "antichrist-2009:seed-curation:antichrist-2009-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Antichrist (2009) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "barbarian-2022",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "barbarian",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barbarian-2022:seed-curation:barbarian-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "2022",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barbarian-2022:seed-curation:barbarian-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barbarian-2022:seed-curation:barbarian-2022-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barbarian-2022:seed-curation:barbarian-2022-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Barbarian (2022) directed by Zach Cregger. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "barton-fink-1991",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "barton",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barton-fink-1991:seed-curation:barton-fink-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "fink",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barton-fink-1991:seed-curation:barton-fink-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "1991",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barton-fink-1991:seed-curation:barton-fink-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "barton-fink-1991:seed-curation:barton-fink-1991-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Barton Fink (1991) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "black-swan-2010",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "black",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "black-swan-2010:seed-curation:black-swan-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "swan",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "black-swan-2010:seed-curation:black-swan-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "2010",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "black-swan-2010:seed-curation:black-swan-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "black-swan-2010:seed-curation:black-swan-2010-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Black Swan (2010) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "blade-runner-1982",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "blade",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-1982:seed-curation:blade-runner-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "runner",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-1982:seed-curation:blade-runner-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "1982",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-1982:seed-curation:blade-runner-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-1982:seed-curation:blade-runner-1982-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Blade Runner (1982) directed by Ridley Scott. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "blade-runner-2049",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "blade",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-2049:seed-curation:blade-runner-2049-seed-curation"
+        ]
+      },
+      {
+        "term": "runner",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-2049:seed-curation:blade-runner-2049-seed-curation"
+        ]
+      },
+      {
+        "term": "2049",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-2049:seed-curation:blade-runner-2049-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blade-runner-2049:seed-curation:blade-runner-2049-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Blade Runner 2049 (2017) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "blood-simple-1984",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "blood",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blood-simple-1984:seed-curation:blood-simple-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "simple",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blood-simple-1984:seed-curation:blood-simple-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "1984",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blood-simple-1984:seed-curation:blood-simple-1984-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blood-simple-1984:seed-curation:blood-simple-1984-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Blood Simple (1984) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "blue-velvet-1986",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "blue",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blue-velvet-1986:seed-curation:blue-velvet-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "velvet",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blue-velvet-1986:seed-curation:blue-velvet-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "1986",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blue-velvet-1986:seed-curation:blue-velvet-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "blue-velvet-1986:seed-curation:blue-velvet-1986-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Blue Velvet (1986) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "boogie-nights-1997",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "boogie",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "boogie-nights-1997:seed-curation:boogie-nights-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "nights",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "boogie-nights-1997:seed-curation:boogie-nights-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "1997",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "boogie-nights-1997:seed-curation:boogie-nights-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "boogie-nights-1997:seed-curation:boogie-nights-1997-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Boogie Nights (1997) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "bram-stokers-dracula-1992",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "bram",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "bram-stokers-dracula-1992:seed-curation:bram-stokers-dracula-1992-seed-curation"
+        ]
+      },
+      {
+        "term": "stokers",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "bram-stokers-dracula-1992:seed-curation:bram-stokers-dracula-1992-seed-curation"
+        ]
+      },
+      {
+        "term": "dracula",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "bram-stokers-dracula-1992:seed-curation:bram-stokers-dracula-1992-seed-curation"
+        ]
+      },
+      {
+        "term": "1992",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "bram-stokers-dracula-1992:seed-curation:bram-stokers-dracula-1992-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Bram Stoker's Dracula (1992) directed by Francis Ford Coppola. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "brazil-1985",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "brazil",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "brazil-1985:seed-curation:brazil-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "1985",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "brazil-1985:seed-curation:brazil-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "brazil-1985:seed-curation:brazil-1985-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "brazil-1985:seed-curation:brazil-1985-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Brazil (1985) directed by Terry Gilliam. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "burning-2018",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "burning",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "burning-2018:seed-curation:burning-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "2018",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "burning-2018:seed-curation:burning-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "burning-2018:seed-curation:burning-2018-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "burning-2018:seed-curation:burning-2018-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Burning (2018) directed by Lee Chang-dong. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "cache-2005",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "cach",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "cache-2005:seed-curation:cache-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "cache",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "cache-2005:seed-curation:cache-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "2005",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "cache-2005:seed-curation:cache-2005-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "cache-2005:seed-curation:cache-2005-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Caché (2005) directed by Michael Haneke. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "crash-1996",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "crash",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "crash-1996:seed-curation:crash-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "1996",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "crash-1996:seed-curation:crash-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "crash-1996:seed-curation:crash-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "crash-1996:seed-curation:crash-1996-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Crash (1996) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "do-the-right-thing-1989",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "right",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "do-the-right-thing-1989:seed-curation:do-the-right-thing-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "thing",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "do-the-right-thing-1989:seed-curation:do-the-right-thing-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "1989",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "do-the-right-thing-1989:seed-curation:do-the-right-thing-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "do-the-right-thing-1989:seed-curation:do-the-right-thing-1989-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Do the Right Thing (1989) directed by Spike Lee. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "drive-2011",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "drive",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "drive-2011:seed-curation:drive-2011-seed-curation"
+        ]
+      },
+      {
+        "term": "2011",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "drive-2011:seed-curation:drive-2011-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "drive-2011:seed-curation:drive-2011-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "drive-2011:seed-curation:drive-2011-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Drive (2011) directed by Nicolas Winding Refn. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "eternal-sunshine-2004",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "eternal",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eternal-sunshine-2004:seed-curation:eternal-sunshine-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "sunshine",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eternal-sunshine-2004:seed-curation:eternal-sunshine-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "spotless",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eternal-sunshine-2004:seed-curation:eternal-sunshine-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "mind",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eternal-sunshine-2004:seed-curation:eternal-sunshine-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "2004",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "eternal-sunshine-2004:seed-curation:eternal-sunshine-2004-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Eternal Sunshine of the Spotless Mind (2004) directed by Michel Gondry. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "full-metal-jacket-1987",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "full",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "full-metal-jacket-1987:seed-curation:full-metal-jacket-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "metal",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "full-metal-jacket-1987:seed-curation:full-metal-jacket-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "jacket",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "full-metal-jacket-1987:seed-curation:full-metal-jacket-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "1987",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "full-metal-jacket-1987:seed-curation:full-metal-jacket-1987-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Full Metal Jacket (1987) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "funny-games-1997",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "funny",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "funny-games-1997:seed-curation:funny-games-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "games",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "funny-games-1997:seed-curation:funny-games-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "1997",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "funny-games-1997:seed-curation:funny-games-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "funny-games-1997:seed-curation:funny-games-1997-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Funny Games (1997) directed by Michael Haneke. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "gone-girl-2014",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "gone",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "gone-girl-2014:seed-curation:gone-girl-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "girl",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "gone-girl-2014:seed-curation:gone-girl-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "2014",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "gone-girl-2014:seed-curation:gone-girl-2014-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "gone-girl-2014:seed-curation:gone-girl-2014-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Gone Girl (2014) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "goodfellas-1990",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "goodfellas",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "goodfellas-1990:seed-curation:goodfellas-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "1990",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "goodfellas-1990:seed-curation:goodfellas-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "goodfellas-1990:seed-curation:goodfellas-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "goodfellas-1990:seed-curation:goodfellas-1990-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Goodfellas (1990) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "idiocracy-2006",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "idiocracy",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "idiocracy-2006:seed-curation:idiocracy-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "2006",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "idiocracy-2006:seed-curation:idiocracy-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "idiocracy-2006:seed-curation:idiocracy-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "idiocracy-2006:seed-curation:idiocracy-2006-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Idiocracy (2006) directed by Mike Judge. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "irreversible-2002",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "irrversible",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "irreversible-2002:seed-curation:irreversible-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "irreversible",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "irreversible-2002:seed-curation:irreversible-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "2002",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "irreversible-2002:seed-curation:irreversible-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "irreversible-2002:seed-curation:irreversible-2002-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Irréversible (2002) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "jacobs-ladder-1990",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "jacobs",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "jacobs-ladder-1990:seed-curation:jacobs-ladder-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "ladder",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "jacobs-ladder-1990:seed-curation:jacobs-ladder-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "1990",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "jacobs-ladder-1990:seed-curation:jacobs-ladder-1990-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "jacobs-ladder-1990:seed-curation:jacobs-ladder-1990-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Jacob's Ladder (1990) directed by Adrian Lyne. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "manhunter-1986",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "manhunter",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "manhunter-1986:seed-curation:manhunter-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "1986",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "manhunter-1986:seed-curation:manhunter-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "manhunter-1986:seed-curation:manhunter-1986-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "manhunter-1986:seed-curation:manhunter-1986-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Manhunter (1986) directed by Michael Mann. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "midsommar-2019",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "midsommar",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "midsommar-2019:seed-curation:midsommar-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "2019",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "midsommar-2019:seed-curation:midsommar-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "midsommar-2019:seed-curation:midsommar-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "midsommar-2019:seed-curation:midsommar-2019-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Midsommar (2019) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "moonlight-2016",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "moonlight",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "moonlight-2016:seed-curation:moonlight-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "2016",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "moonlight-2016:seed-curation:moonlight-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "moonlight-2016:seed-curation:moonlight-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "moonlight-2016:seed-curation:moonlight-2016-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Moonlight (2016) directed by Barry Jenkins. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "naked-1993",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "naked",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "naked-1993:seed-curation:naked-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "1993",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "naked-1993:seed-curation:naked-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "naked-1993:seed-curation:naked-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "naked-1993:seed-curation:naked-1993-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Naked (1993) directed by Mike Leigh. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "pans-labyrinth-2006",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "pans",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pans-labyrinth-2006:seed-curation:pans-labyrinth-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "labyrinth",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pans-labyrinth-2006:seed-curation:pans-labyrinth-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "2006",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pans-labyrinth-2006:seed-curation:pans-labyrinth-2006-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pans-labyrinth-2006:seed-curation:pans-labyrinth-2006-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Pan's Labyrinth (2006) directed by Guillermo del Toro. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "portrait-of-a-lady-on-fire-2019",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "portrait",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "portrait-of-a-lady-on-fire-2019:seed-curation:portrait-of-a-lady-on-fire-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "lady",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "portrait-of-a-lady-on-fire-2019:seed-curation:portrait-of-a-lady-on-fire-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "fire",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "portrait-of-a-lady-on-fire-2019:seed-curation:portrait-of-a-lady-on-fire-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "2019",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "portrait-of-a-lady-on-fire-2019:seed-curation:portrait-of-a-lady-on-fire-2019-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Portrait of a Lady on Fire (2019) directed by Céline Sciamma. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "possessor-2020",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "possessor",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possessor-2020:seed-curation:possessor-2020-seed-curation"
+        ]
+      },
+      {
+        "term": "2020",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possessor-2020:seed-curation:possessor-2020-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possessor-2020:seed-curation:possessor-2020-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "possessor-2020:seed-curation:possessor-2020-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Possessor (2020) directed by Brandon Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "primer-2004",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "primer",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "primer-2004:seed-curation:primer-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "2004",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "primer-2004:seed-curation:primer-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "primer-2004:seed-curation:primer-2004-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "primer-2004:seed-curation:primer-2004-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Primer (2004) directed by Shane Carruth. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "pulp-fiction-1994",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "pulp",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pulp-fiction-1994:seed-curation:pulp-fiction-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "fiction",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pulp-fiction-1994:seed-curation:pulp-fiction-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "1994",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pulp-fiction-1994:seed-curation:pulp-fiction-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "pulp-fiction-1994:seed-curation:pulp-fiction-1994-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Pulp Fiction (1994) directed by Quentin Tarantino. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "russian-ark-2002",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "russian",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "russian-ark-2002:seed-curation:russian-ark-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "ark",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "russian-ark-2002:seed-curation:russian-ark-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "2002",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "russian-ark-2002:seed-curation:russian-ark-2002-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "russian-ark-2002:seed-curation:russian-ark-2002-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Russian Ark (2002) directed by Alexander Sokurov. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "scarface-1983",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "scarface",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "scarface-1983:seed-curation:scarface-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "1983",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "scarface-1983:seed-curation:scarface-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "scarface-1983:seed-curation:scarface-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "scarface-1983:seed-curation:scarface-1983-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Scarface (1983) directed by Brian De Palma. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "short-cuts-1993",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "short",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "short-cuts-1993:seed-curation:short-cuts-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "cuts",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "short-cuts-1993:seed-curation:short-cuts-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "1993",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "short-cuts-1993:seed-curation:short-cuts-1993-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "short-cuts-1993:seed-curation:short-cuts-1993-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Short Cuts (1993) directed by Robert Altman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "spring-breakers-2012",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "spring",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "spring-breakers-2012:seed-curation:spring-breakers-2012-seed-curation"
+        ]
+      },
+      {
+        "term": "breakers",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "spring-breakers-2012:seed-curation:spring-breakers-2012-seed-curation"
+        ]
+      },
+      {
+        "term": "2012",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "spring-breakers-2012:seed-curation:spring-breakers-2012-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "spring-breakers-2012:seed-curation:spring-breakers-2012-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Spring Breakers (2012) directed by Harmony Korine. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "tangerine-2015",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "tangerine",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tangerine-2015:seed-curation:tangerine-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "2015",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tangerine-2015:seed-curation:tangerine-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tangerine-2015:seed-curation:tangerine-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "tangerine-2015:seed-curation:tangerine-2015-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Tangerine (2015) directed by Sean Baker. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-big-lebowski-1998",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "big",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-big-lebowski-1998:seed-curation:the-big-lebowski-1998-seed-curation"
+        ]
+      },
+      {
+        "term": "lebowski",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-big-lebowski-1998:seed-curation:the-big-lebowski-1998-seed-curation"
+        ]
+      },
+      {
+        "term": "1998",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-big-lebowski-1998:seed-curation:the-big-lebowski-1998-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-big-lebowski-1998:seed-curation:the-big-lebowski-1998-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Big Lebowski (1998) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-blair-witch-project-1999",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "blair",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "witch",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "project",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+        ]
+      },
+      {
+        "term": "1999",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-blair-witch-project-1999:seed-curation:the-blair-witch-project-1999-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Blair Witch Project (1999) directed by Daniel Myrick & Eduardo Sánchez. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-cook-the-thief-his-wife-and-her-lover-1989",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "cook",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-cook-the-thief-his-wife-and-her-lover-1989:seed-curation:the-cook-the-thief-his-wife-and-her-lover-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "thief",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-cook-the-thief-his-wife-and-her-lover-1989:seed-curation:the-cook-the-thief-his-wife-and-her-lover-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "wife",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-cook-the-thief-his-wife-and-her-lover-1989:seed-curation:the-cook-the-thief-his-wife-and-her-lover-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "lover",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-cook-the-thief-his-wife-and-her-lover-1989:seed-curation:the-cook-the-thief-his-wife-and-her-lover-1989-seed-curation"
+        ]
+      },
+      {
+        "term": "1989",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-cook-the-thief-his-wife-and-her-lover-1989:seed-curation:the-cook-the-thief-his-wife-and-her-lover-1989-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Cook, the Thief, His Wife & Her Lover (1989) directed by Peter Greenaway. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-man-who-wasnt-there-2001",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "man",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-man-who-wasnt-there-2001:seed-curation:the-man-who-wasnt-there-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "wasnt",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-man-who-wasnt-there-2001:seed-curation:the-man-who-wasnt-there-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "there",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-man-who-wasnt-there-2001:seed-curation:the-man-who-wasnt-there-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "2001",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-man-who-wasnt-there-2001:seed-curation:the-man-who-wasnt-there-2001-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Man Who Wasn't There (2001) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-neon-demon-2016",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "neon",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-neon-demon-2016:seed-curation:the-neon-demon-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "demon",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-neon-demon-2016:seed-curation:the-neon-demon-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "2016",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-neon-demon-2016:seed-curation:the-neon-demon-2016-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-neon-demon-2016:seed-curation:the-neon-demon-2016-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Neon Demon (2016) directed by Nicolas Winding Refn. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-revenant-2015",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "revenant",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-revenant-2015:seed-curation:the-revenant-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "2015",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-revenant-2015:seed-curation:the-revenant-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-revenant-2015:seed-curation:the-revenant-2015-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-revenant-2015:seed-curation:the-revenant-2015-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Revenant (2015) directed by Alejandro González Iñárritu. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-royal-tenenbaums-2001",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "royal",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-royal-tenenbaums-2001:seed-curation:the-royal-tenenbaums-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "tenenbaums",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-royal-tenenbaums-2001:seed-curation:the-royal-tenenbaums-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "2001",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-royal-tenenbaums-2001:seed-curation:the-royal-tenenbaums-2001-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-royal-tenenbaums-2001:seed-curation:the-royal-tenenbaums-2001-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Royal Tenenbaums (2001) directed by Wes Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-silence-of-the-lambs-1991",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "silence",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-silence-of-the-lambs-1991:seed-curation:the-silence-of-the-lambs-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "lambs",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-silence-of-the-lambs-1991:seed-curation:the-silence-of-the-lambs-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "1991",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-silence-of-the-lambs-1991:seed-curation:the-silence-of-the-lambs-1991-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-silence-of-the-lambs-1991:seed-curation:the-silence-of-the-lambs-1991-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Silence of the Lambs (1991) directed by Jonathan Demme. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-social-network-2010",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "social",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-social-network-2010:seed-curation:the-social-network-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "network",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-social-network-2010:seed-curation:the-social-network-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "2010",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-social-network-2010:seed-curation:the-social-network-2010-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-social-network-2010:seed-curation:the-social-network-2010-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Social Network (2010) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-sweet-hereafter-1997",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "sweet",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-sweet-hereafter-1997:seed-curation:the-sweet-hereafter-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "hereafter",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-sweet-hereafter-1997:seed-curation:the-sweet-hereafter-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "1997",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-sweet-hereafter-1997:seed-curation:the-sweet-hereafter-1997-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-sweet-hereafter-1997:seed-curation:the-sweet-hereafter-1997-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Sweet Hereafter (1997) directed by Atom Egoyan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "the-thing-1982",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "thing",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-thing-1982:seed-curation:the-thing-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "1982",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-thing-1982:seed-curation:the-thing-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-thing-1982:seed-curation:the-thing-1982-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "the-thing-1982:seed-curation:the-thing-1982-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "The Thing (1982) directed by John Carpenter. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "there-will-be-blood-2007",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "there",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "there-will-be-blood-2007:seed-curation:there-will-be-blood-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "will",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "there-will-be-blood-2007:seed-curation:there-will-be-blood-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "blood",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "there-will-be-blood-2007:seed-curation:there-will-be-blood-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "2007",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "there-will-be-blood-2007:seed-curation:there-will-be-blood-2007-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "There Will Be Blood (2007) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "three-colors-red-1994",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "three",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "three-colors-red-1994:seed-curation:three-colors-red-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "colors",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "three-colors-red-1994:seed-curation:three-colors-red-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "red",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "three-colors-red-1994:seed-curation:three-colors-red-1994-seed-curation"
+        ]
+      },
+      {
+        "term": "1994",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "three-colors-red-1994:seed-curation:three-colors-red-1994-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Three Colors: Red (1994) directed by Krzysztof Kieślowski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "trainspotting-1996",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "trainspotting",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "trainspotting-1996:seed-curation:trainspotting-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "1996",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "trainspotting-1996:seed-curation:trainspotting-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "trainspotting-1996:seed-curation:trainspotting-1996-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "trainspotting-1996:seed-curation:trainspotting-1996-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Trainspotting (1996) directed by Danny Boyle. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "uncut-gems-2019",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "uncut",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "uncut-gems-2019:seed-curation:uncut-gems-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "gems",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "uncut-gems-2019:seed-curation:uncut-gems-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "2019",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "uncut-gems-2019:seed-curation:uncut-gems-2019-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "uncut-gems-2019:seed-curation:uncut-gems-2019-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Uncut Gems (2019) directed by Josh Safdie & Benny Safdie. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "upstream-color-2013",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "upstream",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "upstream-color-2013:seed-curation:upstream-color-2013-seed-curation"
+        ]
+      },
+      {
+        "term": "color",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "upstream-color-2013:seed-curation:upstream-color-2013-seed-curation"
+        ]
+      },
+      {
+        "term": "2013",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "upstream-color-2013:seed-curation:upstream-color-2013-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "upstream-color-2013:seed-curation:upstream-color-2013-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Upstream Color (2013) directed by Shane Carruth. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "videodrome-1983",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "videodrome",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "videodrome-1983:seed-curation:videodrome-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "1983",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "videodrome-1983:seed-curation:videodrome-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "videodrome-1983:seed-curation:videodrome-1983-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "videodrome-1983:seed-curation:videodrome-1983-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Videodrome (1983) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "wings-of-desire-1987",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "wings",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "wings-of-desire-1987:seed-curation:wings-of-desire-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "desire",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "wings-of-desire-1987:seed-curation:wings-of-desire-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "1987",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "wings-of-desire-1987:seed-curation:wings-of-desire-1987-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "wings-of-desire-1987:seed-curation:wings-of-desire-1987-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Wings of Desire (1987) directed by Wim Wenders. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
+  },
+  {
+    "artifactSlug": "zodiac-2007",
+    "generatedAt": "2026-05-15T00:00:00.000Z",
+    "method": "heuristic-safe-extraction",
+    "guardrails": [
+      "Extraction/classification/summarization only",
+      "No invented ratings or criticism"
+    ],
+    "confidence": 0.18,
+    "symbols": [
+      {
+        "term": "zodiac",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "zodiac-2007:seed-curation:zodiac-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "2007",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "zodiac-2007:seed-curation:zodiac-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "film",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "zodiac-2007:seed-curation:zodiac-2007-seed-curation"
+        ]
+      },
+      {
+        "term": "directed",
+        "weight": 1,
+        "evidenceMentionIds": [
+          "zodiac-2007:seed-curation:zodiac-2007-seed-curation"
+        ]
+      }
+    ],
+    "discourseClusters": [
+      {
+        "label": "analytical",
+        "share": 1,
+        "summary": "analytical cluster derived from mention text classification",
+        "sampleQuotes": [
+          "Zodiac (2007) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        ]
+      }
+    ],
+    "afterlifeEvents": []
   }
 ]

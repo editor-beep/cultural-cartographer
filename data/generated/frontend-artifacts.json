@@ -546,7 +546,7 @@
       "slug": "possession",
       "title": "Possession",
       "year": 1981,
-      "director": "Andrzej \u017bu\u0142awski",
+      "director": "Andrzej Żuławski",
       "runtime": 124,
       "catalogue": "ARTX-010",
       "metrics": {
@@ -593,7 +593,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Possession (1981) directed by Andrzej \u017bu\u0142awski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Possession (1981) directed by Andrzej Żuławski. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -664,7 +664,7 @@
     },
     {
       "slug": "tar",
-      "title": "T\u00e1r",
+      "title": "Tár",
       "year": 2022,
       "director": "Todd Field",
       "runtime": 158,
@@ -713,7 +713,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "T\u00e1r (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Tár (2022) directed by Todd Field. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -1129,7 +1129,7 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauht\u00e9moc, Chihuahua State, Northern Mexic"
+          "voice": "Silent Light (Plautdietsch: Stellet Licht) is a 2007 film written and directed by Carlos Reygadas. Filmed in a Mennonite colony close to Cuauhtémoc, Chihuahua State, Northern Mexic"
         }
       ],
       "afterlife": [
@@ -1262,14 +1262,14 @@
         {
           "name": "devoted",
           "share": 0.5,
-          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
+          "voice": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fantasy drama film written, produced, and directed by Apichatpong"
         }
       ],
       "afterlife": [
         {
           "occurredAt": "2026-05-12T05:55:31.285Z",
           "kind": "release",
-          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: \u0e25\u0e38\u0e07\u0e1a\u0e38\u0e0d\u0e21\u0e35\u0e23\u0e30\u0e25\u0e36\u0e01\u0e0a\u0e32\u0e15\u0e34; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
+          "label": "Uncle Boonmee Who Can Recall His Past Lives (Thai: ลุงบุญมีระลึกชาติ; RTGS: Lung Bunmi Raluek Chat) is a 2010 Thai fanta",
           "evidenceUrl": "https://en.wikipedia.org/wiki/Uncle_Boonmee_Who_Can_Recall_His_Past_Lives",
           "evidenceMentionId": "uncle-boonmee:wikipedia:26978753"
         }
@@ -1851,7 +1851,7 @@
         {
           "name": "The Blue-Collar Believers",
           "share": 0.33,
-          "voice": "Focus on the small business aspect\u2014the idea of ghosts as a plumbing problem."
+          "voice": "Focus on the small business aspect—the idea of ghosts as a plumbing problem."
         },
         {
           "name": "The Gozerian Occultists",
@@ -1917,7 +1917,7 @@
         {
           "name": "The Aesthetic Revivalists",
           "share": 0.5,
-          "voice": "Focused on the visual language\u2014cosplay, decor, and Burton's German Expressionist-for-kids gamble."
+          "voice": "Focused on the visual language—cosplay, decor, and Burton's German Expressionist-for-kids gamble."
         },
         {
           "name": "The Death-Bureaucrats",
@@ -2429,7 +2429,7 @@
       "slug": "enter-the-void-2009",
       "title": "Enter the Void",
       "year": 2009,
-      "director": "Gaspar No\u00e9",
+      "director": "Gaspar Noé",
       "runtime": 161,
       "catalogue": "ARTX-038",
       "metrics": {
@@ -2472,7 +2472,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Enter the Void (2009) directed by Gaspar No\u00e9. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Enter the Void (2009) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -2597,7 +2597,7 @@
       "slug": "climax-2018",
       "title": "Climax",
       "year": 2018,
-      "director": "Gaspar No\u00e9",
+      "director": "Gaspar Noé",
       "runtime": 96,
       "catalogue": "ARTX-041",
       "metrics": {
@@ -2640,7 +2640,7 @@
         {
           "name": "analytical",
           "share": 1,
-          "voice": "Climax (2018) directed by Gaspar No\u00e9. Curated baseline artifact for metric calibration and systematic scoring initialization."
+          "voice": "Climax (2018) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
         }
       ],
       "afterlife": [],
@@ -2768,7 +2768,7 @@
         {
           "name": "The Stunt-Veritists",
           "share": 0.33,
-          "voice": "A faction that ignores the plot to focus on the reality of the production\u2014valuing the film as a historical document of physical risk."
+          "voice": "A faction that ignores the plot to focus on the reality of the production—valuing the film as a historical document of physical risk."
         }
       ],
       "afterlife": [
@@ -3022,7 +3022,7 @@
         {
           "name": "The Temporal Nostalgics",
           "share": 0.5,
-          "voice": "Viewers who report a longing for a 1955 that never existed\u2014the film generates nostalgia for a past no one lived."
+          "voice": "Viewers who report a longing for a 1955 that never existed—the film generates nostalgia for a past no one lived."
         }
       ],
       "afterlife": [
@@ -3033,6 +3033,3117 @@
       "freshness": {
         "lastCollectedAt": "2026-05-12T16:00:00.000Z",
         "lastComputedAt": "2026-05-12T16:00:00.000Z"
+      }
+    },
+    {
+      "slug": "2001-a-space-odyssey-1968",
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
+      "director": "Stanley Kubrick",
+      "runtime": 149,
+      "catalogue": "ARTX-048",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "2001: A Space Odyssey (1968) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "a-ghost-story-2017",
+      "title": "A Ghost Story",
+      "year": 2017,
+      "director": "David Lowery",
+      "runtime": 92,
+      "catalogue": "ARTX-104",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "A Ghost Story (2017) directed by David Lowery. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "a-history-of-violence-2005",
+      "title": "A History of Violence",
+      "year": 2005,
+      "director": "David Cronenberg",
+      "runtime": 96,
+      "catalogue": "ARTX-089",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "A History of Violence (2005) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "a-serious-man-2009",
+      "title": "A Serious Man",
+      "year": 2009,
+      "director": "Joel Coen & Ethan Coen",
+      "runtime": 106,
+      "catalogue": "ARTX-058",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "A Serious Man (2009) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "antichrist-2009",
+      "title": "Antichrist",
+      "year": 2009,
+      "director": "Lars von Trier",
+      "runtime": 108,
+      "catalogue": "ARTX-093",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Antichrist (2009) directed by Lars von Trier. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "barbarian-2022",
+      "title": "Barbarian",
+      "year": 2022,
+      "director": "Zach Cregger",
+      "runtime": 102,
+      "catalogue": "ARTX-051",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Barbarian (2022) directed by Zach Cregger. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "barton-fink-1991",
+      "title": "Barton Fink",
+      "year": 1991,
+      "director": "Joel Coen & Ethan Coen",
+      "runtime": 116,
+      "catalogue": "ARTX-074",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Barton Fink (1991) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "black-swan-2010",
+      "title": "Black Swan",
+      "year": 2010,
+      "director": "Darren Aronofsky",
+      "runtime": 108,
+      "catalogue": "ARTX-095",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Black Swan (2010) directed by Darren Aronofsky. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "blade-runner-1982",
+      "title": "Blade Runner",
+      "year": 1982,
+      "director": "Ridley Scott",
+      "runtime": 117,
+      "catalogue": "ARTX-060",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Blade Runner (1982) directed by Ridley Scott. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "blade-runner-2049",
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "director": "Denis Villeneuve",
+      "runtime": 164,
+      "catalogue": "ARTX-105",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Blade Runner 2049 (2017) directed by Denis Villeneuve. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "blood-simple-1984",
+      "title": "Blood Simple",
+      "year": 1984,
+      "director": "Joel Coen & Ethan Coen",
+      "runtime": 99,
+      "catalogue": "ARTX-064",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Blood Simple (1984) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "blue-velvet-1986",
+      "title": "Blue Velvet",
+      "year": 1986,
+      "director": "David Lynch",
+      "runtime": 120,
+      "catalogue": "ARTX-066",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Blue Velvet (1986) directed by David Lynch. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "boogie-nights-1997",
+      "title": "Boogie Nights",
+      "year": 1997,
+      "director": "Paul Thomas Anderson",
+      "runtime": 155,
+      "catalogue": "ARTX-083",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Boogie Nights (1997) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "bram-stokers-dracula-1992",
+      "title": "Bram Stoker's Dracula",
+      "year": 1992,
+      "director": "Francis Ford Coppola",
+      "runtime": 128,
+      "catalogue": "ARTX-076",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Bram Stoker's Dracula (1992) directed by Francis Ford Coppola. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "brazil-1985",
+      "title": "Brazil",
+      "year": 1985,
+      "director": "Terry Gilliam",
+      "runtime": 132,
+      "catalogue": "ARTX-065",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Brazil (1985) directed by Terry Gilliam. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "burning-2018",
+      "title": "Burning",
+      "year": 2018,
+      "director": "Lee Chang-dong",
+      "runtime": 148,
+      "catalogue": "ARTX-106",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Burning (2018) directed by Lee Chang-dong. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "cache-2005",
+      "title": "Caché",
+      "year": 2005,
+      "director": "Michael Haneke",
+      "runtime": 117,
+      "catalogue": "ARTX-088",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Caché (2005) directed by Michael Haneke. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "crash-1996",
+      "title": "Crash",
+      "year": 1996,
+      "director": "David Cronenberg",
+      "runtime": 100,
+      "catalogue": "ARTX-081",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Crash (1996) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "do-the-right-thing-1989",
+      "title": "Do the Right Thing",
+      "year": 1989,
+      "director": "Spike Lee",
+      "runtime": 120,
+      "catalogue": "ARTX-070",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Do the Right Thing (1989) directed by Spike Lee. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "drive-2011",
+      "title": "Drive",
+      "year": 2011,
+      "director": "Nicolas Winding Refn",
+      "runtime": 100,
+      "catalogue": "ARTX-096",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Drive (2011) directed by Nicolas Winding Refn. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "eternal-sunshine-2004",
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "year": 2004,
+      "director": "Michel Gondry",
+      "runtime": 108,
+      "catalogue": "ARTX-087",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Eternal Sunshine of the Spotless Mind (2004) directed by Michel Gondry. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "full-metal-jacket-1987",
+      "title": "Full Metal Jacket",
+      "year": 1987,
+      "director": "Stanley Kubrick",
+      "runtime": 116,
+      "catalogue": "ARTX-068",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Full Metal Jacket (1987) directed by Stanley Kubrick. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "funny-games-1997",
+      "title": "Funny Games",
+      "year": 1997,
+      "director": "Michael Haneke",
+      "runtime": 108,
+      "catalogue": "ARTX-055",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Funny Games (1997) directed by Michael Haneke. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "gone-girl-2014",
+      "title": "Gone Girl",
+      "year": 2014,
+      "director": "David Fincher",
+      "runtime": 149,
+      "catalogue": "ARTX-099",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Gone Girl (2014) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "goodfellas-1990",
+      "title": "Goodfellas",
+      "year": 1990,
+      "director": "Martin Scorsese",
+      "runtime": 146,
+      "catalogue": "ARTX-072",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Goodfellas (1990) directed by Martin Scorsese. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "idiocracy-2006",
+      "title": "Idiocracy",
+      "year": 2006,
+      "director": "Mike Judge",
+      "runtime": 84,
+      "catalogue": "ARTX-052",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Idiocracy (2006) directed by Mike Judge. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "irreversible-2002",
+      "title": "Irréversible",
+      "year": 2002,
+      "director": "Gaspar Noé",
+      "runtime": 97,
+      "catalogue": "ARTX-085",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Irréversible (2002) directed by Gaspar Noé. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "jacobs-ladder-1990",
+      "title": "Jacob's Ladder",
+      "year": 1990,
+      "director": "Adrian Lyne",
+      "runtime": 113,
+      "catalogue": "ARTX-073",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Jacob's Ladder (1990) directed by Adrian Lyne. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "manhunter-1986",
+      "title": "Manhunter",
+      "year": 1986,
+      "director": "Michael Mann",
+      "runtime": 120,
+      "catalogue": "ARTX-067",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Manhunter (1986) directed by Michael Mann. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "midsommar-2019",
+      "title": "Midsommar",
+      "year": 2019,
+      "director": "Ari Aster",
+      "runtime": 147,
+      "catalogue": "ARTX-107",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Midsommar (2019) directed by Ari Aster. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "moonlight-2016",
+      "title": "Moonlight",
+      "year": 2016,
+      "director": "Barry Jenkins",
+      "runtime": 111,
+      "catalogue": "ARTX-103",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Moonlight (2016) directed by Barry Jenkins. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "naked-1993",
+      "title": "Naked",
+      "year": 1993,
+      "director": "Mike Leigh",
+      "runtime": 131,
+      "catalogue": "ARTX-078",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Naked (1993) directed by Mike Leigh. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "pans-labyrinth-2006",
+      "title": "Pan's Labyrinth",
+      "year": 2006,
+      "director": "Guillermo del Toro",
+      "runtime": 118,
+      "catalogue": "ARTX-090",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Pan's Labyrinth (2006) directed by Guillermo del Toro. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "portrait-of-a-lady-on-fire-2019",
+      "title": "Portrait of a Lady on Fire",
+      "year": 2019,
+      "director": "Céline Sciamma",
+      "runtime": 122,
+      "catalogue": "ARTX-050",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Portrait of a Lady on Fire (2019) directed by Céline Sciamma. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "possessor-2020",
+      "title": "Possessor",
+      "year": 2020,
+      "director": "Brandon Cronenberg",
+      "runtime": 103,
+      "catalogue": "ARTX-109",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Possessor (2020) directed by Brandon Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "primer-2004",
+      "title": "Primer",
+      "year": 2004,
+      "director": "Shane Carruth",
+      "runtime": 77,
+      "catalogue": "ARTX-059",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Primer (2004) directed by Shane Carruth. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "pulp-fiction-1994",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "director": "Quentin Tarantino",
+      "runtime": 154,
+      "catalogue": "ARTX-079",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Pulp Fiction (1994) directed by Quentin Tarantino. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "russian-ark-2002",
+      "title": "Russian Ark",
+      "year": 2002,
+      "director": "Alexander Sokurov",
+      "runtime": 99,
+      "catalogue": "ARTX-086",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Russian Ark (2002) directed by Alexander Sokurov. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "scarface-1983",
+      "title": "Scarface",
+      "year": 1983,
+      "director": "Brian De Palma",
+      "runtime": 170,
+      "catalogue": "ARTX-063",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Scarface (1983) directed by Brian De Palma. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "short-cuts-1993",
+      "title": "Short Cuts",
+      "year": 1993,
+      "director": "Robert Altman",
+      "runtime": 188,
+      "catalogue": "ARTX-077",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Short Cuts (1993) directed by Robert Altman. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "spring-breakers-2012",
+      "title": "Spring Breakers",
+      "year": 2012,
+      "director": "Harmony Korine",
+      "runtime": 94,
+      "catalogue": "ARTX-097",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Spring Breakers (2012) directed by Harmony Korine. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "tangerine-2015",
+      "title": "Tangerine",
+      "year": 2015,
+      "director": "Sean Baker",
+      "runtime": 88,
+      "catalogue": "ARTX-101",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Tangerine (2015) directed by Sean Baker. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-big-lebowski-1998",
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "director": "Joel Coen & Ethan Coen",
+      "runtime": 117,
+      "catalogue": "ARTX-054",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Big Lebowski (1998) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-blair-witch-project-1999",
+      "title": "The Blair Witch Project",
+      "year": 1999,
+      "director": "Daniel Myrick & Eduardo Sánchez",
+      "runtime": 81,
+      "catalogue": "ARTX-049",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Blair Witch Project (1999) directed by Daniel Myrick & Eduardo Sánchez. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-cook-the-thief-his-wife-and-her-lover-1989",
+      "title": "The Cook, the Thief, His Wife & Her Lover",
+      "year": 1989,
+      "director": "Peter Greenaway",
+      "runtime": 124,
+      "catalogue": "ARTX-071",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Cook, the Thief, His Wife & Her Lover (1989) directed by Peter Greenaway. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-man-who-wasnt-there-2001",
+      "title": "The Man Who Wasn't There",
+      "year": 2001,
+      "director": "Joel Coen & Ethan Coen",
+      "runtime": 116,
+      "catalogue": "ARTX-057",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Man Who Wasn't There (2001) directed by Joel Coen & Ethan Coen. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-neon-demon-2016",
+      "title": "The Neon Demon",
+      "year": 2016,
+      "director": "Nicolas Winding Refn",
+      "runtime": 117,
+      "catalogue": "ARTX-102",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Neon Demon (2016) directed by Nicolas Winding Refn. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-revenant-2015",
+      "title": "The Revenant",
+      "year": 2015,
+      "director": "Alejandro González Iñárritu",
+      "runtime": 156,
+      "catalogue": "ARTX-100",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Revenant (2015) directed by Alejandro González Iñárritu. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-royal-tenenbaums-2001",
+      "title": "The Royal Tenenbaums",
+      "year": 2001,
+      "director": "Wes Anderson",
+      "runtime": 110,
+      "catalogue": "ARTX-056",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Royal Tenenbaums (2001) directed by Wes Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-silence-of-the-lambs-1991",
+      "title": "The Silence of the Lambs",
+      "year": 1991,
+      "director": "Jonathan Demme",
+      "runtime": 118,
+      "catalogue": "ARTX-075",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Silence of the Lambs (1991) directed by Jonathan Demme. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-social-network-2010",
+      "title": "The Social Network",
+      "year": 2010,
+      "director": "David Fincher",
+      "runtime": 120,
+      "catalogue": "ARTX-094",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Social Network (2010) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-sweet-hereafter-1997",
+      "title": "The Sweet Hereafter",
+      "year": 1997,
+      "director": "Atom Egoyan",
+      "runtime": 112,
+      "catalogue": "ARTX-084",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Sweet Hereafter (1997) directed by Atom Egoyan. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "the-thing-1982",
+      "title": "The Thing",
+      "year": 1982,
+      "director": "John Carpenter",
+      "runtime": 109,
+      "catalogue": "ARTX-061",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "The Thing (1982) directed by John Carpenter. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "there-will-be-blood-2007",
+      "title": "There Will Be Blood",
+      "year": 2007,
+      "director": "Paul Thomas Anderson",
+      "runtime": 158,
+      "catalogue": "ARTX-092",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "There Will Be Blood (2007) directed by Paul Thomas Anderson. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "three-colors-red-1994",
+      "title": "Three Colors: Red",
+      "year": 1994,
+      "director": "Krzysztof Kieślowski",
+      "runtime": 99,
+      "catalogue": "ARTX-080",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Three Colors: Red (1994) directed by Krzysztof Kieślowski. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "trainspotting-1996",
+      "title": "Trainspotting",
+      "year": 1996,
+      "director": "Danny Boyle",
+      "runtime": 94,
+      "catalogue": "ARTX-082",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Trainspotting (1996) directed by Danny Boyle. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "uncut-gems-2019",
+      "title": "Uncut Gems",
+      "year": 2019,
+      "director": "Josh Safdie & Benny Safdie",
+      "runtime": 135,
+      "catalogue": "ARTX-108",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Uncut Gems (2019) directed by Josh Safdie & Benny Safdie. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "upstream-color-2013",
+      "title": "Upstream Color",
+      "year": 2013,
+      "director": "Shane Carruth",
+      "runtime": 96,
+      "catalogue": "ARTX-098",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Upstream Color (2013) directed by Shane Carruth. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "videodrome-1983",
+      "title": "Videodrome",
+      "year": 1983,
+      "director": "David Cronenberg",
+      "runtime": 87,
+      "catalogue": "ARTX-062",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Videodrome (1983) directed by David Cronenberg. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "wings-of-desire-1987",
+      "title": "Wings of Desire",
+      "year": 1987,
+      "director": "Wim Wenders",
+      "runtime": 128,
+      "catalogue": "ARTX-069",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Wings of Desire (1987) directed by Wim Wenders. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
+      }
+    },
+    {
+      "slug": "zodiac-2007",
+      "title": "Zodiac",
+      "year": 2007,
+      "director": "David Fincher",
+      "runtime": 157,
+      "catalogue": "ARTX-091",
+      "metrics": {
+        "consensus": 100,
+        "friction": 0,
+        "obsession": 16,
+        "haunting": 16,
+        "symbolic": 72,
+        "cult": 25,
+        "formal": 12,
+        "voltage": 0,
+        "accessibility": 66
+      },
+      "metricConfidence": {
+        "consensus": 0.18,
+        "friction": 0.18,
+        "obsession": 0.18,
+        "haunting": 0.18,
+        "symbolic": 0.18,
+        "cult": 0.18,
+        "formal": 0.18,
+        "voltage": 0.18,
+        "accessibility": 0.18
+      },
+      "reviewGate": {
+        "status": "needs_review",
+        "reasons": [
+          "evidence_below_threshold:1<5",
+          "source_diversity_below_threshold:1<2",
+          "confidence_below_threshold:0.18<0.55"
+        ]
+      },
+      "symbols": [],
+      "factions": [
+        {
+          "name": "analytical",
+          "share": 1,
+          "voice": "Zodiac (2007) directed by David Fincher. Curated baseline artifact for metric calibration and systematic scoring initialization."
+        }
+      ],
+      "afterlife": [],
+      "freshness": {
+        "lastCollectedAt": "2026-05-15T00:00:00.000Z",
+        "lastComputedAt": "2026-05-15T00:00:00.000Z"
       }
     }
   ]

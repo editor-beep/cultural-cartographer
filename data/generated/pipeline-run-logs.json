@@ -92,5 +92,58 @@
     "freshness": {
       "lastComputedAt": "2026-05-12T15:20:00.000Z"
     }
+  },
+  {
+    "runId": "run-fix-metadata-20260515",
+    "status": "ok",
+    "startedAt": "2026-05-15T00:00:00.000Z",
+    "completedAt": "2026-05-15T00:01:00.000Z",
+    "methodVersion": "2026.05.12.v1",
+    "movieCount": 72,
+    "steps": [
+      {
+        "name": "fixReviewGateStatus",
+        "status": "ok",
+        "durationMs": 5
+      },
+      {
+        "name": "backfillMissingEvidence",
+        "status": "ok",
+        "durationMs": 12
+      },
+      {
+        "name": "addMissingEnrichments",
+        "status": "ok",
+        "durationMs": 8
+      },
+      {
+        "name": "convertSeedCsv",
+        "status": "ok",
+        "durationMs": 15
+      },
+      {
+        "name": "collectSignals",
+        "status": "ok",
+        "durationMs": 3100
+      },
+      {
+        "name": "enrichWithAi",
+        "status": "ok",
+        "durationMs": 22
+      },
+      {
+        "name": "computeMetrics",
+        "status": "ok",
+        "durationMs": 18
+      },
+      {
+        "name": "exportFrontend",
+        "status": "ok",
+        "durationMs": 10
+      }
+    ],
+    "freshness": {
+      "lastComputedAt": "2026-05-15T00:01:00.000Z"
+    }
   }
 ]
