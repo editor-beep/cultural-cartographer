@@ -8,6 +8,7 @@ import {
   Scripts,
 } from "@tanstack/react-router";
 import { Analytics } from "@vercel/analytics/react";
+import { UserFilmsProvider } from "@/lib/user-films-context";
 
 import appCss from "../styles.css?url";
 
@@ -115,7 +116,9 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <UserFilmsProvider>
+        <Outlet />
+      </UserFilmsProvider>
     </QueryClientProvider>
   );
 }

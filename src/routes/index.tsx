@@ -2,7 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ARTIFACTS } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { useUserFilms } from "@/lib/user-films-context";
 
 export const Route = createFileRoute("/")({
   component: Atlas,
@@ -20,7 +21,12 @@ export const Route = createFileRoute("/")({
 
 function Atlas() {
   const [hovered, setHovered] = useState<string | null>(null);
-  const active = hovered ? ARTIFACTS.find((a) => a.slug === hovered) : null;
+  const { userFilms } = useUserFilms();
+  const allArtifacts = useMemo(() => {
+    const known = new Set(ARTIFACTS.map((a) => a.slug));
+    return [...ARTIFACTS, ...userFilms.filter((u) => !known.has(u.slug))];
+  }, [userFilms]);
+  const active = hovered ? allArtifacts.find((a) => a.slug === hovered) : null;
 
   return (
     <div className="relative min-h-screen">
@@ -47,7 +53,7 @@ function Atlas() {
           <div className="col-span-12 md:col-span-5">
             <div className="rule mb-4" />
             <div className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[10px] text-vellum-dim smallcaps">
-              <div>Catalogue · {ARTIFACTS.length} entries</div>
+              <div>Catalogue · {allArtifacts.length} entries</div>
               <div>Method · v0.1</div>
               <div>Sources · curated</div>
               <div>Refresh · manual</div>
@@ -105,7 +111,7 @@ function Atlas() {
           </div>
 
           {/* Sigil layer — overflow visible so labels escape the frame */}
-          {ARTIFACTS.map((a) => {
+          {allArtifacts.map((a) => {
             const size = 90 + a.metrics.obsession * 0.9;
             // Flip label above the sigil when near the bottom to avoid map overlap
             const labelAbove = a.pos.y > 0.55;
@@ -159,7 +165,7 @@ function Atlas() {
         <div className="rule mb-4" />
         <h2 className="mb-8 font-display text-2xl text-vellum">Catalogue</h2>
         <ul className="divide-y divide-border">
-          {ARTIFACTS.map((a) => (
+          {allArtifacts.map((a) => (
             <li key={a.slug}>
               <Link
                 to="/artifact/$slug"
