@@ -89,7 +89,7 @@ function persistToFrontendArtifacts(record: MovieRecord): void {
   const artifacts = Array.isArray(frontend.artifacts) ? [...frontend.artifacts] : [];
   const existing = artifacts.findIndex((item) => item.slug === record.slug);
   if (existing >= 0) {
-    artifacts[existing] = record;
+    artifacts[existing] = { ...artifacts[existing], ...record };
   } else {
     artifacts.push(record);
   }
