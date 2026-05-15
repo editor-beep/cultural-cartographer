@@ -96,7 +96,7 @@ function persistToFrontendArtifacts(record: MovieRecord): void {
 
   const output: FrontendArtifactsFile = {
     ...frontend,
-    generatedAt: new Date().toISOString(),
+    generatedAt: frontend.generatedAt ?? new Date().toISOString(),
     artifacts,
   };
 
