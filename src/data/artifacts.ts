@@ -3124,7 +3124,7 @@ const CURATED: Artifact[] = [
     afterlife: [
       { year: 2024, kind: "release", label: "Cannes premiere creates a Cultural Schism that defines the year in cinema." },
       { year: 2025, kind: "academic", label: "Becomes the primary case study for 'Late-Style' and 'Unfiltered Auteurism'." },
-      { year: 2026, kind: "cult", label: "Screenings begin to take on a participatory, ritualistic quality similar to The Room but with high-art gravity." },
+      { year: 2026, kind: "meme", label: "Screenings begin to take on a participatory, ritualistic quality similar to The Room but with high-art gravity." },
     ],
     factions: [
       { name: "The Visionaries", share: 0.40, voice: "“A miraculous, defiant act of creation that proves the Old Masters can still break the world.”" },
