@@ -3662,6 +3662,9 @@ const CURATED: Artifact[] = [
 
 // Merge curated narrative entries with pipeline-generated entries beyond the curated set.
 import generatedData from "../../data/generated/frontend-artifacts.json";
+// User-submitted movies persisted at runtime by the /submit → /api/scrape flow.
+// Vite watches this file in dev mode so HMR rebuilds ARTIFACTS when new submissions land.
+import userMoviesRaw from "../../data/generated/user-movies.json";
 
 type GeneratedArtifact = {
   slug: string;
@@ -3833,12 +3836,80 @@ function adaptGenerated(g: GeneratedArtifact): Artifact {
   };
 }
 
+// Records stored by the user-submit flow have the same shape as GeneratedArtifact
+// but also carry the AI-generated epigraph, reading, notes, and pos.
+type UserMovieRecord = GeneratedArtifact & {
+  epigraph?: string;
+  reading?: string;
+  notes?: Record<string, string>;
+  pos?: { x: number; y: number };
+};
+
+function adaptUserMovie(m: UserMovieRecord): Artifact {
+  const metrics = fillMetrics(m.metrics ?? {}, m.slug);
+  const afterlife: AfterlifeEvent[] =
+    m.afterlife && m.afterlife.length > 0
+      ? m.afterlife
+          .map((e) => {
+            const year =
+              typeof e.year === "number"
+                ? e.year
+                : e.occurredAt
+                  ? new Date(e.occurredAt).getUTCFullYear()
+                  : m.year;
+            return {
+              year,
+              kind: (ALLOWED_KINDS.has(e.kind) ? e.kind : "rediscovery") as AfterlifeEvent["kind"],
+              label: (e.label || "").slice(0, 160),
+              source: e.source,
+            };
+          })
+          .sort((a, b) => a.year - b.year)
+      : [{ year: m.year, kind: "release" as const, label: `${m.title} released.` }];
+  const factions: Faction[] =
+    m.factions && m.factions.length > 0
+      ? m.factions.slice(0, 4).map((f) => ({
+          name: f.name || "unnamed cluster",
+          share: f.share || 0.25,
+          voice: f.voice || "—",
+        }))
+      : [
+          { name: "Provisional readers", share: 0.6, voice: "Pressure signal too sparse to cluster." },
+          { name: "The unread", share: 0.4, voice: "No durable interpretive faction has formed." },
+        ];
+  return {
+    slug: m.slug,
+    title: m.title,
+    year: m.year,
+    director: m.director,
+    runtime: m.runtime,
+    catalogue: m.catalogue,
+    epigraph: m.epigraph ?? "—",
+    reading: m.reading ?? "User-submitted dossier. Analysis generated from the open record.",
+    metrics,
+    notes: m.notes ?? {},
+    afterlife,
+    factions,
+    symbols: (m.symbols ?? []).slice(0, 8),
+    pos: m.pos ?? {
+      x: 0.06 + hash01(m.slug, 1) * 0.88,
+      y: 0.08 + hash01(m.slug, 2) * 0.84,
+    },
+  };
+}
+
 const curatedSlugs = new Set(CURATED.map((a) => a.slug));
 const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
   .filter((g) => !curatedSlugs.has(g.slug))
   .map(adaptGenerated);
 
-export const ARTIFACTS: Artifact[] = [...CURATED, ...generatedExtras];
+// Merge user-submitted movies, skipping any slug already covered by curated or pipeline data.
+const knownSlugs = new Set([...curatedSlugs, ...generatedExtras.map((a) => a.slug)]);
+const userExtras: Artifact[] = (userMoviesRaw as unknown as UserMovieRecord[])
+  .filter((m) => m && m.slug && !knownSlugs.has(m.slug))
+  .map(adaptUserMovie);
+
+export const ARTIFACTS: Artifact[] = [...CURATED, ...generatedExtras, ...userExtras];
 
 export const getArtifact = (slug: string) =>
   ARTIFACTS.find((a) => a.slug === slug);
