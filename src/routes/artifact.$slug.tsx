@@ -155,7 +155,7 @@ function Dossier() {
       <SiteHeader />
 
       {/* Header strip */}
-      <section className="relative z-10 mx-auto mt-16 max-w-[1400px] px-8">
+      <section className="relative z-10 mx-auto mt-10 max-w-[1400px] px-4 md:mt-16 md:px-8">
         <div className="flex items-baseline justify-between">
           <Link to="/" className="smallcaps text-[10px] text-vellum-dim hover:text-vellum">
             ← Atlas
@@ -207,7 +207,7 @@ function Dossier() {
       </section>
 
       {/* Axis readings */}
-      <section className="relative z-10 mx-auto mt-24 max-w-[1400px] px-8">
+      <section className="relative z-10 mx-auto mt-14 max-w-[1400px] px-4 md:mt-24 md:px-8">
         <div className="rule mb-6" />
         <div className="mb-8 flex items-baseline justify-between">
           <h2 className="font-display text-2xl text-vellum">The Reading</h2>
@@ -248,7 +248,7 @@ function Dossier() {
       </section>
 
       {/* Cultural Afterlife timeline */}
-      <section className="relative z-10 mx-auto mt-24 max-w-[1400px] px-8">
+      <section className="relative z-10 mx-auto mt-14 max-w-[1400px] px-4 md:mt-24 md:px-8">
         <div className="rule mb-6" />
         <div className="mb-8 flex items-baseline justify-between">
           <h2 className="font-display text-2xl text-vellum">Cultural Afterlife</h2>
@@ -260,9 +260,9 @@ function Dossier() {
       </section>
 
       {/* Discourse factions + symbols */}
-      <section className="relative z-10 mx-auto mt-24 max-w-[1400px] px-8">
+      <section className="relative z-10 mx-auto mt-14 max-w-[1400px] px-4 md:mt-24 md:px-8">
         <div className="rule mb-6" />
-        <div className="grid grid-cols-12 gap-12">
+        <div className="grid grid-cols-12 gap-8 md:gap-12">
           <div className="col-span-12 md:col-span-7">
             <h2 className="mb-6 font-display text-2xl text-vellum">Discourse Factions</h2>
             <div className="space-y-4">
@@ -304,7 +304,7 @@ function Dossier() {
       </section>
 
       {/* Pressure neighbors */}
-      <section className="relative z-10 mx-auto mt-24 max-w-[1400px] px-8">
+      <section className="relative z-10 mx-auto mt-14 max-w-[1400px] px-4 md:mt-24 md:px-8">
         <div className="rule mb-6" />
         <h2 className="mb-8 font-display text-2xl text-vellum">Adjacent Pressure</h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -367,9 +367,10 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
 
   return (
     <div>
+      <div className="overflow-x-auto">
       <div
         className="relative overflow-hidden border border-border bg-umber/30"
-        style={{ height: 300 }}
+        style={{ height: 300, minWidth: 560 }}
       >
         {/* axis */}
         <div className="absolute inset-x-0 top-1/2 h-px bg-vellum/20" />
@@ -439,6 +440,7 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
             </div>
           );
         })}
+      </div>
       </div>
 
       <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 font-mono text-[10px] text-vellum-dim smallcaps">
