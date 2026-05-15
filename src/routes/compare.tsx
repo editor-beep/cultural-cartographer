@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { ARTIFACTS, AXES, type Artifact, type Metrics } from "@/data/artifacts";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { shareOverlayImage } from "@/lib/screenshot";
 
 const SLOT_COLORS = [
   { stroke: "var(--oxblood)", label: "A" },
@@ -30,6 +32,7 @@ export const Route = createFileRoute("/compare")({
 function Compare() {
   const { a, b, c } = Route.useSearch();
   const navigate = useNavigate();
+  const [sharing, setSharing] = useState(false);
 
   const slugs = [a, b, c] as (string | undefined)[];
   const artifacts = slugs.map((slug) =>
@@ -46,6 +49,15 @@ function Compare() {
 
   function copyLink() {
     navigator.clipboard?.writeText(window.location.href);
+  }
+
+  async function handleShareImage() {
+    setSharing(true);
+    try {
+      await shareOverlayImage(activeArtifacts);
+    } finally {
+      setSharing(false);
+    }
   }
 
   return (
@@ -123,12 +135,21 @@ function Compare() {
                   </div>
                 ))}
               </div>
-              <button
-                onClick={copyLink}
-                className="mt-6 smallcaps text-[10px] text-vellum-dim hover:text-vellum"
-              >
-                Copy link ↗
-              </button>
+              <div className="mt-6 flex items-center gap-5">
+                <button
+                  onClick={copyLink}
+                  className="smallcaps text-[10px] text-vellum-dim hover:text-vellum"
+                >
+                  Copy link ↗
+                </button>
+                <button
+                  onClick={handleShareImage}
+                  disabled={sharing}
+                  className="smallcaps text-[10px] text-vellum-dim hover:text-vellum disabled:opacity-40"
+                >
+                  {sharing ? "saving…" : "Share image ↗"}
+                </button>
+              </div>
             </div>
 
             {/* Delta table */}

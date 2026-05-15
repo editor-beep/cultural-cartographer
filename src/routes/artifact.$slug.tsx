@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction, type Metrics, type AxisKey } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { shareArtifactImage } from "@/lib/screenshot";
 
 type AxisBands = [string, string, string, string]; // subdued, present, elevated, extreme
 
@@ -134,9 +136,19 @@ function metricsDistance(a: Metrics, b: Metrics): number {
 
 function Dossier() {
   const { artifact: a } = Route.useLoaderData();
+  const [sharing, setSharing] = useState(false);
   const others = ARTIFACTS.filter((x) => x.slug !== a.slug)
     .sort((x, y) => metricsDistance(a.metrics, x.metrics) - metricsDistance(a.metrics, y.metrics))
     .slice(0, 3);
+
+  async function handleShare() {
+    setSharing(true);
+    try {
+      await shareArtifactImage(a.metrics, a.title, a.director, a.year);
+    } finally {
+      setSharing(false);
+    }
+  }
 
   return (
     <div className="relative min-h-screen">
@@ -156,6 +168,13 @@ function Dossier() {
             >
               Compare ↗
             </Link>
+            <button
+              onClick={handleShare}
+              disabled={sharing}
+              className="smallcaps text-[10px] text-vellum-dim hover:text-vellum disabled:opacity-40"
+            >
+              {sharing ? "saving…" : "Share ↗"}
+            </button>
             <div className="font-mono text-[10px] text-vellum-dim smallcaps">
               {a.catalogue} · acquired {a.year} · running time {a.runtime}m
             </div>
