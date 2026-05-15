@@ -3845,7 +3845,7 @@ type UserMovieRecord = GeneratedArtifact & {
   pos?: { x: number; y: number };
 };
 
-function adaptUserMovie(m: UserMovieRecord): Artifact {
+export function adaptUserMovie(m: UserMovieRecord): Artifact {
   const metrics = fillMetrics(m.metrics ?? {}, m.slug);
   const afterlife: AfterlifeEvent[] =
     m.afterlife && m.afterlife.length > 0
@@ -3911,5 +3911,12 @@ const userExtras: Artifact[] = (userMoviesRaw as unknown as UserMovieRecord[])
 
 export const ARTIFACTS: Artifact[] = [...CURATED, ...generatedExtras, ...userExtras];
 
+// Runtime cache for client-side user submissions (populated by UserFilmsProvider).
+// Allows getArtifact to resolve user-submitted films during SPA navigation.
+let _runtimeUserFilms: Artifact[] = [];
+export function setRuntimeUserFilms(films: Artifact[]): void {
+  _runtimeUserFilms = films;
+}
+
 export const getArtifact = (slug: string) =>
-  ARTIFACTS.find((a) => a.slug === slug);
+  ARTIFACTS.find((a) => a.slug === slug) ?? _runtimeUserFilms.find((a) => a.slug === slug);

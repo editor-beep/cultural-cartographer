@@ -7,6 +7,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useMemo } from "react";
+import { useUserFilms } from "@/lib/user-films-context";
 
 export const Route = createFileRoute("/directory")({
   component: Directory,
@@ -35,7 +37,12 @@ function sortKey(title: string): string {
 }
 
 function Directory() {
-  const sorted = [...ARTIFACTS]
+  const { userFilms } = useUserFilms();
+  const allArtifacts = useMemo(() => {
+    const known = new Set(ARTIFACTS.map((a) => a.slug));
+    return [...ARTIFACTS, ...userFilms.filter((u) => !known.has(u.slug))];
+  }, [userFilms]);
+  const sorted = [...allArtifacts]
     .map(
       (a): ArtifactListItem => ({
         slug: a.slug,

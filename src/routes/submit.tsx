@@ -1,7 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState } from "react";
 import type { MovieRecord } from "@/lib/green";
+import { useUserFilms } from "@/lib/user-films-context";
 
 export const Route = createFileRoute("/submit")({
   component: Submit,
@@ -39,6 +40,7 @@ function Submit() {
   const [status, setStatus] = useState<Status>("idle");
   const [result, setResult] = useState<MovieRecord | null>(null);
   const [errorMsg, setErrorMsg] = useState("");
+  const { addUserFilm } = useUserFilms();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -61,7 +63,9 @@ function Submit() {
         throw new Error((data as { error?: string }).error ?? `HTTP ${res.status}`);
       }
 
-      setResult(data as MovieRecord);
+      const record = data as MovieRecord;
+      addUserFilm(record);
+      setResult(record);
       setStatus("done");
     } catch (err) {
       setErrorMsg(err instanceof Error ? err.message : "Unknown error");
@@ -163,6 +167,15 @@ function Submit() {
                   "{result.epigraph}"
                 </p>
               )}
+              <div className="mt-4 flex gap-6 font-mono text-[10px] smallcaps">
+                <span className="text-oxblood">Added to the index ·</span>
+                <Link to="/" className="text-vellum-dim hover:text-vellum transition-colors">
+                  View on map →
+                </Link>
+                <Link to="/directory" className="text-vellum-dim hover:text-vellum transition-colors">
+                  View in directory →
+                </Link>
+              </div>
             </div>
 
             {/* Reading */}
