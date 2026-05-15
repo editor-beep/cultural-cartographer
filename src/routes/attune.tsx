@@ -6,6 +6,9 @@ import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 
 export const Route = createFileRoute("/attune")({
   component: Attune,
+  validateSearch: (search: Record<string, unknown>) => ({
+    v: typeof search.v === "string" ? search.v : undefined,
+  }),
   head: () => ({
     meta: [
       { title: "Attunement — The Artifact Index" },
@@ -323,9 +326,47 @@ function FilmPicker({
   );
 }
 
+function buildShareUrl(metrics: Metrics): string {
+  const values = AXES.map((ax) => metrics[ax.key]).join(",");
+  const base = typeof window !== "undefined" ? window.location.origin : "";
+  return `${base}/attune?v=${values}`;
+}
+
 function Attune() {
-  const [m, setM] = useState<Metrics>(DEFAULTS);
+  const { v } = Route.useSearch();
+
+  const [m, setM] = useState<Metrics>(() => {
+    if (!v) return DEFAULTS;
+    const parts = v.split(",");
+    if (parts.length !== AXES.length) return DEFAULTS;
+    const result = {} as Metrics;
+    for (let i = 0; i < AXES.length; i++) {
+      const val = parseInt(parts[i], 10);
+      if (isNaN(val) || val < 0 || val > 100) return DEFAULTS;
+      result[AXES[i].key] = val;
+    }
+    return result;
+  });
+
+  const [sharedFromUrl] = useState(() => Boolean(v));
+  const [copied, setCopied] = useState(false);
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
+
+  function handleCopyLink(metrics: Metrics) {
+    navigator.clipboard?.writeText(buildShareUrl(metrics));
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  function handleShareTwitter(metrics: Metrics, shapeName: string) {
+    const url = buildShareUrl(metrics);
+    const text = `My viewer shape: ${shapeName} — The Artifact Index`;
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
+      "_blank",
+      "noopener,noreferrer",
+    );
+  }
 
   const selectedFilms = useMemo(
     () =>
@@ -340,9 +381,12 @@ function Attune() {
     [selectedFilms],
   );
 
-  const viewerShape = useMemo(
-    () => (fingerprint ? describeViewerShape(fingerprint) : null),
-    [fingerprint],
+  // Also show the derived shape panel when the page was opened from a share link
+  const displayFingerprint = fingerprint ?? (sharedFromUrl ? m : null);
+
+  const displayViewerShape = useMemo(
+    () => (displayFingerprint ? describeViewerShape(displayFingerprint) : null),
+    [displayFingerprint],
   );
 
   // Active shape: fingerprint if films selected, else manual sliders
@@ -443,25 +487,42 @@ function Attune() {
 
             {/* Right: composite sigil + archetype */}
             <div>
-              {fingerprint && viewerShape ? (
+              {displayFingerprint && displayViewerShape ? (
                 <div className="sticky top-8 border border-vellum/10 bg-ink-deep/40 p-6">
                   <div className="smallcaps text-[10px] text-vellum-dim">Derived viewer shape</div>
                   <div className="mt-4 flex justify-center">
-                    <Sigil metrics={fingerprint} size={240} showLabels uid="taste-composite" animate={false} />
+                    <Sigil metrics={displayFingerprint} size={240} showLabels uid="taste-composite" animate={false} />
                   </div>
                   <div className="mt-5">
-                    <div className="font-display text-2xl text-vellum">{viewerShape.name}</div>
-                    <p className="mt-2 text-sm text-vellum/80">{viewerShape.description}</p>
+                    <div className="font-display text-2xl text-vellum">{displayViewerShape.name}</div>
+                    <p className="mt-2 text-sm text-vellum/80">{displayViewerShape.description}</p>
                     <p className="mt-4 font-mono text-[10px] text-vellum-dim">
-                      Center of gravity · {centerOfGravity(fingerprint)}
+                      Center of gravity · {centerOfGravity(displayFingerprint)}
                     </p>
                   </div>
                   <button
-                    onClick={() => setM(fingerprint)}
+                    onClick={() => setM(displayFingerprint)}
                     className="mt-5 w-full border border-vellum/20 py-2 font-display text-sm text-vellum-dim hover:bg-vellum/5 hover:text-vellum"
                   >
                     Transfer to manual inscription →
                   </button>
+                  <div className="mt-4 border-t border-vellum/10 pt-4">
+                    <div className="smallcaps mb-3 text-[10px] text-vellum-dim">Share shape</div>
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => handleShareTwitter(displayFingerprint, displayViewerShape.name)}
+                        className="flex-1 border border-vellum/20 py-2 font-display text-sm text-vellum-dim hover:bg-vellum/5 hover:text-vellum"
+                      >
+                        Post to X ↗
+                      </button>
+                      <button
+                        onClick={() => handleCopyLink(displayFingerprint)}
+                        className="flex-1 border border-vellum/20 py-2 font-display text-sm text-vellum-dim hover:bg-vellum/5 hover:text-vellum"
+                      >
+                        {copied ? "Copied ✓" : "Copy link ↗"}
+                      </button>
+                    </div>
+                  </div>
                 </div>
               ) : (
                 <div className="sticky top-8 border border-vellum/5 bg-ink-deep/20 p-6">
