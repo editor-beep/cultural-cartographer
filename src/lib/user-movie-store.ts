@@ -25,10 +25,8 @@ function loadFromPath(path: string): MovieRecord[] {
 }
 
 export function loadUserMovies(): MovieRecord[] {
-  const primaryMovies = loadFromPath(PRIMARY_STORE_PATH);
-  if (primaryMovies.length > 0) return primaryMovies;
-  const fallbackMovies = loadFromPath(FALLBACK_STORE_PATH);
-  if (fallbackMovies.length > 0) return fallbackMovies;
+  if (existsSync(PRIMARY_STORE_PATH)) return loadFromPath(PRIMARY_STORE_PATH);
+  if (existsSync(FALLBACK_STORE_PATH)) return loadFromPath(FALLBACK_STORE_PATH);
   return [];
 }
 
@@ -49,7 +47,8 @@ export function saveUserMovie(record: MovieRecord): void {
       writeFileSync(PRIMARY_STORE_PATH, serialized);
       return;
     }
-  } catch {
+  } catch (error) {
+    console.warn("Primary user movie store write failed, using fallback path", error);
     // fall through to fallback write below
   }
 
