@@ -29,6 +29,11 @@ type ArtifactListItem = {
   catalogue: string;
 };
 
+// Returns the title with leading articles ("a", "an", "the") stripped for sorting.
+function sortKey(title: string): string {
+  return title.replace(/^(the|an?)\s+/i, "").trim();
+}
+
 function Directory() {
   const sorted = [...ARTIFACTS]
     .map(
@@ -40,10 +45,10 @@ function Directory() {
         catalogue: a.catalogue,
       }),
     )
-    .sort((a, b) => a.title.localeCompare(b.title));
+    .sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title)));
 
   const grouped = sorted.reduce<Record<string, ArtifactListItem[]>>((acc, item) => {
-    const first = item.title.trim().charAt(0).toUpperCase();
+    const first = sortKey(item.title).charAt(0).toUpperCase();
     const key = /^[A-Z]$/.test(first) ? first : "#";
     acc[key] ??= [];
     acc[key].push(item);
