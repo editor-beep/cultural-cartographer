@@ -76,7 +76,9 @@ function persistToFrontendArtifacts(record: MovieRecord): void {
   let frontend: FrontendArtifactsFile = { generatedAt: new Date().toISOString(), artifacts: [] };
   if (existsSync(FRONTEND_ARTIFACTS_PATH)) {
     try {
-      frontend = JSON.parse(readFileSync(FRONTEND_ARTIFACTS_PATH, "utf-8")) as FrontendArtifactsFile;
+      frontend = JSON.parse(
+        readFileSync(FRONTEND_ARTIFACTS_PATH, "utf-8"),
+      ) as FrontendArtifactsFile;
     } catch {
       frontend = { generatedAt: new Date().toISOString(), artifacts: [] };
     }
