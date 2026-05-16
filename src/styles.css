@@ -41,6 +41,10 @@
   --color-vellum-dim: var(--vellum-dim);
   --color-oxblood: var(--oxblood);
   --color-oxblood-dim: var(--oxblood-dim);
+  --color-medium-film: var(--medium-film);
+  --color-medium-tv: var(--medium-tv);
+  --color-medium-book: var(--medium-book);
+  --color-medium-album: var(--medium-album);
 
   --font-display: "Cormorant Garamond", "Times New Roman", serif;
   --font-body: "Inter Tight", system-ui, sans-serif;
@@ -57,6 +61,12 @@
   --vellum-dim: oklch(0.62 0.04 75);
   --oxblood: oklch(0.42 0.13 25);
   --oxblood-dim: oklch(0.32 0.09 25);
+
+  /* Medium type colors */
+  --medium-film: oklch(0.52 0.14 25);    /* crimson */
+  --medium-tv: oklch(0.52 0.11 225);     /* steel blue */
+  --medium-book: oklch(0.60 0.12 80);    /* amber */
+  --medium-album: oklch(0.52 0.10 165);  /* verdigris */
 
   --background: var(--ink);
   --foreground: var(--vellum);

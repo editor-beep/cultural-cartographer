@@ -1,8 +1,24 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ARTIFACTS } from "@/data/artifacts";
+import { ARTIFACTS, type Medium } from "@/data/artifacts";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState, useMemo } from "react";
 import { useUserFilms } from "@/lib/user-films-context";
+
+const MEDIUM_COLOR: Record<Medium, string> = {
+  film: "var(--medium-film)",
+  tv: "var(--medium-tv)",
+  book: "var(--medium-book)",
+  album: "var(--medium-album)",
+};
+
+const MEDIUM_LABEL: Record<Medium, string> = {
+  film: "Film",
+  tv: "Television",
+  book: "Book",
+  album: "Album",
+};
+
+const ALL_MEDIA: Medium[] = ["film", "tv", "book", "album"];
 
 export const Route = createFileRoute("/")({
   component: Atlas,
@@ -113,6 +129,7 @@ function Atlas() {
           {allArtifacts.map((a) => {
             const dotSize = 6 + Math.round(a.metrics.obsession * 0.06);
             const labelAbove = a.pos.y > 0.55;
+            const medium = a.medium ?? "film";
             return (
               <Link
                 key={a.slug}
@@ -128,8 +145,8 @@ function Atlas() {
                 }}
               >
                 <div
-                  className="rounded-full bg-oxblood opacity-50 transition-opacity duration-300 group-hover:opacity-100"
-                  style={{ width: dotSize, height: dotSize }}
+                  className="rounded-full opacity-50 transition-opacity duration-300 group-hover:opacity-100"
+                  style={{ width: dotSize, height: dotSize, backgroundColor: MEDIUM_COLOR[medium] }}
                 />
                 <div
                   className={
@@ -151,7 +168,17 @@ function Atlas() {
 
         <div className="mt-3 flex items-center justify-between font-mono text-[10px] text-vellum-dim smallcaps">
           <div>Position seeded by metric vector · clusters indicate shared pressure shape</div>
-          <div>Click to read</div>
+          <div className="flex items-center gap-4">
+            {ALL_MEDIA.map((m) => (
+              <div key={m} className="flex items-center gap-1.5">
+                <div
+                  className="h-2 w-2 rounded-full"
+                  style={{ backgroundColor: MEDIUM_COLOR[m] }}
+                />
+                <span>{MEDIUM_LABEL[m]}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

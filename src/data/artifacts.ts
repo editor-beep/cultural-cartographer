@@ -39,6 +39,8 @@ export type Faction = {
   voice: string;
 };
 
+export type Medium = "film" | "tv" | "book" | "album";
+
 export type Artifact = {
   slug: string;
   title: string;
@@ -53,6 +55,7 @@ export type Artifact = {
   afterlife: AfterlifeEvent[];
   factions: Faction[];
   symbols: string[];
+  medium?: Medium;
   // Atlas placement (0..1 normalized in dark field)
   pos: { x: number; y: number };
 };
