@@ -9,7 +9,7 @@ export const Route = createFileRoute("/evidence")({
       {
         name: "description",
         content:
-          "How The Pressure pipeline identifies, categorizes, and validates artifacts of impact across the Nine Axes.",
+          "How The Pressure pipeline identifies, categorizes, and validates artifacts of impact across the Thirteen Axes.",
       },
     ],
   }),

@@ -91,7 +91,7 @@ function Submit() {
             <p className="mt-6 max-w-xl font-display text-lg italic leading-relaxed text-vellum-dim">
               The green scrapes the open record of how a film is actually
               held — critic prose, audience admissions, diaristic residue —
-              and returns a reading across the nine axes.
+              and returns a reading across the thirteen axes.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ function Submit() {
             <div className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[10px] text-vellum-dim smallcaps">
               <div>Method · green v1</div>
               <div>Model · Gemini 2.5 Pro</div>
-              <div>Output · nine axes</div>
+              <div>Output · thirteen axes</div>
               <div>Storage · user-movies.json</div>
             </div>
           </div>
@@ -197,7 +197,7 @@ function Submit() {
                 <Sigil metrics={result.metrics} size={220} uid={result.slug} />
               </div>
               <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
-                Nine Axes
+                Thirteen Axes
               </div>
               <ul className="space-y-2">
                 {Object.entries(result.metrics).map(([key, val]) => (
