@@ -3,6 +3,7 @@ import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState } from "react";
 import type { MovieRecord } from "@/lib/green";
 import { useUserFilms } from "@/lib/user-films-context";
+import { Sigil } from "@/components/Sigil";
 
 export const Route = createFileRoute("/submit")({
   component: Submit,
@@ -192,6 +193,9 @@ function Submit() {
 
             {/* Metrics */}
             <div className="col-span-12 md:col-span-5">
+              <div className="flex justify-center mb-6">
+                <Sigil metrics={result.metrics} size={220} uid={result.slug} />
+              </div>
               <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
                 Nine Axes
               </div>
