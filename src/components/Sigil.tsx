@@ -154,14 +154,6 @@ export function Sigil({
         }
       />
 
-      {/* vertex marks */}
-      {points.map((p, i) => (
-        <g key={`v-${i}`}>
-          <circle cx={p.x} cy={p.y} r={1.6} fill="var(--vellum)" />
-          <circle cx={p.x} cy={p.y} r={3} fill="none" stroke="var(--vellum)" strokeOpacity="0.4" strokeWidth="0.5" />
-        </g>
-      ))}
-
       {/* inner seal */}
       <circle cx={cx} cy={cy} r={innerR} fill="var(--ink)" stroke="var(--vellum)" strokeOpacity="0.4" strokeWidth="0.5" />
       <circle cx={cx} cy={cy} r={innerR * 0.45} fill="var(--oxblood)" />
