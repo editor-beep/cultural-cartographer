@@ -29,6 +29,7 @@
           "year": { "type": "integer" },
           "director": { "type": "string" },
           "runtime": { "type": "integer" },
+          "medium": { "type": "string", "enum": ["film", "tv", "book", "album"] },
           "catalogue": { "type": "string" },
           "metrics": {
             "type": "object",

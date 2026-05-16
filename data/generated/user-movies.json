@@ -1,1 +1,256 @@
-[]
+[
+  {
+    "slug": "severance",
+    "title": "Severance",
+    "year": 2022,
+    "director": "Dan Erickson",
+    "runtime": 52,
+    "medium": "tv",
+    "catalogue": "TV-001",
+    "epigraph": "We hope your time here will be a welcome reprieve from the problems of your personal life.",
+    "reading": "Severance arrived in 2022 as the most precise corporate-dread object the culture had produced since the pandemic reorganized how people relate to work. Its central conceit \u2014 a surgical procedure that cleaves an employee's work memories from their outside life \u2014 is so clean and so terrible that it lodged immediately. The show's production design, Ben Stiller's glacially patient direction, and the ensemble's commitment to deadpan dissociation produced a viewing experience that felt like being trapped inside a Kafka story that occasionally contained very good jokes. The discourse is dominated by theory, by the question of whether the 'outies' should feel guilt for their 'innies,' and by grief for what the series withholds. It is the rare genre work that turns workplace alienation into something that approaches the uncanny.",
+    "metrics": {
+      "consensus": 75,
+      "friction": 72,
+      "obsession": 88,
+      "haunting": 86,
+      "symbolic": 90,
+      "cult": 80,
+      "formal": 88,
+      "voltage": 82,
+      "accessibility": 72,
+      "reach": 84,
+      "progeny": 50,
+      "arc": 68,
+      "transgression": 70
+    },
+    "notes": {
+      "symbolic": "The severed floor as pure corporate logic made spatial \u2014 no windows, no clocks, no exit.",
+      "formal": "Each episode is constructed around withheld information; the form mirrors the premise.",
+      "haunting": "The 'innie/outie' structure produces a recursive horror: which self is watching the show?"
+    },
+    "afterlife": [
+      {
+        "year": 2022,
+        "kind": "release",
+        "label": "Apple TV+ premiere; immediate critical and audience surge."
+      },
+      {
+        "year": 2022,
+        "kind": "academic",
+        "label": "The 'work-life separation' reading becomes primary lens in think-piece discourse."
+      },
+      {
+        "year": 2023,
+        "kind": "meme",
+        "label": "The Lumon wellness sessions become shorthand for corporate wellness theatre."
+      },
+      {
+        "year": 2025,
+        "kind": "rediscovery",
+        "label": "Season 2 arrives; discourse intensifies around the nature of the ending."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Theory Machine",
+        "share": 0.45,
+        "voice": "Every frame is a clue. The map is real. Lumon is hiding something foundational."
+      },
+      {
+        "name": "The Grief Viewers",
+        "share": 0.3,
+        "voice": "The innie/outie dynamic is one of the most genuinely sad things on television."
+      },
+      {
+        "name": "The Skeptics of the Slow",
+        "share": 0.25,
+        "voice": "It's gorgeous and I respect it but the pace is a choice I'm not sure the story earns."
+      }
+    ],
+    "symbols": [
+      "the severed floor",
+      "the wellness session",
+      "the goats",
+      "the waffle party",
+      "the handbook"
+    ],
+    "pos": {
+      "x": 0.38,
+      "y": 0.42
+    }
+  },
+  {
+    "slug": "twin-peaks-the-return",
+    "title": "Twin Peaks: The Return",
+    "year": 2017,
+    "director": "David Lynch",
+    "runtime": 60,
+    "medium": "tv",
+    "catalogue": "TV-002",
+    "epigraph": "I am the FBI.",
+    "reading": "Twin Peaks: The Return is the most formally radical work ever broadcast on American television \u2014 a statement that becomes less hyperbolic the longer it sits. Lynch returned to the franchise not to close it but to shatter its container entirely. Part 8, which suspends narrative for twenty minutes of avant-garde cinema set to Nine Inch Nails and depicts the atomic origins of evil as a kind of cosmic exhalation, stands as one of the most singular hours in the history of moving images. The revival's ending \u2014 which refuses resolution, loops backward, and leaves its protagonist suspended in a recursion that may be infinite \u2014 prompted a rupture in the audience that has never healed. Some experienced it as abandonment; others as the most honest finale imaginable, a refusal to pretend that grief and trauma resolve. The Return is not a television show. It is a cinema-length experience that happened to air on Showtime in eighteen installments.",
+    "metrics": {
+      "consensus": 35,
+      "friction": 96,
+      "obsession": 93,
+      "haunting": 99,
+      "symbolic": 97,
+      "cult": 95,
+      "formal": 99,
+      "voltage": 96,
+      "accessibility": 8,
+      "reach": 65,
+      "progeny": 72,
+      "arc": 80,
+      "transgression": 98
+    },
+    "notes": {
+      "consensus": "The lowest consensus in the index \u2014 genuinely no shared account of what the work is.",
+      "formal": "Part 8 alone justifies a 99. Nothing on broadcast television has attempted this.",
+      "accessibility": "Requires: original series, Fire Walk With Me, tolerance for extended abstraction.",
+      "transgression": "Violates every convention of the sequel, the revival, and the finale simultaneously."
+    },
+    "afterlife": [
+      {
+        "year": 2017,
+        "kind": "release",
+        "label": "Showtime premiere; Part 8 immediately ruptures the discourse."
+      },
+      {
+        "year": 2017,
+        "kind": "rejection",
+        "label": "Mainstream audiences exit after Part 8; ratings collapse."
+      },
+      {
+        "year": 2018,
+        "kind": "academic",
+        "label": "Film studies journals begin treating it as a cinema object, not a TV show."
+      },
+      {
+        "year": 2019,
+        "kind": "rediscovery",
+        "label": "Re-evaluation consolidates; 'The Return is his masterpiece' becomes a defensible position."
+      },
+      {
+        "year": 2022,
+        "kind": "academic",
+        "label": "Part 8 enters academic syllabi as a case study in broadcast avant-garde."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Faithful",
+        "share": 0.35,
+        "voice": "It is a masterpiece. Every choice is the correct choice. The ending is the only possible ending."
+      },
+      {
+        "name": "The Abandoned",
+        "share": 0.4,
+        "voice": "He gave us eighteen hours and then took Cooper away again. That is not a gift."
+      },
+      {
+        "name": "The Formalists",
+        "share": 0.25,
+        "voice": "Part 8 is the only text here. The rest is scaffolding."
+      }
+    ],
+    "symbols": [
+      "the glass box",
+      "the purple sea",
+      "the woodsmen",
+      "the Fireman",
+      "the atomic test"
+    ],
+    "pos": {
+      "x": 0.12,
+      "y": 0.18
+    }
+  },
+  {
+    "slug": "pushing-daisies",
+    "title": "Pushing Daisies",
+    "year": 2007,
+    "director": "Bryan Fuller",
+    "runtime": 43,
+    "medium": "tv",
+    "catalogue": "TV-003",
+    "epigraph": "He could touch them once to wake them, and once to kill them again.",
+    "reading": "Pushing Daisies is a cult object defined by its cancellation. Bryan Fuller constructed something so formally distinctive \u2014 a candy-colored, death-saturated fairy tale with a literary narrator and a visual grammar borrowed equally from Amelie and Edward Scissorhands \u2014 that ABC could neither market it properly nor let it breathe. Two seasons and a mid-sentence ending produced the kind of frozen longing that is specific to cancelled television: the grief is not for what the show was but for what it would have been. The devotion it attracted is disproportionate to its audience size; it is one of those works that found exactly its people, who in turn feel they discovered something private. Fuller's subsequent output \u2014 Hannibal, American Gods \u2014 has brought successive waves back to Pushing Daisies, where they encounter a show that has not aged but that the world was never ready for.",
+    "metrics": {
+      "consensus": 68,
+      "friction": 38,
+      "obsession": 72,
+      "haunting": 65,
+      "symbolic": 62,
+      "cult": 92,
+      "formal": 80,
+      "voltage": 70,
+      "accessibility": 82,
+      "reach": 55,
+      "progeny": 65,
+      "arc": 52,
+      "transgression": 48
+    },
+    "notes": {
+      "cult": "Canonical cancelled-too-soon cult object. The incompleteness is the wound.",
+      "formal": "The visual grammar is entirely its own \u2014 no other show has successfully cloned it.",
+      "arc": "Its cultural arc is frozen at the cancellation. No revival has arrived to reopen it."
+    },
+    "afterlife": [
+      {
+        "year": 2007,
+        "kind": "release",
+        "label": "ABC premiere; strong initial response, complex scheduling problems follow."
+      },
+      {
+        "year": 2008,
+        "kind": "wound",
+        "label": "Writer's strike disrupts Season 1; ratings never fully recover."
+      },
+      {
+        "year": 2009,
+        "kind": "wound",
+        "label": "ABC cancels mid-storyline after two seasons. The pie-maker's story ends unresolved."
+      },
+      {
+        "year": 2013,
+        "kind": "rediscovery",
+        "label": "Hannibal premiere triggers Pushing Daisies reappraisal as Fuller's visionary debut."
+      },
+      {
+        "year": 2019,
+        "kind": "meme",
+        "label": "Revival rumors circulate; Fuller confirms the desire but no deal materializes."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Devastated",
+        "share": 0.55,
+        "voice": "It was the most original thing on television and they killed it. I am still not over it."
+      },
+      {
+        "name": "The Latecomer Converts",
+        "share": 0.3,
+        "voice": "I found it on streaming years later and watched it in a weekend. Nothing has filled that hole."
+      },
+      {
+        "name": "The Aesthetic Objectors",
+        "share": 0.15,
+        "voice": "The sugar-coating keeps me at arm's length. I admire it but cannot love it."
+      }
+    ],
+    "symbols": [
+      "the pie",
+      "the touch",
+      "the dandelion yellow",
+      "the aunts",
+      "the private eye"
+    ],
+    "pos": {
+      "x": 0.72,
+      "y": 0.68
+    }
+  }
+]

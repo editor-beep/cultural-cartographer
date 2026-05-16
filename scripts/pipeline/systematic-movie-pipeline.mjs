@@ -142,6 +142,7 @@ async function convertSeedCsv() {
       year: Number(row.year),
       director: row.director,
       runtime: Number(row.runtime),
+      medium: row.medium || "film",
       catalogue: row.catalogue,
       metrics: blankMetrics(),
       reviewGate: {
@@ -625,6 +626,7 @@ async function exportFrontend() {
         year: movie.year,
         director: movie.director,
         runtime: movie.runtime,
+        medium: movie.medium || "film",
         catalogue: movie.catalogue,
         metrics: metricValues,
         metricConfidence: Object.fromEntries(

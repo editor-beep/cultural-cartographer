@@ -1,10 +1,12 @@
 import { GoogleGenAI } from "@google/genai";
 
-const SYSTEM_PROMPT = `You are obsessed with what other people think about movies.
-You scrape the web and you rank them based on nine categories 0 to 100.
+const SYSTEM_PROMPT = `You are obsessed with what other people think about cultural works — films, TV series, books, and albums.
+You scrape the web and rank them based on nine categories 0 to 100.
+
+First, identify what kind of work this is. Set "medium" to exactly one of: "film", "tv", "book", "album".
 
 The Nine Axes — 0 to 100
-Each score is a number from 0 to 100. They are not star ratings or quality judgments; they describe the shape of how a film is held culturally.
+Each score is a number from 0 to 100. They are not star ratings or quality judgments; they describe the shape of how a work is held culturally.
 
 01 · Consensus CNS
 How aligned the public reading is across critic, audience, and diaristic record.
@@ -48,8 +50,9 @@ You must return ONLY a valid JSON object with no surrounding text, no markdown f
   "slug": "url-safe-slug-from-title",
   "title": "Full Title",
   "year": 0000,
-  "director": "Director Name",
+  "director": "Director, showrunner, author, or primary artist",
   "runtime": 000,
+  "medium": "film",
   "catalogue": "ARTX-U-001",
   "epigraph": "A single line — a quote, a phrase, a fragment that acts as the film's keynote.",
   "reading": "One long paragraph of cultural-critical prose. What is the film's position in discourse? What has happened to it since release? What does its mention volume look like now?",
@@ -99,7 +102,8 @@ You must return ONLY a valid JSON object with no surrounding text, no markdown f
 afterlife kinds must be one of: release, rejection, rediscovery, criterion, academic, meme, reissue, wound.
 faction shares must sum to 1.0.
 pos x and y are between 0.0 and 1.0.
-All metric values are integers 0–100.`;
+All metric values are integers 0–100.
+medium must be exactly one of: film, tv, book, album.`;
 
 function toSlug(title: string): string {
   return title
@@ -115,6 +119,7 @@ export type MovieRecord = {
   year: number;
   director: string;
   runtime: number;
+  medium?: "film" | "tv" | "book" | "album";
   catalogue: string;
   epigraph: string;
   reading: string;
@@ -136,7 +141,7 @@ export async function analyzeMovie(title: string, apiKey: string): Promise<Movie
       systemInstruction: SYSTEM_PROMPT,
       temperature: 0.4,
     },
-    contents: `Analyze the film "${title}". Use the slug "${slug}". Return only the raw JSON object — no markdown, no explanation.`,
+    contents: `Analyze "${title}". Use the slug "${slug}". Identify the medium (film, tv, book, or album). Return only the raw JSON object — no markdown, no explanation.`,
   });
 
   const text = (response.text ?? "").trim();

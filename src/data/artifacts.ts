@@ -67,6 +67,7 @@ const CURATED: Artifact[] = [
     year: 1992,
     director: "David Lynch",
     runtime: 134,
+    medium: "film",
     catalogue: "ARTX-001",
     epigraph: "Through the darkness of futures past, the magician longs to see.",
     reading:
@@ -113,6 +114,7 @@ const CURATED: Artifact[] = [
     year: 2001,
     director: "David Lynch",
     runtime: 147,
+    medium: "film",
     catalogue: "ARTX-002",
     epigraph: "It is a strange world.",
     reading:
@@ -155,6 +157,7 @@ const CURATED: Artifact[] = [
     year: 2018,
     director: "Ari Aster",
     runtime: 127,
+    medium: "film",
     catalogue: "ARTX-003",
     epigraph: "I am your mother.",
     reading:
@@ -198,6 +201,7 @@ const CURATED: Artifact[] = [
     year: 1982,
     director: "John Carpenter",
     runtime: 109,
+    medium: "film",
     catalogue: "ARTX-040",
     epigraph: "Watch Clark.",
     reading:
@@ -241,6 +245,7 @@ const CURATED: Artifact[] = [
     year: 2023,
     director: "Greta Gerwig",
     runtime: 114,
+    medium: "film",
     catalogue: "ARTX-041",
     epigraph: "She's everything. He's just Ken.",
     reading:
@@ -283,6 +288,7 @@ const CURATED: Artifact[] = [
     year: 1977,
     director: "David Lynch",
     runtime: 89,
+    medium: "film",
     catalogue: "ARTX-033",
     epigraph: "In Heaven, everything is fine.",
     reading:
@@ -325,6 +331,7 @@ const CURATED: Artifact[] = [
     year: 1993,
     director: "Harold Ramis",
     runtime: 101,
+    medium: "film",
     catalogue: "ARTX-034",
     epigraph: "What would you do if you were stuck in one place?",
     reading:
@@ -367,6 +374,7 @@ const CURATED: Artifact[] = [
     year: 2008,
     director: "Charlie Kaufman",
     runtime: 124,
+    medium: "film",
     catalogue: "ARTX-004",
     epigraph: "The Infinite System.",
     reading:
@@ -411,6 +419,7 @@ const CURATED: Artifact[] = [
     year: 2000,
     director: "Wong Kar-wai",
     runtime: 98,
+    medium: "film",
     catalogue: "ARTX-005",
     epigraph: "It is a restless moment.",
     reading:
@@ -453,6 +462,7 @@ const CURATED: Artifact[] = [
     year: 1979,
     director: "Andrei Tarkovsky",
     runtime: 162,
+    medium: "film",
     catalogue: "ARTX-006",
     epigraph: "Let everything that's been planned come true.",
     reading:
@@ -494,6 +504,7 @@ const CURATED: Artifact[] = [
     year: 2023,
     director: "Martin Scorsese",
     runtime: 206,
+    medium: "film",
     catalogue: "ARTX-007",
     epigraph: "Can you find the wolves in this picture?",
     reading:
@@ -533,6 +544,7 @@ const CURATED: Artifact[] = [
     year: 2012,
     director: "Paul Thomas Anderson",
     runtime: 137,
+    medium: "film",
     catalogue: "ARTX-008",
     epigraph: "Free winds and no tyranny for you, Freddie, sailor of the seas.",
     reading:
@@ -574,6 +586,7 @@ const CURATED: Artifact[] = [
     year: 2018,
     director: "Alex Garland",
     runtime: 115,
+    medium: "film",
     catalogue: "ARTX-009",
     epigraph: "It's not destroying. It's making something new.",
     reading:
@@ -613,6 +626,7 @@ const CURATED: Artifact[] = [
     year: 1981,
     director: "Andrzej Żuławski",
     runtime: 124,
+    medium: "film",
     catalogue: "ARTX-010",
     epigraph: "I cannot exist by myself because I am afraid of myself.",
     reading:
@@ -657,6 +671,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "Stanley Kubrick",
     runtime: 159,
+    medium: "film",
     catalogue: "ARTX-011",
     epigraph: "No dream is ever just a dream.",
     reading:
@@ -697,6 +712,7 @@ const CURATED: Artifact[] = [
     year: 2022,
     director: "Todd Field",
     runtime: 158,
+    medium: "film",
     catalogue: "ARTX-012",
     epigraph: "Time is the thing.",
     reading:
@@ -738,6 +754,7 @@ const CURATED: Artifact[] = [
     year: 1985,
     director: "Richard Donner",
     runtime: 114,
+    medium: "film",
     catalogue: "ARTX-031",
     epigraph: "Goonies never say die.",
     reading:
@@ -780,6 +797,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "David Fincher",
     runtime: 139,
+    medium: "film",
     catalogue: "ARTX-032",
     epigraph: "It's only after we've lost everything that we're free to do anything.",
     reading:
@@ -822,6 +840,7 @@ const CURATED: Artifact[] = [
     year: 2013,
     director: "Jonathan Glazer",
     runtime: 108,
+    medium: "film",
     catalogue: "ARTX-042",
     epigraph: "The Biological Black Hole.",
     reading:
@@ -865,6 +884,7 @@ const CURATED: Artifact[] = [
     year: 2013,
     director: "James Ward Byrkit",
     runtime: 89,
+    medium: "film",
     catalogue: "ARTX-045",
     epigraph: "The Low-Budget Mirror to Primer.",
     reading:
@@ -908,6 +928,7 @@ const CURATED: Artifact[] = [
     year: 2019,
     director: "Robert Eggers",
     runtime: 109,
+    medium: "film",
     catalogue: "ARTX-046",
     epigraph: "The High-Friction Myth.",
     reading:
@@ -951,6 +972,7 @@ const CURATED: Artifact[] = [
     year: 2010,
     director: "Panos Cosmatos",
     runtime: 110,
+    medium: "film",
     catalogue: "ARTX-047",
     epigraph: "The Aesthetic Virus.",
     reading:
@@ -994,6 +1016,7 @@ const CURATED: Artifact[] = [
     year: 1997,
     director: "Paul Verhoeven",
     runtime: 129,
+    medium: "film",
     catalogue: "ARTX-043",
     epigraph: "Would you like to know more?",
     reading:
@@ -1036,6 +1059,7 @@ const CURATED: Artifact[] = [
     year: 2009,
     director: "Karyn Kusama",
     runtime: 102,
+    medium: "film",
     catalogue: "ARTX-044",
     epigraph: "Hell is a teenage girl.",
     reading:
@@ -1078,6 +1102,7 @@ const CURATED: Artifact[] = [
     year: 2002,
     director: "Steven Shainberg",
     runtime: 111,
+    medium: "film",
     catalogue: "ARTX-035",
     epigraph: "A Subversive Anchor.",
     reading:
@@ -1120,6 +1145,7 @@ const CURATED: Artifact[] = [
     year: 2001,
     director: "Richard Kelly",
     runtime: 113,
+    medium: "film",
     catalogue: "ARTX-036",
     epigraph: "Teenage Symbolic Singularity.",
     reading:
@@ -1162,6 +1188,7 @@ const CURATED: Artifact[] = [
     year: 2007,
     director: "Joel Coen, Ethan Coen",
     runtime: 122,
+    medium: "film",
     catalogue: "ARTX-037",
     epigraph: "Nihilistic Monolith.",
     reading:
@@ -1204,6 +1231,7 @@ const CURATED: Artifact[] = [
     year: 2012,
     director: "Quentin Tarantino",
     runtime: 165,
+    medium: "film",
     catalogue: "ARTX-038",
     epigraph: "High-Heat Lightning Rod.",
     reading:
@@ -1246,6 +1274,7 @@ const CURATED: Artifact[] = [
     year: 2014,
     director: "Paul Thomas Anderson",
     runtime: 148,
+    medium: "film",
     catalogue: "ARTX-039",
     epigraph: "The Fog Machine.",
     reading:
@@ -1288,6 +1317,7 @@ const CURATED: Artifact[] = [
     year: 1980,
     director: "Stanley Kubrick",
     runtime: 144,
+    medium: "film",
     catalogue: "ARTX-031",
     epigraph: "The Permanent Architectural Structure.",
     reading:
@@ -1332,6 +1362,7 @@ const CURATED: Artifact[] = [
     year: 1988,
     director: "Tim Burton",
     runtime: 92,
+    medium: "film",
     catalogue: "ARTX-053",
     epigraph: "The Netherworld Waiting Room.",
     reading:
@@ -1374,6 +1405,7 @@ const CURATED: Artifact[] = [
     year: 1998,
     director: "Joel Coen & Ethan Coen",
     runtime: 117,
+    medium: "film",
     catalogue: "ARTX-054",
     epigraph: "The Social Tool.",
     reading:
@@ -1418,6 +1450,7 @@ const CURATED: Artifact[] = [
     year: 2019,
     director: "Bong Joon-ho",
     runtime: 132,
+    medium: "film",
     catalogue: "ARTX-035",
     epigraph: "The Global Connector.",
     reading:
@@ -1461,6 +1494,7 @@ const CURATED: Artifact[] = [
     year: 1997,
     director: "Michael Haneke",
     runtime: 108,
+    medium: "film",
     catalogue: "ARTX-055",
     epigraph: "The Rigged Contract.",
     reading:
@@ -1505,6 +1539,7 @@ const CURATED: Artifact[] = [
     year: 2001,
     director: "Wes Anderson",
     runtime: 110,
+    medium: "film",
     catalogue: "ARTX-056",
     epigraph: "The Protective Dollhouse.",
     reading:
@@ -1548,6 +1583,7 @@ const CURATED: Artifact[] = [
     year: 2001,
     director: "Joel Coen & Ethan Coen",
     runtime: 116,
+    medium: "film",
     catalogue: "ARTX-057",
     epigraph: "The Invisible Protagonist.",
     reading:
@@ -1591,6 +1627,7 @@ const CURATED: Artifact[] = [
     year: 2009,
     director: "Joel Coen & Ethan Coen",
     runtime: 106,
+    medium: "film",
     catalogue: "ARTX-058",
     epigraph: "Receive with Simplicity Everything.",
     reading:
@@ -1634,6 +1671,7 @@ const CURATED: Artifact[] = [
     year: 2004,
     director: "Shane Carruth",
     runtime: 77,
+    medium: "film",
     catalogue: "ARTX-059",
     epigraph: "The Cryptographic Puzzle.",
     reading:
@@ -1678,6 +1716,7 @@ const CURATED: Artifact[] = [
     year: 1968,
     director: "Stanley Kubrick",
     runtime: 149,
+    medium: "film",
     catalogue: "ARTX-048",
     epigraph: "The Unauthorized Mental Install.",
     reading:
@@ -1723,6 +1762,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "Daniel Myrick & Eduardo Sánchez",
     runtime: 81,
+    medium: "film",
     catalogue: "ARTX-049",
     epigraph: "The Nothingness in the Woods.",
     reading:
@@ -1768,6 +1808,7 @@ const CURATED: Artifact[] = [
     year: 2019,
     director: "Céline Sciamma",
     runtime: 122,
+    medium: "film",
     catalogue: "ARTX-050",
     epigraph: "The Burning Gaze.",
     reading:
@@ -1811,6 +1852,7 @@ const CURATED: Artifact[] = [
     year: 2022,
     director: "Zach Cregger",
     runtime: 102,
+    medium: "film",
     catalogue: "ARTX-051",
     epigraph: "The Rupture at Minute Forty.",
     reading:
@@ -1855,6 +1897,7 @@ const CURATED: Artifact[] = [
     year: 2006,
     director: "Mike Judge",
     runtime: 84,
+    medium: "film",
     catalogue: "ARTX-052",
     epigraph: "The Prophetic Inversion.",
     reading:
@@ -1903,6 +1946,7 @@ const CURATED: Artifact[] = [
     year: 1966,
     director: "Ingmar Bergman",
     runtime: 85,
+    medium: "film",
     catalogue: "ARTX-053",
     epigraph: "All the anxiety we bear with us, all our thwarted dreams, the incomprehensible cruelty, our fear of extinction.",
     reading:
@@ -1933,6 +1977,7 @@ const CURATED: Artifact[] = [
     year: 1957,
     director: "Ingmar Bergman",
     runtime: 96,
+    medium: "film",
     catalogue: "ARTX-054",
     epigraph: "I want knowledge, not faith — not surmise, but knowledge.",
     reading:
@@ -1962,6 +2007,7 @@ const CURATED: Artifact[] = [
     year: 1957,
     director: "Ingmar Bergman",
     runtime: 91,
+    medium: "film",
     catalogue: "ARTX-055",
     epigraph: "I discovered that I was dead.",
     reading:
@@ -1990,6 +2036,7 @@ const CURATED: Artifact[] = [
     year: 1960,
     director: "Jean-Luc Godard",
     runtime: 90,
+    medium: "film",
     catalogue: "ARTX-056",
     epigraph: "After all, I'm an asshole.",
     reading:
@@ -2019,6 +2066,7 @@ const CURATED: Artifact[] = [
     year: 1959,
     director: "François Truffaut",
     runtime: 99,
+    medium: "film",
     catalogue: "ARTX-057",
     epigraph: "The child is neither good nor bad — he simply responds to what the world gives him.",
     reading:
@@ -2047,6 +2095,7 @@ const CURATED: Artifact[] = [
     year: 1972,
     director: "Andrei Tarkovsky",
     runtime: 167,
+    medium: "film",
     catalogue: "ARTX-058",
     epigraph: "We don't want other worlds. We want mirrors.",
     reading:
@@ -2076,6 +2125,7 @@ const CURATED: Artifact[] = [
     year: 1963,
     director: "Federico Fellini",
     runtime: 138,
+    medium: "film",
     catalogue: "ARTX-059",
     epigraph: "I have nothing to say, but I want to say it anyway.",
     reading:
@@ -2105,6 +2155,7 @@ const CURATED: Artifact[] = [
     year: 1985,
     director: "Agnès Varda",
     runtime: 105,
+    medium: "film",
     catalogue: "ARTX-060",
     epigraph: "She smelled bad, I think.",
     reading:
@@ -2136,6 +2187,7 @@ const CURATED: Artifact[] = [
     year: 1976,
     director: "Martin Scorsese",
     runtime: 114,
+    medium: "film",
     catalogue: "ARTX-061",
     epigraph: "You talkin' to me?",
     reading:
@@ -2165,6 +2217,7 @@ const CURATED: Artifact[] = [
     year: 1980,
     director: "Martin Scorsese",
     runtime: 129,
+    medium: "film",
     catalogue: "ARTX-062",
     epigraph: "I've done a lot of bad things, Joey. Maybe it's coming back to me.",
     reading:
@@ -2194,6 +2247,7 @@ const CURATED: Artifact[] = [
     year: 2007,
     director: "Paul Thomas Anderson",
     runtime: 158,
+    medium: "film",
     catalogue: "ARTX-063",
     epigraph: "I'm finished.",
     reading:
@@ -2223,6 +2277,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "Paul Thomas Anderson",
     runtime: 188,
+    medium: "film",
     catalogue: "ARTX-064",
     epigraph: "We may be through with the past, but the past ain't through with us.",
     reading:
@@ -2251,6 +2306,7 @@ const CURATED: Artifact[] = [
     year: 1995,
     director: "David Fincher",
     runtime: 127,
+    medium: "film",
     catalogue: "ARTX-065",
     epigraph: "Ernest Hemingway once wrote: the world is a fine place and worth fighting for. I agree with the second part.",
     reading:
@@ -2279,6 +2335,7 @@ const CURATED: Artifact[] = [
     year: 2007,
     director: "David Fincher",
     runtime: 157,
+    medium: "film",
     catalogue: "ARTX-066",
     epigraph: "I need to know who did it.",
     reading:
@@ -2307,6 +2364,7 @@ const CURATED: Artifact[] = [
     year: 1986,
     director: "David Lynch",
     runtime: 120,
+    medium: "film",
     catalogue: "ARTX-067",
     epigraph: "It's a strange world.",
     reading:
@@ -2336,6 +2394,7 @@ const CURATED: Artifact[] = [
     year: 1971,
     director: "Stanley Kubrick",
     runtime: 136,
+    medium: "film",
     catalogue: "ARTX-068",
     epigraph: "What's it going to be then, eh?",
     reading:
@@ -2365,6 +2424,7 @@ const CURATED: Artifact[] = [
     year: 1987,
     director: "Stanley Kubrick",
     runtime: 116,
+    medium: "film",
     catalogue: "ARTX-069",
     epigraph: "The dead know only one thing: it is better to be alive.",
     reading:
@@ -2393,6 +2453,7 @@ const CURATED: Artifact[] = [
     year: 1993,
     director: "Steven Spielberg",
     runtime: 195,
+    medium: "film",
     catalogue: "ARTX-070",
     epigraph: "Whoever saves one life, saves the world entire.",
     reading:
@@ -2425,6 +2486,7 @@ const CURATED: Artifact[] = [
     year: 2015,
     director: "Robert Eggers",
     runtime: 92,
+    medium: "film",
     catalogue: "ARTX-071",
     epigraph: "Wouldst thou like to live deliciously?",
     reading:
@@ -2453,6 +2515,7 @@ const CURATED: Artifact[] = [
     year: 2019,
     director: "Ari Aster",
     runtime: 147,
+    medium: "film",
     catalogue: "ARTX-072",
     epigraph: "Let her cry.",
     reading:
@@ -2482,6 +2545,7 @@ const CURATED: Artifact[] = [
     year: 2023,
     director: "Ari Aster",
     runtime: 179,
+    medium: "film",
     catalogue: "ARTX-073",
     epigraph: "I'm sorry, Mom.",
     reading:
@@ -2510,6 +2574,7 @@ const CURATED: Artifact[] = [
     year: 1977,
     director: "Dario Argento",
     runtime: 99,
+    medium: "film",
     catalogue: "ARTX-074",
     epigraph: "Suzy, do you know anything about... witches?",
     reading:
@@ -2539,6 +2604,7 @@ const CURATED: Artifact[] = [
     year: 1983,
     director: "David Cronenberg",
     runtime: 87,
+    medium: "film",
     catalogue: "ARTX-075",
     epigraph: "Long live the new flesh.",
     reading:
@@ -2568,6 +2634,7 @@ const CURATED: Artifact[] = [
     year: 2000,
     director: "Darren Aronofsky",
     runtime: 102,
+    medium: "film",
     catalogue: "ARTX-076",
     epigraph: "I'm somebody now.",
     reading:
@@ -2597,6 +2664,7 @@ const CURATED: Artifact[] = [
     year: 2017,
     director: "Darren Aronofsky",
     runtime: 121,
+    medium: "film",
     catalogue: "ARTX-077",
     epigraph: "I give and give and give. It's never enough.",
     reading:
@@ -2625,6 +2693,7 @@ const CURATED: Artifact[] = [
     year: 2006,
     director: "David Lynch",
     runtime: 180,
+    medium: "film",
     catalogue: "ARTX-078",
     epigraph: "Is it about the rabbit?",
     reading:
@@ -2656,6 +2725,7 @@ const CURATED: Artifact[] = [
     year: 2003,
     director: "Park Chan-wook",
     runtime: 120,
+    medium: "film",
     catalogue: "ARTX-079",
     epigraph: "Laugh and the world laughs with you. Weep and you weep alone.",
     reading:
@@ -2685,6 +2755,7 @@ const CURATED: Artifact[] = [
     year: 1988,
     director: "Katsuhiro Otomo",
     runtime: 124,
+    medium: "film",
     catalogue: "ARTX-080",
     epigraph: "TETSUO!",
     reading:
@@ -2714,6 +2785,7 @@ const CURATED: Artifact[] = [
     year: 1997,
     director: "Satoshi Kon",
     runtime: 81,
+    medium: "film",
     catalogue: "ARTX-081",
     epigraph: "Who are you?",
     reading:
@@ -2743,6 +2815,7 @@ const CURATED: Artifact[] = [
     year: 1997,
     director: "Hayao Miyazaki",
     runtime: 134,
+    medium: "film",
     catalogue: "ARTX-082",
     epigraph: "I hate humans!",
     reading:
@@ -2772,6 +2845,7 @@ const CURATED: Artifact[] = [
     year: 1994,
     director: "Wong Kar-wai",
     runtime: 98,
+    medium: "film",
     catalogue: "ARTX-083",
     epigraph: "Every day we brush past so many people. People we may never meet. Or people who may become close friends.",
     reading:
@@ -2801,6 +2875,7 @@ const CURATED: Artifact[] = [
     year: 2001,
     director: "Hayao Miyazaki",
     runtime: 125,
+    medium: "film",
     catalogue: "ARTX-084",
     epigraph: "Once you've met someone you never really forget them.",
     reading:
@@ -2829,6 +2904,7 @@ const CURATED: Artifact[] = [
     year: 2006,
     director: "Satoshi Kon",
     runtime: 90,
+    medium: "film",
     catalogue: "ARTX-085",
     epigraph: "Dreams are instantaneous, aren't they? You know how it feels to live an entire life and then wake up.",
     reading:
@@ -2861,6 +2937,7 @@ const CURATED: Artifact[] = [
     year: 2017,
     director: "Jordan Peele",
     runtime: 104,
+    medium: "film",
     catalogue: "ARTX-086",
     epigraph: "You know what I say? I say one down, a couple hundred thousand to go.",
     reading:
@@ -2890,6 +2967,7 @@ const CURATED: Artifact[] = [
     year: 2022,
     director: "Daniel Kwan & Daniel Scheinert",
     runtime: 139,
+    medium: "film",
     catalogue: "ARTX-087",
     epigraph: "The only thing I know is that we have to be kind.",
     reading:
@@ -2918,6 +2996,7 @@ const CURATED: Artifact[] = [
     year: 2023,
     director: "Jonathan Glazer",
     runtime: 105,
+    medium: "film",
     catalogue: "ARTX-088",
     epigraph: "We've built such a great life here. I want to carry on.",
     reading:
@@ -2946,6 +3025,7 @@ const CURATED: Artifact[] = [
     year: 2011,
     director: "Lars von Trier",
     runtime: 136,
+    medium: "film",
     catalogue: "ARTX-089",
     epigraph: "Life on earth is evil. No one will miss it.",
     reading:
@@ -2974,6 +3054,7 @@ const CURATED: Artifact[] = [
     year: 2003,
     director: "Lars von Trier",
     runtime: 178,
+    medium: "film",
     catalogue: "ARTX-090",
     epigraph: "I have come to ask for your help.",
     reading:
@@ -3002,6 +3083,7 @@ const CURATED: Artifact[] = [
     year: 2005,
     director: "Michael Haneke",
     runtime: 117,
+    medium: "film",
     catalogue: "ARTX-091",
     epigraph: "Who is doing this to us?",
     reading:
@@ -3030,6 +3112,7 @@ const CURATED: Artifact[] = [
     year: 2017,
     director: "Paul Thomas Anderson",
     runtime: 130,
+    medium: "film",
     catalogue: "ARTX-092",
     epigraph: "I cannot begin my day with a confrontation.",
     reading:
@@ -3058,6 +3141,7 @@ const CURATED: Artifact[] = [
     year: 1974,
     director: "John Cassavetes",
     runtime: 155,
+    medium: "film",
     catalogue: "ARTX-093",
     epigraph: "She is not crazy. She just loves too much.",
     reading:
@@ -3086,6 +3170,7 @@ const CURATED: Artifact[] = [
     year: 2011,
     director: "Terrence Malick",
     runtime: 139,
+    medium: "film",
     catalogue: "ARTX-094",
     epigraph: "Was I false to you?",
     reading:
@@ -3114,6 +3199,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Francis Ford Coppola",
     runtime: 138,
+    medium: "film",
     catalogue: "ANOM-001",
     epigraph: "Don't let the now destroy the forever.",
     reading:
@@ -3143,6 +3229,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Coralie Fargeat",
     runtime: 141,
+    medium: "film",
     catalogue: "ANOM-002",
     epigraph: "Have you ever dreamt of a better version of yourself?",
     reading:
@@ -3172,6 +3259,7 @@ const CURATED: Artifact[] = [
     year: 2022,
     director: "Charlotte Wells",
     runtime: 102,
+    medium: "film",
     catalogue: "SCAR-001",
     epigraph: "I think it's nice that we share the same sky.",
     reading:
@@ -3201,6 +3289,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Sean Baker",
     runtime: 139,
+    medium: "film",
     catalogue: "SCAR-002",
     epigraph: "I'm not a princess. I'm just a girl from Brooklyn.",
     reading:
@@ -3230,6 +3319,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Todd Phillips",
     runtime: 138,
+    medium: "film",
     catalogue: "WND-001",
     epigraph: "I don't want to be the Joker anymore.",
     reading:
@@ -3259,6 +3349,7 @@ const CURATED: Artifact[] = [
     year: 2026,
     director: "Óliver Laxe",
     runtime: 124,
+    medium: "film",
     catalogue: "LABY-007",
     epigraph: "The bridge is thinner than a hair and sharper than a sword.",
     reading:
@@ -3287,6 +3378,7 @@ const CURATED: Artifact[] = [
     year: 2025,
     director: "Yorgos Lanthimos",
     runtime: 118,
+    medium: "film",
     catalogue: "LABY-008",
     epigraph: "They are already among us. You just haven't learned to see the scales.",
     reading:
@@ -3315,6 +3407,7 @@ const CURATED: Artifact[] = [
     year: 2025,
     director: "Bong Joon-ho",
     runtime: 131,
+    medium: "film",
     catalogue: "LABY-009",
     epigraph: "I'm not the first me, and I won't be the last.",
     reading:
@@ -3344,6 +3437,7 @@ const CURATED: Artifact[] = [
     year: 2025,
     director: "Ari Aster",
     runtime: 149,
+    medium: "film",
     catalogue: "SCAR-003",
     epigraph: "The bridge between a man and his neighbor is built of masks and lies.",
     reading:
@@ -3375,6 +3469,7 @@ const CURATED: Artifact[] = [
     year: 2026,
     director: "Alice Rohrwacher",
     runtime: 112,
+    medium: "film",
     catalogue: "SCAR-004",
     epigraph: "What is buried is never really gone; it is just waiting for the rain.",
     reading:
@@ -3403,6 +3498,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Alex Garland",
     runtime: 109,
+    medium: "film",
     catalogue: "SCAR-005",
     epigraph: "What kind of American are you?",
     reading:
@@ -3432,6 +3528,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Robert Eggers",
     runtime: 132,
+    medium: "film",
     catalogue: "SCAR-006",
     epigraph: "He is the shadow that devours the light.",
     reading:
@@ -3461,6 +3558,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "Brady Corbet",
     runtime: 215,
+    medium: "film",
     catalogue: "SCAR-007",
     epigraph: "Architecture is the art of wasting space beautifully.",
     reading:
@@ -3490,6 +3588,7 @@ const CURATED: Artifact[] = [
     year: 2024,
     director: "John Crowley",
     runtime: 107,
+    medium: "film",
     catalogue: "SCAR-008",
     epigraph: "The funny thing about the future is that it's already happening.",
     reading:
@@ -3519,6 +3618,7 @@ const CURATED: Artifact[] = [
     year: 2010,
     director: "Derek Cianfrance",
     runtime: 112,
+    medium: "film",
     catalogue: "LONE-001",
     epigraph: "How do you trust your feelings when they can just disappear?",
     reading:
@@ -3548,6 +3648,7 @@ const CURATED: Artifact[] = [
     year: 1991,
     director: "Gus Van Sant",
     runtime: 104,
+    medium: "film",
     catalogue: "LONE-002",
     epigraph: "I'm a connoisseur of roads. I've been tasting roads my whole life.",
     reading:
@@ -3578,6 +3679,7 @@ const CURATED: Artifact[] = [
     year: 1986,
     director: "Tim Hunter",
     runtime: 99,
+    medium: "film",
     catalogue: "LONE-003",
     epigraph: "She was dead. She was just laying there.",
     reading:
@@ -3607,6 +3709,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "Sam Mendes",
     runtime: 122,
+    medium: "film",
     catalogue: "MILL-002",
     epigraph: "Look closer.",
     reading:
@@ -3637,6 +3740,7 @@ const CURATED: Artifact[] = [
     year: 1999,
     director: "Paul Weitz",
     runtime: 95,
+    medium: "film",
     catalogue: "MILL-003",
     epigraph: "It's like warm apple pie.",
     reading:
@@ -3676,6 +3780,7 @@ type GeneratedArtifact = {
   director: string;
   runtime: number;
   catalogue: string;
+  medium?: string;
   metrics: Record<string, number>;
   symbols?: string[];
   factions?: { name: string; share: number; voice: string }[];
@@ -3824,6 +3929,7 @@ function adaptGenerated(g: GeneratedArtifact): Artifact {
     director: g.director,
     runtime: g.runtime,
     catalogue: g.catalogue,
+    medium: (g.medium as Medium | undefined),
     epigraph: GENERATED_EPIGRAPHS[g.slug] ?? "—",
     reading:
       `Provisional dossier. Metrics derived from the systematic pipeline (method ${(generatedData as { methodVersion?: string }).methodVersion ?? "v?"}); curatorial reading pending. The shape below is what the open record has produced so far — read it as a draft, not a verdict.`,
@@ -3887,6 +3993,7 @@ export function adaptUserMovie(m: UserMovieRecord): Artifact {
     director: m.director,
     runtime: m.runtime,
     catalogue: m.catalogue,
+    medium: (m.medium as Medium | undefined),
     epigraph: m.epigraph ?? "—",
     reading: m.reading ?? "User-submitted dossier. Analysis generated from the open record.",
     metrics,

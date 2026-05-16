@@ -1,113 +1,116 @@
-slug,title,year,director,runtime,catalogue
-fire-walk-with-me,Twin Peaks: Fire Walk with Me,1992,David Lynch,134,ARTX-001
-mulholland-dr,Mulholland Dr.,2001,David Lynch,147,ARTX-002
-hereditary,Hereditary,2018,Ari Aster,127,ARTX-003
-synecdoche-new-york,"Synecdoche, New York",2008,Charlie Kaufman,124,ARTX-004
-in-the-mood-for-love,In the Mood for Love,2000,Wong Kar-wai,98,ARTX-005
-stalker,Stalker,1979,Andrei Tarkovsky,162,ARTX-006
-killers-of-the-flower-moon,Killers of the Flower Moon,2023,Martin Scorsese,206,ARTX-007
-the-master,The Master,2012,Paul Thomas Anderson,137,ARTX-008
-annihilation,Annihilation,2018,Alex Garland,115,ARTX-009
-possession,Possession,1981,Andrzej Żuławski,124,ARTX-010
-eyes-wide-shut,Eyes Wide Shut,1999,Stanley Kubrick,159,ARTX-011
-tar,Tár,2022,Todd Field,158,ARTX-012
-under-the-skin,Under the Skin,2013,Jonathan Glazer,108,ARTX-013
-mother,Mother!,2017,Darren Aronofsky,121,ARTX-014
-the-tree-of-life,The Tree of Life,2011,Terrence Malick,139,ARTX-015
-inland-empire,Inland Empire,2006,David Lynch,180,ARTX-016
-melancholia,Melancholia,2011,Lars von Trier,135,ARTX-017
-the-zone-of-interest,The Zone of Interest,2023,Jonathan Glazer,105,ARTX-018
-silent-light,Silent Light,2007,Carlos Reygadas,142,ARTX-019
-holy-motors,Holy Motors,2012,Leos Carax,115,ARTX-020
-uncle-boonmee,Uncle Boonmee Who Can Recall His Past Lives,2010,Apichatpong Weerasethakul,114,ARTX-021
-beau-is-afraid,Beau Is Afraid,2023,Ari Aster,179,ARTX-022
-the-act-of-killing,The Act of Killing,2012,Joshua Oppenheimer,117,ARTX-023
-mandy,Mandy,2018,Panos Cosmatos,121,ARTX-024
-enemy,Enemy,2013,Denis Villeneuve,91,ARTX-025
-suspiria-2018,Suspiria,2018,Luca Guadagnino,152,ARTX-026
-the-northman,The Northman,2022,Robert Eggers,137,ARTX-027
-saint-maud,Saint Maud,2019,Rose Glass,84,ARTX-028
-first-reformed,First Reformed,2017,Paul Schrader,113,ARTX-029
-the-witch,The Witch,2015,Robert Eggers,92,ARTX-030
-ghostbusters-1984,Ghostbusters,1984,Ivan Reitman,105,columbia-pictures
-beetlejuice-1988,Beetlejuice,1988,Tim Burton,92,ARTX-053
-revenge-of-the-nerds-1984,Revenge of the Nerds,1984,Jeff Kanew,90,20th-century-studios
-nightmare-on-elm-street-1984,A Nightmare on Elm Street,1984,Wes Craven,91,new-line-cinema
-as-good-as-it-gets-1997,As Good as It Gets,1997,James L. Brooks,139,sony-pictures
-the-shining-1980,The Shining,1980,Stanley Kubrick,144,ARTX-031
-showgirls-1995,Showgirls,1995,Paul Verhoeven,131,ARTX-032
-mad-max-fury-road-2015,Mad Max: Fury Road,2015,George Miller,120,ARTX-033
-the-room-2003,The Room,2003,Tommy Wiseau,99,ARTX-034
-parasite-2019,Parasite,2019,Bong Joon-ho,132,ARTX-035
-the-matrix-1999,The Matrix,1999,The Wachowskis,136,warner-bros-archive
-under-the-silver-lake-2018,Under the Silver Lake,2018,David Robert Mitchell,139,a24
-mad-max-1979,Mad Max,1979,George Miller,88,ARTX-036
-pink-flamingos-1972,Pink Flamingos,1972,John Waters,93,new-line-cinema
-interstellar-2014,Interstellar,2014,Christopher Nolan,169,warner-bros-archive
-inception-2010,Inception,2010,Christopher Nolan,148,ARTX-037
-enter-the-void-2009,Enter the Void,2009,Gaspar Noé,161,ARTX-038
-the-banshees-of-inisherin-2022,The Banshees of Inisherin,2022,Martin McDonagh,114,ARTX-039
-dogville-2003,Dogville,2003,Lars von Trier,178,ARTX-040
-climax-2018,Climax,2018,Gaspar Noé,96,ARTX-041
-2001-a-space-odyssey-1968,2001: A Space Odyssey,1968,Stanley Kubrick,149,ARTX-048
-the-blair-witch-project-1999,The Blair Witch Project,1999,Daniel Myrick & Eduardo Sánchez,81,ARTX-049
-portrait-of-a-lady-on-fire-2019,Portrait of a Lady on Fire,2019,Céline Sciamma,122,ARTX-050
-barbarian-2022,Barbarian,2022,Zach Cregger,102,ARTX-051
-idiocracy-2006,Idiocracy,2006,Mike Judge,84,ARTX-052
-the-big-lebowski-1998,The Big Lebowski,1998,Joel Coen & Ethan Coen,117,ARTX-054
-funny-games-1997,Funny Games,1997,Michael Haneke,108,ARTX-055
-the-royal-tenenbaums-2001,The Royal Tenenbaums,2001,Wes Anderson,110,ARTX-056
-the-man-who-wasnt-there-2001,The Man Who Wasn't There,2001,Joel Coen & Ethan Coen,116,ARTX-057
-a-serious-man-2009,A Serious Man,2009,Joel Coen & Ethan Coen,106,ARTX-058
-primer-2004,Primer,2004,Shane Carruth,77,ARTX-059
-back-to-the-future-1985,Back to the Future,1985,Robert Zemeckis,116,universal-pictures
-blade-runner-1982,Blade Runner,1982,Ridley Scott,117,ARTX-060
-the-thing-1982,The Thing,1982,John Carpenter,109,ARTX-061
-videodrome-1983,Videodrome,1983,David Cronenberg,87,ARTX-062
-scarface-1983,Scarface,1983,Brian De Palma,170,ARTX-063
-blood-simple-1984,Blood Simple,1984,Joel Coen & Ethan Coen,99,ARTX-064
-brazil-1985,Brazil,1985,Terry Gilliam,132,ARTX-065
-blue-velvet-1986,Blue Velvet,1986,David Lynch,120,ARTX-066
-manhunter-1986,Manhunter,1986,Michael Mann,120,ARTX-067
-full-metal-jacket-1987,Full Metal Jacket,1987,Stanley Kubrick,116,ARTX-068
-wings-of-desire-1987,Wings of Desire,1987,Wim Wenders,128,ARTX-069
-do-the-right-thing-1989,Do the Right Thing,1989,Spike Lee,120,ARTX-070
-"the-cook-the-thief-his-wife-and-her-lover-1989","The Cook, the Thief, His Wife & Her Lover",1989,Peter Greenaway,124,ARTX-071
-goodfellas-1990,Goodfellas,1990,Martin Scorsese,146,ARTX-072
-jacobs-ladder-1990,Jacob's Ladder,1990,Adrian Lyne,113,ARTX-073
-barton-fink-1991,Barton Fink,1991,Joel Coen & Ethan Coen,116,ARTX-074
-the-silence-of-the-lambs-1991,The Silence of the Lambs,1991,Jonathan Demme,118,ARTX-075
-bram-stokers-dracula-1992,Bram Stoker's Dracula,1992,Francis Ford Coppola,128,ARTX-076
-short-cuts-1993,Short Cuts,1993,Robert Altman,188,ARTX-077
-naked-1993,Naked,1993,Mike Leigh,131,ARTX-078
-pulp-fiction-1994,Pulp Fiction,1994,Quentin Tarantino,154,ARTX-079
-three-colors-red-1994,Three Colors: Red,1994,Krzysztof Kieślowski,99,ARTX-080
-crash-1996,Crash,1996,David Cronenberg,100,ARTX-081
-trainspotting-1996,Trainspotting,1996,Danny Boyle,94,ARTX-082
-boogie-nights-1997,Boogie Nights,1997,Paul Thomas Anderson,155,ARTX-083
-the-sweet-hereafter-1997,The Sweet Hereafter,1997,Atom Egoyan,112,ARTX-084
-irreversible-2002,Irréversible,2002,Gaspar Noé,97,ARTX-085
-russian-ark-2002,Russian Ark,2002,Alexander Sokurov,99,ARTX-086
-eternal-sunshine-2004,Eternal Sunshine of the Spotless Mind,2004,Michel Gondry,108,ARTX-087
-cache-2005,Caché,2005,Michael Haneke,117,ARTX-088
-a-history-of-violence-2005,A History of Violence,2005,David Cronenberg,96,ARTX-089
-pans-labyrinth-2006,Pan's Labyrinth,2006,Guillermo del Toro,118,ARTX-090
-zodiac-2007,Zodiac,2007,David Fincher,157,ARTX-091
-there-will-be-blood-2007,There Will Be Blood,2007,Paul Thomas Anderson,158,ARTX-092
-antichrist-2009,Antichrist,2009,Lars von Trier,108,ARTX-093
-the-social-network-2010,The Social Network,2010,David Fincher,120,ARTX-094
-black-swan-2010,Black Swan,2010,Darren Aronofsky,108,ARTX-095
-drive-2011,Drive,2011,Nicolas Winding Refn,100,ARTX-096
-spring-breakers-2012,Spring Breakers,2012,Harmony Korine,94,ARTX-097
-upstream-color-2013,Upstream Color,2013,Shane Carruth,96,ARTX-098
-gone-girl-2014,Gone Girl,2014,David Fincher,149,ARTX-099
-the-revenant-2015,The Revenant,2015,Alejandro González Iñárritu,156,ARTX-100
-tangerine-2015,Tangerine,2015,Sean Baker,88,ARTX-101
-the-neon-demon-2016,The Neon Demon,2016,Nicolas Winding Refn,117,ARTX-102
-moonlight-2016,Moonlight,2016,Barry Jenkins,111,ARTX-103
-a-ghost-story-2017,A Ghost Story,2017,David Lowery,92,ARTX-104
-blade-runner-2049,Blade Runner 2049,2017,Denis Villeneuve,164,ARTX-105
-burning-2018,Burning,2018,Lee Chang-dong,148,ARTX-106
-midsommar-2019,Midsommar,2019,Ari Aster,147,ARTX-107
-uncut-gems-2019,Uncut Gems,2019,Josh Safdie & Benny Safdie,135,ARTX-108
-possessor-2020,Possessor,2020,Brandon Cronenberg,103,ARTX-109
+slug,title,year,director,runtime,catalogue,medium
+fire-walk-with-me,Twin Peaks: Fire Walk with Me,1992,David Lynch,134,ARTX-001,film
+mulholland-dr,Mulholland Dr.,2001,David Lynch,147,ARTX-002,film
+hereditary,Hereditary,2018,Ari Aster,127,ARTX-003,film
+synecdoche-new-york,"Synecdoche, New York",2008,Charlie Kaufman,124,ARTX-004,film
+in-the-mood-for-love,In the Mood for Love,2000,Wong Kar-wai,98,ARTX-005,film
+stalker,Stalker,1979,Andrei Tarkovsky,162,ARTX-006,film
+killers-of-the-flower-moon,Killers of the Flower Moon,2023,Martin Scorsese,206,ARTX-007,film
+the-master,The Master,2012,Paul Thomas Anderson,137,ARTX-008,film
+annihilation,Annihilation,2018,Alex Garland,115,ARTX-009,film
+possession,Possession,1981,Andrzej Żuławski,124,ARTX-010,film
+eyes-wide-shut,Eyes Wide Shut,1999,Stanley Kubrick,159,ARTX-011,film
+tar,Tár,2022,Todd Field,158,ARTX-012,film
+under-the-skin,Under the Skin,2013,Jonathan Glazer,108,ARTX-013,film
+mother,Mother!,2017,Darren Aronofsky,121,ARTX-014,film
+the-tree-of-life,The Tree of Life,2011,Terrence Malick,139,ARTX-015,film
+inland-empire,Inland Empire,2006,David Lynch,180,ARTX-016,film
+melancholia,Melancholia,2011,Lars von Trier,135,ARTX-017,film
+the-zone-of-interest,The Zone of Interest,2023,Jonathan Glazer,105,ARTX-018,film
+silent-light,Silent Light,2007,Carlos Reygadas,142,ARTX-019,film
+holy-motors,Holy Motors,2012,Leos Carax,115,ARTX-020,film
+uncle-boonmee,Uncle Boonmee Who Can Recall His Past Lives,2010,Apichatpong Weerasethakul,114,ARTX-021,film
+beau-is-afraid,Beau Is Afraid,2023,Ari Aster,179,ARTX-022,film
+the-act-of-killing,The Act of Killing,2012,Joshua Oppenheimer,117,ARTX-023,film
+mandy,Mandy,2018,Panos Cosmatos,121,ARTX-024,film
+enemy,Enemy,2013,Denis Villeneuve,91,ARTX-025,film
+suspiria-2018,Suspiria,2018,Luca Guadagnino,152,ARTX-026,film
+the-northman,The Northman,2022,Robert Eggers,137,ARTX-027,film
+saint-maud,Saint Maud,2019,Rose Glass,84,ARTX-028,film
+first-reformed,First Reformed,2017,Paul Schrader,113,ARTX-029,film
+the-witch,The Witch,2015,Robert Eggers,92,ARTX-030,film
+ghostbusters-1984,Ghostbusters,1984,Ivan Reitman,105,columbia-pictures,film
+beetlejuice-1988,Beetlejuice,1988,Tim Burton,92,ARTX-053,film
+revenge-of-the-nerds-1984,Revenge of the Nerds,1984,Jeff Kanew,90,20th-century-studios,film
+nightmare-on-elm-street-1984,A Nightmare on Elm Street,1984,Wes Craven,91,new-line-cinema,film
+as-good-as-it-gets-1997,As Good as It Gets,1997,James L. Brooks,139,sony-pictures,film
+the-shining-1980,The Shining,1980,Stanley Kubrick,144,ARTX-031,film
+showgirls-1995,Showgirls,1995,Paul Verhoeven,131,ARTX-032,film
+mad-max-fury-road-2015,Mad Max: Fury Road,2015,George Miller,120,ARTX-033,film
+the-room-2003,The Room,2003,Tommy Wiseau,99,ARTX-034,film
+parasite-2019,Parasite,2019,Bong Joon-ho,132,ARTX-035,film
+the-matrix-1999,The Matrix,1999,The Wachowskis,136,warner-bros-archive,film
+under-the-silver-lake-2018,Under the Silver Lake,2018,David Robert Mitchell,139,a24,film
+mad-max-1979,Mad Max,1979,George Miller,88,ARTX-036,film
+pink-flamingos-1972,Pink Flamingos,1972,John Waters,93,new-line-cinema,film
+interstellar-2014,Interstellar,2014,Christopher Nolan,169,warner-bros-archive,film
+inception-2010,Inception,2010,Christopher Nolan,148,ARTX-037,film
+enter-the-void-2009,Enter the Void,2009,Gaspar Noé,161,ARTX-038,film
+the-banshees-of-inisherin-2022,The Banshees of Inisherin,2022,Martin McDonagh,114,ARTX-039,film
+dogville-2003,Dogville,2003,Lars von Trier,178,ARTX-040,film
+climax-2018,Climax,2018,Gaspar Noé,96,ARTX-041,film
+2001-a-space-odyssey-1968,2001: A Space Odyssey,1968,Stanley Kubrick,149,ARTX-048,film
+the-blair-witch-project-1999,The Blair Witch Project,1999,Daniel Myrick & Eduardo Sánchez,81,ARTX-049,film
+portrait-of-a-lady-on-fire-2019,Portrait of a Lady on Fire,2019,Céline Sciamma,122,ARTX-050,film
+barbarian-2022,Barbarian,2022,Zach Cregger,102,ARTX-051,film
+idiocracy-2006,Idiocracy,2006,Mike Judge,84,ARTX-052,film
+the-big-lebowski-1998,The Big Lebowski,1998,Joel Coen & Ethan Coen,117,ARTX-054,film
+funny-games-1997,Funny Games,1997,Michael Haneke,108,ARTX-055,film
+the-royal-tenenbaums-2001,The Royal Tenenbaums,2001,Wes Anderson,110,ARTX-056,film
+the-man-who-wasnt-there-2001,The Man Who Wasn't There,2001,Joel Coen & Ethan Coen,116,ARTX-057,film
+a-serious-man-2009,A Serious Man,2009,Joel Coen & Ethan Coen,106,ARTX-058,film
+primer-2004,Primer,2004,Shane Carruth,77,ARTX-059,film
+back-to-the-future-1985,Back to the Future,1985,Robert Zemeckis,116,universal-pictures,film
+blade-runner-1982,Blade Runner,1982,Ridley Scott,117,ARTX-060,film
+the-thing-1982,The Thing,1982,John Carpenter,109,ARTX-061,film
+videodrome-1983,Videodrome,1983,David Cronenberg,87,ARTX-062,film
+scarface-1983,Scarface,1983,Brian De Palma,170,ARTX-063,film
+blood-simple-1984,Blood Simple,1984,Joel Coen & Ethan Coen,99,ARTX-064,film
+brazil-1985,Brazil,1985,Terry Gilliam,132,ARTX-065,film
+blue-velvet-1986,Blue Velvet,1986,David Lynch,120,ARTX-066,film
+manhunter-1986,Manhunter,1986,Michael Mann,120,ARTX-067,film
+full-metal-jacket-1987,Full Metal Jacket,1987,Stanley Kubrick,116,ARTX-068,film
+wings-of-desire-1987,Wings of Desire,1987,Wim Wenders,128,ARTX-069,film
+do-the-right-thing-1989,Do the Right Thing,1989,Spike Lee,120,ARTX-070,film
+"the-cook-the-thief-his-wife-and-her-lover-1989","The Cook, the Thief, His Wife & Her Lover",1989,Peter Greenaway,124,ARTX-071,film
+goodfellas-1990,Goodfellas,1990,Martin Scorsese,146,ARTX-072,film
+jacobs-ladder-1990,Jacob's Ladder,1990,Adrian Lyne,113,ARTX-073,film
+barton-fink-1991,Barton Fink,1991,Joel Coen & Ethan Coen,116,ARTX-074,film
+the-silence-of-the-lambs-1991,The Silence of the Lambs,1991,Jonathan Demme,118,ARTX-075,film
+bram-stokers-dracula-1992,Bram Stoker's Dracula,1992,Francis Ford Coppola,128,ARTX-076,film
+short-cuts-1993,Short Cuts,1993,Robert Altman,188,ARTX-077,film
+naked-1993,Naked,1993,Mike Leigh,131,ARTX-078,film
+pulp-fiction-1994,Pulp Fiction,1994,Quentin Tarantino,154,ARTX-079,film
+three-colors-red-1994,Three Colors: Red,1994,Krzysztof Kieślowski,99,ARTX-080,film
+crash-1996,Crash,1996,David Cronenberg,100,ARTX-081,film
+trainspotting-1996,Trainspotting,1996,Danny Boyle,94,ARTX-082,film
+boogie-nights-1997,Boogie Nights,1997,Paul Thomas Anderson,155,ARTX-083,film
+the-sweet-hereafter-1997,The Sweet Hereafter,1997,Atom Egoyan,112,ARTX-084,film
+irreversible-2002,Irréversible,2002,Gaspar Noé,97,ARTX-085,film
+russian-ark-2002,Russian Ark,2002,Alexander Sokurov,99,ARTX-086,film
+eternal-sunshine-2004,Eternal Sunshine of the Spotless Mind,2004,Michel Gondry,108,ARTX-087,film
+cache-2005,Caché,2005,Michael Haneke,117,ARTX-088,film
+a-history-of-violence-2005,A History of Violence,2005,David Cronenberg,96,ARTX-089,film
+pans-labyrinth-2006,Pan's Labyrinth,2006,Guillermo del Toro,118,ARTX-090,film
+zodiac-2007,Zodiac,2007,David Fincher,157,ARTX-091,film
+there-will-be-blood-2007,There Will Be Blood,2007,Paul Thomas Anderson,158,ARTX-092,film
+antichrist-2009,Antichrist,2009,Lars von Trier,108,ARTX-093,film
+the-social-network-2010,The Social Network,2010,David Fincher,120,ARTX-094,film
+black-swan-2010,Black Swan,2010,Darren Aronofsky,108,ARTX-095,film
+drive-2011,Drive,2011,Nicolas Winding Refn,100,ARTX-096,film
+spring-breakers-2012,Spring Breakers,2012,Harmony Korine,94,ARTX-097,film
+upstream-color-2013,Upstream Color,2013,Shane Carruth,96,ARTX-098,film
+gone-girl-2014,Gone Girl,2014,David Fincher,149,ARTX-099,film
+the-revenant-2015,The Revenant,2015,Alejandro González Iñárritu,156,ARTX-100,film
+tangerine-2015,Tangerine,2015,Sean Baker,88,ARTX-101,film
+the-neon-demon-2016,The Neon Demon,2016,Nicolas Winding Refn,117,ARTX-102,film
+moonlight-2016,Moonlight,2016,Barry Jenkins,111,ARTX-103,film
+a-ghost-story-2017,A Ghost Story,2017,David Lowery,92,ARTX-104,film
+blade-runner-2049,Blade Runner 2049,2017,Denis Villeneuve,164,ARTX-105,film
+burning-2018,Burning,2018,Lee Chang-dong,148,ARTX-106,film
+midsommar-2019,Midsommar,2019,Ari Aster,147,ARTX-107,film
+uncut-gems-2019,Uncut Gems,2019,Josh Safdie & Benny Safdie,135,ARTX-108,film
+possessor-2020,Possessor,2020,Brandon Cronenberg,103,ARTX-109,film
+severance,Severance,2022,Dan Erickson,52,TV-001,tv
+twin-peaks-the-return,Twin Peaks: The Return,2017,David Lynch,60,TV-002,tv
+pushing-daisies,Pushing Daisies,2007,Bryan Fuller,43,TV-003,tv
