@@ -9,10 +9,10 @@ export const Route = createFileRoute("/submit")({
   component: Submit,
   head: () => ({
     meta: [
-      { title: "Submit a Film — The Artifact Index" },
+      { title: "Submit Media — The Artifact Index" },
       {
         name: "description",
-        content: "Send a film to the green for a cultural reading.",
+        content: "Send media to the green for a cultural reading.",
       },
     ],
   }),
@@ -85,11 +85,11 @@ function Submit() {
               Submit · request a reading
             </div>
             <h1 className="mt-4 font-display text-5xl leading-[1.05] text-vellum md:text-7xl">
-              Send a film{" "}
+              Send media{" "}
               <em className="text-oxblood">to the green.</em>
             </h1>
             <p className="mt-6 max-w-xl font-display text-lg italic leading-relaxed text-vellum-dim">
-              The green scrapes the open record of how a film is actually
+              The green scrapes the open record of how media is actually
               held — critic prose, audience admissions, diaristic residue —
               and returns a reading across the thirteen axes.
             </p>
@@ -112,7 +112,7 @@ function Submit() {
         <div className="rule mb-8" />
         <form onSubmit={handleSubmit} className="max-w-2xl">
           <label className="block font-mono text-[10px] smallcaps text-vellum-dim mb-3">
-            Film title
+            Media title
           </label>
           <div className="flex gap-4">
             <input
@@ -299,7 +299,7 @@ function Submit() {
                 }}
                 className="font-mono text-[11px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
               >
-                ← Submit another film
+                ← Submit another media
               </button>
             </div>
           </div>
