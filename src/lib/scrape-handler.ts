@@ -2,8 +2,16 @@ import { z } from "zod";
 import { analyzeMovie } from "./green";
 import { saveUserMovie } from "./user-movie-store";
 
+const HintSchema = z.object({
+  title: z.string(),
+  year: z.number(),
+  director: z.string(),
+  leadActor: z.string(),
+});
+
 const RequestSchema = z.object({
   title: z.string().min(1).max(300),
+  hint: HintSchema.optional(),
 });
 
 // Simple in-memory per-IP rate limiter.
@@ -76,7 +84,7 @@ export async function handleScrapeRequest(
   }
 
   try {
-    const record = await analyzeMovie(parsed.data.title, apiKey);
+    const record = await analyzeMovie(parsed.data.title, apiKey, parsed.data.hint);
     saveUserMovie(record);
     return Response.json(record, { status: 200 });
   } catch (err) {

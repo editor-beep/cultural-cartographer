@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState } from "react";
-import type { MovieRecord } from "@/lib/green";
+import type { MovieRecord, FilmVariant } from "@/lib/green";
 import { useUserFilms } from "@/lib/user-films-context";
 
 export const Route = createFileRoute("/submit")({
@@ -17,7 +17,7 @@ export const Route = createFileRoute("/submit")({
   }),
 });
 
-type Status = "idle" | "loading" | "done" | "error";
+type Status = "idle" | "resolving" | "variants" | "loading" | "done" | "error";
 
 const AXIS_LABELS: Record<string, string> = {
   consensus: "Consensus",
@@ -35,26 +35,74 @@ const AXIS_LABELS: Record<string, string> = {
   transgression: "Transgression",
 };
 
+function toSlug(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+}
+
 function Submit() {
   const [title, setTitle] = useState("");
   const [status, setStatus] = useState<Status>("idle");
+  const [variants, setVariants] = useState<FilmVariant[]>([]);
   const [result, setResult] = useState<MovieRecord | null>(null);
   const [errorMsg, setErrorMsg] = useState("");
-  const { addUserFilm } = useUserFilms();
+  const { addUserFilm, getUserFilm } = useUserFilms();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!title.trim()) return;
 
-    setStatus("loading");
+    setStatus("resolving");
+    setVariants([]);
     setResult(null);
     setErrorMsg("");
+
+    try {
+      const res = await fetch("/api/variants", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: title.trim() }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error((data as { error?: string }).error ?? `HTTP ${res.status}`);
+      }
+
+      const list = data as FilmVariant[];
+
+      if (list.length === 1) {
+        await analyzeVariant(list[0]);
+      } else {
+        setVariants(list);
+        setStatus("variants");
+      }
+    } catch (err) {
+      setErrorMsg(err instanceof Error ? err.message : "Unknown error");
+      setStatus("error");
+    }
+  }
+
+  async function analyzeVariant(variant: FilmVariant) {
+    setStatus("loading");
+
+    const slug = toSlug(`${variant.title}-${variant.year}`);
+    const existing = getUserFilm(slug);
+    if (existing) {
+      setResult(existing);
+      setStatus("done");
+      return;
+    }
 
     try {
       const res = await fetch("/api/scrape", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: title.trim() }),
+        body: JSON.stringify({ title: variant.title, hint: variant }),
       });
 
       const data = await res.json();
@@ -71,6 +119,14 @@ function Submit() {
       setErrorMsg(err instanceof Error ? err.message : "Unknown error");
       setStatus("error");
     }
+  }
+
+  function reset() {
+    setStatus("idle");
+    setResult(null);
+    setVariants([]);
+    setTitle("");
+    setErrorMsg("");
   }
 
   return (
@@ -90,7 +146,7 @@ function Submit() {
             <p className="mt-6 max-w-xl font-display text-lg italic leading-relaxed text-vellum-dim">
               The green scrapes the open record of how a film is actually
               held — critic prose, audience admissions, diaristic residue —
-              and returns a reading across the nine axes.
+              and returns a reading across the thirteen axes.
             </p>
           </div>
 
@@ -99,7 +155,7 @@ function Submit() {
             <div className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[10px] text-vellum-dim smallcaps">
               <div>Method · green v1</div>
               <div>Model · Gemini 2.5 Pro</div>
-              <div>Output · nine axes</div>
+              <div>Output · thirteen axes</div>
               <div>Storage · user-movies.json</div>
             </div>
           </div>
@@ -119,7 +175,7 @@ function Submit() {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               placeholder="e.g. Inland Empire"
-              disabled={status === "loading"}
+              disabled={status === "resolving" || status === "loading" || status === "variants"}
               className={
                 "flex-1 border border-border bg-transparent px-4 py-3 font-display text-xl text-vellum placeholder:text-vellum-dim/40 " +
                 "focus:border-oxblood focus:outline-none disabled:opacity-40"
@@ -127,16 +183,26 @@ function Submit() {
             />
             <button
               type="submit"
-              disabled={status === "loading" || !title.trim()}
+              disabled={
+                status === "resolving" ||
+                status === "loading" ||
+                status === "variants" ||
+                !title.trim()
+              }
               className={
                 "border border-oxblood px-6 py-3 font-mono text-[11px] smallcaps text-oxblood " +
                 "transition-colors hover:bg-oxblood hover:text-umber disabled:opacity-40 disabled:cursor-not-allowed"
               }
             >
-              {status === "loading" ? "Reading…" : "Submit"}
+              {status === "resolving" || status === "loading" ? "Reading…" : "Submit"}
             </button>
           </div>
 
+          {status === "resolving" && (
+            <p className="mt-4 font-mono text-[10px] text-vellum-dim smallcaps animate-pulse">
+              Locating film —
+            </p>
+          )}
           {status === "loading" && (
             <p className="mt-4 font-mono text-[10px] text-vellum-dim smallcaps animate-pulse">
               The green is scraping the open record —
@@ -149,6 +215,44 @@ function Submit() {
           )}
         </form>
       </section>
+
+      {/* Variant selection */}
+      {status === "variants" && variants.length > 0 && (
+        <section className="relative z-10 mx-auto mt-12 max-w-[1400px] px-8">
+          <div className="rule mb-6" />
+          <div className="font-mono text-[10px] smallcaps text-oxblood mb-4">
+            Which film?
+          </div>
+          <ul className="max-w-2xl divide-y divide-border">
+            {variants.map((v, i) => (
+              <li key={i}>
+                <button
+                  onClick={() => analyzeVariant(v)}
+                  className="w-full text-left py-4 group hover:bg-oxblood/5 transition-colors px-2 -mx-2"
+                >
+                  <div className="flex items-baseline gap-4">
+                    <span className="font-display text-lg text-vellum group-hover:text-oxblood transition-colors">
+                      {v.title}
+                    </span>
+                    <span className="font-mono text-[10px] text-vellum-dim">
+                      {v.year}
+                    </span>
+                  </div>
+                  <div className="mt-1 font-mono text-[10px] smallcaps text-vellum-dim">
+                    dir. {v.director} · {v.leadActor}
+                  </div>
+                </button>
+              </li>
+            ))}
+          </ul>
+          <button
+            onClick={reset}
+            className="mt-6 font-mono text-[11px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
+          >
+            ← Start over
+          </button>
+        </section>
+      )}
 
       {/* Result */}
       {status === "done" && result && (
@@ -193,7 +297,7 @@ function Submit() {
             {/* Metrics */}
             <div className="col-span-12 md:col-span-5">
               <div className="font-mono text-[10px] smallcaps text-oxblood mb-3">
-                Nine Axes
+                Thirteen Axes
               </div>
               <ul className="space-y-2">
                 {Object.entries(result.metrics).map(([key, val]) => (
@@ -213,6 +317,30 @@ function Submit() {
                   </li>
                 ))}
               </ul>
+
+              {/* Map position */}
+              {result.pos && (
+                <div className="mt-6">
+                  <div className="font-mono text-[10px] smallcaps text-oxblood mb-2">
+                    Map position
+                  </div>
+                  <div className="font-mono text-[10px] text-vellum-dim">
+                    x · {result.pos.x.toFixed(2)} &nbsp; y · {result.pos.y.toFixed(2)}
+                  </div>
+                  <div
+                    className="relative mt-3 border border-border"
+                    style={{ width: 120, height: 120 }}
+                  >
+                    <div
+                      className="absolute w-2 h-2 -translate-x-1/2 -translate-y-1/2 bg-oxblood"
+                      style={{
+                        left: `${result.pos.x * 100}%`,
+                        top: `${result.pos.y * 100}%`,
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Factions */}
@@ -288,11 +416,7 @@ function Submit() {
             <div className="col-span-12">
               <div className="rule mt-4 mb-6" />
               <button
-                onClick={() => {
-                  setStatus("idle");
-                  setResult(null);
-                  setTitle("");
-                }}
+                onClick={reset}
                 className="font-mono text-[11px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
               >
                 ← Submit another film

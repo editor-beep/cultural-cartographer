@@ -7,15 +7,18 @@ const STORAGE_KEY = "cc:user-films";
 type UserFilmsContextValue = {
   userFilms: Artifact[];
   addUserFilm: (record: MovieRecord) => void;
+  getUserFilm: (slug: string) => MovieRecord | undefined;
 };
 
 const UserFilmsContext = createContext<UserFilmsContextValue>({
   userFilms: [],
   addUserFilm: () => {},
+  getUserFilm: () => undefined,
 });
 
 export function UserFilmsProvider({ children }: { children: React.ReactNode }) {
   const [userFilms, setUserFilms] = useState<Artifact[]>([]);
+  const [rawFilms, setRawFilms] = useState<MovieRecord[]>([]);
 
   useEffect(() => {
     try {
@@ -23,6 +26,7 @@ export function UserFilmsProvider({ children }: { children: React.ReactNode }) {
       if (raw) {
         const records = JSON.parse(raw) as MovieRecord[];
         const adapted = records.map((r) => adaptUserMovie(r as never));
+        setRawFilms(records);
         setUserFilms(adapted);
         setRuntimeUserFilms(adapted);
       }
@@ -41,13 +45,19 @@ export function UserFilmsProvider({ children }: { children: React.ReactNode }) {
       }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
       const adapted = records.map((r) => adaptUserMovie(r as never));
+      setRawFilms(records);
       setUserFilms(adapted);
       setRuntimeUserFilms(adapted);
     } catch {}
   }, []);
 
+  const getUserFilm = useCallback(
+    (slug: string) => rawFilms.find((r) => r.slug === slug),
+    [rawFilms],
+  );
+
   return (
-    <UserFilmsContext.Provider value={{ userFilms, addUserFilm }}>
+    <UserFilmsContext.Provider value={{ userFilms, addUserFilm, getUserFilm }}>
       {children}
     </UserFilmsContext.Provider>
   );
