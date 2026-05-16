@@ -42,7 +42,11 @@
               "cult",
               "formal",
               "voltage",
-              "accessibility"
+              "accessibility",
+              "reach",
+              "progeny",
+              "arc",
+              "transgression"
             ],
             "additionalProperties": {
               "type": "object",

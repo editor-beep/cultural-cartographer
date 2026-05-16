@@ -549,7 +549,7 @@ function Attune() {
               Manual Inscription · advanced
             </div>
             <p className="mb-6 font-display text-xs italic text-vellum-dim">
-              Adjust the nine axes by hand to inscribe an arbitrary shape. Ignored when films are selected above.
+              Adjust the thirteen axes by hand to inscribe an arbitrary shape. Ignored when films are selected above.
             </p>
 
             <div className="flex items-center justify-center">

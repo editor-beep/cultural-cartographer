@@ -10,7 +10,7 @@ type Props = {
 };
 
 /**
- * Hand-rolled radial sigil. Nine axes, hairline radials, oxblood perimeter,
+ * Hand-rolled radial sigil. Thirteen axes, hairline radials, oxblood perimeter,
  * vellum fill at low opacity. Inner ritual marks at the perimeter so the
  * shape reads as glyph first, chart second.
  */
