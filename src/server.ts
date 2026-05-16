@@ -3,6 +3,7 @@ import "./lib/error-capture";
 import { consumeLastCapturedError } from "./lib/error-capture";
 import { renderErrorPage } from "./lib/error-page";
 import { handleScrapeRequest } from "./lib/scrape-handler";
+import { handleRedisRequest } from "./lib/redis-handler";
 
 type ServerEntry = {
   fetch: (request: Request, env: unknown, ctx: unknown) => Promise<Response> | Response;
@@ -73,6 +74,10 @@ export default {
 
     if (url.pathname === "/api/scrape") {
       return handleScrapeRequest(request, (env as Record<string, string | undefined>) ?? {});
+    }
+
+    if (url.pathname === "/api/redis") {
+      return handleRedisRequest(request, (env as Record<string, string | undefined>) ?? {});
     }
 
     try {
