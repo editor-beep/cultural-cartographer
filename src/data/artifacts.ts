@@ -3821,7 +3821,7 @@ const CURATED: Artifact[] = [
     director: "Kanye West",
     runtime: 42,
     medium: "album",
-    catalogue: "ARTX-108",
+    catalogue: "ARTX-114",
     epigraph: "Using music as storytelling rather than defense.",
     reading:
       "Released via Gamma and YZY after years of catastrophic public unravelling, full-page newspaper apologies, and international tour bans, *Bully* functions less as an album and more as a contested cultural crime scene. The discourse surrounding its release is completely hyper-fractured: tracking it requires navigating a labyrinth of surprise-dropped 'work-in-progress' X leaks, an accompanying Hype Williams short film, and a volatile rollout where the physical tracklist openly contradicted the streaming version. The text exists in a state of permanent cultural whiplash. Half of the internet reads its heavy use of AI vocals and 808s-style auto-tuned crying as a profound, pathetic portrait of a man drowning in his own ego; the other half sifts through recycled remnants of his toxic, scrapped 2025 *Cuck* sessions (like 'Gas Chambers' mutated into 'All the Love') with pure exhaustion. Its mention volume is astronomical but structurally toxic, reflecting an audience that can no longer separate the sonic architecture from the compounding wreckage of its creator.",
