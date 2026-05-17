@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
-import { ARTIFACTS } from "@/data/artifacts";
+import { ARTIFACTS, type Metrics } from "@/data/artifacts";
 import {
   Accordion,
   AccordionContent,
@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import { useMemo, useState } from "react";
 import { useUserFilms } from "@/lib/user-films-context";
+import { Sigil } from "@/components/Sigil";
 
 export const Route = createFileRoute("/directory")({
   component: Directory,
@@ -31,6 +32,7 @@ type ArtifactListItem = {
   catalogue: string;
   reading: string;
   medium?: string;
+  metrics: Metrics;
 };
 
 // Returns the title with leading articles ("a", "an", "the") stripped for sorting.
@@ -52,6 +54,7 @@ function Directory() {
   const [directorFilter, setDirectorFilter] = useState<string>("all");
   const [actorFilter, setActorFilter] = useState<string>("");
   const [musicianFilter, setMusicianFilter] = useState<string>("");
+  const [openItems, setOpenItems] = useState<string[]>([]);
 
   const allArtifacts = useMemo(() => {
     const known = new Set(ARTIFACTS.map((a) => a.slug));
@@ -70,6 +73,7 @@ function Directory() {
             catalogue: a.catalogue,
             reading: a.reading,
             medium: a.medium,
+            metrics: a.metrics,
           }),
         )
         .sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title))),
@@ -220,41 +224,73 @@ function Directory() {
             No entries match the current filters.
           </p>
         ) : (
-          <Accordion type="multiple" className="mt-8 w-full">
-            {letters.map((letter) => (
-              <AccordionItem key={letter} value={letter} className="border-border">
-                <AccordionTrigger className="font-display text-2xl text-vellum hover:no-underline">
-                  <span>{letter}</span>
-                  <span className="mr-3 font-mono text-[10px] text-vellum-dim smallcaps">
-                    {grouped[letter].length} entries
-                  </span>
-                </AccordionTrigger>
-                <AccordionContent>
-                  <ul className="divide-y divide-border">
-                    {grouped[letter].map((a) => (
-                      <li key={a.slug}>
-                        <Link
-                          to="/artifact/$slug"
-                          params={{ slug: a.slug }}
-                          className="group grid grid-cols-12 items-baseline gap-4 py-4 transition-colors hover:bg-umber/40"
-                        >
-                          <div className="col-span-3 font-mono text-[10px] text-vellum-dim smallcaps">
-                            {a.catalogue}
-                          </div>
-                          <div className="col-span-9 font-display text-xl text-vellum group-hover:text-oxblood">
-                            {a.title}
-                            <span className="ml-3 font-body text-xs text-vellum-dim">
-                              {a.year} · {a.director}
-                            </span>
-                          </div>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+          <>
+            <div className="mt-6 flex items-center justify-between">
+              <span className="font-mono text-[10px] smallcaps text-vellum-dim">
+                {filtered.length} {filtered.length === 1 ? "entry" : "entries"}
+              </span>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => setOpenItems(letters)}
+                  className="font-mono text-[10px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
+                >
+                  Expand all
+                </button>
+                <button
+                  onClick={() => setOpenItems([])}
+                  className="font-mono text-[10px] smallcaps text-vellum-dim hover:text-vellum transition-colors"
+                >
+                  Collapse all
+                </button>
+              </div>
+            </div>
+
+            <Accordion
+              type="multiple"
+              value={openItems}
+              onValueChange={setOpenItems}
+              className="mt-4 w-full"
+            >
+              {letters.map((letter) => (
+                <AccordionItem key={letter} value={letter} className="border-border">
+                  <AccordionTrigger className="font-display text-2xl text-vellum hover:no-underline">
+                    <span>{letter}</span>
+                    <span className="mr-3 font-mono text-[10px] text-vellum-dim smallcaps">
+                      {grouped[letter].length} entries
+                    </span>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <ul className="divide-y divide-border">
+                      {grouped[letter].map((a) => (
+                        <li key={a.slug}>
+                          <Link
+                            to="/artifact/$slug"
+                            params={{ slug: a.slug }}
+                            className="group flex items-center gap-4 py-3 transition-colors hover:bg-umber/40"
+                          >
+                            <div className="shrink-0 w-9 h-9 opacity-80 group-hover:opacity-100 transition-opacity">
+                              <Sigil metrics={a.metrics} size={36} animate={false} uid={a.slug} />
+                            </div>
+                            <div className="grid flex-1 grid-cols-12 items-baseline gap-4">
+                              <div className="col-span-3 font-mono text-[10px] text-vellum-dim smallcaps">
+                                {a.catalogue}
+                              </div>
+                              <div className="col-span-9 font-display text-xl text-vellum group-hover:text-oxblood">
+                                {a.title}
+                                <span className="ml-3 font-body text-xs text-vellum-dim">
+                                  {a.year} · {a.director}
+                                </span>
+                              </div>
+                            </div>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </>
         )}
       </section>
       <SiteFooter />
