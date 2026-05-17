@@ -894,5 +894,380 @@
     ],
     "symbols": ["glowing designer pill wrapper", "pet dog trapped in the past", "three-headed coin", "pineal gland x-ray scan", "battlefield muddy trenches"],
     "pos": { "x": 0.81, "y": 0.84 }
+  },
+  {
+    "slug": "wild-at-heart-1990",
+    "title": "Wild at Heart",
+    "year": 1990,
+    "director": "David Lynch",
+    "runtime": 124,
+    "catalogue": "ARTX-190L",
+    "epigraph": "This whole world is wild at heart and weird on top.",
+    "reading": "Wild at Heart represents David Lynch at his most aggressively kinetic, operatic, and polarizing, serving as a violent, hyper-saturated road-trip subversion of classic Americana and the Wizard of Oz mythos. Winning the Palme d'Or at Cannes to a chorus of intense boos and wild cheers, the film split the institutional critical apparatus down the middle. In its afterlife, it has established a fierce, heavy cult index. It behaves like a roaring, fire-spitting engine in Lynch discourse—endlessly parsed by formalists for its abrasive use of heavy metal music, its extreme psychosexual grotesque elements (specifically Willem Dafoe's Bobby Peru), and its status as a radical, un-sanitized celebration of pure, unadulterated passion against a deeply corrupt world.",
+    "metrics": {
+      "consensus": 54,
+      "friction": 78,
+      "obsession": 85,
+      "haunting": 89,
+      "symbolic": 87,
+      "cult": 83,
+      "formal": 88,
+      "voltage": 94,
+      "accessibility": 76,
+      "reach": 79,
+      "progeny": 81,
+      "arc": 82,
+      "transgression": 89
+    },
+    "notes": {
+      "consensus": "Low consensus highlights the permanent, un-reconciled divide between viewers who dismiss it as an ugly, over-indulgent, and shallow exercise in shock-stylization, and those who enshrine it as Lynch's most thrillingly unhinged romantic masterpiece.",
+      "voltage": "Towering voltage. The film operates at an extreme physical threshold—exploding with sudden, gruesome violence and hyper-intense, physiological performances that keep the viewer on edge.",
+      "transgression": "Highly transgressive. It pushes the boundaries of mid-tier studio cinema through its raw, unpolished depiction of sleaze, systemic rot, and deep psychological deformity."
+    },
+    "afterlife": [
+      { "year": 1990, "kind": "release", "label": "Premieres at the Cannes Film Festival, winning the Palme d'Or amid a historic wave of critical shouting matches and theatrical walkouts." },
+      { "year": 1991, "kind": "wound", "label": "The film faces intense censorship battles in the United States, requiring digital smoke effects to obscure explicit sex scenes to secure an R rating." },
+      { "year": 2018, "kind": "rediscovery", "label": "Shout! Factory releases a pristine collector's edition, sparking a massive wave of internet reappraisal celebrating its status as the bridge between Blue Velvet and Twin Peaks." }
+    ],
+    "factions": [
+      { "name": "The Operatic Romantics", "share": 0.48, "voice": "It is an incredibly electric, beautiful, and hyper-stylized modern fairy tale; Sailor and Lula are the ultimate icons of pure, innocent love fighting its way through an absolutely sick and grotesque universe." },
+      { "name": "The Grotesque Skeptics", "share": 0.38, "voice": "An ugly, exhausting, and self-indulgent misfire where Lynch trades genuine psychological mystery for cheap shock tactics, heavy metal music, and hollow cartoon vulgarity." },
+      { "name": "The Oz Structuralists", "share": 0.14, "voice": "The film is a brilliant, post-modern deconstruction of American mythology; the explicit Wizard of Oz references turn the road trip into a literal spiritual quest through a decaying landscape." }
+    ],
+    "symbols": ["snakeskin jacket as a symbol of individuality", "striking a wooden match in extreme close-up", "the Good Witch floating in a bubble", "shattered car crash highway headlights", "Bobby Peru's nylon stocking face warp"],
+    "pos": { "x": 0.38, "y": 0.88 }
+  },
+  {
+    "slug": "seinfeld-1989",
+    "title": "Seinfeld",
+    "year": 1989,
+    "director": "Various",
+    "runtime": 4000,
+    "medium": "tv",
+    "catalogue": "ARTX-89S",
+    "epigraph": "No hugging, no learning.",
+    "reading": "Seinfeld stands as an absolute, towering monolith of high-consensus, hyper-structured television history, acting as a revolutionary deconstruction of the American sitcom format. By implementing a strict philosophy of emotional stagnation, Larry David and Jerry Seinfeld built a flawless, clockwork engine of social friction and petty minutiae. In its immense afterlife, its mention landscape is completely saturated and permanent. It functions as the ultimate cultural shorthand for urban alienation and neurotic modern manners; it is parsed by structural formalists who unpack its complex, four-way interlocking plotting systems and inhabited by an infinite global fandom that treats its highly specialized terminology as a literal glossary for daily human interaction.",
+    "metrics": {
+      "consensus": 97,
+      "friction": 12,
+      "obsession": 98,
+      "haunting": 72,
+      "symbolic": 89,
+      "cult": 21,
+      "formal": 94,
+      "voltage": 14,
+      "accessibility": 96,
+      "reach": 99,
+      "progeny": 98,
+      "arc": 92,
+      "transgression": 68
+    },
+    "notes": {
+      "voltage": "An absolute low-water mark on the voltage scale. The system is designed entirely to prevent physiological catharsis—actively replacing tears, awe, or panic with dry, cerebral, and transactional social awkwardness.",
+      "formal": "Exceptionally high formal risk for a broadcast sitcom. The show completely exploded the traditional sentimental formatting of television by strictly forbidding character growth, narrative warmth, or moral lessons.",
+      "cult": "Near-zero cult score. It was a globally dominant, multi-billion dollar ratings titan; it never required an underground group to rescue it from institutional abandonment, as the institution itself was built around it."
+    },
+    "afterlife": [
+      { "year": 1998, "kind": "release", "label": "The massive, hyper-hyped series finale draws over 76 million viewers, triggering a historic, highly public critical dispute regarding its cynical, prison-bound conclusion." },
+      { "year": 2015, "kind": "academic", "label": "Enters elite television and cultural sociology syllabi globally, analyzed as the definitive text on post-modern nihilism and the deconstruction of traditional family structures." },
+      { "year": 2021, "kind": "meme", "label": "The complete series hits Netflix for nine figures, sparking an immense, unstoppable wave of Gen-Z memetic translation across TikTok." }
+    ],
+    "factions": [
+      { "name": "The Clockwork Formalists", "share": 0.58, "voice": "It is a flawless, mathematically perfect narrative machine; the way Larry David interlocks four entirely separate, petty storylines into a singular, devastating punchline by the end of 22 minutes is an unmatched writing achievement." },
+      { "name": "The Nihilistic Social Realists", "share": 0.30, "voice": "The show is the ultimate, honest depiction of modern human sociology; it correctly assumes that people are inherently selfish, neurotic, and petty, providing a comforting, mirror-like sanctuary where we don't have to pretend to be good." },
+      { "name": "The Final-Act Dissidents", "share": 0.12, "voice": "While the individual episodes are brilliant, the show's underlying cynicism eventually curdles into a repetitive, mean-spirited vacuum that limits its emotional shelf-life." }
+    ],
+    "symbols": ["monochrome diner booth", "slap-bass musical punctuation", "oversized puffy white shirt", "Junior Mint falling into an open chest cavity", "unmarked soup kitchen line rules"],
+    "pos": { "x": 0.96, "y": 0.14 }
+  },
+  {
+    "slug": "mommie-dearest-1981",
+    "title": "Mommie Dearest",
+    "year": 1981,
+    "director": "Frank Perry",
+    "runtime": 116,
+    "catalogue": "ARTX-181",
+    "epigraph": "No wire hangers, ever!",
+    "reading": "Mommie Dearest stands as the undisputed, legendary blueprint for the 'Auteur-Intent Subversion' trajectory in cinema history, transforming from a prestigious, multi-million-dollar studio biographical drama into what is universally recognized as the ultimate, high-camp horror masterpiece. Intended by Paramount as a serious, emotionally wrenching exposé on Joan Crawford's abusive parenting, Faye Dunaway's hyper-intense, operatic performance completely shattered traditional dramatic boundaries. Rescued entirely from critical execution by midnight movie houses and queer communities, the film's afterlife is staggering. Its mention volume is relentless and deeply performative—sustained by a global subculture that treats its screaming, mascara-streaked monologues as sacred liturgical text, transforming familial trauma into a site of pure, cathartic camp celebration.",
+    "metrics": {
+      "consensus": 91,
+      "friction": 34,
+      "obsession": 93,
+      "haunting": 88,
+      "symbolic": 74,
+      "cult": 99,
+      "formal": 62,
+      "voltage": 97,
+      "accessibility": 92,
+      "reach": 89,
+      "progeny": 85,
+      "arc": 99,
+      "transgression": 78
+    },
+    "notes": {
+      "cult": "Maximal cult score. This is a text entirely hijacked, reconstructed, and venerated by its audience against its initial critical burial, forcing the studio to literally change its promotional taglines mid-release to match the audience's camp viewing style.",
+      "voltage": "Near-maximum threshold. Dunaway's performance operates at a terrifying, unhinged physical frequency—inducing genuine nervous panic and awe through her vocal range and bodily dominance during the cleaning centerpieces.",
+      "arc": "A perfect 99. The system marks this as a legendary, absolute 180-degree turn in cultural framing; a work built for prestige Oscars that migrated permanently into midnight movie immortality."
+    },
+    "afterlife": [
+      { "year": 1981, "kind": "release", "label": "Theatrical premiere; savaged by mainstream critics who call it grotesque and unhinged, while audiences begin laughing out loud during intense dramatic scenes." },
+      { "year": 1981, "kind": "reissue", "label": "Paramount leans entirely into the audience's reaction, altering their print ads to read: 'Meet the biggest mother of them all!' and leaning into the camp phenomenon." },
+      { "year": 1982, "kind": "rejection", "label": "Dominates the Razzie Awards with nine nominations and five wins, solidifying its status as an institutional failure and an underground triumph." },
+      { "year": 2000, "kind": "meme", "label": "The 'wire hanger sequence' achieves permanent, viral immortality across drag subcultures, film schools, and internet forums as the absolute, universal shorthand for high-camp psychodrama." }
+    ],
+    "factions": [
+      { "name": "The Midnight Camp Liturgists", "share": 0.58, "voice": "It is an accidental masterpiece of pure, unfiltered operatic horror; Faye Dunaway isn't overacting, she is delivering a transcendent, kabuki-style performance that captures the grotesque nightmare of Hollywood ego and generational abuse." },
+      { "name": "The Hollywood Tragedy Realists", "share": 0.28, "voice": "The film works best as a deeply disturbing, fascinating look behind the porcelain mask of classic studio stardom, exposing the violent paranoia and emotional starvation required to maintain the illusion of glamour." },
+      { "name": "The Exploitative Skeptics", "share": 0.14, "voice": "A trashy, mean-spirited, and unintentionally hilarious melodrama that reduces complex real-life trauma into a loud, screeching caricature that insults both Crawford and her children." }
+    ],
+    "symbols": ["rusted wire hanger", "cold face-cream mask", "uprooted rose bushes in the dark", "golden Oscar statuette on a dresser", "scrub brush and cleansing powder"],
+    "pos": { "x": 0.21, "y": 0.97 }
+  },
+  {
+    "slug": "but-im-a-cheerleader-1999",
+    "title": "But I'm a Cheerleader",
+    "year": 1999,
+    "director": "Jamie Babbit",
+    "runtime": 85,
+    "catalogue": "ARTX-199B",
+    "epigraph": "I'm a cheerleader. I like boys. I wear skirts. I mean, look at me.",
+    "reading": "But I'm a Cheerleader stands as a towering, essential pillar of New Queer Cinema, demonstrating a flawless execution of the 'Camp Subversion' trajectory to process institutional trauma. Intended as a sharp, satirical takedown of the horrific reality of conversion therapy camps, Jamie Babbit deployed a hyper-saturated, candy-pink-and-baby-blue plastic aesthetic reminiscent of John Waters. At release, it was heavily penalized by the MPAA with an NC-17 rating and widely dismissed by straight critics. In its spectacular digital afterlife, the film has achieved complete and total cult victory. Its online mention landscape is permanent, joyful, and deeply foundational—venerated across queer spaces as a sacred romantic text and a brilliant deconstruction of performative gender roles.",
+    "metrics": {
+      "consensus": 92,
+      "friction": 24,
+      "obsession": 94,
+      "haunting": 82,
+      "symbolic": 87,
+      "cult": 99,
+      "formal": 81,
+      "voltage": 85,
+      "accessibility": 89,
+      "reach": 84,
+      "progeny": 91,
+      "arc": 98,
+      "transgression": 84
+    },
+    "notes": {
+      "cult": "Near-maximum cult score. Completely rescued from its initial institutional burial by generations of queer audiences who keep its visual style, quotes, and soundtrack permanently alive as a communal touchstone.",
+      "arc": "A staggering 98. Marks a massive historical drift from a maligned, 'dangerous' indie comedy to an untouchable, canonized masterpiece of queer cinema celebrated by major film preservation bodies.",
+      "formal": "Highly dense color theory. The strict, binary segregation of the production design (aggressive pinks for girls, muted blues for boys) acts as a literal, hostile character that mirrors the psychological cage of True Directions."
+    },
+    "afterlife": [
+      { "year": 1999, "kind": "release", "label": "Premieres at the Toronto International Film Festival; heavily penalized by the MPAA with a hostile NC-17 rating, forcing edits to secure an R for theatrical release." },
+      { "year": 2000, "kind": "rejection", "label": "Mainstream critics largely dismiss the film as overly broad, shallow, and cartoonish, completely missing its subversive intent." },
+      { "year": 2020, "kind": "criterion", "label": "A pristine 20th Anniversary Director's Cut release firmly seals its canonical historical importance across elite cinephile archives." }
+    ],
+    "factions": [
+      { "name": "The Queer Satirists", "share": 0.62, "voice": "It is a brilliant, subversive masterpiece; using Barbie-doll camp and pastel aesthetics to mock the absurd, performative nature of heteronormativity is a stroke of pure political genius." },
+      { "name": "The Romantic Essentialists", "share": 0.26, "voice": "At its heart, it is one of the most tender, beautiful, and authentic lesbian romance stories ever filmed; the chemistry between Megan and Graham is electric and timeless." },
+      { "name": "The Tonal Dissidents", "share": 0.12, "voice": "While well-intentioned, the film's hyper-cartoonish, broad comedic style occasionally undercuts the very real, dark psychological horror of conversion therapy." }
+    ],
+    "symbols": ["hyper-saturated pink cheerleader megaphone", "True Directions step-by-step gender manual", "artificial plastic backyard grass", "root-beer float date", "navy blue mechanic uniform jumpsuit"],
+    "pos": { "x": 0.24, "y": 0.99 }
+  },
+  {
+    "slug": "slums-of-beverly-hills-1998",
+    "title": "Slums of Beverly Hills",
+    "year": 1998,
+    "director": "Tamara Jenkins",
+    "runtime": 91,
+    "catalogue": "ARTX-598J",
+    "epigraph": "We're not poor. We're just temporarily short of capital.",
+    "reading": "Slums of Beverly Hills stands as an exceptionally sharp, gritty, and fiercely empathetic artifact of the late-90s American independent cinema boom. Tamara Jenkins' semi-autobiographical coming-of-age text subverted the glossy, hyper-wealthy '90210' mythology of Beverly Hills by viewing it from the exact margins—focusing on a nomadic, lower-middle-class Jewish family bouncing between dingy, flat-roofed apartments just to keep their kids in the elite school district. In its long digital afterlife, the film has sustained a deeply loyal, stable insider footprint. It is continuously frequented by character-actor purists and indie cinephiles who celebrate Lyonne's breakout, deeply grounded performance as Vivian Abramowitz and its un-romanticized, tactile depiction of teenage body image, economic shame, and familial dysfunction.",
+    "metrics": {
+      "consensus": 86,
+      "friction": 32,
+      "obsession": 74,
+      "haunting": 76,
+      "symbolic": 72,
+      "cult": 83,
+      "formal": 68,
+      "voltage": 74,
+      "accessibility": 89,
+      "reach": 65,
+      "progeny": 79,
+      "arc": 84,
+      "transgression": 65
+    },
+    "notes": {
+      "reach": "Moderate-to-low macro-reach. The film remains a highly specific, insider treasure, largely isolated from massive mainstream pop-culture awareness but held in maximum reverence within indie screenwriting circles.",
+      "transgression": "Maintained by its refreshingly honest, completely un-glamorous approach to teenage female sexuality, puberty, and bodily changes, which bypassed traditional Hollywood sanitization."
+    },
+    "afterlife": [
+      { "year": 1998, "kind": "release", "label": "Premieres at the Cannes Film Festival in the Un Certain Regard section, drawing immediate praise for its sharp script and breakout performances." },
+      { "year": 2018, "kind": "rediscovery", "label": "The 20th anniversary prompts a wave of critical retrospectives framing it as an unsung masterclass in 90s class-conscious independent cinema, paving the way for Lady Bird." }
+    ],
+    "factions": [
+      { "name": "The Class-Conscious Realists", "share": 0.54, "voice": "It is one of the few American films that understands the exhausting, day-to-day anxiety of being lower-middle class; it brilliantly uses Beverly Hills as a cruel backdrop for economic survival." },
+      { "name": "The Coming-of-Age Purists", "share": 0.32, "voice": "Natasha Lyonne delivers a phenomenal, fiercely funny, and deeply vulnerable performance that perfectly captures the awkward, hyper-tactile reality of teenage girlhood without any Hollywood gloss." },
+      { "name": "The Melodramatic Dissidents", "share": 0.14, "voice": "An accurately performed but occasionally exhausting exercise in watching a deeply dysfunctional family make chaotic decisions across a series of ugly apartments." }
+    ],
+    "symbols": ["vibrator wrapped in a box", "flat-roofed stucco apartment pool", "oversized medical breast forms", "station wagon packed with luggage", "eviction notice on a door"],
+    "pos": { "x": 0.65, "y": 0.83 }
+  },
+  {
+    "slug": "russian-doll-2019",
+    "title": "Russian Doll",
+    "year": 2019,
+    "director": "Various",
+    "runtime": 480,
+    "medium": "tv",
+    "catalogue": "ARTX-919L",
+    "epigraph": "Gotta get up, gotta get out, gotta get home before the morning comes.",
+    "reading": "Russian Doll occupies an elite, hyper-structured coordinate in modern television, serving as a brilliant, mind-bending synthesis of video-game geometry, Jewish existentialism, and ancestral trauma processing. Co-created by Lyonne, Leslye Headland, and Amy Poehler, the series took the classic 'Groundhog Day' temporal loop framework and thoroughly injected it with New York cynicism and psychological decay. At launch, it achieved massive critical and audience consensus victory, celebrated for its razor-sharp writing and its intricate narrative architecture. In its rich afterlife, the show functions as a major gravity well for puzzle-box decoders and philosophical subcultures who treat Nadia Vulvokov's shifting timelines and season-two subway time-travel loops as a dense, metaphysical blueprint for breaking generational curses.",
+    "metrics": {
+      "consensus": 94,
+      "friction": 38,
+      "obsession": 92,
+      "haunting": 89,
+      "symbolic": 96,
+      "cult": 74,
+      "formal": 93,
+      "voltage": 88,
+      "accessibility": 78,
+      "reach": 89,
+      "progeny": 85,
+      "arc": 89,
+      "transgression": 68
+    },
+    "notes": {
+      "symbolic": "Maxing out the matrix. The glowing bathroom door mirror, the disappearing video-game code glitch anomalies, the rotting fruit, and the Krugerrand gold coins are endlessly dissected as heavy allegories for psychological integration.",
+      "formal": "Exceptionally high formal risk. The show masterfully manages interlocking character loops, shifting timelines, and surrealist metaphysical collapses without ever losing its emotional grounding or comedic rhythm.",
+      "haunting": "Driven heavily by the cyclical, Pavlovian auditory trigger of Harry Nilsson's 'Gotta Get Up' blaring at the start of every single loop resurrection, which viewers report installing itself permanently in their brains."
+    },
+    "afterlife": [
+      { "year": 2019, "kind": "release", "label": "Season 1 drops on Netflix to an absolute explosion of critical rhapsody, securing 13 Emmy nominations and instant cultural canonization." },
+      { "year": 2022, "kind": "release", "label": "Season 2 radically shifts gears, transforming the loop into a 1980s New York subway time-travel device to directly unpack ancestral Holocaust trauma." },
+      { "year": 2025, "kind": "meme", "label": "Nadia's thick East Coast accent deliveries maintain permanent status as high-frequency reaction audios across all social media platforms." }
+    ],
+    "factions": [
+      { "name": "The Existential Traumatologists", "share": 0.52, "voice": "The loop isn't a sci-fi gimmick; it is a perfect, brilliant metaphor for psychological trauma. You are doomed to repeat your worst, most self-sabotaging days until you stop running and actively choose to heal with others." },
+      { "name": "The Puzzle-Box Formalists", "share": 0.34, "voice": "A flawlessly constructed masterpiece of narrative engineering; the way Alan and Nadia's loops interlock, degrade, and mirror a broken video game engine is absolute genius." },
+      { "name": "The Season-Two Dissidents", "share": 0.14, "voice": "While the first season is a self-contained, perfect miracle of pacing, the second season's shift into literal lineage time-travel stretches the show's established internal logic a bit too thin." }
+    ],
+    "symbols": ["glowing circle bathroom mirror", "Harry Nilsson's 'Gotta Get Up' cassette tape", "rotting orange on a counter", "Krugerrand gold coin necklace", "East Village subway train doors"],
+    "pos": { "x": 0.89, "y": 0.93 }
+  },
+  {
+    "slug": "the-oak-room-2020",
+    "title": "The Oak Room",
+    "year": 2020,
+    "director": "Cody Calahan",
+    "runtime": 88,
+    "catalogue": "ARTX-020C",
+    "epigraph": "A bar is a place where people go to tell lies until they sound like the truth.",
+    "reading": "The Oak Room occupies a fascinating, highly insular coordinate in modern Canadian neo-noir, acting as an intense experiment in narrative nesting and dialogue-driven suspense. Shot almost entirely within a dark, wood-paneled tavern during a raging blizzard, the film discards traditional thriller pacing to rely entirely on the tension of oral storytelling. Its digital afterlife behaves like a slow-burning insider whisper among neo-realism and stage-to-screen adaptation enthusiasts. It is highly celebrated for its high formal risk parameter—forcing the audience to orient themselves through a series of contradictory stories-within-stories where the line between a harmless bar yarn and a deadly threat completely dissolves.",
+    "metrics": {
+      "consensus": 74,
+      "friction": 52,
+      "obsession": 64,
+      "haunting": 81,
+      "symbolic": 85,
+      "cult": 71,
+      "formal": 89,
+      "voltage": 76,
+      "accessibility": 62,
+      "reach": 48,
+      "progeny": 58,
+      "arc": 79,
+      "transgression": 54
+    },
+    "notes": {
+      "formal": "Towering formal risk for a modern thriller. The film structures its entire tension arc through the cadence of barroom monologues, relying on shifting perspective drops rather than physical action set-pieces.",
+      "haunting": "Sustained by the claustrophobic, amber-lit atmosphere of the deserted bar and the howling blizzard outside, creating a heavy sense of inescapable domestic purgatory."
+    },
+    "afterlife": [
+      { "year": 2020, "kind": "release", "label": "Premieres at Fantasia International Film Festival to strong critical praise for its tight script and claustrophobic tension." },
+      { "year": 2021, "kind": "rediscovery", "label": "Hits streaming platforms during the tail end of pandemic isolation, finding a quiet, highly appreciative audience among fans of tight, single-location chamber pieces." }
+    ],
+    "factions": [
+      { "name": "The Narrative Structuralists", "share": 0.54, "voice": "It is a brilliant, masterfully written exercise in pure storytelling; the way the film treats nested bar talk as a literal weapon of psychological suspense is absolute genius." },
+      { "name": "The Neo-Noir Purists", "share": 0.32, "voice": "A wonderfully atmospheric, bleak, and low-key Canadian crime thriller that captures the exact cold grit and desperate sociology of a dying small town." },
+      { "name": "The Action Materialists", "share": 0.14, "voice": "An overly static, dialogue-heavy stage play masquerading as a thriller that spends far too much time telling stories instead of showing real narrative progression." }
+    ],
+    "symbols": ["amber-lit wooden bar counter", "raging blizzard window frost", "cracked beer pint glass", "old sports coat on a hook", "unlit cigarette between fingers"],
+    "pos": { "x": 0.14, "y": 0.89 }
+  },
+  {
+    "slug": "clown-2014",
+    "title": "Clown",
+    "year": 2014,
+    "director": "Jon Watts",
+    "runtime": 100,
+    "catalogue": "ARTX-414W",
+    "epigraph": "The suit isn't a costume. It's the skin of a demon.",
+    "reading": "Clown represents a highly unique, dark milestone in modern horror history, functioning today as an accidental monument to a director's career genesis before being optimized by the Marvel machine. Originating as a fake viral trailer that cheekily name-dropped Eli Roth, the actual feature morphs a silly, high-concept logline into a genuinely disturbing, tragic body-horror descent. Its digital afterlife is incredibly stable across horror subcultures. It is parsed not as cheap slapstick slasher trash, but as a gritty, Cronenbergian exploration of somatic mutation and parasitic dominance, endlessly cited for its uncompromising willingness to break mainstream studio taboos regarding child endangerment.",
+    "metrics": {
+      "consensus": 78,
+      "friction": 46,
+      "obsession": 72,
+      "haunting": 87,
+      "symbolic": 68,
+      "cult": 81,
+      "formal": 74,
+      "voltage": 89,
+      "accessibility": 85,
+      "reach": 68,
+      "progeny": 62,
+      "arc": 81,
+      "transgression": 84
+    },
+    "notes": {
+      "voltage": "High physiological impact. The slow, agonizing decay of Kent's skin merging with the synthetic fibers of the suit, combined with the visceral claustrophobia of the indoor playground climax, registers high somatic discomfort text markers.",
+      "transgression": "Elevated score driven entirely by the script's rigid refusal to blink during the third act, directly executing extreme taboo genre violations involving the hunting of children."
+    },
+    "afterlife": [
+      { "year": 2014, "kind": "release", "label": "Theatrical rollout delayed significantly due to distribution hurdles and censorship concerns over its graphic, taboo content." },
+      { "year": 2017, "kind": "rediscovery", "label": "Following Jon Watts' massive mainstream selection to direct Spider-Man: Homecoming, genre fans aggressively retro-scan this debut, turning it into a high-demand cult curiosity." }
+    ],
+    "factions": [
+      { "name": "The Somatic Mutation Purists", "share": 0.48, "voice": "It is a phenomenal, deeply unsettling body-horror film; treating a clown costume as a literal, ancient skin parasite that slowly alters a loving father's biology is an incredible concept executed with zero compromise." },
+      { "name": "The Tragic Slasher Fans", "share": 0.38, "voice": "The movie works beautifully as a dark, tragic psychological drama; watching Kent desperately fight against the hunger of the demon to protect his own family gives the horror a genuine emotional weight." },
+      { "name": "The High-Concept Skeptics", "share": 0.14, "voice": "A well-made but ultimately predictable, mean-spirited slasher that takes a funny fake trailer concept and stretches it a bit too thin over a standard runtime." }
+    ],
+    "symbols": ["porcelain white clown makeup fused to skin", "wig hairs rooted into a scalp", "plastic indoor playground tube slide", "red foam nose bleeding", "ancient European demon scroll sketch"],
+    "pos": { "x": 0.81, "y": 0.74 }
+  },
+  {
+    "slug": "vulgar-2000",
+    "title": "Vulgar",
+    "year": 2000,
+    "director": "Bryan Johnson",
+    "runtime": 87,
+    "catalogue": "ARTX-000J",
+    "epigraph": "You think because I put on a dress and take a beating that I don't have a soul?",
+    "reading": "Vulgar stands as one of the most volatile, aggressively high-friction, and profoundly polarizing anomalies of the early-2000s American independent landscape. Produced under Kevin Smith's View Askew banner, the film weaponized the recognizable, micro-budget New Jersey aesthetic to deliver a pitch-black, deeply traumatic autopsy of economic desperation and psychosexual violence. At release, it was utterly savaged and buried by mainstream critics, triggering a massive cultural wound due to its brutal depiction of male-on-male sexual assault. In its dark, highly insular afterlife, the film has maintained an intense, prickly mention density—debated fiercely between anti-exploitation formalists who view it as an ugly, amateurish misfire and transgressive cinema apologists who defend it as a raw, deeply empathetic, and un-sanitized look at marginal survival.",
+    "metrics": {
+      "consensus": 31,
+      "friction": 95,
+      "obsession": 74,
+      "haunting": 92,
+      "symbolic": 71,
+      "cult": 85,
+      "formal": 65,
+      "voltage": 94,
+      "accessibility": 54,
+      "reach": 58,
+      "progeny": 42,
+      "arc": 76,
+      "transgression": 98
+    },
+    "notes": {
+      "friction": "Tearing the chart to pieces. The interpretive war is completely static and hostile, locked in a permanent dispute over whether the text's handling of extreme trauma is therapeutic or purely exploitative.",
+      "transgression": "A near-maximum 98. The system flags this as a peak era-specific transgressive milestone, pushing low-budget indie cinema past traditional shock taboos into deeply uncomfortable territory.",
+      "consensus": "An absolute low-water mark, pointing directly to the total lack of any shared, comfortable public account regarding the film's artistic validity."
+    },
+    "afterlife": [
+      { "year": 2000, "kind": "release", "label": "Premieres at the Toronto International Film Festival, sparking immediate walkouts, audience horror, and a wave of critical condemnation." },
+      { "year": 2002, "kind": "wound", "label": "Released on home video with an MPAA R rating after extensive edits to tone down its central assault sequence, keeping the text heavily contested in censorship circles." },
+      { "year": 2018, "kind": "rediscovery", "label": "Cult film podcasts and transgressive archive blogs organize retrospective autopsies, analyzing the film as a fascinating, pitch-black counter-signal to the cozy slack-comedy of Clerks." }
+    ],
+    "factions": [
+      { "name": "The Transgressive Apologists", "share": 0.44, "voice": "The film is an incredibly raw, brave, and deeply misunderstood look at trauma and redemption; it uses extreme, shocking sleaze to tell a tragic story about a man fighting to reclaim his dignity after being utterly destroyed." },
+      { "name": "The Exploitation Critics", "share": 0.42, "voice": "An amateurish, incredibly ugly, and mean-spirited piece of shock-cinema that completely mishandles its severe trauma elements for a trashy, low-brow indie thriller plot." },
+      { "name": "The View-Askew Completionists", "share": 0.14, "voice": "A fascinating, deeply bizarre historical curiosity; watching the cozy, friendly cast of Kevin Smith's universe drop into a pitch-black psychological nightmare is completely surreal." }
+    ],
+    "symbols": ["ragged purple clown dress", "unmarked videotape package", "dingy New Jersey storage locker", "rusted fireplace poker", "battered yellow birthday cake"],
+    "pos": { "x": 0.44, "y": 0.65 }
   }
 ]
