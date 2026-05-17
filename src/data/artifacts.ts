@@ -56,6 +56,9 @@ export type Artifact = {
   factions: Faction[];
   symbols: string[];
   medium?: Medium;
+  leadActors?: string[]; // films & TV
+  author?: string;       // books
+  musician?: string;     // albums
   // Atlas placement (0..1 normalized in dark field)
   pos: { x: number; y: number };
 };
@@ -106,6 +109,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.22, voice: "“Sound design as theology.”" },
     ],
     symbols: ["the ring", "the lodge", "electricity", "the angel", "creamed corn", "the photograph"],
+    leadActors: ["Sheryl Lee","Kyle MacLachlan","Moira Kelly","Ray Wise","Kiefer Sutherland"],
     pos: { x: 0.18, y: 0.32 },
   },
   {
@@ -149,6 +153,7 @@ const CURATED: Artifact[] = [
       { name: "Pure-Surface", share: 0.2, voice: "“Stop solving it.”" },
     ],
     symbols: ["the blue box", "club silencio", "the cowboy", "the diner", "winkie's"],
+    leadActors: ["Naomi Watts","Laura Harring","Justin Theroux","Ann Miller","Robert Forster"],
     pos: { x: 0.62, y: 0.22 },
   },
   {
@@ -193,6 +198,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.22, voice: "“The final movement overexplains what the family drama built.”" },
     ],
     symbols: ["the cluck", "the model house", "the pole", "the treehouse", "paimon"],
+    leadActors: ["Toni Collette","Alex Wolff","Milly Shapiro","Gabriel Byrne","Ann Dowd"],
     pos: { x: 0.42, y: 0.78 },
   },
   {
@@ -237,6 +243,7 @@ const CURATED: Artifact[] = [
       { name: "The Holdouts", share: 0.2, voice: "“Brilliant craft, emotionally cold.”" },
     ],
     symbols: ["blood test", "the kennel", "norwegian camp", "flamethrower", "containment"],
+    leadActors: ["Kurt Russell","Wilford Brimley","T.K. Carter","David Clennon","Keith David"],
     pos: { x: 0.15, y: 0.66 },
   },
   {
@@ -280,6 +287,7 @@ const CURATED: Artifact[] = [
       { name: "The Reactionaries", share: 0.25, voice: "“Its gender satire is itself the provocation.”" },
     ],
     symbols: ["mojo dojo casa house", "pink void", "barbieland", "kendom", "high heel / birkenstock"],
+    leadActors: ["Margot Robbie","Ryan Gosling","America Ferrera","Kate McKinnon","Simu Liu"],
     pos: { x: 0.67, y: 0.44 },
   },
   {
@@ -323,6 +331,7 @@ const CURATED: Artifact[] = [
       { name: "The Refusers", share: 0.18, voice: "“A hostile object by design.”" },
     ],
     symbols: ["radiator stage", "industrial haze", "the baby", "the pencil", "electric hum"],
+    leadActors: ["Jack Nance","Charlotte Stewart","Allen Joseph","Jeanne Bates","Judith Anna Roberts"],
     pos: { x: 0.24, y: 0.18 },
   },
   {
@@ -366,6 +375,7 @@ const CURATED: Artifact[] = [
       { name: "The Literalists", share: 0.18, voice: "“A near-perfect script machine, no metaphysics required.”" },
     ],
     symbols: ["the loop", "the alarm clock", "punxsutawney square", "piano lesson", "ice sculpture"],
+    leadActors: ["Bill Murray","Andie MacDowell","Chris Elliott","Stephen Tobolowsky","Brian Doyle-Murray"],
     pos: { x: 0.81, y: 0.61 },
   },
   {
@@ -411,6 +421,7 @@ const CURATED: Artifact[] = [
       { name: "The Resistant", share: 0.22, voice: "“Its brilliance is undeniable, but the burden can feel total.”" },
     ],
     symbols: ["the warehouse city", "the recursive stage", "adenoid timeline", "the cleaning woman", "total simulation"],
+    leadActors: ["Philip Seymour Hoffman","Catherine Keener","Samantha Morton","Emily Watson","Dianne Wiest"],
     pos: { x: 0.79, y: 0.57 },
   },
   {
@@ -454,6 +465,7 @@ const CURATED: Artifact[] = [
       { name: "The Distant", share: 0.1, voice: "“Beautiful, but hermetic.”" },
     ],
     symbols: ["the qipao", "the staircase", "noodles", "smoke", "the wall in angkor"],
+    leadActors: ["Tony Leung Chiu-wai","Maggie Cheung","Rebecca Pan","Lai Chen"],
     pos: { x: 0.32, y: 0.58 },
   },
   {
@@ -496,6 +508,7 @@ const CURATED: Artifact[] = [
       { name: "The Patient", share: 0.2, voice: "“It teaches you to wait.”" },
     ],
     symbols: ["the room", "the zone", "the dog", "the nut", "rain on tile"],
+    leadActors: ["Alexander Kaidanovsky","Anatoly Solonitsyn","Nikolai Grinko","Alisa Freyndlikh"],
     pos: { x: 0.08, y: 0.7 },
   },
   {
@@ -536,6 +549,7 @@ const CURATED: Artifact[] = [
       { name: "The Tired", share: 0.15, voice: "“Magisterial, indulgent, both.”" },
     ],
     symbols: ["the radio show", "the wolves", "the train", "the oil"],
+    leadActors: ["Leonardo DiCaprio","Lily Gladstone","Robert De Niro","Jesse Plemons","Tantoo Cardinal"],
     pos: { x: 0.88, y: 0.82 },
   },
   {
@@ -578,6 +592,7 @@ const CURATED: Artifact[] = [
       { name: "The Phoenix Camp", share: 0.25, voice: "“His face is the screenplay.”" },
     ],
     symbols: ["the sandwoman", "the processing", "the motorcycle", "the navy"],
+    leadActors: ["Joaquin Phoenix","Philip Seymour Hoffman","Amy Adams","Laura Dern","Jesse Plemons"],
     pos: { x: 0.5, y: 0.42 },
   },
   {
@@ -618,6 +633,7 @@ const CURATED: Artifact[] = [
       { name: "The Disappointed", share: 0.2, voice: "“The book is the better object.”" },
     ],
     symbols: ["the shimmer", "the bear", "the lighthouse", "the double"],
+    leadActors: ["Natalie Portman","Jennifer Jason Leigh","Gina Rodriguez","Tessa Thompson","Tuva Novotny"],
     pos: { x: 0.7, y: 0.7 },
   },
   {
@@ -663,6 +679,7 @@ const CURATED: Artifact[] = [
       { name: "The Adjani Faithful", share: 0.2, voice: "“A performance that should not be possible.”" },
     ],
     symbols: ["the subway", "the doppelgänger", "the apartment", "the creature"],
+    leadActors: ["Isabelle Adjani","Sam Neill","Margit Carstensen","Heinz Bennent","Johanna Hofer"],
     pos: { x: 0.22, y: 0.88 },
   },
   {
@@ -704,6 +721,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.28, voice: "“Every interior is a stage.”" },
     ],
     symbols: ["the mask", "the password", "the christmas lights", "the rainbow"],
+    leadActors: ["Tom Cruise","Nicole Kidman","Sydney Pollack","Marie Richardson","Rade Šerbedžija"],
     pos: { x: 0.55, y: 0.12 },
   },
   {
@@ -746,6 +764,7 @@ const CURATED: Artifact[] = [
       { name: "The Formal", share: 0.28, voice: "“Structure as moral accounting.”" },
     ],
     symbols: ["the metronome", "the apartment", "the running shoe", "the question"],
+    leadActors: ["Cate Blanchett","Nina Hoss","Sophie Kauer","Noémie Merlant","Mark Strong"],
     pos: { x: 0.85, y: 0.32 },
   },
   {
@@ -789,6 +808,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.18, voice: "“Nostalgia does half the work.”" },
     ],
     symbols: ["the map", "one-eyed willie", "the truffle shuffle", "booby traps", "the cave"],
+    leadActors: ["Sean Astin","Josh Brolin","Jeff Cohen","Corey Feldman","Kerri Green"],
     pos: { x: 0.14, y: 0.46 },
   },
   {
@@ -832,6 +852,7 @@ const CURATED: Artifact[] = [
       { name: "Aesthetic Formalists", share: 0.28, voice: "“The ad-language void is the thesis.”" },
     ],
     symbols: ["project mayhem", "the narrator", "soap", "ikea catalog", "paper street"],
+    leadActors: ["Brad Pitt","Edward Norton","Helena Bonham Carter","Meat Loaf","Jared Leto"],
     pos: { x: 0.67, y: 0.49 },
   },
   {
@@ -876,6 +897,7 @@ const CURATED: Artifact[] = [
       { name: "Body-Horror Readers", share: 0.25, voice: "“Its dread is biological, not narrative.”" },
     ],
     symbols: ["the void", "the black room", "the van", "the beach", "the skin"],
+    leadActors: ["Scarlett Johansson","Jeremy McWilliams","Lynsey Taylor Mackay","Joe Szula"],
     pos: { x: 0.39, y: 0.16 },
   },
   {
@@ -920,6 +942,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.23, voice: "“Conceptually sharp, but intentionally rough-edged.”" },
     ],
     symbols: ["the glow sticks", "the box", "duplicate dinner party", "broken state continuity", "quantum fracture"],
+    leadActors: ["Emily Baldoni","Maury Sterling","Nicholas Brendon","Elizabeth Gracen","Hugo Armstrong"],
     pos: { x: 0.56, y: 0.27 },
   },
   {
@@ -964,6 +987,7 @@ const CURATED: Artifact[] = [
       { name: "The Repelled", share: 0.25, voice: "“Formidable craft, but the abrasion is relentless.”" },
     ],
     symbols: ["the lantern room", "the gull", "the mermaid", "promethean fire", "the foghorn"],
+    leadActors: ["Willem Dafoe","Robert Pattinson"],
     pos: { x: 0.51, y: 0.19 },
   },
   {
@@ -1008,6 +1032,7 @@ const CURATED: Artifact[] = [
       { name: "Narrative Holdouts", share: 0.22, voice: "“Mesmeric image, but too little structural payoff.”" },
     ],
     symbols: ["arboria institute", "red chamber", "synth drone", "chromatic haze", "psychic containment"],
+    leadActors: ["Eva Allan","Michael Rogers","Scott Hylands","Marilyn Norry"],
     pos: { x: 0.23, y: 0.15 },
   },
   {
@@ -1051,6 +1076,7 @@ const CURATED: Artifact[] = [
       { name: "Political Readers", share: 0.22, voice: "“Its fake-news form predicts the present tense.”" },
     ],
     symbols: ["federal network", "bugs", "mobile infantry", "recruitment ads", "uniforms"],
+    leadActors: ["Casper Van Dien","Dina Meyer","Denise Richards","Jake Busey","Neil Patrick Harris"],
     pos: { x: 0.74, y: 0.68 },
   },
   {
@@ -1094,6 +1120,7 @@ const CURATED: Artifact[] = [
       { name: "Late Converts", share: 0.2, voice: "“I dismissed it, then it clicked years later.”" },
     ],
     symbols: ["the knife", "the school fire", "the lake", "the tongue", "the band"],
+    leadActors: ["Megan Fox","Amanda Seyfried","Johnny Simmons","Adam Brody","J.K. Simmons"],
     pos: { x: 0.58, y: 0.84 },
   },
   {
@@ -1137,6 +1164,7 @@ const CURATED: Artifact[] = [
       { name: "The Formal Moderates", share: 0.25, voice: "“Conventional craft, volatile implications.”" },
     ],
     symbols: ["the typewriter", "the red pen", "the desk", "the contract"],
+    leadActors: ["Maggie Gyllenhaal","James Spader","Jeremy Davies","Lesley Ann Warren"],
     pos: { x: 0.7, y: 0.58 },
   },
   {
@@ -1180,6 +1208,7 @@ const CURATED: Artifact[] = [
       { name: "The Ambiguists", share: 0.25, voice: "“Mystery is the mechanism, not a flaw.”" },
     ],
     symbols: ["frank the rabbit", "the tangent universe", "the jet engine", "the countdown"],
+    leadActors: ["Jake Gyllenhaal","Jena Malone","Mary McDonnell","Drew Barrymore","Patrick Swayze"],
     pos: { x: 0.62, y: 0.78 },
   },
   {
@@ -1223,6 +1252,7 @@ const CURATED: Artifact[] = [
       { name: "The Moralists", share: 0.19, voice: "“The ending's withdrawal is its ethical strike.”" },
     ],
     symbols: ["the coin toss", "the cattle gun", "the motel corridor", "the dream"],
+    leadActors: ["Josh Brolin","Tommy Lee Jones","Javier Bardem","Woody Harrelson","Kelly Macdonald"],
     pos: { x: 0.4, y: 0.2 },
   },
   {
@@ -1266,6 +1296,7 @@ const CURATED: Artifact[] = [
       { name: "The Split Readers", share: 0.24, voice: "“Form exhilarating, ethics unresolved.”" },
     ],
     symbols: ["the bounty poster", "the blue suit", "candieland", "the exploding house"],
+    leadActors: ["Jamie Foxx","Christoph Waltz","Leonardo DiCaprio","Kerry Washington","Samuel L. Jackson"],
     pos: { x: 0.9, y: 0.64 },
   },
   {
@@ -1309,6 +1340,7 @@ const CURATED: Artifact[] = [
       { name: "The PTA Maximalists", share: 0.34, voice: "“Mess is the point, and the form.”" },
     ],
     symbols: ["the haze", "gold fang", "the sax line", "the missing map"],
+    leadActors: ["Joaquin Phoenix","Josh Brolin","Owen Wilson","Reese Witherspoon","Benicio del Toro"],
     pos: { x: 0.28, y: 0.74 },
   },
   {
@@ -1354,6 +1386,7 @@ const CURATED: Artifact[] = [
       { name: "The King Loyalists", share: 0.28, voice: "\"Kubrick removed the emotional core. The hotel should have wanted the family dead.\"" },
     ],
     symbols: ["Room 237", "the hedge maze", "the carpet", "the axe", "the Overlook Hotel", "the twins", "all work and no play"],
+    leadActors: ["Jack Nicholson","Shelley Duvall","Danny Lloyd","Scatman Crothers","Barry Nelson"],
     pos: { x: 0.32, y: 0.22 },
   },
   {
@@ -1397,6 +1430,7 @@ const CURATED: Artifact[] = [
       { name: "The Design Readers", share: 0.18, voice: "\"The Expressionist architecture and the calypso score is a formal argument in itself.\"" },
     ],
     symbols: ["the netherworld waiting room", "the calypso number", "the model town", "the ghost handbook", "the sandworms", "the black-and-white stripes"],
+    leadActors: ["Michael Keaton","Alec Baldwin","Geena Davis","Winona Ryder","Jeffrey Jones"],
     pos: { x: 0.6, y: 0.88 },
   },
   {
@@ -1442,6 +1476,7 @@ const CURATED: Artifact[] = [
       { name: "The Resisters", share: 0.15, voice: "\"I cannot explain why people treat this as a sacred object.\"" },
     ],
     symbols: ["the rug", "the White Russian", "Donnie's ashes", "the Dude's bathrobe", "the nihilists", "bowling lanes"],
+    leadActors: ["Jeff Bridges","John Goodman","Julianne Moore","Steve Buscemi","John Turturro"],
     pos: { x: 0.95, y: 0.82 },
   },
   {
@@ -1486,6 +1521,7 @@ const CURATED: Artifact[] = [
       { name: "The Genre Readers", share: 0.23, voice: "\"It is simultaneously thriller, comedy, and horror, and never fails at any of them.\"" },
     ],
     symbols: ["the viewing stone", "the smell", "the flooding basement", "the semi-basement", "the garden rock", "the plan"],
+    leadActors: ["Song Kang-ho","Lee Sun-kyun","Cho Yeo-jeong","Choi Woo-shik","Park So-dam"],
     pos: { x: 0.82, y: 0.38 },
   },
   {
@@ -1531,6 +1567,7 @@ const CURATED: Artifact[] = [
       { name: "The Theorists", share: 0.22, voice: "\"It is the most rigorous examination of the ethics of cinematic violence ever made.\"" },
     ],
     symbols: ["the remote control", "the eggs", "the fourth wall", "the golf club", "the white gloves", "the rewind"],
+    leadActors: ["Susanne Lothar","Ulrich Mühe","Arno Frisch","Frank Giering","Stefan Clapczynski"],
     pos: { x: 0.18, y: 0.55 },
   },
   {
@@ -1575,6 +1612,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.21, voice: "\"Style is doing the work that feeling should be doing.\"" },
     ],
     symbols: ["the Lindbergh Palace Hotel", "the red tracksuit", "the funerary suit", "the staircase", "the ashram", "the bullet"],
+    leadActors: ["Gene Hackman","Anjelica Huston","Ben Stiller","Gwyneth Paltrow","Luke Wilson"],
     pos: { x: 0.86, y: 0.70 },
   },
   {
@@ -1619,6 +1657,7 @@ const CURATED: Artifact[] = [
       { name: "The Underrated Camp", share: 0.17, voice: "\"This is their best film and no one talks about it.\"" },
     ],
     symbols: ["the barber's chair", "the box", "the flying saucer", "the hot dogs", "Doris's typing", "the hair"],
+    leadActors: ["Billy Bob Thornton","Frances McDormand","Michael Badalucco","James Gandolfini","Tony Shalhoub"],
     pos: { x: 0.55, y: 0.18 },
   },
   {
@@ -1663,6 +1702,7 @@ const CURATED: Artifact[] = [
       { name: "The Comedians", share: 0.21, voice: "\"It is the funniest film I have ever seen. I mean that as a horror statement.\"" },
     ],
     symbols: ["Schrödinger's cat", "the roof aerial", "the Dybbuk", "the tornado", "the parking lot", "the letter"],
+    leadActors: ["Michael Stuhlbarg","Richard Kind","Sari Lennick","Fred Melamed","Aaron Wolff"],
     pos: { x: 0.62, y: 0.52 },
   },
   {
@@ -1708,6 +1748,7 @@ const CURATED: Artifact[] = [
       { name: "The Gatekeepers", share: 0.15, voice: "\"If you cannot follow it, it was not made for you.\"" },
     ],
     symbols: ["the timeline", "the box", "the briefcase", "the failsafe", "the duplicate", "the recording"],
+    leadActors: ["Shane Carruth","David Sullivan","Casey Gooden","Anand Upadhyaya"],
     pos: { x: 0.45, y: 0.08 },
   },
   {
@@ -1754,6 +1795,7 @@ const CURATED: Artifact[] = [
       { name: "The Detached", share: 0.2, voice: "“I respect it completely and feel nothing.”" },
     ],
     symbols: ["the monolith", "HAL's red eye", "the star gate", "the Starchild", "the bone weapon", "the pod bay doors"],
+    leadActors: ["Keir Dullea","Gary Lockwood","William Sylvester","Leonard Rossiter","Douglas Rain"],
     pos: { x: 0.52, y: 0.12 },
   },
   {
@@ -1800,6 +1842,7 @@ const CURATED: Artifact[] = [
       { name: "The Found Footage Scholars", share: 0.25, voice: "“Everything in the genre traces back to this.”" },
     ],
     symbols: ["the stick figures", "the corner", "the map", "the tape", "the silence", "the woods"],
+    leadActors: ["Heather Donahue","Joshua Leonard","Michael C. Williams"],
     pos: { x: 0.22, y: 0.32 },
   },
   {
@@ -1844,6 +1887,7 @@ const CURATED: Artifact[] = [
       { name: "The Aesthetic Readers", share: 0.2, voice: "“The painterly attention to surface is the entire argument.”" },
     ],
     symbols: ["the burning dress", "the backward glance", "the portrait", "the Eurydice myth", "the fire", "the gaze"],
+    leadActors: ["Noémie Merlant","Adèle Haenel","Luàna Bajrami","Valeria Golino"],
     pos: { x: 0.88, y: 0.55 },
   },
   {
@@ -1889,6 +1933,7 @@ const CURATED: Artifact[] = [
       { name: "The Thematic Readers", share: 0.18, voice: "“It is an Airbnb film. It is about real estate and who owns fear.”" },
     ],
     symbols: ["the basement", "the tape measure", "the tonal rupture", "the tunnel", "the drain", "the property"],
+    leadActors: ["Georgina Campbell","Bill Skarsgård","Justin Long","Matthew Patrick Davis"],
     pos: { x: 0.72, y: 0.26 },
   },
   {
@@ -1935,6 +1980,7 @@ const CURATED: Artifact[] = [
       { name: "The Political Weaponizers", share: 0.17, voice: "“The left and right both deploy it as evidence of the other side.”" },
     ],
     symbols: ["Brawndo", "the presidency", "Ow My Balls", "the crops", "Camacho", "the time machine"],
+    leadActors: ["Luke Wilson","Maya Rudolph","Dax Shepard","Terry Crews","Anthony Campos"],
     pos: { x: 0.78, y: 0.80 },
   },
 
@@ -1969,6 +2015,7 @@ const CURATED: Artifact[] = [
       { name: "The Phenomenologists", share: 0.28, voice: "“It is simply what happens when two people share a house and fall silent.”" },
     ],
     symbols: ["the merged face", "the broken film", "the spider", "the photograph", "the beach", "silence"],
+    leadActors: ["Bibi Andersson","Liv Ullmann","Margaretha Krook","Gunnar Björnstrand"],
     pos: { x: 0.12, y: 0.10 },
   },
   {
@@ -1999,6 +2046,7 @@ const CURATED: Artifact[] = [
       { name: "The Medievalists", share: 0.20, voice: "“The setting is not metaphor — it is a genuine reconstruction of plague logic.”" },
     ],
     symbols: ["the chess game", "Death's hooded cloak", "the flagellants", "the strawberry", "Jof's vision", "the danse macabre"],
+    leadActors: ["Max von Sydow","Gunnar Björnstrand","Bibi Andersson","Bengt Ekerot","Nils Poppe"],
     pos: { x: 0.33, y: 0.08 },
   },
   {
@@ -2028,6 +2076,7 @@ const CURATED: Artifact[] = [
       { name: "The Clinical", share: 0.18, voice: "“Bergman at his least formally adventurous; the emotional legibility is the argument.”" },
     ],
     symbols: ["the wild strawberry patch", "the clockless watch", "the examination", "the hearse", "Sara's face", "the lake"],
+    leadActors: ["Victor Sjöström","Bibi Andersson","Ingrid Thulin","Gunnar Björnstrand","Max von Sydow"],
     pos: { x: 0.51, y: 0.06 },
   },
   {
@@ -2058,6 +2107,7 @@ const CURATED: Artifact[] = [
       { name: "The Reassessors", share: 0.20, voice: "“Its misogyny is structural, not incidental, and the decades haven't softened it.”" },
     ],
     symbols: ["the jump cut", "Bogart's poster", "the Herald Tribune", "the stolen car", "the final run", "the phone call"],
+    leadActors: ["Jean-Paul Belmondo","Jean Seberg","Daniel Boulanger","Jean-Pierre Melville"],
     pos: { x: 0.70, y: 0.08 },
   },
   {
@@ -2087,6 +2137,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.20, voice: "“Truffaut invents an intimacy that Hollywood never risked.”" },
     ],
     symbols: ["the freeze frame", "the ocean", "the reformatory", "the centrifuge", "the typewriter", "Balzac's portrait"],
+    leadActors: ["Jean-Pierre Léaud","Albert Rémy","Claire Maurier","Patrick Auffay","Guy Decomble"],
     pos: { x: 0.88, y: 0.10 },
   },
   {
@@ -2117,6 +2168,7 @@ const CURATED: Artifact[] = [
       { name: "The Durational Media Devotees", share: 0.20, voice: "“The pace is the argument — impatience is the first barrier to cross.”" },
     ],
     symbols: ["Hari's return", "the ocean surface", "the Earth memory", "the dacha", "weightlessness", "the rain on the table"],
+    leadActors: ["Natalya Bondarchuk","Donatas Banionis","Jüri Järvet","Anatoly Solonitsyn","Vladislav Dvorzhetsky"],
     pos: { x: 0.08, y: 0.42 },
   },
   {
@@ -2147,6 +2199,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“Male-artist narcissism elevated to masterpiece — the emperor has no film.”" },
     ],
     symbols: ["the harem", "the spa mud", "the finale parade", "Saraghina", "the childhood beach", "Claudia in white"],
+    leadActors: ["Marcello Mastroianni","Anouk Aimée","Claudia Cardinale","Sandra Milo","Barbara Steele"],
     pos: { x: 0.30, y: 0.28 },
   },
   {
@@ -2176,6 +2229,7 @@ const CURATED: Artifact[] = [
       { name: "The Sociologists", share: 0.20, voice: "“The witnesses tell us more about themselves than about Mona.”" },
     ],
     symbols: ["the frozen ditch", "the last freeze frame", "the grapevines", "the tent", "the smell", "the witnesses"],
+    leadActors: ["Sandrine Bonnaire","Macha Méril","Stéphane Freiss","Yolande Moreau"],
     pos: { x: 0.52, y: 0.28 },
   },
 
@@ -2209,6 +2263,7 @@ const CURATED: Artifact[] = [
       { name: "The Worriers", share: 0.20, voice: "“The film's ambiguity about Travis is a structural problem, not a virtue.”" },
     ],
     symbols: ["the mirror", "the mohawk", "the gun in the sleeve", "Betsy's white dress", "Iris's room", "the overhead shot"],
+    leadActors: ["Robert De Niro","Jodie Foster","Cybill Shepherd","Harvey Keitel","Albert Brooks"],
     pos: { x: 0.18, y: 0.50 },
   },
   {
@@ -2239,6 +2294,7 @@ const CURATED: Artifact[] = [
       { name: "The Sports Historians", share: 0.20, voice: "“The most accurate portrait of a professional boxer's psychology ever committed to film.”" },
     ],
     symbols: ["the ring as arena", "the home movie footage", "the black and white choice", "the slow motion blood", "the fat Jake", "the nightclub mirror"],
+    leadActors: ["Robert De Niro","Joe Pesci","Cathy Moriarty","Nicholas Colasanto","Theresa Saldana"],
     pos: { x: 0.38, y: 0.46 },
   },
   {
@@ -2269,6 +2325,7 @@ const CURATED: Artifact[] = [
       { name: "The Performance Readers", share: 0.20, voice: "“Day-Lewis is the entire argument; the film is a vessel for an extraordinary inhabitation.”" },
     ],
     symbols: ["the oil well fire", "the milkshake speech", "the bowling alley", "the deaf son", "the cross", "the opening silence"],
+    leadActors: ["Daniel Day-Lewis","Paul Dano","Kevin J. O'Connor","Ciarán Hinds","Paul F. Tompkins"],
     pos: { x: 0.56, y: 0.46 },
   },
   {
@@ -2298,6 +2355,7 @@ const CURATED: Artifact[] = [
       { name: "The Song People", share: 0.18, voice: "“The Aimee Mann sequence is the only moment in media where music becomes communal prayer.”" },
     ],
     symbols: ["the frogs", "the quiz kid", "Frank T.J. Mackey's stage", "the Aimee Mann singalong", "Phil's cassette tape", "the map of coincidence"],
+    leadActors: ["Tom Cruise","Jason Robards","Julianne Moore","Philip Seymour Hoffman","William H. Macy"],
     pos: { x: 0.74, y: 0.46 },
   },
   {
@@ -2327,6 +2385,7 @@ const CURATED: Artifact[] = [
       { name: "The Holdouts", share: 0.20, voice: "“Extraordinary craft in service of an essentially hopeless argument about human nature.”" },
     ],
     symbols: ["the box", "the seven sins", "the notebook collection", "Somerset's metronome", "the rain-soaked city", "the sloth victim"],
+    leadActors: ["Brad Pitt","Morgan Freeman","Kevin Spacey","Gwyneth Paltrow","R. Lee Ermey"],
     pos: { x: 0.26, y: 0.57 },
   },
   {
@@ -2356,6 +2415,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“The length is the indulgence — the mystery doesn't earn 157 minutes.”" },
     ],
     symbols: ["the cipher letters", "Rick Marshall's face", "the Lake Berryessa attack", "Graysmith's wall map", "the taxi cab sequence", "the unresolved ending"],
+    leadActors: ["Jake Gyllenhaal","Mark Ruffalo","Robert Downey Jr.","Anthony Edwards","Brian Cox"],
     pos: { x: 0.40, y: 0.56 },
   },
   {
@@ -2386,6 +2446,7 @@ const CURATED: Artifact[] = [
       { name: "The Holdouts", share: 0.22, voice: "“The mastery cannot entirely redeem the cruelty toward its female characters.”" },
     ],
     symbols: ["the severed ear", "the yellow tulips", "Frank's oxygen mask", "the blue velvet robe", "the robin", "the slow lawn zoom"],
+    leadActors: ["Kyle MacLachlan","Isabella Rossellini","Dennis Hopper","Laura Dern","Hope Lange"],
     pos: { x: 0.56, y: 0.58 },
   },
   {
@@ -2416,6 +2477,7 @@ const CURATED: Artifact[] = [
       { name: "The Dissenters", share: 0.20, voice: "“The film aestheticizes rape in a way that Burgess himself rejected.”" },
     ],
     symbols: ["the droogs' costume", "the aversion therapy chair", "Beethoven's 9th", "'Singin' in the Rain'", "the Ludovico technique", "Alex's eye"],
+    leadActors: ["Malcolm McDowell","Patrick Magee","Michael Bates","Warren Clarke","Adrienne Corri"],
     pos: { x: 0.72, y: 0.60 },
   },
   {
@@ -2445,6 +2507,7 @@ const CURATED: Artifact[] = [
       { name: "The Dissenters", share: 0.20, voice: "“Kubrick aestheticizes military dehumanization in ways that are not entirely critical.”" },
     ],
     symbols: ["Pyle's bathroom", "the peace-button/sniper duality", "Hartman's cadences", "Animal Mother's helmet", "the burning city", "the doll's eye"],
+    leadActors: ["Matthew Modine","R. Lee Ermey","Vincent D'Onofrio","Adam Baldwin","Dorian Harewood"],
     pos: { x: 0.88, y: 0.60 },
   },
   {
@@ -2475,6 +2538,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.18, voice: "“The black-and-white choice and the red coat are Spielberg's highest formal achievement.”" },
     ],
     symbols: ["the red coat girl", "Schindler's list", "the shower sequence", "the finger counting", "the final grave stones", "the liquidation sequence"],
+    leadActors: ["Liam Neeson","Ben Kingsley","Ralph Fiennes","Caroline Goodall","Jonathan Sagall"],
     pos: { x: 0.58, y: 0.78 },
   },
 
@@ -2507,6 +2571,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.24, voice: "“Atmosphere over story — beautiful and ultimately hollow.”" },
     ],
     symbols: ["Black Phillip", "the wood at the field's edge", "the butter", "the baby's cradle", "the witch's sabbath", "Thomasin's ascent"],
+    leadActors: ["Anya Taylor-Joy","Ralph Ineson","Kate Dickie","Harvey Scrimshaw","Ellie Grainger"],
     pos: { x: 0.12, y: 0.78 },
   },
   {
@@ -2537,6 +2602,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.22, voice: "“The shock sequences are cheaper than the atmosphere deserves.”" },
     ],
     symbols: ["the bear", "the maypole", "the rune drawings", "Dani's flower crown", "the ättestupa", "the village quilts"],
+    leadActors: ["Florence Pugh","Jack Reynor","Vilhelm Blomgren","William Jackson Harper","Will Poulter"],
     pos: { x: 0.28, y: 0.78 },
   },
   {
@@ -2566,6 +2632,7 @@ const CURATED: Artifact[] = [
       { name: "The Neutrals", share: 0.22, voice: "“Something extraordinary happened here, even if I cannot entirely account for it.”" },
     ],
     symbols: ["the city without rules", "the animated forest", "the mother's house", "the attic door", "the boat", "the apology"],
+    leadActors: ["Joaquin Phoenix","Patti LuPone","Amy Ryan","Nathan Lane","Armen Nahapetian"],
     pos: { x: 0.08, y: 0.88 },
   },
   {
@@ -2596,6 +2663,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.18, voice: "“Style without substance — the dream logic excuses narrative incoherence.”" },
     ],
     symbols: ["the Goblin score", "the primary color saturation", "the maggot rain", "the dance academy", "the witch's true form", "the blind pianist's dog"],
+    leadActors: ["Jessica Harper","Stefania Casini","Flavio Bucci","Miguel Bosé","Alida Valli"],
     pos: { x: 0.22, y: 0.88 },
   },
   {
@@ -2626,6 +2694,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“The thesis overwhelms the story; it is more essay than film in the final act.”" },
     ],
     symbols: ["the VHS abdomen slot", "the Videodrome signal", "Nicki Brand's lips on screen", "the flesh gun", "'long live the new flesh'", "O'Blivion's tapes"],
+    leadActors: ["James Woods","Sonja Smits","Deborah Harry","Peter Dvorsky","Les Carlson"],
     pos: { x: 0.36, y: 0.88 },
   },
   {
@@ -2656,6 +2725,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“The technique is doing the empathy's work — the film mistakes sensation for insight.”" },
     ],
     symbols: ["Sara's red dress", "the refrigerator", "Lux Aeterna", "the split-screen finale", "the hip-hop montage", "the diet pills"],
+    leadActors: ["Ellen Burstyn","Jared Leto","Jennifer Connelly","Marlon Wayans","Christopher McDonald"],
     pos: { x: 0.50, y: 0.88 },
   },
   {
@@ -2685,6 +2755,7 @@ const CURATED: Artifact[] = [
       { name: "The Refusers", share: 0.24, voice: "“The technique is in service of an argument that cannot survive scrutiny.”" },
     ],
     symbols: ["the crystal heart", "the yellow powder", "the house as body", "the baby", "the poem", "the fire"],
+    leadActors: ["Jennifer Lawrence","Javier Bardem","Ed Harris","Michelle Pfeiffer","Domhnall Gleeson"],
     pos: { x: 0.64, y: 0.88 },
   },
   {
@@ -2714,6 +2785,7 @@ const CURATED: Artifact[] = [
       { name: "The Refugees", share: 0.20, voice: "“Three hours of deliberate incoherence is not automatically art.”" },
     ],
     symbols: ["the Axxon N. corridor", "the rabbit sitcom", "the Polish folk tale", "the Hollywood set", "the DV grain", "the screwdriver"],
+    leadActors: ["Laura Dern","Jeremy Irons","Justin Theroux","Harry Dean Stanton","Grace Zabriskie"],
     pos: { x: 0.78, y: 0.88 },
   },
 
@@ -2747,6 +2819,7 @@ const CURATED: Artifact[] = [
       { name: "The Dissenters", share: 0.22, voice: "“The revelation implicates the viewer in a way that the film is not entirely aware of.”" },
     ],
     symbols: ["the corridor fight", "the octopus", "the frozen time", "the dumplings", "the photo album", "the hypnosis"],
+    leadActors: ["Choi Min-sik","Yoo Ji-tae","Kang Hye-jung","Chi Dae-han","Oh Dal-su"],
     pos: { x: 0.08, y: 0.55 },
   },
   {
@@ -2777,6 +2850,7 @@ const CURATED: Artifact[] = [
       { name: "The New Initiates", share: 0.22, voice: "“This is what made me understand what animation could actually be.”" },
     ],
     symbols: ["Kaneda's red bike", "TETSUO", "Neo-Tokyo", "the mutation", "the Olympic stadium", "the psychic children"],
+    leadActors: ["Mitsuo Iwata","Nozomu Sasaki","Mami Koyama","Taro Ishida","Tessho Genda"],
     pos: { x: 0.20, y: 0.55 },
   },
   {
@@ -2807,6 +2881,7 @@ const CURATED: Artifact[] = [
       { name: "The Horror Readers", share: 0.22, voice: "“It is the most frightening film about celebrity that exists.”" },
     ],
     symbols: ["the doppelganger", "the fish tank", "the fan website", "the stalker's room", "the Me-Mania", "the final chase"],
+    leadActors: ["Junko Iwao","Rica Matsumoto","Shinpachi Tsuji","Masaaki Ōkura"],
     pos: { x: 0.32, y: 0.55 },
   },
   {
@@ -2837,6 +2912,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.18, voice: "“The hand-drawn world-building is the summit of Ghibli's technical achievement.”" },
     ],
     symbols: ["the Forest Spirit's head", "the Tatarikami", "Irontown's smoke", "San's wolf-god mothers", "the kodama", "Ashitaka's curse scar"],
+    leadActors: ["Yôji Matsuda","Yuriko Ishida","Yûko Tanaka","Kaoru Kobayashi","Masahiko Nishimura"],
     pos: { x: 0.44, y: 0.55 },
   },
   {
@@ -2867,6 +2943,7 @@ const CURATED: Artifact[] = [
       { name: "The Hong Kong Readers", share: 0.20, voice: "“It is also about 1997 — about a city holding its breath.”" },
     ],
     symbols: ["California Dreamin'", "the canned pineapple expiration date", "Faye's counter dance", "Cop 663's apartment", "the moving salmon", "the snack bar"],
+    leadActors: ["Tony Leung Chiu-wai","Faye Wong","Brigitte Lin","Takeshi Kaneshiro","Valerie Chow"],
     pos: { x: 0.56, y: 0.55 },
   },
   {
@@ -2896,6 +2973,7 @@ const CURATED: Artifact[] = [
       { name: "The Pure Experiencers", share: 0.16, voice: "“Analysis diminishes it — it must be encountered, not decoded.”" },
     ],
     symbols: ["No-Face", "the bathhouse", "the river spirit", "Yubaba's bird", "the train across the water", "the parting at the tunnel"],
+    leadActors: ["Daveigh Chase","Suzanne Pleshette","Jason Marsden","Susan Egan","David Ogden Stiers"],
     pos: { x: 0.68, y: 0.55 },
   },
   {
@@ -2926,6 +3004,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“Inventive but thematically thinner than Kon's earlier work — closer to demonstration than argument.”" },
     ],
     symbols: ["the parade of dolls", "the DC Mini device", "Dr. Chiba/Paprika", "the Chairman's dream", "the film-within-the-film", "the floating mattress"],
+    leadActors: ["Megumi Hayashibara","Tôru Furuya","Katsunosuke Hori","Akio Ōtsuka"],
     pos: { x: 0.80, y: 0.55 },
   },
 
@@ -2959,6 +3038,7 @@ const CURATED: Artifact[] = [
       { name: "The Dissenters", share: 0.18, voice: "“The allegory is occasionally too on-the-nose; the satire tips into schematism.”" },
     ],
     symbols: ["the sunken place", "the teacup and spoon", "the auction bingo card", "the deer on the road", "Chris's photographs", "the cotton"],
+    leadActors: ["Daniel Kaluuya","Allison Williams","Catherine Keener","Bradley Whitford","LilRel Howery"],
     pos: { x: 0.34, y: 0.66 },
   },
   {
@@ -2988,6 +3068,7 @@ const CURATED: Artifact[] = [
       { name: "The Cultural Readers", share: 0.18, voice: "“It is the most accurate portrait of the second-generation immigrant experience in American film.”" },
     ],
     symbols: ["googly eyes", "the everything bagel", "the fanny pack", "hot dog fingers", "the raccoon scene", "the laundromat audit"],
+    leadActors: ["Michelle Yeoh","Ke Huy Quan","Jamie Lee Curtis","Stephanie Hsu","James Hong"],
     pos: { x: 0.48, y: 0.66 },
   },
   {
@@ -3017,6 +3098,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.18, voice: "“The restraint becomes its own aesthetic pleasure — is that the right feeling to produce?”" },
     ],
     symbols: ["the garden wall", "the smoke", "the children's sleep", "the crematoria sounds", "the flower beds", "the swimming pool"],
+    leadActors: ["Christian Friedel","Sandra Hüller","Johann Myers","Freya Kreutzkam"],
     pos: { x: 0.62, y: 0.66 },
   },
   {
@@ -3046,6 +3128,7 @@ const CURATED: Artifact[] = [
       { name: "The Dissenters", share: 0.22, voice: "“Depression-as-wisdom is a dangerous argument that the film never fully interrogates.”" },
     ],
     symbols: ["the planet approach", "the cave of sticks", "Claire's anxiety", "the Wagner score", "Justine's bath", "the photon torpedo"],
+    leadActors: ["Kirsten Dunst","Charlotte Gainsbourg","Alexander Skarsgård","Kiefer Sutherland","Charlotte Rampling"],
     pos: { x: 0.76, y: 0.66 },
   },
   {
@@ -3075,6 +3158,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“Anti-Americanism as formal innovation — the politics overwhelm the drama.”" },
     ],
     symbols: ["the chalk outlines", "Gooseberry Lane", "the dog Tom", "Grace's final choice", "the American poverty photographs", "the bare stage"],
+    leadActors: ["Nicole Kidman","Paul Bettany","Lauren Bacall","James Caan","Patricia Clarkson"],
     pos: { x: 0.90, y: 0.66 },
   },
   {
@@ -3104,6 +3188,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“The deliberate withholding becomes its own kind of arrogance.”" },
     ],
     symbols: ["the surveillance tapes", "the child's drawing", "Majid's apartment", "the final school steps", "the Algeria reference", "the unannounced visit"],
+    leadActors: ["Daniel Auteuil","Juliette Binoche","Maurice Bénichou","Annie Girardot"],
     pos: { x: 0.12, y: 0.33 },
   },
   {
@@ -3133,6 +3218,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.20, voice: "“The Greenwood score is doing everything — the film is a delivery mechanism for it.”" },
     ],
     symbols: ["the mushroom omelette", "the sewing room", "the hidden messages in the clothes", "Alma's asparagus breakfast", "the wedding dress", "the mother's ghost"],
+    leadActors: ["Daniel Day-Lewis","Vicky Krieps","Lesley Manville","Camilla Rutherford"],
     pos: { x: 0.24, y: 0.33 },
   },
   {
@@ -3162,6 +3248,7 @@ const CURATED: Artifact[] = [
       { name: "The Ambivalent", share: 0.20, voice: "“The film loves Mabel; it is less certain what it thinks of Nick.”" },
     ],
     symbols: ["the party scene", "the homecoming", "the institution discharge", "Nick's hardhat", "Mabel's dress", "the children's spaghetti breakfast"],
+    leadActors: ["Gena Rowlands","Peter Falk","Matthew Cassel","Matthew Laborteaux","Christina Grisanti"],
     pos: { x: 0.36, y: 0.33 },
   },
   {
@@ -3191,6 +3278,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.18, voice: "“Lubezki's cinematography is the film's most coherent statement.”" },
     ],
     symbols: ["the dinosaur", "the cosmic creation sequence", "the beach of the dead", "the backyard light", "the whispering", "the tree"],
+    leadActors: ["Brad Pitt","Sean Penn","Jessica Chastain","Hunter McCracken","Laramie Eppler"],
     pos: { x: 0.48, y: 0.33 },
   },
   {
@@ -3221,6 +3309,7 @@ const CURATED: Artifact[] = [
       { name: "The Ironists", share: 0.15, voice: "“It's a fascinating, beautiful disaster. The best bad movie ever made by a genius.”" },
     ],
     symbols: ["the golden stopwatch", "the architectural model", "the cloud-city", "the Roman statue", "the vial of medicine"],
+    leadActors: ["Adam Driver","Giancarlo Esposito","Nathalie Emmanuel","Forest Whitaker","Aubrey Plaza"],
     pos: { x: 0.05, y: 0.98 },
   },
   {
@@ -3251,6 +3340,7 @@ const CURATED: Artifact[] = [
       { name: "The Repulsed", share: 0.15, voice: "“Unnecessarily gross and overlong. It loses the point in the pursuit of shock value.”" },
     ],
     symbols: ["the yellow coat", "the spinal needle", "the mirror", "the earring", "the red carpet"],
+    leadActors: ["Demi Moore","Margaret Qualley","Dennis Quaid"],
     pos: { x: 0.35, y: 0.99 },
   },
   {
@@ -3281,6 +3371,7 @@ const CURATED: Artifact[] = [
       { name: "The Stunned", share: 0.10, voice: "“I don't know why I'm crying. Nothing happened, but I feel like I've been hit by a car.”" },
     ],
     symbols: ["the MiniDV camera", "the cast (broken arm)", "the balcony", "the Polaroid", "the blue sky"],
+    leadActors: ["Paul Mescal","Frankie Corio","Celia Rowlson-Hall"],
     pos: { x: 0.10, y: 0.40 },
   },
   {
@@ -3311,6 +3402,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.20, voice: "“It leans too hard into the tragic sex worker trope in its final minutes after being so funny for two hours.”" },
     ],
     symbols: ["the engagement ring", "the Russian mansion", "the fur coat", "the snow", "the Brooklyn bridge"],
+    leadActors: ["Mikey Madison","Yura Borisov","Aleksei Serebryakov","Karren Karagulian","Vache Tovmasyan"],
     pos: { x: 0.75, y: 0.82 },
   },
   {
@@ -3341,6 +3433,7 @@ const CURATED: Artifact[] = [
       { name: "The Formalists", share: 0.15, voice: "“The musical sequences provide a surreal, distancing effect that is genuinely daring for a blockbuster.”" },
     ],
     symbols: ["the cigarette", "the witness stand", "the piano", "the rain", "the shadow-play"],
+    leadActors: ["Joaquin Phoenix","Lady Gaga","Brendan Gleeson","Catherine Keener","Zazie Beetz"],
     pos: { x: 0.55, y: 0.20 },
   },
   {
@@ -3370,6 +3463,7 @@ const CURATED: Artifact[] = [
       { name: "The Frustrated", share: 0.15, voice: "“It's beautiful, but it's just 124 minutes of a man walking toward a light. Where is the movie?”" },
     ],
     symbols: ["the thin bridge", "the bass speaker", "the white dust", "the mountain", "the smartphone"],
+    leadActors: ["Ahmed Hammoud","Saadia Bentaïeb","Jalil Lespert"],
     pos: { x: 0.02, y: 0.92 },
   },
   {
@@ -3399,6 +3493,7 @@ const CURATED: Artifact[] = [
       { name: "The Humanists", share: 0.20, voice: "“It's too cruel. It mocks the broken and the delusional for a cheap thrill.”" },
     ],
     symbols: ["the mannequin", "the basement light", "the chemical suit", "the hair-pulling", "the binary code"],
+    leadActors: ["O'Shea Jackson Jr.","Glenn Howerton","Megan Thee Stallion","Jennifer Coolidge"],
     pos: { x: 0.38, y: 0.78 },
   },
   {
@@ -3429,6 +3524,7 @@ const CURATED: Artifact[] = [
       { name: "The Mainstreamers", share: 0.20, voice: "“It's a fun, weird action movie, but the ending is a bit too high-concept for its own good.”" },
     ],
     symbols: ["the bio-printer", "the nutrient bar", "the ice-hole", "the 17/18 tattoo", "the recycled suit"],
+    leadActors: ["Robert Pattinson","Steven Yeun","Naomi Ackie","Toni Collette","Mark Ruffalo"],
     pos: { x: 0.88, y: 0.55 },
   },
   {
@@ -3461,6 +3557,7 @@ const CURATED: Artifact[] = [
       { name: "The Visualists", share: 0.15, voice: "“Regardless of the plot, Khondji's cinematography is a miracle. That hill-run sequence is pure Hitchcockian adrenaline.”" },
     ],
     symbols: ["the blue surgical mask", "the smartphone glow", "the copper mine", "the 5G tower", "the machine gun"],
+    leadActors: ["Joaquin Phoenix","Pedro Pascal","Emma Stone","Austin Butler","Luke Grimes"],
     pos: { x: 0.48, y: 0.90 },
   },
   {
@@ -3490,6 +3587,7 @@ const CURATED: Artifact[] = [
       { name: "The Traditionalists", share: 0.10, voice: "“It's a bit too whimsical for me, but the craft is undeniable.”" },
     ],
     symbols: ["the blue heron", "the terracotta jar", "the mud-stained suit", "the lightning strike", "the ancient coins"],
+    leadActors: ["Alba Rohrwacher","Yile Yara Vianello","Carol Duarte","Josh O'Connor"],
     pos: { x: 0.05, y: 0.60 },
   },
   {
@@ -3520,6 +3618,7 @@ const CURATED: Artifact[] = [
       { name: "The Sensory Seekers", share: 0.15, voice: "“The loudest, most terrifying war movie since Saving Private Ryan. It makes the threat feel local.”" },
     ],
     symbols: ["the red sunglasses", "the press vest", "the White House", "the gas station", "the white phosphor"],
+    leadActors: ["Kirsten Dunst","Wagner Moura","Cailee Spaeny","Stephen McKinley Henderson","Jesse Plemons"],
     pos: { x: 0.65, y: 0.95 },
   },
   {
@@ -3550,6 +3649,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.10, voice: "“It's beautiful, but it lacks the soul of the Murnau or Herzog versions.”" },
     ],
     symbols: ["the bite mark", "the rat", "the ship's hold", "the long fingernail", "the shadow on the stairs"],
+    leadActors: ["Bill Skarsgård","Lily-Rose Depp","Willem Dafoe","Nicholas Hoult","Aaron Taylor-Johnson"],
     pos: { x: 0.15, y: 0.94 },
   },
   {
@@ -3580,6 +3680,7 @@ const CURATED: Artifact[] = [
       { name: "The Students", share: 0.15, voice: "“I've spent months mapping the geometry of the camera movements. It's perfect.”" },
     ],
     symbols: ["the concrete block", "the drafting table", "the 70mm frame", "the library", "the boat"],
+    leadActors: ["Adrien Brody","Felicity Jones","Guy Pearce","Joe Alwyn","Raffey Cassidy"],
     pos: { x: 0.02, y: 0.10 },
   },
   {
@@ -3610,6 +3711,7 @@ const CURATED: Artifact[] = [
       { name: "The Non-Linearists", share: 0.10, voice: "“The way it jumps through time makes the grief feel more real than a straight story ever could.”" },
     ],
     symbols: ["the carousel horse", "the eggs", "the hospital gown", "the watch", "the scarf"],
+    leadActors: ["Andrew Garfield","Florence Pugh","Adam James"],
     pos: { x: 0.92, y: 0.30 },
   },
   {
@@ -3640,6 +3742,7 @@ const CURATED: Artifact[] = [
       { name: "The Skeptics", share: 0.10, voice: "“It's a bit too miserable. It wallows in the pain without offering any light.”" },
     ],
     symbols: ["the ukulele", "the Future room", "the tap dance", "the bridge", "the family dog"],
+    leadActors: ["Ryan Gosling","Michelle Williams","Faith Wladyka","John Doman"],
     pos: { x: 0.78, y: 0.35 },
   },
   {
@@ -3671,6 +3774,7 @@ const CURATED: Artifact[] = [
       { name: "The Mourners", share: 0.15, voice: "“I can't watch it without feeling the loss of River. The movie is a ghost.”" },
     ],
     symbols: ["the falling house", "the campfire", "the narcoleptic fit", "the road", "the magazine covers"],
+    leadActors: ["River Phoenix","Keanu Reeves","James Russo","William Richert","Rodney Harvey"],
     pos: { x: 0.12, y: 0.55 },
   },
   {
@@ -3701,6 +3805,7 @@ const CURATED: Artifact[] = [
       { name: "The Glover-Cult", share: 0.20, voice: "“Crispin Glover's performance is a high-wire act of insanity that carries the whole film.”" },
     ],
     symbols: ["the blow-up doll", "the river bank", "the motorcycle", "the sleeping bag", "the beer cans"],
+    leadActors: ["Crispin Glover","Keanu Reeves","Ione Skye","Dennis Hopper","Daniel Roebuck"],
     pos: { x: 0.55, y: 0.78 },
   },
   {
@@ -3732,6 +3837,7 @@ const CURATED: Artifact[] = [
       { name: "The Nostalgics", share: 0.15, voice: "“It captured a very specific Y2K feeling of wanting to escape a boring life. We shouldn't bury it.”" },
     ],
     symbols: ["the plastic bag", "rose petals", "the red Camaro", "the video camera", "the white picket fence"],
+    leadActors: ["Kevin Spacey","Annette Bening","Thora Birch","Wes Bentley","Mena Suvari"],
     pos: { x: 0.85, y: 0.15 },
   },
   {
@@ -3763,6 +3869,7 @@ const CURATED: Artifact[] = [
       { name: "The Brand-Loyalists", share: 0.10, voice: "“Stifler is one of the great comedy characters of the decade. Period.”" },
     ],
     symbols: ["the apple pie", "the webcam", "the flute", "the beer cup", "the pale ale"],
+    leadActors: ["Jason Biggs","Alyson Hannigan","Chris Klein","Mena Suvari","Seann William Scott"],
     pos: { x: 0.98, y: 0.02 },
   },
   {
@@ -3812,6 +3919,7 @@ const CURATED: Artifact[] = [
       { name: "The IDM Skeptics", share: 0.15, voice: "“Radiohead simply repackaged Warp Records’ 1990s underground catalog for an indie rock audience that hadn’t heard Aphex Twin or Autechre.”" },
     ],
     symbols: ["ice caps melting", "the nameless television hum", "lemon rinds", "pixelated mountain ranges", "the empty ballroom"],
+    musician: "Radiohead",
     pos: { x: 0.24, y: 0.81 },
   },
   {
@@ -3861,6 +3969,7 @@ const CURATED: Artifact[] = [
       { name: "The Institutional Boycotters", share: 0.20, voice: "“The music is completely irrelevant. No one should be analyzing this. He has crossed lines that make his entire catalog toxic, and booking him is a moral failure.”" },
     ],
     symbols: ["the full-page newspaper ad", "glitchy AI-generated vocal layers", "cancelled stadium seating", "nitrous canisters", "the Inglewood livestream static"],
+    musician: "Kanye West",
     pos: { x: -0.89, y: -0.94 },
   },
   {
@@ -3909,6 +4018,7 @@ const CURATED: Artifact[] = [
       { name: "The Pop Sociologists", share: 0.15, voice: "“The music itself is mostly unremarkable, but the text is an incredibly fascinating, borderline terrifying mirror of modern parasocial warfare.”" },
     ],
     symbols: ["an old typewriter", "the Chelsea Hotel", "a psychiatric ward gown", "asylum stage choreography", "a golden typewriter ribbon"],
+    musician: "Taylor Swift",
     pos: { x: 0.92, y: -0.74 },
   },
   {
@@ -3957,6 +4067,7 @@ const CURATED: Artifact[] = [
       { name: "The Meta-Narrative Trackers", share: 0.25, voice: "“The real masterpiece is the choreography of the rollout—the remixes, the Boiler Room set, the public friendship reconciliations. The album was just the screenplay.”" },
     ],
     symbols: ["Pantone 357C neon green", "blurry club toilets", "an unpunctuated lowercase font", "the 360 camera rig", "white tank tops"],
+    musician: "Charli XCX",
     pos: { x: -0.68, y: 0.55 },
   },
   {
@@ -4005,6 +4116,7 @@ const CURATED: Artifact[] = [
       { name: "The Parasocial Historians", share: 0.20, voice: "“A staggering, deeply disturbing public psychological breakdown. It's an album where a man literally documents the total, violent destruction of his private life under the crushing weight of sudden, monstrous fame.”" },
     ],
     symbols: ["a rusty duct tape roll", "the windshield of a sinking Chevy Malibu", "a bleach-blonde buzzcut", "the white porch of a detached Detroit home", "a glowing pencil scratching paper in the dark"],
+    musician: "Eminem",
     pos: { x: -0.84, y: -0.32 },
   },
   {
@@ -4053,6 +4165,7 @@ const CURATED: Artifact[] = [
       { name: "The Irony Revisionists", share: 0.20, voice: "“An incredibly bloated, humorless relic of late-seventies rock excess. Its hyper-earnest misery and theatrical posturing are impossible to take seriously in a fractured, post-modern culture.”" },
     ],
     symbols: ["a towering wall of clean white bricks", "marching crossed hammers", "a faceless schoolchild falling into a meat grinder", "the scream of a Stuka dive-bomber", "an isolated hotel room television set"],
+    musician: "Pink Floyd",
     pos: { x: 0.58, y: 0.72 },
   },
   {
@@ -4101,6 +4214,7 @@ const CURATED: Artifact[] = [
       { name: "The Manson Historians", share: 0.15, voice: "“The music cannot be separated from the historical trauma it anchored. It is an eerie, terrifyingly potent text that marks the exact day the sixties dream died and curdled into paranoia.”" },
     ],
     symbols: ["a completely blank glossy white square", "an unnumbered serial stamp", "the loops of Revolution 9", "a blood-stained lyric sheet", "the blistering feedback of Helter Skelter"],
+    musician: "The Beatles",
     pos: { x: -0.15, y: 0.92 },
   },
 ];
@@ -4290,6 +4404,9 @@ type UserMovieRecord = GeneratedArtifact & {
   reading?: string;
   notes?: Record<string, string>;
   pos?: { x: number; y: number };
+  leadActors?: string[];
+  author?: string;
+  musician?: string;
 };
 
 export function adaptUserMovie(m: UserMovieRecord): Artifact {
@@ -4339,6 +4456,9 @@ export function adaptUserMovie(m: UserMovieRecord): Artifact {
     afterlife,
     factions,
     symbols: (m.symbols ?? []).slice(0, 8),
+    leadActors: m.leadActors,
+    author: m.author,
+    musician: m.musician,
     pos: m.pos ?? {
       x: 0.06 + hash01(m.slug, 1) * 0.88,
       y: 0.08 + hash01(m.slug, 2) * 0.84,

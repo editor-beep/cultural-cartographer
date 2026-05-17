@@ -31,6 +31,8 @@ type ArtifactListItem = {
   catalogue: string;
   reading: string;
   medium?: string;
+  leadActors?: string[];
+  musician?: string;
 };
 
 // Returns the title with leading articles ("a", "an", "the") stripped for sorting.
@@ -70,6 +72,8 @@ function Directory() {
             catalogue: a.catalogue,
             reading: a.reading,
             medium: a.medium,
+            leadActors: a.leadActors,
+            musician: a.musician,
           }),
         )
         .sort((a, b) => sortKey(a.title).localeCompare(sortKey(b.title))),
@@ -92,13 +96,17 @@ function Directory() {
       if (directorFilter !== "all" && a.director !== directorFilter) return false;
       if (actorFilter.trim()) {
         const term = actorFilter.toLowerCase();
-        if (!a.reading.toLowerCase().includes(term)) return false;
+        const matchesActors = (a.leadActors ?? []).some((actor) =>
+          actor.toLowerCase().includes(term),
+        );
+        if (!matchesActors) return false;
       }
       if (musicianFilter.trim()) {
         const term = musicianFilter.toLowerCase();
-        const matchesArtist = a.medium === "album" && a.director.toLowerCase().includes(term);
-        const matchesReading = a.reading.toLowerCase().includes(term);
-        if (!matchesArtist && !matchesReading) return false;
+        const matchesMusicianField = (a.musician ?? "").toLowerCase().includes(term);
+        const matchesDirectorFallback =
+          a.medium === "album" && a.director.toLowerCase().includes(term);
+        if (!matchesMusicianField && !matchesDirectorFallback) return false;
       }
       return true;
     });

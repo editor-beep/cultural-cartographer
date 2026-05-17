@@ -75,6 +75,7 @@
       "the waffle party",
       "the handbook"
     ],
+    "leadActors": ["Adam Scott", "Zach Cherry", "Britt Lower", "Tramell Tillman", "John Turturro"],
     "pos": {
       "x": 0.38,
       "y": 0.42
@@ -162,6 +163,7 @@
       "the Fireman",
       "the atomic test"
     ],
+    "leadActors": ["Kyle MacLachlan", "Sheryl Lee", "Laura Dern", "Naomi Watts", "Tim Roth"],
     "pos": {
       "x": 0.12,
       "y": 0.18
@@ -248,6 +250,7 @@
       "the aunts",
       "the private eye"
     ],
+    "leadActors": ["Lee Pace", "Anna Friel", "Chi McBride", "Ellen Greene", "Kristin Chenoweth"],
     "pos": {
       "x": 0.72,
       "y": 0.68
