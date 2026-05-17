@@ -562,5 +562,337 @@
     ],
     "symbols": ["blood splatters on white snow", "steel-drum instrumental loop", "audio recorder hidden in a pocket", "blind boy's tape recorder", "the aspirin-sick Border Collie"],
     "pos": { "x": 0.58, "y": 0.81 }
+  },
+  {
+    "slug": "another-earth-2011",
+    "title": "Another Earth",
+    "year": 2011,
+    "director": "Mike Cahill",
+    "runtime": 92,
+    "catalogue": "ARTX-111",
+    "epigraph": "You know, if you met yourself, what would you say? What would you ask yourself?",
+    "reading": "Another Earth stands as the definitive, low-fi benchmark of the 2011 Sundance indie-metaphysical boom, using a massive, high-concept sci-fi premise purely as an atmospheric scaffolding for an intimate story of grief and catastrophic guilt. Marling and Cahill constructed the feature on a micro-budget, turning the literal emergence of a duplicate planet into a quiet, blue-tinted psychological mirror. In its afterlife, the film has sustained an exceptionally durable obsession index among cerebral indie circles. It is endlessly analyzed for its ambiguous, jaw-dropping final frame, moving completely out of standard sci-fi discourse to become a cornerstone text on emotional projection and the fantasy of an un-ruined life.",
+    "metrics": {
+      "consensus": 76,
+      "friction": 54,
+      "obsession": 85,
+      "haunting": 89,
+      "symbolic": 91,
+      "cult": 88,
+      "formal": 78,
+      "voltage": 81,
+      "accessibility": 74,
+      "reach": 68,
+      "progeny": 83,
+      "arc": 84,
+      "transgression": 52
+    },
+    "notes": {
+      "symbolic": "Highly dense system. The duplicate planet 'Earth 2' is treated entirely as a psychological Rorschach test for the characters' grief, serving as a literal externalization of the road not taken.",
+      "haunting": "Driven strongly by the visual and auditory markers of the massive duplicate planet looming unnaturally close in the gray daytime sky, which viewers report as a recurring, intrusive dream motif.",
+      "cult": "High cult slope. The film serves as the foundational origin story for Brit Marling's fiercely loyal multi-hyphenate fanbase, establishing her signature brand of philosophical empathy."
+    },
+    "afterlife": [
+      { "year": 2011, "kind": "release", "label": "Premieres at the Sundance Film Festival, winning the Alfred P. Sloan Prize and sparking an immediate studio bidding war." },
+      { "year": 2012, "kind": "academic", "label": "Integrated into screenwriting and independent production syllabi as a masterclass in scale-hacking—using micro-budget aesthetics to convey cosmic ideas." },
+      { "year": 2018, "kind": "rediscovery", "label": "Following the cult explosion of The OA, fans aggressively trace Marling's metaphysical motifs back to this text, causing a massive streaming renaissance." }
+    ],
+    "factions": [
+      { "name": "The Metaphysical Realists", "share": 0.52, "voice": "It is a beautifully devastating masterpiece about forgiveness; the sci-fi element is brilliant because it asks whether we can ever truly face ourselves and our mistakes." },
+      { "name": "The Hard Sci-Fi Dissidents", "share": 0.32, "voice": "The central premise is scientifically absurd and distracting; the movie completely ignores orbital mechanics and gravity just to tell a standard, slow indie melodrama about grief." },
+      { "name": "The Ambiguous Finalists", "share": 0.16, "voice": "The entire text serves purely as a delivery mechanism for that final, haunting five-second encounter, which recontextualizes the narrative into an infinite psychological loop." }
+    ],
+    "symbols": ["Earth 2 in the daytime sky", "golden ticket to space", "shattered windshield frost", "musical saw performance", "monochrome cleaning uniform"],
+    "pos": { "x": 0.26, "y": 0.89 }
+  },
+  {
+    "slug": "i-origins-2014",
+    "title": "I Origins",
+    "year": 2014,
+    "director": "Mike Cahill",
+    "runtime": 106,
+    "catalogue": "ARTX-214",
+    "epigraph": "What would you do if something spiritual disproved your scientific beliefs?",
+    "reading": "I Origins occupies a highly volatile, fascinating coordinate in the Marling-Cahill filmography, operating as a direct, high-friction battlefield between scientific materialism and spiritual mysticism. Focused on molecular biologists trying to map the evolution of the eye, the film transitions from a hyper-grounded laboratory procedural into a sweeping, globe-trotting thesis on reincarnation. At release, it deeply fractured institutional critics who found its central coincidence-driven narrative logic hard to swallow. However, its online digital afterlife has been remarkably intense; it has become a massive, hyper-frequented cult object across internet forums, endlessly debated for its emotional voltage, its heartbreaking elevator sequence, and its intersection of biometrics and the soul.",
+    "metrics": {
+      "consensus": 51,
+      "friction": 82,
+      "obsession": 88,
+      "haunting": 91,
+      "symbolic": 89,
+      "cult": 84,
+      "formal": 76,
+      "voltage": 93,
+      "accessibility": 82,
+      "reach": 71,
+      "progeny": 68,
+      "arc": 79,
+      "transgression": 61
+    },
+    "notes": {
+      "consensus": "Low-to-moderate score reflects the sharp split between analytical critics repulsed by the film's sentimental spiritual pivots and audiences deeply moved by its grand, romantic cosmic logic.",
+      "voltage": "Towering score. The sudden, violent trauma of the mid-film elevator malfunction and the final, breathless 'doorway test' in India log immense physiological response language from viewers.",
+      "haunting": "Sustained by macro-photography visual markers of the human iris, which viewers report noticing with obsessive scrutiny in their own lives post-viewing."
+    },
+    "afterlife": [
+      { "year": 2014, "kind": "release", "label": "Premieres at Sundance to highly polarized reactions; wins the Alfred P. Sloan Prize, matching Cahill's previous debut." },
+      { "year": 2016, "kind": "meme", "label": "The multi-colored, macro iris posters and the numerical coincidence sequence ('11:11') become heavily aestheticized fixtures across Tumblr and Pinterest spiritual subcultures." },
+      { "year": 2021, "kind": "rediscovery", "label": "Discussions surrounding real-world biometric data tracking and iris-scanning technology trigger a wave of tech-paranoia articles referencing the film's predictive subtext." }
+    ],
+    "factions": [
+      { "name": "The Cosmic Romantics", "share": 0.48, "voice": "A deeply moving, breathtaking masterpiece that beautifully bridges the gap between science and faith, proving that love is a permanent data imprint across multiple lifetimes." },
+      { "name": "The Analytical Rationalists", "share": 0.38, "voice": "An unearned, frustratingly manipulative narrative that forces a highly trained, rational scientist to abandon his intellect for the sake of mystical, sentimental coincidences." },
+      { "name": "The Visceral Mourners", "share": 0.14, "voice": "The movie is defined entirely by the overwhelming grief of its mid-point twist; it operates as a devastating study of how sudden loss shatters a logical mind." }
+    ],
+    "symbols": ["macro photograph of a hazel iris", "the number 11 billboard", "broken elevator doors", "biometric database scan", "hotel room doorway in New Delhi"],
+    "pos": { "x": 0.71, "y": 0.91 }
+  },
+  {
+    "slug": "the-east-2013",
+    "title": "The East",
+    "year": 2013,
+    "director": "Zal Batmanglij",
+    "runtime": 116,
+    "catalogue": "ARTX-313",
+    "epigraph": "It's easy to judge from the outside. But when you're in it, the line between justice and vengeance disappears.",
+    "reading": "The East represents the absolute apex of Marling and Batmanglij's exploration of collective systems and ideological infiltration before they pivoted to television with The OA. Borrowing from the duo's real-life summer experiences anarcho-backpacking and freegan-couchsurfing, this slick corporate spy thriller subverts the genre by treating an eco-terrorist cell not as standard cartoon villains, but as a hyper-principled, dysfunctional chosen family. Upon release, it achieved solid critical marks, but its cultural afterlife has aged beautifully. It functions as a highly prescient political thermometer, continuously cited across internet subcultures to unpack contemporary discussions on climate anxiety, corporate accountability, domestic bio-terrorism, and the psychological cost of radical activism.",
+    "metrics": {
+      "consensus": 82,
+      "friction": 48,
+      "obsession": 76,
+      "haunting": 79,
+      "symbolic": 83,
+      "cult": 79,
+      "formal": 72,
+      "voltage": 86,
+      "accessibility": 85,
+      "reach": 74,
+      "progeny": 81,
+      "arc": 85,
+      "transgression": 72
+    },
+    "notes": {
+      "accessibility": "High score for their filmography; it wraps its dense political and radical ideology within a highly recognizable, high-stakes undercover corporate espionage framework.",
+      "voltage": "Driven heavily by the visceral, stomach-churning intensity of the group's 'jams' (e.g., forcing corporate executives to ingest their own toxic pharmaceuticals at a dinner party).",
+      "transgression": "High parameter. The film forces a mainstream multiplex audience into deep, uncomfortable empathy with characters committing radical, illegal acts of domestic sabotage."
+    },
+    "afterlife": [
+      { "year": 2013, "kind": "release", "label": "Premieres at Sundance as the closing night film, drawing strong reviews for its suspense mechanics and ensemble cast." },
+      { "year": 2015, "kind": "academic", "label": "Integrated into political science, eco-criticism, and late-capitalism cinema syllabi analyzing the intersection of activism and corporate survival." },
+      { "year": 2023, "kind": "rediscovery", "label": "Amid escalating real-world climate activism and corporate boycotts, the film experiences a major retrospective wave on social media celebrating its prescient political edges." }
+    ],
+    "factions": [
+      { "name": "The Eco-Political Realists", "share": 0.54, "voice": "It is a brilliant, razor-sharp autopsy of corporate accountability; it doesn't shy away from the messiness of radical activism while accurately capturing the absolute moral bankruptcy of modern industry." },
+      { "name": "The Tension Proceduralists", "share": 0.31, "voice": "A taut, beautifully acted, and incredibly suspenseful undercover thriller that updates the classic Klute or No Way Out paranoia blueprint for the 21st-century corporate world." },
+      { "name": "The Ideological Centrists", "share": 0.15, "voice": "The film flirts with radical ideas but ultimately backs away into a safe, conventional Hollywood morality tale about personal ethics rather than systemic revolution." }
+    ],
+    "symbols": ["straitjacket dinner table scene", "poisoned corporate wine bottle", "dumpster-dived organic feast", "underground forest bunker", "corporate access badge"],
+    "pos": { "x": 0.74, "y": 0.79 }
+  },
+  {
+    "slug": "the-oa-2016",
+    "title": "The OA",
+    "year": 2016,
+    "director": "Zal Batmanglij",
+    "runtime": 960,
+    "medium": "tv",
+    "catalogue": "ARTX-555",
+    "epigraph": "To jump, you need a safe house, a chosen family, and a perfect, undivided physical will.",
+    "reading": "The OA occupies an almost holy, highly unique coordinate in the history of streaming media, operating less like a standard television narrative and more like an active, multi-dimensional belief system. Thoroughly butchered by a catastrophic, short-sighted algorithmic cancellation by Netflix in 2019, the text's afterlife has been a staggering exercise in collective devotion. Its online mention volume is hyper-dense, permanent, and deeply anomalous; it is continuously cross-examined by an international subculture that reads its narrative as a massive, incomplete cosmic tapestry. It functions as the ultimate counter-signal to modern internet cynicism, fiercely celebrated across digital spaces for its absolute sincerity, its integration of Near-Death Experiences, and its radical synthesis of interpretive dance, tech-paranoia, and metaphysical eco-grief.",
+    "metrics": {
+      "consensus": 34,
+      "friction": 89,
+      "obsession": 99,
+      "haunting": 98,
+      "symbolic": 99,
+      "cult": 100,
+      "formal": 97,
+      "voltage": 96,
+      "accessibility": 48,
+      "reach": 82,
+      "progeny": 91,
+      "arc": 94,
+      "transgression": 78
+    },
+    "notes": {
+      "cult": "A perfect, absolute 100. The database flags this as the definitive benchmark for cult reclamation in the digital streaming era; an artifact entirely sustained, protected, and venerated by its audience following institutional abandonment.",
+      "symbolic": "Maximum density. The text is treated by communities as a giant, interlocking cryptogram—endlessly tracking color theory (Crestwood maroon vs. San Francisco blue), background ambient sounds, Braille patterns on walls, and literal astrological alignments.",
+      "haunting": "Near-maximum score. Driven by intense linguistic markers surrounding the 'attic storytelling,' the underground glass cages, and the cafeteria climax, with viewers reporting the physical memory of the Five Movements triggering deep emotional resonance years later.",
+      "consensus": "An exceptionally low score reflecting the violent, polarizing split at launch between mainstream viewers bewildered by the usage of modern dance to stop a tragedy and devoted formalists who viewed it as a breathtaking, transcendent evolution of television grammar."
+    },
+    "afterlife": [
+      { "year": 2016, "kind": "release", "label": "Part I drops on Netflix with zero warning or traditional marketing, instantly triggering a massive, highly polarized viral wildfire online." },
+      { "year": 2019, "kind": "release", "label": "Part II releases to soaring, nearly unanimous critical rhapsody, radically expanding the show's scope into a brilliant, techno-noir multiverse." },
+      { "year": 2019, "kind": "wound", "label": "Netflix abruptly cancels the series on a massive meta-cliffhanger; fans organize intense, unprecedented global protests, hunger strikes, and Times Square billboards under the #SaveTheOA movement." },
+      { "year": 2023, "kind": "rediscovery", "label": "Marling and Batmanglij's follow-up series A Murder at the End of the World sparks an immense, renewed wave of retroactive parsing, with fans mapping out hidden, cross-textual links back to the OA universe." }
+    ],
+    "factions": [
+      { "name": "The True Believers", "share": 0.55, "voice": "The show is a profound, transcendent masterpiece about the power of storytelling to heal trauma; the cancellation itself is just a meta-hurdle, and the text will eventually find a way to complete its five-season destiny because it is too spiritually vital to die." },
+      { "name": "The Puzzle Box Decoders", "share": 0.33, "voice": "It is a flawless, mathematically precise sci-fi masterpiece; every frame, aspect ratio shift, and background noise is a literal clue mapping out the mechanics of dimensional travel, the collective unconscious, and quantum branching paths." },
+      { "name": "The Cynical Skeptics", "share": 0.12, "voice": "An overly pretentious, self-indulgent, and deeply goofy exercise that sets up a fascinating mystery box only to rely on absurd interpretive dance movements and heavy-handed New Age metaphors instead of clean narrative logic." }
+    ],
+    "symbols": ["The Five Movements", "underground glass stream cages", "giant telepathic octopus Old Night", "rose stained-glass attic window", "maroon Crestwood hoodies"],
+    "pos": { "x": 0.11, "y": 0.99 }
+  },
+  {
+    "slug": "resolution-2012",
+    "title": "Resolution",
+    "year": 2012,
+    "director": "Justin Benson, Aaron Moorhead",
+    "runtime": 93,
+    "catalogue": "ARTX-212BM",
+    "epigraph": "It needs a beginning, a middle, and a twist ending. It likes stories.",
+    "reading": "Resolution represents one of the most brilliant, self-reflexive micro-budget feature debuts in modern horror history, fundamentally redefining how indie cinema can manipulate narrative structure. Shot in a single cabin for almost no money, the text utilizes a standard story of addiction-intervention and transforms it into a meta-textual trap orchestrated by an unseen, cosmic entity that literally consumes narrative arcs. In its long afterlife, it has become a sacred text for cosmic horror purists. Its mention landscape is characterized by a deep, intellectualized obsession, endlessly cross-examined for its subversion of viewer expectations and its role as the foundational anchor of Benson and Moorhead's shared universe.",
+    "metrics": {
+      "consensus": 88,
+      "friction": 42,
+      "obsession": 89,
+      "haunting": 86,
+      "symbolic": 93,
+      "cult": 94,
+      "formal": 91,
+      "voltage": 78,
+      "accessibility": 64,
+      "reach": 54,
+      "progeny": 88,
+      "arc": 92,
+      "transgression": 64
+    },
+    "notes": {
+      "formal": "Extremely high formal risk. The film deliberately breaks the fourth wall not through characters looking at the camera, but by making the film's structural editing and camera framing a literal, hostile character within the plot.",
+      "cult": "Towering cult slope. Bypassed all mainstream channels to become an untouchable, whispered-about classic across online horror forums and Reddit decoding communities.",
+      "symbolic": "Highly dense. The old projector slides, the VHS tapes, and the title 'Resolution' itself are treated as a multi-layered commentary on the predatory nature of the audience demanding a clean ending from a story."
+    },
+    "afterlife": [
+      { "year": 2012, "kind": "release", "label": "Premieres at the Tribeca Film Festival, immediately stunning genre critics with its unique meta-textual cosmic horror." },
+      { "year": 2018, "kind": "rediscovery", "label": "The release of The Endless serves as a massive retroactive signal flare, causing thousands of fans to hunt down this film to map out the interlocking lore paths." }
+    ],
+    "factions": [
+      { "name": "The Meta-Textual Decoders", "share": 0.58, "voice": "The entity in the film is literally us, the audience; it demands a structured story with a violent resolution, and the movie is a brilliant critique of our own voyeuristic desires." },
+      { "name": "The Cosmic Realists", "share": 0.30, "voice": "It's an incredibly raw, terrifyingly grounded look at male friendship and the agony of trying to save a friend from addiction, wrapped inside a pitch-perfect Lovecraftian mythos." },
+      { "name": "The Anti-Climactic Dissidents", "share": 0.12, "voice": "A fascinating, atmospheric setup that spends too much time wandering around the woods only to resolve on an abrupt, frustrating meta-gimmick." }
+    ],
+    "symbols": ["handcuffs on a cabin pipe", "unmarked VHS tape", "old projector slide of a skull", "french bilingual book", "red-beaded countdown string"],
+    "pos": { "x": 0.14, "y": 0.93 }
+  },
+  {
+    "slug": "spring-2014",
+    "title": "Spring",
+    "year": 2014,
+    "director": "Justin Benson, Aaron Moorhead",
+    "runtime": 109,
+    "catalogue": "ARTX-414BM",
+    "epigraph": "To live for 2,000 years, you have to be ready to lose everything every twenty years.",
+    "reading": "Spring represents a stunning, genre-fluid anomaly that successfully bridges the gap between Richard Linklater-style European romance and body-horror teratology. Moving away from the claustrophobic woods of their debut, the directors utilize the sun-drenched, ancient coastal landscapes of Italy to craft a deeply romantic, evolutionary mythos. Its afterlife has been incredibly warm and stable; it enjoys a bulletproof critical consensus, continuously cited across internet cinephile spaces as one of the few horror films that operates with genuine, profound emotional sincerity, trading cheap jump-scares for a beautiful meditation on mortality, deep-time biology, and the terror of committing to love.",
+    "metrics": {
+      "consensus": 92,
+      "friction": 21,
+      "obsession": 84,
+      "haunting": 83,
+      "symbolic": 81,
+      "cult": 86,
+      "formal": 82,
+      "voltage": 81,
+      "accessibility": 84,
+      "reach": 68,
+      "progeny": 76,
+      "arc": 88,
+      "transgression": 58
+    },
+    "notes": {
+      "accessibility": "High accessibility score for a cosmic horror feature. The narrative frames its bizarre, ancient genetic mutation smoothly through a highly legible, charming 'Before Sunrise' romantic travelogue.",
+      "voltage": "Maintained by the shocking, organic body-horror transformations (sprouting tentacles, shifting bone structures) which are shot with an intimate, naturalistic camera that heightens the physical tension."
+    },
+    "afterlife": [
+      { "year": 2014, "kind": "release", "label": "Premieres at TIFF; immediately receives a massive validation boost when Guillermo del Toro publicly champions it as a beautiful Lovecraftian romance." },
+      { "year": 2021, "kind": "meme", "label": "The iconic, sweeping drone shots of the Italian coastal cliffs and Louise's striking, multi-faceted eyes become romantic aesthetic staples across cinematic Tumblr blogs." }
+    ],
+    "factions": [
+      { "name": "The Romantic Teratologists", "share": 0.62, "voice": "It's a breathtakingly beautiful, unique masterpiece; it uses the literal mechanics of ancient, horrific mutation as a gorgeous metaphor for the terrifying vulnerability of opening your heart to someone." },
+      { "name": "The Body-Horror Purists", "share": 0.24, "voice": "The film works best because of its grounded, evolutionary take on immortality; it treats monsters not as magical demons, but as a fascinating, messy biological reality." },
+      { "name": "The Pacing Dissidents", "share": 0.14, "voice": "The chemistry between the leads is great, but the movie slow-burns its romance to such a degree that it frequently stalls the momentum of its sci-fi mysteries." }
+    ],
+    "symbols": ["ancient stone steps in Italy", "syringe of stem cells", "sprouting underwater tentacle", "ruined church over the sea", "a piece of fossilized amber"],
+    "pos": { "x": 0.68, "y": 0.81 }
+  },
+  {
+    "slug": "the-endless-2018",
+    "title": "The Endless",
+    "year": 2018,
+    "director": "Justin Benson, Aaron Moorhead",
+    "runtime": 111,
+    "catalogue": "ARTX-818BM",
+    "epigraph": "The hardest thing about being trapped in a loop is realizing you're the one who built the track.",
+    "reading": "The Endless serves as the majestic, central macro-node of the Benson and Moorhead filmography, operating as a direct sequel, expansion, and structural completion of the ideas laid down in Resolution. Starring the directors themselves as semi-fictionalized brothers returning to a UFO death cult, the film scales up their cosmic mythology into a staggering, terrifying thesis on temporal manipulation and psychological inertia. Its online digital afterlife is incredibly active and hyper-focused; it serves as a massive gravity well for puzzle-box decoders who treat the camp's varying localized time loops as a grand, mathematical cryptogram, while firmly establishing the duo as the premier architects of modern, indie cosmic worldbuilding.",
+    "metrics": {
+      "consensus": 91,
+      "friction": 28,
+      "obsession": 94,
+      "haunting": 91,
+      "symbolic": 92,
+      "cult": 96,
+      "formal": 88,
+      "voltage": 85,
+      "accessibility": 76,
+      "reach": 71,
+      "progeny": 93,
+      "arc": 94,
+      "transgression": 62
+    },
+    "notes": {
+      "obsession": "Sustained at an elite tier. The pipeline records permanent, high-velocity discussion tracking the exact geometry, rules, and durations of the entity's distinct 'time bubbles' scattered across the landscape.",
+      "progeny": "Massive legacy footprint within the genre. The film's critical success and narrative scale-hacking directly landed the duo major institutional directing jobs, including Marvel's Moon Knight and Loki Season 2."
+    },
+    "afterlife": [
+      { "year": 2017, "kind": "release", "label": "Premieres at Tribeca to universal critical acclaim, instantly recognized as a towering achievement in indie sci-fi worldbuilding." },
+      { "year": 2019, "kind": "academic", "label": "Frequently integrated into independent film production syllabi to analyze how a micro-budget feature can generate immense, cosmic scale through conceptual execution rather than expensive CGI." }
+    ],
+    "factions": [
+      { "name": "The Jigsaw Chronologists", "share": 0.54, "voice": "A flawless, mind-bending sci-fi puzzle; the way the film maps out different characters trapped in 3-second, 10-second, or 100-year time loops by an unseen sky-god is absolute genius." },
+      { "name": "The Co-Dependent Realists", "share": 0.34, "voice": "The cosmic horror is just scaffolding; at its heart, it's a deeply moving, beautiful story about brotherhood, family trauma, and breaking free from the toxic comfort of your own loops." },
+      { "name": "The Lore Skeptics", "share": 0.12, "voice": "It relies a bit too heavily on the viewer having seen Resolution to land its emotional and narrative payoff, making it slightly insular for casual viewers." }
+    ],
+    "symbols": ["three moons in a night sky", "unbreakable monofilament rope", "man running inside a literal 3-second bubble", "tug-of-war rope disappearing into the sky", "home-brewed craft beer bottle"],
+    "pos": { "x": 0.71, "y": 0.92 }
+  },
+  {
+    "slug": "synchronic-2019",
+    "title": "Synchronic",
+    "year": 2019,
+    "director": "Justin Benson, Aaron Moorhead",
+    "runtime": 102,
+    "catalogue": "ARTX-919BM",
+    "epigraph": "Time is a circle, but humans are only built to see the straight line.",
+    "reading": "Synchronic represents Benson and Moorhead's first structural expansion into a higher-budget tier, utilizing a star-studded cast (Anthony Mackie and Jamie Dornan) to anchor a slick, melancholic New Orleans neo-noir. The film recontextualizes time travel not as a sleek sci-fi technological achievement, but as an organic, predatory pharmaceutical trip that forces the human pineal gland into past eras of the local landscape. Its afterlife has maintained a stable, solid footprint. While it possesses higher macro-Reach and Accessibility than their early work, it is deeply loved within their core fandom for how it infuses their trademark cosmic fatalism with a heavy, aching sense of historical grief and racial vulnerability.",
+    "metrics": {
+      "consensus": 79,
+      "friction": 38,
+      "obsession": 78,
+      "haunting": 82,
+      "symbolic": 84,
+      "cult": 64,
+      "formal": 78,
+      "voltage": 84,
+      "accessibility": 89,
+      "reach": 81,
+      "progeny": 68,
+      "arc": 79,
+      "transgression": 54
+    },
+    "notes": {
+      "accessibility": "The highest accessibility score in their core filmography, translating their mind-bending concepts into a highly polished, familiar paramedic procedural framework.",
+      "haunting": "Driven by the bleak, swampy New Orleans atmosphere and the haunting historical ghosts (conquistadors, klansmen) that inhabit the physical coordinates of the city across time."
+    },
+    "afterlife": [
+      { "year": 2019, "kind": "release", "label": "Premieres at the Toronto International Film Festival, drawing strong reviews for its visual style and Anthony Mackie's soulful performance." },
+      { "year": 2021, "kind": "rediscovery", "label": "Hits streaming platforms during the pandemic, exploding into a massive digital crossover hit for a wider, mainstream audience unfamiliar with their indie origins." }
+    ],
+    "factions": [
+      { "name": "The Historical Fatalists", "share": 0.52, "voice": "It's a brilliant, tragic subversion of time travel; by using a black protagonist, the film exposes that the past isn't a fun sandbox adventure, but a deeply hostile, dangerous graveyard." },
+      { "name": "The Procedural Stylists", "share": 0.32, "voice": "A beautifully shot, atmospheric New Orleans noir that uses a great paramedic setup to ground an incredibly inventive, rules-based sci-fi concept." },
+      { "name": "The Studio-Scale Skeptics", "share": 0.16, "voice": "The ideas are great, but the higher production budget and conventional studio pacing polish away some of the raw, dangerous indie weirdness that made The Endless feel special." }
+    ],
+    "symbols": ["glowing designer pill wrapper", "pet dog trapped in the past", "three-headed coin", "pineal gland x-ray scan", "battlefield muddy trenches"],
+    "pos": { "x": 0.81, "y": 0.84 }
   }
 ]
