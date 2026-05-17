@@ -252,5 +252,315 @@
       "x": 0.72,
       "y": 0.68
     }
+  },
+  {
+    "slug": "zodiac-2007",
+    "title": "Zodiac",
+    "year": 2007,
+    "director": "David Fincher",
+    "runtime": 157,
+    "catalogue": "ARTX-207",
+    "epigraph": "I need to know. I need to look him in the eye and I need to know that it's him.",
+    "reading": "Zodiac arrived in theaters as a seemingly conventional true-crime procedural, but its cultural trajectory over the last two decades has transformed it into the definitive cinematic thesis on information obsession and cosmic futility. Fincher's meticulous, digital hyper-realism didn't yield a box-office explosion at launch, but its afterlife has been staggering. It has become a sacred text for the modern internet era—mirroring the exact rabbit-hole descent that characterizes online amateur sleuthing, True Crime podcasts, and algorithmic radicalization. Its mention volume is relentless, characterized by viewers who rewatch its sprawling, unresolved 157 minutes as a form of comfort media, finding a strange, terrifying solace in its library stacks and yellow legal pads.",
+    "metrics": {
+      "consensus": 92,
+      "friction": 22,
+      "obsession": 96,
+      "haunting": 85,
+      "symbolic": 78,
+      "cult": 64,
+      "formal": 83,
+      "voltage": 74,
+      "accessibility": 79,
+      "reach": 88,
+      "progeny": 93,
+      "arc": 87,
+      "transgression": 61
+    },
+    "notes": {
+      "obsession": "One of the highest obsession scores in the modern database. The film's structural trajectory mirrors the very disease it depicts: the compulsive need to parse documents, logs, and microfilms.",
+      "friction": "Virtually non-existent friction. The critical consensus has unanimously shifted to recognizing this as Fincher's absolute masterpiece, an immaculate historical reconstruction.",
+      "haunting": "Driven by specific linguistic markers regarding the 'Lake Berryessa' lakeside stabbing sequence and the basement scene, both frequently cited as masterclasses in pure, daytime dread.",
+      "symbolic": "Lower than Lynch or Tarkovsky, as the film functions as a hyper-literal system of data collection rather than a poetic/metaphorical sandbox, though the 'basement' acts as a clear descent-into-hell motif."
+    },
+    "afterlife": [
+      { "year": 2007, "kind": "release", "label": "Initial theatrical run; underperforms commercially as audiences expected a fast-paced thriller like Se7en." },
+      { "year": 2012, "kind": "rediscovery", "label": "Eminent film critics and internet communities organize a massive wave of reappraisal, labeling it one of the best films of the 2000s." },
+      { "year": 2017, "kind": "academic", "label": "Becomes a cornerstone text in film schools for its early, pioneering use of high-definition digital video (Thomson Viper) and invisible CGI worldbuilding." },
+      { "year": 2022, "kind": "meme", "label": "The 'Arthur Leigh Allen interview scene' and the basement sequence achieve legendary status on social media platforms as shorthand for maximum, claustrophobic tension." }
+    ],
+    "factions": [
+      { "name": "The Procedural Purists", "share": 0.55, "voice": "It is the greatest movie ever made about work, bureaucratic exhaustion, and how the pursuit of an objective truth can slowly destroy a human life." },
+      { "name": "The Aesthetic Archivists", "share": 0.32, "voice": "Fincher's digital precision creates a flawless time capsule; the movie doesn't just recreate the 1970s, it feels like it is haunted by the ghosts of San Francisco's past." },
+      { "name": "The Anti-Climactic Skeptics", "share": 0.13, "voice": "An exhausting, overly long slog that builds up massive amounts of tension only to end with a whimper and a series of title cards." }
+    ],
+    "symbols": ["crossed-circle cipher", "Lake Berryessa executioner hood", "yellow legal pads", "basement footsteps", "San Francisco Chronicle mailroom"],
+    "pos": { "x": 0.81, "y": 0.59 }
+  },
+  {
+    "slug": "nashville-1975",
+    "title": "Nashville",
+    "year": 1975,
+    "director": "Robert Altman",
+    "runtime": 160,
+    "catalogue": "ARTX-175",
+    "epigraph": "They may say I ain't free, but it don't bother me.",
+    "reading": "Nashville stands as the towering, chaotic monument of New Hollywood's decentered, polyphonic storytelling, acting as a direct psychic autopsy of a fracturing America on the eve of its Bicentennial. At its release, it was hailed as an instant masterpiece, though it deeply alienated the actual country-and-western establishment it satirized. Over its long afterlife, its discursive footprint has stabilized into an object of intense formal study; its radical, overlapping multi-track audio design and massive 24-character mosaic structure are continually parsed by screenwriters and directors. Its modern mention landscape behaves like a slow-burning political thermometer, frequently invoked during American election cycles to describe the grotesque convergence of celebrity culture, media spectacle, and political violence.",
+    "metrics": {
+      "consensus": 88,
+      "friction": 39,
+      "obsession": 74,
+      "haunting": 72,
+      "symbolic": 85,
+      "cult": 51,
+      "formal": 93,
+      "voltage": 81,
+      "accessibility": 58,
+      "reach": 76,
+      "progeny": 89,
+      "arc": 79,
+      "transgression": 66
+    },
+    "notes": {
+      "consensus": "High stability. The institutional consensus that this is Robert Altman's definitive magnum opus is entrenched, with little variation across modern film journals.",
+      "formal": "Exceptionally high. The pipeline records heavy linguistic markers around Altman's pioneering use of the 24-track Lion's Gate audio system, which forced viewers to dynamically choose what to listen to in the mix.",
+      "voltage": "Driven heavily by the sudden, rupturing nature of the final concert climax, which transitions the film's breezy satire into visceral shock, creating an enduring physiological echo.",
+      "accessibility": "Relatively low for a major studio production; the lack of a singular protagonist or standard cause-and-effect narrative framework resists casual, passive viewing."
+    },
+    "afterlife": [
+      { "year": 1975, "kind": "release", "label": "Theatrical premiere; meets widespread critical rhapsody and receives five Academy Award nominations." },
+      { "year": 1975, "kind": "wound", "label": "The country music capital intensely disowns the film, with stars like Webb Pierce actively protesting its depiction of the industry." },
+      { "year": 2000, "kind": "criterion", "label": "The film enters prestigious home video preservation tracks, sealing its canonization for the turn of the century." },
+      { "year": 2010, "kind": "academic", "label": "Becomes a fundamental text in academic syllabi covering post-Watergate disillusionment and the anatomy of the American political spectacle." }
+    ],
+    "factions": [
+      { "name": "The Polyphonic Structuralists", "share": 0.52, "voice": "It is a miraculous, sprawling tapestry that perfectly mirrors the messy, simultaneous reality of human life; a masterclass in direct, democratic filmmaking where every character is humanized." },
+      { "name": "The Cynical Satire Dissidents", "share": 0.31, "voice": "Altman is operating from a position of coastal condescension, treating working-class culture and Middle America as a collection of petty, shallow, and pathetic caricatures." },
+      { "name": "The Technical Formalists", "share": 0.17, "voice": "The narrative is second to the auditory experiment; it is a film that must be heard and decoded like a live radio broadcast rather than watched as a traditional movie." }
+    ],
+    "symbols": ["The Replacement Party van", "tricycle motorcycle", "glowing political billboard", "impromptu highway pileup", "white cowboy hat"],
+    "pos": { "x": 0.43, "y": 0.67 }
+  },
+  {
+    "slug": "alien-1979",
+    "title": "Alien",
+    "year": 1979,
+    "director": "Ridley Scott",
+    "runtime": 117,
+    "catalogue": "ARTX-279",
+    "epigraph": "In space no one can hear you scream.",
+    "reading": "Alien is a pristine, terrifyingly immutable artifact that marks the precise cross-section where the blue-collar procedural meets cosmic horror and psychosexual trauma. Upon release, it was a massive commercial juggernaut, though some contemporary critics dismissed it as a hyper-polished B-movie. In the decades since, it has achieved an absolute, near-100% consensus victory, widely considered one of the most flawless exercises in tension and production design ever executed. Its mention volume is staggering and permanent; its discourse is endlessly sustained by the unholy marriage of its mechanical space-trucker aesthetic and H.R. Giger's biomechanical Freudian designs, generating infinite text on body horror, corporate malice, and maternal dread.",
+    "metrics": {
+      "consensus": 98,
+      "friction": 14,
+      "obsession": 95,
+      "haunting": 94,
+      "symbolic": 92,
+      "cult": 48,
+      "formal": 85,
+      "voltage": 96,
+      "accessibility": 91,
+      "reach": 97,
+      "progeny": 98,
+      "arc": 84,
+      "transgression": 81
+    },
+    "notes": {
+      "consensus": "One of the highest scores in the database. There is virtually no active faction arguing that Alien is a bad or unimpactful film; its status is culturally settled.",
+      "friction": "Extremely low friction. Debate is not focused on whether the film works, but rather on localized parsing of its thematic subtext (e.g., gender roles, corporate exploitation).",
+      "haunting": "Maximum visceral retention. The pipeline captures thousands of persistent linguistic indicators tracing back to the 'chestburster' and the 'drop-ceiling' sequence as lifelong vectors of intrusive memory.",
+      "cult": "Low cult score because it is a globally canonized blockbuster; it didn't require an underground community to choose it against institutional rejection, as the institution embraced it rapidly.",
+      "progeny": "Nearing absolute saturation. The film effectively birthed the entire 'used future' aesthetic of science fiction and the survival-horror genre across all media platforms."
+    },
+    "afterlife": [
+      { "year": 1979, "kind": "release", "label": "Original theatrical release; widespread audience panic, box-office dominance, and immediate pop-culture saturation." },
+      { "year": 2002, "kind": "academic", "label": "Becomes a cornerstone text in feminist film theory, heavily analyzed for its subversion of traditional slasher tropes and male vulnerability." },
+      { "year": 2003, "kind": "reissue", "label": "Ridley Scott releases a 'Director's Cut' theatrical restoration, keeping the conversation actively fixed in theaters." },
+      { "year": 2014, "kind": "meme", "label": "Jonesy the cat and the Nostromo's neon green CRT interfaces become highly aestheticized fixtures across Tumblr, Pinterest, and synthwave subcultures." }
+    ],
+    "factions": [
+      { "name": "The Psychosexual Industrialists", "share": 0.58, "voice": "The film is an absolute, terrifyingly pure manifestations of birth trauma, reproductive horror, and sexual violation, designed specifically to strip away human hubris." },
+      { "name": "The Blue-Collar Materialists", "share": 0.32, "voice": "It's the ultimate movie about bad working conditions; the true monster isn't the Xenomorph, it's Weyland-Yutani treating human lives as expendable for their quarterly profit margins." },
+      { "name": "The Pure Rollercoaster Stylists", "share": 0.10, "voice": "An incredibly well-crafted, atmospheric haunted house movie set in space that works purely on a physiological level without needing deep intellectual parsing." }
+    ],
+    "symbols": ["glowing green egg chamber", "hydraulic drop ceiling slime", "the cat carrier", "CRT monochrome radar blinking", "the self-destruct steam venting"],
+    "pos": { "x": 0.92, "y": 0.41 }
+  },
+  {
+    "slug": "the-thing-1982",
+    "title": "The Thing",
+    "year": 1982,
+    "director": "John Carpenter",
+    "runtime": 109,
+    "catalogue": "ARTX-382",
+    "epigraph": "I know I'm human. And if you were all these things, then you'd just attack me now, so some of you are still human.",
+    "reading": "The Thing represents the absolute apex of the 'Reclaimed Failure' arc in cinema history, transforming from a widely reviled, critically slaughtered box-office bomb into what is now considered a foundational pillar of modern horror. Released into the optimistic, tech-friendly shadow of E.T., its nihilistic paranoia and grotesque, tactile practical effects deeply disgusted 1982 audiences. In its spectacular afterlife, the film has undergone a complete discursive inversion. Its online mention volume is hyper-dense, sustained by an obsessive community that treats the film as a mathematical, deductive puzzle—scrutinizing shadows, eye gleams, and visible breath to solve the permanent mystery of who is infected, while celebrating Rob Bottin's practical effects as an unrepeatable art form.",
+    "metrics": {
+      "consensus": 94,
+      "friction": 32,
+      "obsession": 96,
+      "haunting": 92,
+      "symbolic": 89,
+      "cult": 97,
+      "formal": 88,
+      "voltage": 95,
+      "accessibility": 82,
+      "reach": 91,
+      "progeny": 95,
+      "arc": 99,
+      "transgression": 84
+    },
+    "notes": {
+      "obsession": "Near-maximum score. The inversion curve is legendary; communities on Reddit, YouTube, and letterboxd spend thousands of hours decoding the final frame and the blood-test sequence.",
+      "cult": "Maximal cult score. This is the definitive reclamation story—a work completely abandoned by the studio and institutional critics that was rescued solely by the devotion of home-video audiences.",
+      "voltage": "Maintained by the extraordinary tension of the blood-test sequence, which acts as a masterclass in physiological suspense and sudden, violent jump-shocks.",
+      "arc": "A perfect 99. The database registers this as the gold standard for a complete 180-degree turn in critical and cultural valuation over a forty-year timeline."
+    },
+    "afterlife": [
+      { "year": 1982, "kind": "release", "label": "Theatrical premiere; catastrophic box office bomb, universally trashed by critics who called it 'instant junk' and 'morbid.'" },
+      { "year": 1982, "kind": "rejection", "label": "John Carpenter is dropped from future studio contracts due to the film's financial and critical failure." },
+      { "year": 1990, "kind": "rediscovery", "label": "A massive wave of appreciation builds via late-night cable television and VHS rentals, establishing its underground legendary status." },
+      { "year": 2011, "kind": "academic", "label": "Enters standard film curricula as a premier text for cold-war paranoia, body horror, and toxic masculinity studies." },
+      { "year": 2020, "kind": "meme", "label": "The 'Wilford Brimley computer simulation' and 'MacReady with a flamethrower' images become omnipresent internet reaction macros during global periods of isolation." }
+    ],
+    "factions": [
+      { "name": "The Deductive Sleuths", "share": 0.46, "voice": "The movie is a perfect clockwork puzzle; Carpenter left explicit visual clues (breath, clothing, eye reflections) that reveal exactly when Childs or Palmer were turned if you look closely enough." },
+      { "name": "The Nihilistic Paranoiacs", "share": 0.36, "voice": "It's a terrifying, unmatched look at the total breakdown of social trust; it proves that when survival is on the line, isolation and suspicion will destroy us faster than any alien creature." },
+      { "name": "The Practical Effects Purists", "share": 0.18, "voice": "A beautiful, tactile monument to the absolute peak of analog makeup and practical special effects before CGI arrived to turn everything sterile and weightless." }
+    ],
+    "symbols": ["petri dish and hot wire", "flamethrower in the snow", "shattered kennel cage", "dog silhouette in a doorway", "two men drinking in the dark"],
+    "pos": { "x": 0.21, "y": 0.88 }
+  },
+  {
+    "slug": "eternal-sunshine-of-the-spotless-mind-2004",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "director": "Michel Gondry",
+    "runtime": 108,
+    "catalogue": "ARTX-404",
+    "epigraph": "Meet me in Montauk.",
+    "reading": "Eternal Sunshine acts as the definitive post-modern thesis on romantic trauma, migrating rapidly from an indie-darling cultural phenomenon into an absolute pillar of 21st-century melancholia. Its position in internet discourse is incredibly stable yet deeply emotional; it effectively weaponized the 'Residual Haunting' axis by translating the literal, architectural fragmentation of a breaking mind into cinematic form. Its mention density across time is characterized by a permanent, cyclical resonance—surfacing reliably across social media platforms every winter and during cultural reckonings with algorithmic intimacy, where it is treated not as a sci-fi gimmick, but as a devastatingly accurate psychological mirror.",
+    "metrics": {
+      "consensus": 95,
+      "friction": 18,
+      "obsession": 92,
+      "haunting": 96,
+      "symbolic": 88,
+      "cult": 54,
+      "formal": 91,
+      "voltage": 94,
+      "accessibility": 85,
+      "reach": 93,
+      "progeny": 87,
+      "arc": 82,
+      "transgression": 59
+    },
+    "notes": {
+      "haunting": "Scores near maximum. The film's central conceit—memories collapsing, faces erasing, and spaces disintegrating in real-time—utilizes specific linguistic markers that viewers adopt to describe their own experiences of heartbreak and intrusive mental imagery.",
+      "formal": "High formal risk score. Charlie Kaufman's non-linear, recursive script combined with Gondry's reliance on in-camera, practical trickery rather than sterile CGI creates a tactile surrealism that remains highly influential.",
+      "friction": "Exceptionally low. The film enjoys an almost bulletproof critical and audience consensus; there is virtually no active counter-culture arguing against its emotional or structural brilliance.",
+      "voltage": "Maintained by the sheer physiological weight of the third act, particularly the crumbling beach house sequence, which regularly logs high-intensity vocabulary surrounding grief and romantic futility."
+    },
+    "afterlife": [
+      { "year": 2004, "kind": "release", "label": "Theatrical release; immediate critical rhapsody and surprise box-office resilience for an avant-garde romantic narrative." },
+      { "year": 2005, "kind": "academic", "label": "Wins the Academy Award for Best Original Screenplay, instantly solidifying Charlie Kaufman's work in screenwriting syllabi worldwide." },
+      { "year": 2014, "kind": "meme", "label": "The image of Joel and Clementine lying on the frozen Charles River achieves permanent, viral status as an internet shorthand for fragile, doomed intimacy." },
+      { "year": 2024, "kind": "reissue", "label": "20th-anniversary retrospective essays and 4K restorations spark a massive wave of cultural reappraisal focusing on the ethics of technological memory manipulation." }
+    ],
+    "factions": [
+      { "name": "The Hopeful Fatalists", "share": 0.54, "voice": "The ending is beautiful because it embraces the pain; knowing that a relationship will fail or cause immense grief doesn't make the lived experience of loving someone any less vital." },
+      { "name": "The Tragic Realists", "share": 0.34, "voice": "It's a deeply tragic, cyclical horror film disguised as a romance; they are fundamentally incompatible and destined to inflict the exact same psychological wounds on each other forever." },
+      { "name": "The Technical Romantics", "share": 0.12, "voice": "The emotional core only lands because of Gondry's whimsical, handmade practical effects, which ground Kaufman's hyper-intellectual cynicism in something human and warm." }
+    ],
+    "symbols": ["frozen Charles River", "orange hoodie", "fading book titles in a library", "shattering Montauk beach house", "cassette tapes of erased confessions"],
+    "pos": { "x": 0.86, "y": 0.32 }
+  },
+  {
+    "slug": "there-will-be-blood-2007",
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "director": "Paul Thomas Anderson",
+    "runtime": 158,
+    "catalogue": "ARTX-507",
+    "epigraph": "I have a competition in me. I want no one else to succeed.",
+    "reading": "There Will Be Blood is a towering, terrifying monolith in modern cinema, acting as the definitive 21st-century thesis on the violent, foundational mythologies of American capitalism and religious mania. Its afterlife has been staggeringly dominant; it has migrated from an acclaimed period piece into a hyper-memetic cultural text. Its mention volume is relentless and highly dynamic—sustained by an intersection of formalist film theorists dissecting Jonny Greenwood's jarring, avant-garde score, and internet subcultures who have transformed Daniel Plainview into an iconic, darkly humorous avatar of pure, unfiltered misanthropy and masculine isolation.",
+    "metrics": {
+      "consensus": 96,
+      "friction": 26,
+      "obsession": 95,
+      "haunting": 89,
+      "symbolic": 92,
+      "cult": 41,
+      "formal": 87,
+      "voltage": 93,
+      "accessibility": 74,
+      "reach": 94,
+      "progeny": 96,
+      "arc": 91,
+      "transgression": 71
+    },
+    "notes": {
+      "obsession": "Inversion curve is exceptionally steep. The film is intensely lived-with; its dialogue is quoted with an almost religious consistency across film forums and social media platforms.",
+      "voltage": "Extremely high physiological impact. The oil derrick explosion sequence and the final 'bowling alley' confrontation induce sustained states of nervous tension, driven by Day-Lewis's physically imposing performance.",
+      "symbolic": "Highly dense system. The film is endlessly parsed as a structural dialectic between Capital (Plainview) and Faith (Eli Sunday), exploring how both forces cannibalize the American frontier.",
+      "cult": "Low cult score. It was immediately canonized by major institutions, film critics, and festivals at launch, bypassing the need for an underground reclamation arc."
+    },
+    "afterlife": [
+      { "year": 2007, "kind": "release", "label": "Theatrical premiere; instantly hailed as an American masterpiece, setting up a legendary critical showdown with No Country for Old Men." },
+      { "year": 2008, "kind": "wound", "label": "Daniel Day-Lewis wins Best Actor; the 'I drink your milkshake!' line explodes into a massive, uncoordinated mainstream pop-culture meme that nearly threatens to overshadow the film's gravity." },
+      { "year": 2015, "kind": "academic", "label": "Widely cited in academic literature as the definitive film of the 2000s, heavily analyzed through the lenses of eco-criticism, extraction capitalism, and frontier hostility." },
+      { "year": 2022, "kind": "meme", "label": "Plainview's hyper-misanthropic monologues experience a massive resurgence on TikTok and Twitter as aestheticized reaction audio representing absolute exhaustion or spiteful ambition." }
+    ],
+    "factions": [
+      { "name": "The Systemic Capital Analysts", "share": 0.58, "voice": "It is the ultimate macro-critique of the American project; Plainview isn't a monster because he's evil, he's a monster because he is the perfect, logical manifestation of unchecked extraction capitalism." },
+      { "name": "The Character Studies Purists", "share": 0.30, "voice": "The film works purely as a Shakespearean tragedy of an absolute misanthrope who achieves total material victory at the cost of his own humanity, dying completely alone in a prison of his own making." },
+      { "name": "The Aesthetic Formalists", "share": 0.12, "voice": "The narrative is a scaffolding for Robert Elswit's natural-light cinematography and Jonny Greenwood's terrifyingly discordant score, which make the landscape feel ancient and cursed." }
+    ],
+    "symbols": ["burning wooden oil derrick", "silver bowling pin", "milkshake straw", "handwritten baptism ledger", "mud-covered oil slick on a face"],
+    "pos": { "x": 0.89, "y": 0.73 }
+  },
+  {
+    "slug": "anatomy-of-a-fall-2023",
+    "title": "Anatomy of a Fall",
+    "year": 2023,
+    "director": "Justine Triet",
+    "runtime": 151,
+    "catalogue": "ARTX-623",
+    "epigraph": "Sometimes a monster is just a tool to help us understand a truth that's too difficult to look at directly.",
+    "reading": "Anatomy of a Fall arrived as a sharp, clinical disruption to the traditional courtroom procedural, instantly transforming a localized domestic tragedy into a global, multi-layered discourse on narrative bias, language barriers, and the impossibility of objective truth. Its position in the cultural landscape is defined by an incredibly high 'Friction' score; it does not present a puzzle to be solved, but an active, exhausting interpretive war. Its online mention volume remains remarkably high for a recent international film, driven by viewers who treat the central audio recording of the marital argument as a textual Rorschach test, endlessly debating the line between creative friction and domestic abuse.",
+    "metrics": {
+      "consensus": 52,
+      "friction": 89,
+      "obsession": 78,
+      "haunting": 82,
+      "symbolic": 85,
+      "cult": 46,
+      "formal": 79,
+      "voltage": 86,
+      "accessibility": 76,
+      "reach": 81,
+      "progeny": 62,
+      "arc": 75,
+      "transgression": 64
+    },
+    "notes": {
+      "consensus": "Low-to-moderate score reflects the highly volatile split among audiences regarding Sandra's actual guilt or innocence, alongside arguments over the French judicial system's structural fairness.",
+      "friction": "Exceptionally high friction. The interpretative gap remains permanently open because Triet deliberately withheld the definitive answer from the actress herself, forcing the text to remain unresolved.",
+      "haunting": "Driven heavily by linguistic markers tracking the 'P.I.M.P.' steel-drum music loop and the dog Snoop's visual perspective, which viewers report as lingering sensory hooks.",
+      "accessibility": "Relatively high; it functions smoothly as an engaging, high-stakes legal thriller even as it actively deconstructs and subverts the genre's typical clean resolutions."
+    },
+    "afterlife": [
+      { "year": 2023, "kind": "release", "label": "Premieres at the Cannes Film Festival, winning the Palme d'Or and setting off an international wave of critical acclaim." },
+      { "year": 2024, "kind": "wound", "label": "France's Oscar selection committee controversially passes over the film for the Best International Feature category, sparking intense cultural and political debate within the French film establishment." },
+      { "year": 2024, "kind": "academic", "label": "Wins the Academy Award for Best Original Screenplay; immediately integrated into legal-studies and feminist film theory curricula analyzing the translation of domestic life into criminal evidence." },
+      { "year": 2025, "kind": "meme", "label": "Snoop the Border Collie's 'performance' and attendance at Hollywood awards shows becomes a widespread, enduring wholesome meme template across TikTok and Instagram." }
+    ],
+    "factions": [
+      { "name": "The Textual Deconstructionists", "share": 0.48, "voice": "The film is a brilliant critique of how the legal system and society demand a neat, clean story from chaos; it proves that a marriage cannot be accurately translated or judged through isolated fragments of evidence." },
+      { "name": "The Domestic Moral Realists", "share": 0.38, "voice": "It's an incredibly raw, devastatingly accurate look at creative envy, professional resentment, and the exhausting mental load of a modern bisexual woman operating under the patriarchal gaze." },
+      { "name": "The Procedural Sleuths", "share": 0.14, "voice": "An excellent, highly suspenseful whodunit that leaves just enough breadcrumbs to suggest a calculated, perfect murder if you analyze the blood-spatter geometry carefully." }
+    ],
+    "symbols": ["blood splatters on white snow", "steel-drum instrumental loop", "audio recorder hidden in a pocket", "blind boy's tape recorder", "the aspirin-sick Border Collie"],
+    "pos": { "x": 0.58, "y": 0.81 }
   }
 ]
