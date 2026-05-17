@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState } from "react";
-import type { MovieRecord } from "@/lib/green";
+import type { MovieRecord, ApiUsage } from "@/lib/green";
 import { useUserFilms } from "@/lib/user-films-context";
 import { Sigil } from "@/components/Sigil";
 
@@ -40,6 +40,7 @@ function Submit() {
   const [title, setTitle] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [result, setResult] = useState<MovieRecord | null>(null);
+  const [usage, setUsage] = useState<ApiUsage | null>(null);
   const [errorMsg, setErrorMsg] = useState("");
   const { addUserFilm } = useUserFilms();
 
@@ -49,6 +50,7 @@ function Submit() {
 
     setStatus("loading");
     setResult(null);
+    setUsage(null);
     setErrorMsg("");
 
     try {
@@ -64,9 +66,10 @@ function Submit() {
         throw new Error((data as { error?: string }).error ?? `HTTP ${res.status}`);
       }
 
-      const record = data as MovieRecord;
+      const { _usage, ...record } = data as MovieRecord & { _usage?: ApiUsage };
       addUserFilm(record);
       setResult(record);
+      setUsage(_usage ?? null);
       setStatus("done");
     } catch (err) {
       setErrorMsg(err instanceof Error ? err.message : "Unknown error");
@@ -288,6 +291,42 @@ function Submit() {
               </div>
             )}
 
+            {/* API cost */}
+            {usage && (
+              <div className="col-span-12">
+                <div className="rule mt-4 mb-4" />
+                <div className="font-mono text-[10px] smallcaps text-oxblood mb-2">
+                  API cost
+                </div>
+                <div className="grid grid-cols-4 gap-4 max-w-lg">
+                  <div>
+                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Input</div>
+                    <div className="font-mono text-[11px] text-vellum">
+                      {usage.inputTokens.toLocaleString()} tok
+                    </div>
+                  </div>
+                  <div>
+                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Thinking</div>
+                    <div className="font-mono text-[11px] text-vellum">
+                      {usage.thinkingTokens.toLocaleString()} tok
+                    </div>
+                  </div>
+                  <div>
+                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Output</div>
+                    <div className="font-mono text-[11px] text-vellum">
+                      {usage.outputTokens.toLocaleString()} tok
+                    </div>
+                  </div>
+                  <div>
+                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Est. cost</div>
+                    <div className="font-mono text-[11px] text-vellum">
+                      ${usage.estimatedCostUsd.toFixed(4)}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Submit another */}
             <div className="col-span-12">
               <div className="rule mt-4 mb-6" />
@@ -295,6 +334,7 @@ function Submit() {
                 onClick={() => {
                   setStatus("idle");
                   setResult(null);
+                  setUsage(null);
                   setTitle("");
                 }}
                 className="font-mono text-[11px] smallcaps text-vellum-dim hover:text-vellum transition-colors"

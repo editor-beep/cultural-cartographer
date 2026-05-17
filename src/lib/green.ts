@@ -1,5 +1,17 @@
 import { GoogleGenAI } from "@google/genai";
 
+// Gemini 2.5 Pro pricing (USD per 1M tokens)
+const PRICE_INPUT_PER_M = 1.25;
+const PRICE_OUTPUT_PER_M = 10.0;
+const PRICE_THINKING_PER_M = 3.5;
+
+export type ApiUsage = {
+  inputTokens: number;
+  outputTokens: number;
+  thinkingTokens: number;
+  estimatedCostUsd: number;
+};
+
 const SYSTEM_PROMPT = `You are obsessed with what other people think about cultural works — films, TV series, books, and albums.
 You scrape the web and rank them based on thirteen categories 0 to 100.
 
@@ -147,7 +159,10 @@ export type MovieRecord = {
   pos: { x: number; y: number };
 };
 
-export async function analyzeMovie(title: string, apiKey: string): Promise<MovieRecord> {
+export async function analyzeMovie(
+  title: string,
+  apiKey: string,
+): Promise<{ record: MovieRecord; usage: ApiUsage }> {
   const ai = new GoogleGenAI({ apiKey });
   const slug = toSlug(title);
 
@@ -174,5 +189,14 @@ export async function analyzeMovie(title: string, apiKey: string): Promise<Movie
     record = JSON.parse(match[0]);
   }
 
-  return record;
+  const meta = response.usageMetadata;
+  const inputTokens = meta?.promptTokenCount ?? 0;
+  const outputTokens = meta?.candidatesTokenCount ?? 0;
+  const thinkingTokens = meta?.thoughtsTokenCount ?? 0;
+  const estimatedCostUsd =
+    (inputTokens / 1_000_000) * PRICE_INPUT_PER_M +
+    (outputTokens / 1_000_000) * PRICE_OUTPUT_PER_M +
+    (thinkingTokens / 1_000_000) * PRICE_THINKING_PER_M;
+
+  return { record, usage: { inputTokens, outputTokens, thinkingTokens, estimatedCostUsd } };
 }

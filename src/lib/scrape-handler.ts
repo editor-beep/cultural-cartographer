@@ -76,9 +76,9 @@ export async function handleScrapeRequest(
   }
 
   try {
-    const record = await analyzeMovie(parsed.data.title, apiKey);
+    const { record, usage } = await analyzeMovie(parsed.data.title, apiKey);
     await saveUserMovie(record);
-    return Response.json(record, { status: 200 });
+    return Response.json({ ...record, _usage: usage }, { status: 200 });
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
     return Response.json({ error: message }, { status: 500 });
