@@ -5309,17 +5309,20 @@ export function adaptUserMovie(m: UserMovieRecord): Artifact {
 }
 
 const curatedSlugs = new Set(CURATED.map((a) => a.slug));
-const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
-  .filter((g) => !curatedSlugs.has(g.slug))
-  .map(adaptGenerated);
 
-// Merge user-submitted movies, skipping any slug already covered by curated or pipeline data.
-const knownSlugs = new Set([...curatedSlugs, ...generatedExtras.map((a) => a.slug)]);
+// User submissions take priority over generated placeholders (but not curated entries).
 const userExtras: Artifact[] = (userMoviesRaw as unknown as UserMovieRecord[])
-  .filter((m) => m && m.slug && !knownSlugs.has(m.slug))
+  .filter((m) => m && m.slug && !curatedSlugs.has(m.slug))
   .map(adaptUserMovie);
 
-export const ARTIFACTS: Artifact[] = [...CURATED, ...generatedExtras, ...userExtras];
+const userSlugsCovered = new Set(userExtras.map((a) => a.slug));
+
+// Generated extras fill in what neither curated nor user submissions cover.
+const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
+  .filter((g) => !curatedSlugs.has(g.slug) && !userSlugsCovered.has(g.slug))
+  .map(adaptGenerated);
+
+export const ARTIFACTS: Artifact[] = [...CURATED, ...userExtras, ...generatedExtras];
 
 // Runtime cache for client-side user submissions (populated by UserFilmsProvider).
 // Allows getArtifact to resolve user-submitted films during SPA navigation.
