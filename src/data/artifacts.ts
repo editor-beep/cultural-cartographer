@@ -1071,7 +1071,7 @@ const CURATED: Artifact[] = [
     afterlife: [
       { year: 1997, kind: "release", label: "Theatrical release is met with critical panic and hostility, with prominent reviewers accusing the film of being crypto-fascist, neo-Nazi trash." },
       { year: 1998, kind: "release", label: "Receives an Academy Award nomination for Best Visual Effects, with Phil Tippett's practical-and-digital arachnid work setting a new industrial benchmark." },
-      { year: 2004, kind: "rediscovery", label: "The invasion of Iraq and the post-9/14 domestic media landscape trigger an immediate, massive wave of critical reappraisals, mapping the film's prophetic accuracy." },
+      { year: 2004, kind: "rediscovery", label: "The invasion of Iraq and the post-9/11 domestic media landscape trigger an immediate, massive wave of critical reappraisals, mapping the film's prophetic accuracy." },
       { year: 2020, kind: "criterion", label: "Widespread, permanent codification across media-theory and political-science syllabi alongside the theoretical writings of Umberto Eco on Ur-Fascism." },
     ],
     factions: [
