@@ -139,8 +139,8 @@ function Atlas() {
                 onMouseLeave={() => setHovered(null)}
                 className="group absolute -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 hover:scale-150"
                 style={{
-                  left: `${a.pos.x * 100}%`,
-                  top: `${a.pos.y * 100}%`,
+                  left: `${Math.max(0, Math.min(1, a.pos.x)) * 100}%`,
+                  top: `${Math.max(0, Math.min(1, a.pos.y)) * 100}%`,
                   zIndex: hovered === a.slug ? 20 : 10,
                 }}
               >
