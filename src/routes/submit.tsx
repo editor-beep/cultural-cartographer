@@ -397,31 +397,41 @@ function Submit() {
                 <div className="font-mono text-[10px] smallcaps text-oxblood mb-2">
                   API cost
                 </div>
-                <div className="grid grid-cols-4 gap-4 max-w-lg">
-                  <div>
-                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Input</div>
-                    <div className="font-mono text-[11px] text-vellum">
-                      {usage.inputTokens.toLocaleString()} tok
+                <div className="flex items-end gap-6">
+                  <div className="grid grid-cols-4 gap-4 max-w-lg">
+                    <div>
+                      <div className="font-mono text-[10px] smallcaps text-vellum-dim">Input</div>
+                      <div className="font-mono text-[11px] text-vellum">
+                        {usage.inputTokens.toLocaleString()} tok
+                      </div>
+                    </div>
+                    <div>
+                      <div className="font-mono text-[10px] smallcaps text-vellum-dim">Thinking</div>
+                      <div className="font-mono text-[11px] text-vellum">
+                        {usage.thinkingTokens.toLocaleString()} tok
+                      </div>
+                    </div>
+                    <div>
+                      <div className="font-mono text-[10px] smallcaps text-vellum-dim">Output</div>
+                      <div className="font-mono text-[11px] text-vellum">
+                        {usage.outputTokens.toLocaleString()} tok
+                      </div>
+                    </div>
+                    <div>
+                      <div className="font-mono text-[10px] smallcaps text-vellum-dim">Est. cost</div>
+                      <div className="font-mono text-[11px] text-vellum">
+                        ${usage.estimatedCostUsd.toFixed(4)}
+                      </div>
                     </div>
                   </div>
-                  <div>
-                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Thinking</div>
-                    <div className="font-mono text-[11px] text-vellum">
-                      {usage.thinkingTokens.toLocaleString()} tok
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Output</div>
-                    <div className="font-mono text-[11px] text-vellum">
-                      {usage.outputTokens.toLocaleString()} tok
-                    </div>
-                  </div>
-                  <div>
-                    <div className="font-mono text-[10px] smallcaps text-vellum-dim">Est. cost</div>
-                    <div className="font-mono text-[11px] text-vellum">
-                      ${usage.estimatedCostUsd.toFixed(4)}
-                    </div>
-                  </div>
+                  <a
+                    href="https://www.themeansofproduction.press/support-the-means-of-production"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-[10px] smallcaps text-oxblood border border-oxblood px-3 py-1 hover:bg-oxblood hover:text-vellum transition-colors whitespace-nowrap"
+                  >
+                    Support This Project
+                  </a>
                 </div>
               </div>
             )}
