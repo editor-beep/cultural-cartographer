@@ -2810,5 +2810,579 @@
       "x": -0.24,
       "y": 0.55
     }
+  },
+  {
+    "slug": "do-the-right-thing",
+    "title": "Do the Right Thing",
+    "year": 1989,
+    "director": "Spike Lee",
+    "runtime": 120,
+    "medium": "film",
+    "catalogue": "ARTX-013",
+    "epigraph": "Wake up!",
+    "reading": "Spike Lee's sun-baked, volcanic masterpiece remains a towering, unmatched flashpoint in the landscape of American political cinema. Rather than fading into a comfortable historical archive, the text maintains a terrifying, raw immediacy that functions as a permanent cultural wound. Upon its release, mainstream white critics panic-mongered that the film would incite real-world racial violence, a critical misreading that has curdlled into a definitive document of institutional fragility. Lee's brilliant formal strategy—wrapping an unyielding, systemic tragedy in a hyper-saturated, expressionistic visual grammar—prevents the work from being digested as a standard message movie. It is an artifact that actively denies its audience the comfort of a moral baseline, forcing generations of viewers into an unresolved, high-frequency ethical wrestling match that mirrors the volatile, systemic contradictions of American society itself.",
+    "metrics": {
+      "consensus": 68,
+      "friction": 94,
+      "obsession": 91,
+      "haunting": 93,
+      "symbolic": 95,
+      "cult": 45,
+      "formal": 92,
+      "voltage": 98,
+      "accessibility": 88,
+      "reach": 97,
+      "progeny": 96,
+      "arc": 94,
+      "transgression": 82
+    },
+    "notes": {
+      "friction": "One of the highest scores on the axis. The central friction—encapsulated by the dueling final quotes of Malcolm X and Martin Luther King Jr., and the debate over whether Mookie did the 'right thing'—remains an active, open intellectual combat zone decades later.",
+      "haunting": "Driven to near-maximum metrics by the chilling, prophetic reality of Radio Raheem's chokehold death, which functions as an intrusive, recurring phantom that returns to viewers with every real-world headline of police brutality.",
+      "formal": "Extremely high score. Ernest Dickerson's sweat-drenched cinematography, the aggressive wide-angle lenses, the Dutch angles, and characters breaking the fourth wall to deliver racial slurs directly to the camera completely shattered the polite realism of late-80s studio filmmaking.",
+      "voltage": "Near-maximum physiological current. The film acts as a pressure cooker, using a mounting sonic landscape (anchored by Public Enemy's 'Fight the Power') and an oppressive color palette to physically induce the suffocating, claustrophobic sensation of a city heatwave."
+    },
+    "afterlife": [
+      {
+        "year": 1989,
+        "kind": "release",
+        "label": "Premieres at Cannes to explosive press; historic critical panic ensues as white reviewers warn the film will cause riots."
+      },
+      {
+        "year": 1990,
+        "kind": "rejection",
+        "label": "Snubbed for the Best Picture Oscar nomination by the Academy, which infamously awards the safe racial narrative of *Driving Miss Daisy* instead."
+      },
+      {
+        "year": 1999,
+        "kind": "criterion",
+        "label": "Inducted into the National Film Registry and receives a definitive Criterion Collection release, cementing its structural and historical indispensability."
+      },
+      {
+        "year": 2020,
+        "kind": "academic",
+        "label": "Widespread mainstream media and scholarly reassessment following the murder of George Floyd, mapping the direct, unbroken line between the film's text and real-world systemic violence."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Systemic Materialists",
+        "share": 0.5,
+        "voice": "The film is an airtight structural analysis of property vs. human life. Mookie throwing the trash can isn't an irrational outburst; it's a calculated redirection of mob violence to save human bodies from further destruction."
+      },
+      {
+        "name": "The Formalist Stylists",
+        "share": 0.3,
+        "voice": "Spike Lee is operating at the peak of cinematic expressionism here. The film functions like a vibrant, theatrical street-opera that transforms Brooklyn into a mythic, timeless stage."
+      },
+      {
+        "name": "The Liberal Hand-Wringers",
+        "share": 0.2,
+        "voice": "It's a deeply uncomfortable, polarizing work that deliberately refuses to give you a clean moral answer or a character you can completely rally behind."
+      }
+    ],
+    "symbols": [
+      "The Boombox",
+      "LOVE/HATE Brass Knuckles",
+      "The Air Jordan IVs",
+      "Wall of Fame Photographs",
+      "The Melted Italian Ice"
+    ],
+    "pos": {
+      "x": -0.94,
+      "y": 0.98
+    }
+  },
+  {
+    "slug": "the-cook-the-thief-his-wife-her-lover",
+    "title": "The Cook, the Thief, His Wife & Her Lover",
+    "year": 1989,
+    "director": "Peter Greenaway",
+    "runtime": 124,
+    "medium": "film",
+    "catalogue": "ARTX-014",
+    "epigraph": "He was the most delicious man I've ever eaten.",
+    "reading": "Peter Greenaway's pitch-black, hyper-formalistJacobean tragedy stands as an aggressive, uncompromised monument to cinematic transgression and political rage. Operating as a blistering, scatological allegory for the visceral greed of Thatcherite Britain, the text acts as a violent sensory assault wrapped in an immaculate, mathematical architecture. Greenaway systematically strips his characters of psychological interiority to treat them as grotesque structural vectors, moving them through a series of cavernous, color-coded chambers like damned souls in an industrial-baroque pageant. Its cultural position is fiercely gatekept: a film that actively weaponizes revulsion—utilizing rot, physical degradation, and literal cannibalism—to force its audience out of passive consumerism. It remains a towering masterpiece of high-art sensory violence that has permanently resisted assimilation into safe, comfortable prestige cinephilia.",
+    "metrics": {
+      "consensus": 72,
+      "friction": 80,
+      "obsession": 84,
+      "haunting": 95,
+      "symbolic": 96,
+      "cult": 78,
+      "formal": 97,
+      "voltage": 96,
+      "accessibility": 28,
+      "reach": 66,
+      "progeny": 82,
+      "arc": 88,
+      "transgression": 98
+    },
+    "notes": {
+      "haunting": "Scores in the absolute highest tier due to the indelible, deeply disturbing visual and acoustic imprinting of its final feast, which acts as a permanent psychic wound for the viewer.",
+      "symbolic": "Driven to maximum intensity by the film's literal frame-by-frame structural systems: tracking Jean-Paul Gaultier's color-shifting costumes, the shifting landscape of Frans Hals's *The Banquet of the Officers of the St George Militia Company*, and the geometric choreography of bodily consumption.",
+      "formal": "An elite score reflecting Greenaway's total refusal of naturalistic cinematic space, opting instead for a highly stylized, proscenium-arch theatrical framing, horizontal lateral tracking shots, and a monumental, grinding Michael Nyman score.",
+      "transgression": "Sits near the absolute peak of the axis. It represents the defining historical battle line for the implementation of the NC-17 rating, pushing bodily abjection to its aesthetic absolute."
+    },
+    "afterlife": [
+      {
+        "year": 1989,
+        "kind": "release",
+        "label": "Premieres to polarized, shell-shocked reviews; becomes a defining flashpoint in the culture wars over censorship and state funding of radical art."
+      },
+      {
+        "year": 1990,
+        "kind": "wound",
+        "label": "Miramax releases the film unrated in the United States to bypass the MPAA's X rating, single-handedly catalyzing the birth of the NC-17 classification."
+      },
+      {
+        "year": 2003,
+        "kind": "academic",
+        "label": "Widespread integration into art history, culinary theory, and neo-Marxist economic syllabi as the definitive cinematic dissection of late-capitalist gluttony."
+      },
+      {
+        "year": 2023,
+        "kind": "reissue",
+        "label": "A global 4K restoration brings the text back to arthouse theaters, proving its capacity to induce physical nausea and political awe remains totally undiminished."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Political Formalists",
+        "share": 0.5,
+        "voice": "It's a brilliant, flawlessly engineered structural machine. Greenaway uses the absolute peak of aesthetic refinement—gourmet food, classical painting, haute couture—to expose the base, animalistic violence of unregulated capitalist greed."
+      },
+      {
+        "name": "The Viscerally Repulsed",
+        "share": 0.3,
+        "voice": "It is an exhausting, pretentious exercise in misanthropy that mistakes cruelty, bodily fluids, and shock value for profound philosophical insight."
+      },
+      {
+        "name": "The Baroque Vibeists",
+        "share": 0.2,
+        "voice": "The narrative is just an excuse for the overwhelming audio-visual architecture. The sync between Sacha Vierny's slow camera glides, the saturated lighting shifts, and Nyman's music is hypnotic."
+      }
+    ],
+    "symbols": [
+      "The Roasted Human Body",
+      "The Red Dining Room",
+      "Frans Hals's Banquet Painting",
+      "The Book-Filled Truck",
+      "The Vomit-Stained Parking Lot"
+    ],
+    "pos": {
+      "x": -0.8,
+      "y": 0.97
+    }
+  },
+  {
+    "slug": "goodfellas",
+    "title": "Goodfellas",
+    "year": 1990,
+    "director": "Martin Scorsese",
+    "runtime": 145,
+    "medium": "film",
+    "catalogue": "ARTX-015",
+    "epigraph": "As far back as I can remember, I always wanted to be a gangster.",
+    "reading": "Martin Scorsese's relentless, hyper-kinetic mob epic stands as one of the most culturally dominant artifacts of late-twentieth-century cinema, acting as the absolute visual and structural dictionary for the modern American crime film. The text enjoys an immense, multi-layered cultural position that bridges the gap between high-art cinephilia and populist cable-TV saturation. Rather than aging into a safe, dusty historical period piece, its conversational volume remains extraordinarily high, driven by an ongoing fascination with its revolutionary editorial rhythm, its pioneering use of needle-drops, and its deep-seated sociological exploration of tribal criminality. The film's structural genius lies in its dual nature: it operates simultaneously as an intoxicating, dopamine-flooded advertisement for the gangster lifestyle and a cold, hyper-realistic dissection of its inevitable, paranoid decay, forcing the audience to become direct complicit partners in Henry Hill's moral bankruptcy.",
+    "metrics": {
+      "consensus": 98,
+      "friction": 15,
+      "obsession": 94,
+      "haunting": 82,
+      "symbolic": 85,
+      "cult": 25,
+      "formal": 91,
+      "voltage": 97,
+      "accessibility": 95,
+      "reach": 100,
+      "progeny": 99,
+      "arc": 72,
+      "transgression": 68
+    },
+    "notes": {
+      "consensus": "An elite score reflecting absolute, multi-generational agreement. Critics, filmmakers, and general audiences universally recognize the film as an unassailable high-water mark of cinematic craft.",
+      "voltage": "Near-maximum physiological current. The combination of Michael Ballhaus's swooping camera movements, Thelma Schoonmaker's razor-sharp, cocaine-paced editorial rhythm, and Joe Pesci's volatile, hair-trigger performance keeps the viewer's body in a state of perpetual, high-strung tension.",
+      "accessibility": "Exceedingly high score. The narrative is a direct, frictionless rocket ship that requires no specialized context or cinematic glossary to enter; it hooks the viewer instantly within its first ten seconds.",
+      "progeny": "Near-maximum rating. The film fundamentally re-engineered the grammar of the modern crime narrative, directly blueprinting everything from *The Sopranos* and *Boogie Nights* to the entire filmography of Quentin Tarantino."
+    },
+    "afterlife": [
+      {
+        "year": 1990,
+        "kind": "release",
+        "label": "Premieres at the Venice Film Festival, winning Scorsese the Silver Lion and instantly revolutionizing the crime genre."
+      },
+      {
+        "year": 1991,
+        "kind": "rejection",
+        "label": "Snubbed for the Best Picture Oscar by the Academy, which infamously opts for the safe, traditional epic *Dances with Wolves*, sparking decades of critical retrospective rage."
+      },
+      {
+        "year": 2000,
+        "kind": "academic",
+        "label": "Inducted into the National Film Registry by the Library of Congress, cementing its status as an essential American cultural artifact."
+      },
+      {
+        "year": 2015,
+        "kind": "reissue",
+        "label": "A massive, Scorsese-supervised 4K restoration premieres at the Tribeca Film Festival, renewing institutional awe for its technical composition."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Technical Formalists",
+        "share": 0.5,
+        "voice": "It's a masterclass in kinetic engineering. The Copacabana steadicam shot, the freezing frames, and the hyper-accelerated 'May 11, 1980' helicopter sequence completely rewritten the rules of cinematic editing and camera movement."
+      },
+      {
+        "name": "The Sociological Anthropologists",
+        "share": 0.35,
+        "voice": "The film is an absolute deconstruction of the American Dream. It exposes the mafia not as a gothic, operatic family structure, but as a hyper-capitalist, middle-management corporation built on sociopathy, domesticity, and paranoia."
+      },
+      {
+        "name": "The Pop-Culture Traditionalists",
+        "share": 0.15,
+        "voice": "It's the ultimate comfort-food movie. Every single line reading, freeze-frame, and classic rock needle-drop has been absorbed into the permanent DNA of modern pop culture."
+      }
+    ],
+    "symbols": [
+      "The Copacabana Steadicam Shot",
+      "The Too-Loud Helicopter",
+      "The Razor-Sliced Garlic",
+      "The Bloody Trunk",
+      "The Air-Brake Squeal"
+    ],
+    "pos": {
+      "x": 0.95,
+      "y": 0.15
+    }
+  },
+  {
+    "slug": "jacobs-ladder",
+    "title": "Jacob's Ladder",
+    "year": 1990,
+    "director": "Adrian Lyne",
+    "runtime": 113,
+    "medium": "film",
+    "catalogue": "ARTX-016",
+    "epigraph": "If you're frightened of dying and you're holding on, you'll see devils tearing your life away.",
+    "reading": "Adrian Lyne's psychological horror-thriller operates as a harrowing, liminal text that permanently dissolved the boundaries between physiological wartime trauma and metaphysical damnation. Initially met with critical bafflement and modest box office returns, the film's cultural afterlife has ballooned into an immense, long-tail text of absolute obsession. It bypassed traditional genre pathways to become a seminal architectural blueprint for modern psychological horror, dealing explicitly in the somatic language of panic, bodily violation, and spiritual claustrophobia. Lyne uses the grime of a decaying, subterranean 1970s New York to mirror a fracturing mind, trapping the viewer in a terrifying, recursive puzzle box where the ultimate horror is not the presence of demons, but the agonizing, beautiful refusal to let go of a life already lost.",
+    "metrics": {
+      "consensus": 64,
+      "friction": 55,
+      "obsession": 89,
+      "haunting": 97,
+      "symbolic": 92,
+      "cult": 90,
+      "formal": 85,
+      "voltage": 94,
+      "accessibility": 52,
+      "reach": 70,
+      "progeny": 98,
+      "arc": 91,
+      "transgression": 72
+    },
+    "notes": {
+      "haunting": "Scores in the absolute highest tier. The film's signature visual effects—specifically the hyper-accelerated, vibrating head-shake—act as an un-evictable visual virus that frequently populates the real nightmares and intrusive memories of its viewers.",
+      "symbolic": "High density driven by extensive theological, clinical, and conspiracy theory frameworks. The text is analyzed endlessly for its literal mappings of the Biblical Jacob's Ladder, Tibetan Book of the Dead structures, and real-world MKUltra chemical warfare subplots.",
+      "formal": "High rating driven by Lyne's and editor Tom Rolf's radical manipulation of temporal space and the deployment of unsettling, practical in-camera strobe effects that rejected the clean, optical-illusion horror styles of the late-studio era.",
+      "progeny": "An elite score. The film's specific aesthetic—rust, flesh-hooks, twitching human aberrations, and blood-soaked sanitariums—fundamentally birthed the entire visual lexicon of the modern psychological survival-horror genre, serving as the direct, explicit inspiration for the *Silent Hill* franchise."
+    },
+    "afterlife": [
+      {
+        "year": 1990,
+        "kind": "release",
+        "label": "Theatrical release meets heavily divided, deeply anxious critical reviews and underperforms commercially."
+      },
+      {
+        "year": 1999,
+        "kind": "rediscovery",
+        "label": "The explosion of survival horror gaming establishes the film as an untouchable cult holy text, prompting a massive wave of teenage and young-adult cinephile excavation."
+      },
+      {
+        "year": 2010,
+        "kind": "academic",
+        "label": "Thorough integration into academic studies focused on post-traumatic stress disorder (PTSD), cinematic representations of the Vietnam War, and medium-specific treatments of mortality."
+      },
+      {
+        "year": 2019,
+        "kind": "wound",
+        "label": "An widely reviled, hollow studio remake premieres, igniting a fierce critical defense and protective locking of the 1990 original's legacy."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Metaphysical Gnostics",
+        "share": 0.45,
+        "voice": "The film is an absolute, literal depiction of Purgatory. Jacob isn't a victim of a government drug experiment; he is a soul resisting his own biological death, interpreting the letting-go of his life as a demonic assault."
+      },
+      {
+        "name": "The Interactive Progeny",
+        "share": 0.35,
+        "voice": "The narrative is excellent, but its true historical triumph is its atmosphere. It single-handedly invented the industrial, rusted, psychological visual style that dominated late-90s gaming and horror media."
+      },
+      {
+        "name": "The Clinical Rationalists",
+        "share": 0.2,
+        "voice": "It is a grounded, tragic critique of institutional cruelty and the psychological horrors of chemical warfare on the human soldier, wrapped in a hallucinatory nightmare."
+      }
+    ],
+    "symbols": [
+      "The Vibrating/Shaking Head",
+      "The Rusted Hospital Gurney",
+      "The Ice-Water Bath",
+      "The Subway Track Grate",
+      "The Dead Son's Shoebox"
+    ],
+    "pos": {
+      "x": -0.52,
+      "y": 0.85
+    }
+  },
+  {
+    "slug": "barton-fink",
+    "title": "Barton Fink",
+    "year": 1991,
+    "director": "Joel Coen & Ethan Coen",
+    "runtime": 116,
+    "medium": "film",
+    "catalogue": "ARTX-017",
+    "epigraph": "I'll show you the life of the mind!",
+    "reading": "The Coen brothers' sweeping, claustrophobic satire of old Hollywood and artistic ego is a towering monument to narrative destabilization and self-reflexive critique. Sweeping the 1991 Cannes Film Festival in an unprecedented, historic jury trifecta, the text immediately established itself as a premier site for high-art interpretive analysis. *Barton Fink* rejects the comforting clarity of its period-piece trappings to crawl directly inside a literal and metaphorical hotel room of the soul, where the peeling wallpaper weeps glue and the ambient roar of a neighbor's life threatens total ego death. Discourse around the film acts as a perpetual-motion machine of literary and cinematic deconstruction, perpetually parsing the film's fluid transition from a razor-sharp satire of studio-system exploitation into a surreal, apocalyptic theater of Old Testament judgment and fascism, proving that the Coens' most terrifying landscape is the vacuum of a writer's own self-importance.",
+    "metrics": {
+      "consensus": 58,
+      "friction": 72,
+      "obsession": 86,
+      "haunting": 89,
+      "symbolic": 97,
+      "cult": 74,
+      "formal": 92,
+      "voltage": 84,
+      "accessibility": 48,
+      "reach": 70,
+      "progeny": 80,
+      "arc": 89,
+      "transgression": 62
+    },
+    "notes": {
+      "consensus": "The moderate score reflects the film's structural slipperiness; while universally recognized as a masterpiece of craft, there remains zero settled agreement on whether the third act is a literal reality, a psychotic break, or a metaphysical descent into Hell.",
+      "symbolic": "Near-maximum rating. The film demands systemic reading over plot consumption, generating endless academic and critical discourse tracking motifs of the box, the mosquito, the picture on the wall, and explicit allegories for the rise of European fascism.",
+      "formal": "Extremely high score. Roger Deakins's legendary, close-quarters cinematography—utilizing slow, exploratory tracking shots that dive directly into the barrels of typewriters or down infinite, cavernous hotel corridors—fundamentally redefined the spatial grammar of psychological surrealism.",
+      "accessibility": "Low score. Its dense literary allusions (drawing heavily from Clifford Odets and Dante), its glacial, atmospheric pacing, and its refusal to resolve its central narrative mysteries make it highly alienating for a mainstream audience."
+    },
+    "afterlife": [
+      {
+        "year": 1991,
+        "kind": "release",
+        "label": "Sweeps the Cannes Film Festival, winning the Palme d'Or, Best Director, and Best Actor in an unprecedented sweep that forced Cannes to change its rules to prevent future sweeps."
+      },
+      {
+        "year": 1991,
+        "kind": "rejection",
+        "label": "Fails completely to find a mainstream commercial audience in the US, cementing its status as an elite, gatekept arthouse text."
+      },
+      {
+        "year": 2003,
+        "kind": "academic",
+        "label": "Widespread, permanent integration into screenwriting and literary-theory syllabi as the definitive text on writer's block and the anxiety of influence."
+      },
+      {
+        "year": 2017,
+        "kind": "criterion",
+        "label": "A pristine 4K physical restoration prompts massive retrospective re-evaluations focusing on John Goodman's performance as an early cinematic harbinger of populist rage."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Political Allegorists",
+        "share": 0.45,
+        "voice": "The film is an airtight, terrifying analysis of the intellectual's failure to recognize fascism. Barton talks endlessly about 'the common man' while completely ignoring the literal, murderous reality of the common man sitting right next to him."
+      },
+      {
+        "name": "The Surrealist Metaphysicians",
+        "share": 0.35,
+        "voice": "Hotel Earle is Hell, and Charlie Meadows is the Devil. Barton's writer's block is his own judgment, and the entire film is a seamless, localized descent into eternal damnation."
+      },
+      {
+        "name": "The Satirical Historians",
+        "share": 0.2,
+        "voice": "It's a hilariously cruel, hyper-accurate caricature of the golden age of the studio system, perfectly skewering the pomposity of New York theater elites and the philistine brutality of Hollywood moguls."
+      }
+    ],
+    "symbols": [
+      "The Peeling Wallpaper",
+      "The Mysterious Tied Box",
+      "The Under-Wood Typewriter",
+      "The Mosquito on the Flesh",
+      "The Woman on the Beach Photograph"
+    ],
+    "pos": {
+      "x": -0.48,
+      "y": 0.92
+    }
+  },
+  {
+    "slug": "the-silence-of-the-lambs",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "director": "Jonathan Demme",
+    "runtime": 118,
+    "medium": "film",
+    "catalogue": "ARTX-018",
+    "epigraph": "Well, Clarice... have the lambs stopped screaming?",
+    "reading": "Jonathan Demme's psychological masterwork stands as one of the most culturally dominant monoliths of late-twentieth-century cinema, achieving the rare structural feat of sweeping the major Academy Awards while remaining a deeply disturbing, uncompromised work of gothic horror. The film's conversational space is massive and multi-layered, functioning simultaneously as a mainstream pop-culture quote machine and a highly volatile site for academic gender analysis. Demme's brilliant formal strategy relies on an aggressive use of direct-to-camera close-ups that subject the viewer—and Clarice Starling—to the predatory, institutional, and interpersonal gaze of the patriarchal world. Over successive generations, its cultural footprint has survived intense scrutiny surrounding its trans-antagonist subtext to harden into an untouchable blueprint for psychological suspense, driven by the immortal, high-voltage theatrical chemistry between Jodie Foster's hyper-competent, vulnerable professionalism and Anthony Hopkins's courtly, reptilian sociopathy.",
+    "metrics": {
+      "consensus": 97,
+      "friction": 34,
+      "obsession": 93,
+      "haunting": 95,
+      "symbolic": 90,
+      "cult": 22,
+      "formal": 88,
+      "voltage": 98,
+      "accessibility": 94,
+      "reach": 100,
+      "progeny": 99,
+      "arc": 75,
+      "transgression": 78
+    },
+    "notes": {
+      "consensus": "An elite score. There is an absolute, institutional and audience agreement regarding the film's flawless pacing, psychological depth, and historic cultural value.",
+      "friction": "The friction score remains elevated primarily due to decades of critical, academic, and activist debate regarding the characterization of Buffalo Bill and its historical impact on transgender representation in media.",
+      "haunting": "Scores in the highest percentiles, anchored by the tactile, pitch-black dread of the final night-vision pursuit sequence and Lecter's invasive, hyper-intimate dialogue that seems to look through the screen.",
+      "voltage": "Near-maximum physiological current. The film moves bodies through sheer psychological claustrophobia, weaponizing silence, heavy breathing, and sudden, operatic explosions of violence to maintain a permanent state of somatic panic."
+    },
+    "afterlife": [
+      {
+        "year": 1991,
+        "kind": "release",
+        "label": "February release becomes a historic box-office juggernaut, transcending its genre to dominate the cultural zeitgeist for a full year."
+      },
+      {
+        "year": 1992,
+        "kind": "release",
+        "label": "Achieves a historic sweep of the 'Big Five' Academy Awards, a feat unmatched by any horror or thriller film before or since."
+      },
+      {
+        "year": 1997,
+        "kind": "criterion",
+        "label": "Inducted into the National Film Registry and receives an early Criterion Collection spine, cementing its immediate canonical status."
+      },
+      {
+        "year": 2011,
+        "kind": "academic",
+        "label": "Widespread adoption into modern feminist film curricula as the definitive Hollywood text on the mechanics of the gendered gaze and institutional misogyny."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Feminist Formalists",
+        "share": 0.5,
+        "voice": "The movie is entirely about Clarice navigating the male gaze. Demme has every man look directly into the lens, forcing the audience to experience the claustrophobic, patronizing reality of being a woman in a male-dominated institution."
+      },
+      {
+        "name": "The Pop-Culture Traditionalists",
+        "share": 0.35,
+        "voice": "It's the ultimate psychological thriller. The dialogue is iconic, the performances are masterclasses, and it balances high-art cinematic dread with pure mainstream entertainment."
+      },
+      {
+        "name": "The Queer-Theory Revisionists",
+        "share": 0.15,
+        "voice": "Despite Lecter's explicit line defending trans identity, the film structurally links gender non-conformity with body horror and monstrous deviance, creating a deeply harmful historical archetype."
+      }
+    ],
+    "symbols": [
+      "The Death's-Head Hawkmoth",
+      "The Night-Vision Goggles",
+      "The Plexiglass Prison Wall",
+      "Fava Beans and a Fine Chianti",
+      "The Sewing Pattern Skin"
+    ],
+    "pos": {
+      "x": 0.94,
+      "y": 0.88
+    }
+  },
+  {
+    "slug": "bram-stokers-dracula",
+    "title": "Bram Stoker's Dracula",
+    "year": 1992,
+    "director": "Francis Ford Coppola",
+    "runtime": 128,
+    "medium": "film",
+    "catalogue": "ARTX-019",
+    "epigraph": "I have crossed oceans of time to find you.",
+    "reading": "Francis Ford Coppola's operatic, hyper-saturated gothic romance is a monumental testament to late-twentieth-century cinematic maximalism and artisanal bravura. Made as an explicit, stubborn rebellion against the rising tide of digital visual effects, Coppola demanded that his son Roman execute the film's entire phantasmagoria of illusions exclusively through archaic, in-camera practical techniques—forced perspective, double exposures, and matte paintings. The text occupies a fascinating, highly stylized pocket of cultural discourse: initially polarized by Keanu Reeves's notoriously miscalibrated accents, it has undergone a massive, long-tail digital reclamation. It is celebrated today as a staggeringly tactile, erotic masterpiece of dark romanticism, where Eiko Ishioka's monumental, Oscar-winning costume design elevates the narrative out of traditional horror and into the realm of pure, symbolist moving-theater.",
+    "metrics": {
+      "consensus": 74,
+      "friction": 48,
+      "obsession": 85,
+      "haunting": 88,
+      "symbolic": 91,
+      "cult": 82,
+      "formal": 94,
+      "voltage": 93,
+      "accessibility": 72,
+      "reach": 89,
+      "progeny": 86,
+      "arc": 91,
+      "transgression": 70
+    },
+    "notes": {
+      "consensus": "The metric remains moderated by a persistent generational split between old-school critics who focused heavily on narrative and casting hitches, and modern audiences who view it as an unassailable visual triumph.",
+      "formal": "Extremely high score. The refusal of early CGI in favor of a historical catalog of silent-era cinematic tricks creates an entirely unique, artificial, and handcrafted visual grammar that feels completely unstuck from 1990s filmmaking.",
+      "symbolic": "Driven high by the film's literal visual density, tracking Christian iconography, the projection of cinema itself as a shadow-vampire, and the fluid transformation of Dracula across zoomorphic entities.",
+      "voltage": "High score reflecting Wojtech Kilar's thundering, operatic score and the sheer somatic intensity of its editing, which emphasizes physical touch, bleeding stone, and overwhelming crimson saturation."
+    },
+    "afterlife": [
+      {
+        "year": 1992,
+        "kind": "release",
+        "label": "Theatrical release is a massive commercial success worldwide, though American critics remain deeply divided over its casting and operatic tone."
+      },
+      {
+        "year": 1993,
+        "kind": "release",
+        "label": "Dominates the technical categories at the Academy Awards, winning for Costume Design, Makeup, and Sound Editing."
+      },
+      {
+        "year": 2007,
+        "kind": "academic",
+        "label": "Widespread adoption into media-archaeology and horror-studies curricula as a self-reflexive text explicitly linking the birth of the vampire with the historical invention of the cinema."
+      },
+      {
+        "year": 2022,
+        "kind": "reissue",
+        "label": "A pristine 30th-anniversary 4K Blu-ray restoration prompts a major wave of critical reappraisals, cementing its status as Coppola's last grand-scale masterpiece."
+      }
+    ],
+    "factions": [
+      {
+        "name": "The Practical Craftsmen",
+        "share": 0.5,
+        "voice": "It's an absolute triumph of physical filmmaking. By choosing in-camera magic over early computer graphics, Coppola created an immortal, timeless work of art that will never look dated."
+      },
+      {
+        "name": "The High-Camp Romantics",
+        "share": 0.3,
+        "voice": "The film is an incredible, intoxicating, and unashamedly melodramatic text. The combination of Ishioka's costumes and Kilar's music makes it the definitive screen adaptation of the mythos."
+      },
+      {
+        "name": "The Casting Traditionalists",
+        "share": 0.2,
+        "voice": "The visual design is staggeringly beautiful, but the film's dramatic momentum is repeatedly derailed by catastrophic miscasting and an over-reliance on theatrical melodrama over genuine terror."
+      }
+    ],
+    "symbols": [
+      "The Crimson Muscle-Armor Suite",
+      "The Independent Shadow",
+      "The Cinemato-Graph Projector",
+      "The Green Absinthe Glass",
+      "White Wolf Fur"
+    ],
+    "pos": {
+      "x": 0.48,
+      "y": 0.94
+    }
   }
 ]
