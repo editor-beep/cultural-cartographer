@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { ARTIFACTS, type Metrics } from "@/data/artifacts";
+import { mergeByIdentity } from "@/lib/media-identity";
 import {
   Accordion,
   AccordionContent,
@@ -57,8 +58,7 @@ function Directory() {
   const [openItems, setOpenItems] = useState<string[]>([]);
 
   const allArtifacts = useMemo(() => {
-    const known = new Set(ARTIFACTS.map((a) => a.slug));
-    return [...ARTIFACTS, ...userFilms.filter((u) => !known.has(u.slug))];
+    return mergeByIdentity(ARTIFACTS, userFilms);
   }, [userFilms]);
 
   const sorted = useMemo(

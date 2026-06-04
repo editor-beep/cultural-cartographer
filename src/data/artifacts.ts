@@ -6264,6 +6264,7 @@ import generatedData from "../../data/generated/frontend-artifacts.json";
 // User-submitted movies persisted at runtime by the /submit → /api/scrape flow.
 // Vite watches this file in dev mode so HMR rebuilds ARTIFACTS when new submissions land.
 import userMoviesRaw from "../../data/generated/user-movies.json";
+import { dedupeByIdentity } from "../lib/media-identity";
 
 type GeneratedArtifact = {
   slug: string;
@@ -6499,21 +6500,24 @@ export function adaptUserMovie(m: UserMovieRecord): Artifact {
   };
 }
 
-const curatedSlugs = new Set(CURATED.map((a) => a.slug));
-
-// User submissions take priority over generated placeholders (but not curated entries).
+// The three stores describe overlapping sets of media objects under
+// inconsistent slugs ("blade-runner" vs "blade-runner-1982"), so duplicates are
+// resolved on canonical media identity (normalized title + year), not slug.
+// Priority is encoded by concatenation order: curated readings win over
+// user submissions, which win over generated provisional dossiers.
 const userExtras: Artifact[] = (userMoviesRaw as unknown as UserMovieRecord[])
-  .filter((m) => m && m.slug && !curatedSlugs.has(m.slug))
+  .filter((m) => m && m.slug)
   .map(adaptUserMovie);
 
-const userSlugsCovered = new Set(userExtras.map((a) => a.slug));
-
-// Generated extras fill in what neither curated nor user submissions cover.
 const generatedExtras: Artifact[] = (generatedData.artifacts as unknown as GeneratedArtifact[])
-  .filter((g) => !curatedSlugs.has(g.slug) && !userSlugsCovered.has(g.slug))
+  .filter((g) => g && g.slug)
   .map(adaptGenerated);
 
-export const ARTIFACTS: Artifact[] = [...CURATED, ...userExtras, ...generatedExtras];
+export const ARTIFACTS: Artifact[] = dedupeByIdentity([
+  ...CURATED,
+  ...userExtras,
+  ...generatedExtras,
+]);
 
 // Runtime cache for client-side user submissions (populated by UserFilmsProvider).
 // Allows getArtifact to resolve user-submitted films during SPA navigation.

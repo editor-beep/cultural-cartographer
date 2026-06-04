@@ -5,6 +5,7 @@ import { Sigil } from "@/components/Sigil";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { shareArtifactImage } from "@/lib/screenshot";
 import { useUserFilms } from "@/lib/user-films-context";
+import { mergeByIdentity } from "@/lib/media-identity";
 
 type AxisBands = [string, string, string, string]; // subdued, present, elevated, extreme
 
@@ -140,8 +141,7 @@ function Dossier() {
   const [sharing, setSharing] = useState(false);
   const { userFilms } = useUserFilms();
   const allArtifacts = useMemo(() => {
-    const known = new Set(ARTIFACTS.map((x) => x.slug));
-    return [...ARTIFACTS, ...userFilms.filter((u) => !known.has(u.slug))];
+    return mergeByIdentity(ARTIFACTS, userFilms);
   }, [userFilms]);
   const others = allArtifacts
     .filter((x) => x.slug !== a.slug)

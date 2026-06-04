@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ARTIFACTS, type Medium } from "@/data/artifacts";
+import { mergeByIdentity } from "@/lib/media-identity";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { useState, useMemo } from "react";
 import { useUserFilms } from "@/lib/user-films-context";
@@ -38,8 +39,7 @@ function Atlas() {
   const [hovered, setHovered] = useState<string | null>(null);
   const { userFilms } = useUserFilms();
   const allArtifacts = useMemo(() => {
-    const known = new Set(ARTIFACTS.map((a) => a.slug));
-    return [...ARTIFACTS, ...userFilms.filter((u) => !known.has(u.slug))];
+    return mergeByIdentity(ARTIFACTS, userFilms);
   }, [userFilms]);
   const active = hovered ? allArtifacts.find((a) => a.slug === hovered) : null;
 
