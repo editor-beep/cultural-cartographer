@@ -249,7 +249,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-041",
     epigraph: "She's everything. He's just Ken.",
     reading:
-      "A hyper-accessible monolith that preserved symbolic density at global scale. Friction is concentrated around ideological durability and intent rather than basic quality, making it one of the clearest mass-market culture-war objects of the decade.",
+      "A hyper-accessible cultural monolith that, improbably, preserved real symbolic density at billion-dollar global scale — Greta Gerwig smuggling an essay on patriarchy, mortality, and the impossibility of the feminine ideal inside a toy-marketing juggernaut. The 'Barbenheimer' phenomenon turned its release into a communal event, and its friction concentrated almost entirely on ideological reading and intent rather than craft: claimed as feminist triumph and derided as corporate feminism, conscripted into the culture war from every direction at once. America Ferrera's monologue became instant shorthand, the Kens' arc launched a thousand think-pieces, and the film stands as the decade's clearest demonstration that a mass-market product can be at once wholly commercial and genuinely argued-over.",
     metrics: {
       consensus: 84,
       friction: 76,
@@ -292,7 +292,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-033",
     epigraph: "In Heaven, everything is fine.",
     reading:
-      "A defining formal-risk object that declined every conventional cinematic shape available to its era. It remains a creator's blueprint for industrial dread, sustained by atmosphere, sonic abrasion, and nightmare logic rather than narrative comfort.",
+      "David Lynch's debut, assembled over five years in fits and starts, declined every conventional shape available to it and arrived as a defining object of formal risk — a black-and-white nightmare of industrial dread sustained by sonic abrasion and dream logic rather than narrative. It found its life on the late-1970s midnight circuit, where it became a foundational cult text and a creator's blueprint, its influence legible in everyone from Stanley Kubrick (who reportedly screened it for the cast of The Shining) to decades of experimental and horror filmmakers. Its imagery — the baby, the Lady in the Radiator, the vertical terror of Henry's hair — circulates as pure Lynchian shorthand. The discourse has never agreed on what it means, and Lynch refused to say, which is precisely what has kept its interpretive machine running for nearly fifty years.",
     metrics: {
       consensus: 82,
       friction: 15,
@@ -335,7 +335,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-034",
     epigraph: "What would you do if you were stuck in one place?",
     reading:
-      "A philosophical virus that migrated from high-accessibility comedy into durable existential shorthand. Its symbolic and obsession readings continue to climb because the title now names a lived human condition across cultures.",
+      "Received in 1993 as a sturdy Bill Murray comedy, the film has undergone one of the steepest reputational climbs in American cinema — its title now names a lived condition recognized across cultures, invoked everywhere from military deployments to pandemic lockdowns. The time-loop premise it did not invent it nonetheless defined so completely that the entire subsequent genre (Edge of Tomorrow, Russian Doll, Palm Springs) is measured against it. Buddhist, Christian, Stoic, and Nietzschean readings have each claimed it as scripture, and Harold Ramis fielded letters from clergy of every tradition certain the film was secretly theirs. What looked like a disposable studio comedy has proven a durable philosophical object: a parable about the moral labor of an ordinary day, repeated until it is finally gotten right.",
     metrics: {
       consensus: 97,
       friction: 4,
@@ -784,7 +784,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-031",
     epigraph: "Goonies never say die.",
     reading:
-      "A structural anchor for the kids-on-an-adventure template: a machine of traps, pirate myth, and child-logic architecture that still calibrates nostalgic self-construction for its audience.",
+      "Spielberg-produced and Richard Donner-directed, the film was a solid 1985 hit that has since hardened into something closer to a generational sacrament than a movie — the load-bearing template for the kids-on-an-adventure mode that Amblin perfected and that Stranger Things later strip-mined for nostalgia. Its architecture is a machine of booby traps, pirate myth, and child-logic that still calibrates how a certain cohort narrates its own childhood. Critics have always treated it as minor; culturally it is anything but, sustained by repeat viewing, perennial (and repeatedly denied) sequel rumors, and a cast whose reunions are treated as news. The Truffle Shuffle, One-Eyed Willie, and 'Goonies never say die' now circulate as pure nostalgic shorthand, far beyond anyone's need to rewatch the film itself.",
     metrics: {
       consensus: 92,
       friction: 8,
@@ -827,7 +827,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-032",
     epigraph: "It's only after we've lost everything that we're free to do anything.",
     reading:
-      "A split-shadow object whose symbolic load is enormous and permanently contested: satire and instruction-manual readings continue to weaponize each other across generations.",
+      "David Fincher's adaptation of Palahniuk arrived as a divisive provocation and never stopped generating heat — the rare film whose interpretive war is not about quality but about whether its audience is in on the joke. The satire reading (Tyler Durden as seductive fascist, the film as critique of the masculinity it stages) and the instruction-manual reading (Tyler as aspirational) have weaponized each other for two decades, the latter metastasizing online into incel and 'sigma male' appropriations that the film's defenders insist it explicitly warns against. Its imagery — the soap, the first rule, the IKEA nesting instinct, the falling towers — saturated the culture so completely that the source novel is nearly forgotten beneath it. It endures as a permanent stress test for the limits of irony: a film that voices the thing it mocks so persuasively that mockery and endorsement became impossible to separate.",
     metrics: {
       consensus: 74,
       friction: 91,
@@ -914,7 +914,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-045",
     epigraph: "The Low-Budget Mirror to Primer.",
     reading:
-      "Improvised, jagged dialogue and collapsing physics make entry difficult but rewarding. It demands active tracking of each character-state across branching realities and lingers as an intimate identity fracture long after viewing.",
+      "Shot in a single house over five nights on a micro-budget with largely improvised, unscripted dialogue, the film turns a dinner party under a passing comet into one of the most dissected low-budget science-fiction puzzles of the 2010s. Its jagged naturalism makes entry difficult — the viewer must actively track each character's 'branch' as identities and realities multiply — and that demand is exactly what produced its obsessive afterlife of diagrams, flowcharts, and threads attempting to map its decoherence. It belongs to the festival-born, word-of-mouth lineage of Primer and Timecrimes, prized as proof that conceptual ambition needs no budget. It lingers less as a plot than as an intimate fracture: the dread of discovering you may no longer be the original of yourself.",
     metrics: {
       consensus: 78,
       friction: 11,
@@ -958,7 +958,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-046",
     epigraph: "The High-Friction Myth.",
     reading:
-      "The boxy frame and archaic maritime dialect impose a deliberate entry barrier, then trap the viewer in a symbolic labyrinth of Greek myth and Freudian dread. It arrived nearly pre-formed as a sacred object for salt-and-madness devotees.",
+      "Robert Eggers' second feature arrived nearly pre-formed as a sacred object for a particular devotee — shot in a boxy 1.19:1 black-and-white frame on a storm-battered set, scored to a foghorn drone, and written in an archaic maritime dialect that imposes a deliberate barrier to entry. Behind that barrier is a symbolic labyrinth of Greek myth (Prometheus, Proteus), Freudian dread, and salt-rotted madness that the discourse has happily spent years untangling. The two-hander between Willem Dafoe's barnacled keeper and Robert Pattinson's unraveling deputy generated an outsized meme afterlife — the beans line, the lobster, the blinding light itself — that circulates independently of the film's difficulty. It functions as a litmus for a whole strain of contemporary arthouse horror: ravishing, hermetic, and proud of the work it demands of you.",
     metrics: {
       consensus: 86,
       friction: 14,
@@ -1092,7 +1092,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-044",
     epigraph: "Hell is a teenage girl.",
     reading:
-      "A reclamation spike object: institutional rejection at birth followed by high-velocity cult canonization through survivor communities and horror-theory discourse.",
+      "Marketed in 2009 as a Megan Fox sex-object vehicle and dismissed on arrival, the film was buried by a campaign that fundamentally misread it — selling a male-gaze horror-comedy to the wrong audience while the film itself was a Diablo Cody-scripted, Karyn Kusama-directed revenge fable about female friendship and the predations of men. Its reputation inverted almost completely across the 2010s: critics and a largely feminine, queer cult reclaimed it as a misunderstood text, and 'Jennifer's Body was actually good' hardened into received wisdom. The discourse now treats its original failure as a case study in marketing malpractice, and the film circulates as a touchstone for arguments about female rage, bisexual erasure, and the gap between what a film is and how it is sold.",
     metrics: {
       consensus: 79,
       friction: 38,
@@ -1135,7 +1135,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-035",
     epigraph: "A Subversive Anchor.",
     reading:
-      "A high-consensus classic that still carries active friction in the reading of its power dynamics. Its emotional voltage is specific and bodily, and its after-effect lingers as an unresolved question about domesticity, service, and desire.",
+      "Released in 2002 as a transgressive curio — a romantic comedy about a dominant-submissive relationship between a lawyer and his self-harming secretary — the film has aged into a high-consensus classic whose friction never fully resolved. Maggie Gyllenhaal's breakout performance reframed its kink as a story of mutual recognition and recovery rather than exploitation, and it is now routinely cited as a rare depiction of BDSM that treats power exchange as a form of care. But its politics remain genuinely contested: read by turns as a feminist account of a woman claiming her own desire and as a troubling romance built atop a workplace imbalance. Its voltage is specific and bodily, and it lingers as an unresolved question about service, domesticity, and what consent can be made to hold.",
     metrics: {
       consensus: 84,
       friction: 32,
@@ -1178,7 +1178,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-036",
     epigraph: "Teenage Symbolic Singularity.",
     reading:
-      "A cult engine built from suburban dread and high-concept mystery. Attempts to over-explain its system only intensified obsession, and its failed theatrical start became one of the sharpest reclamation arcs of the era.",
+      "A box-office casualty whose October 2001 theatrical release — weeks after 9/11, its imagery of a jet engine falling into a suburban bedroom suddenly unbearable — was effectively dead on arrival. It was resurrected almost entirely through midnight screenings and the early DVD market, becoming one of the defining cult reclamation arcs of the 2000s and a fixture of dorm-room iconography. The 2004 director's cut, which over-explained the time-travel mechanics through Roberta Sparrow's 'Philosophy of Time Travel,' is widely held to have damaged the film by resolving the ambiguity that fueled the obsession in the first place. Its mention landscape stays dense with theory-building — tangent universes, the Living Receiver, Frank the rabbit — and it persists as the model case for how a mystery withheld rather than answered is what generates a durable cult.",
     metrics: {
       consensus: 88,
       friction: 14,
@@ -1221,7 +1221,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-037",
     epigraph: "Nihilistic Monolith.",
     reading:
-      "A near-settled object of mastery with predatory residual dread. The refusal of a traditional climax and strategic silence over score create a cold panic that does not dissipate; Chigurh reads less like character than biological threat.",
+      "The Coen brothers' adaptation of Cormac McCarthy arrived as a near-instant object of consensus mastery and has barely been contested since — Best Picture, near-universal acclaim, immediate canonization. Its residual dread is predatory rather than nostalgic: the refusal of a conventional climax, the near-total absence of score, and the off-screen handling of its central violence produce a cold panic that does not dissipate on rewatch. Anton Chigurh, with his captive-bolt gun and his coin tosses, reads less as a character than as a biological or cosmic inevitability, and entered the culture as shorthand for impersonal fate. The discourse has largely settled into reverence; the remaining friction concentrates on Sheriff Bell's elegiac closing monologue — whether its lament for a vanishing moral order is the film's wisdom or its one concession to sentiment.",
     metrics: {
       consensus: 97,
       friction: 8,
@@ -1264,7 +1264,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-038",
     epigraph: "High-Heat Lightning Rod.",
     reading:
-      "Its friction remains massive and renewable: every mention reopens conflict over language, representation, and historical trauma. At the same time, the film's revenge-folk-tale clarity and kinetic style sustain extreme emotional voltage.",
+      "Tarantino's antebellum revenge spectacle generates renewable friction that every fresh mention reopens — over its lavish deployment of slurs, its appropriation of slavery's trauma as genre fuel, and the propriety of a white director staging Black vengeance as crowd-pleasing folk tale. Spike Lee's public refusal to see it became its own durable subplot in the discourse. Yet the same qualities that fuel the objection sustain the film: a revenge-fantasy clarity and kinetic style that deliver enormous emotional voltage, and a hero's arc audiences embraced without reservation. It remains one of the clearest test cases for the limits of Tarantino's mode — whether his pulp machinery dignifies or trivializes the histories it raids — and the argument has not cooled in over a decade.",
     metrics: {
       consensus: 76,
       friction: 94,
@@ -1307,7 +1307,7 @@ const CURATED: Artifact[] = [
     catalogue: "ARTX-039",
     epigraph: "The Fog Machine.",
     reading:
-      "Deliberately low-accessibility by design, it stages confusion as method. Its symbolic load is atmospheric rather than logical, and its cult curve rose vertically as viewers reclaimed the sprawl as a formal risk worth defending.",
+      "Paul Thomas Anderson's adaptation of Pynchon stages confusion as method — a stoned noir whose plot is engineered to slip through the viewer's fingers, leaving atmosphere, paranoia, and loss where a solution should be. It baffled much of its 2014 audience and underperformed, but its cult curve has risen steeply as viewers reframed the disorientation as the point rather than a failure of adaptation. The discourse treats it less as a mystery to be solved than a mood to be inhabited: the last gasp of the counterculture, Doc Sportello's hippie melancholy set against the rising tide of Nixon-era reaction. Its defenders prize precisely what its detractors reject, and the gap between those positions only widens as the film accrues the patience that first viewings rarely afford it.",
     metrics: {
       consensus: 58,
       friction: 62,

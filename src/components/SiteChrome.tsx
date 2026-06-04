@@ -1,11 +1,14 @@
 import { Link, useLocation } from "@tanstack/react-router";
 import { useState, useEffect, useRef } from "react";
 
+// Items with `href` (rather than `to`) point at static assets in /public and
+// are rendered as plain anchors instead of router Links.
 const NAV = [
   { to: "/", label: "Atlas" },
   { to: "/directory", label: "Directory" },
   { to: "/attune", label: "Attune" },
   { to: "/lexicon", label: "Lexicon" },
+  { href: "/thirteen-axes.html", label: "Thirteen Axes" },
   { to: "/evidence", label: "Evidence" },
   { to: "/submit", label: "Submit" },
   { to: "/colophon", label: "Colophon" },
@@ -50,6 +53,17 @@ export function SiteHeader() {
       {/* Desktop nav */}
       <nav className="hidden items-center gap-8 md:flex" aria-label="Site navigation">
         {NAV.map((n) => {
+          if ("href" in n) {
+            return (
+              <a
+                key={n.href}
+                href={n.href}
+                className="smallcaps text-[11px] text-vellum-dim transition-colors hover:text-vellum"
+              >
+                {n.label}
+              </a>
+            );
+          }
           const active = loc.pathname === n.to;
           return (
             <Link
@@ -105,6 +119,23 @@ export function SiteHeader() {
             className="absolute right-0 top-full z-30 mt-1 min-w-[160px] border border-border bg-ink/95 backdrop-blur-sm"
           >
             {NAV.map((n, i) => {
+              const cascade = {
+                animation: "nav-cascade 220ms ease both",
+                animationDelay: `${i * 45}ms`,
+              };
+              if ("href" in n) {
+                return (
+                  <a
+                    key={n.href}
+                    href={n.href}
+                    role="menuitem"
+                    className="block border-b border-border px-5 py-3.5 last:border-0 smallcaps text-[11px] text-vellum-dim transition-colors hover:bg-umber/20 hover:text-vellum"
+                    style={cascade}
+                  >
+                    {n.label}
+                  </a>
+                );
+              }
               const active = loc.pathname === n.to;
               return (
                 <Link
@@ -117,10 +148,7 @@ export function SiteHeader() {
                       ? "bg-umber/40 text-vellum"
                       : "text-vellum-dim hover:bg-umber/20 hover:text-vellum")
                   }
-                  style={{
-                    animation: "nav-cascade 220ms ease both",
-                    animationDelay: `${i * 45}ms`,
-                  }}
+                  style={cascade}
                 >
                   {n.label}
                 </Link>
