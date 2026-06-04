@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect, useCallback } from "react";
 import type { MovieRecord } from "@/lib/green";
 import { adaptUserMovie, setRuntimeUserFilms, type Artifact } from "@/data/artifacts";
+import { findDuplicateIndex } from "@/lib/media-identity";
 
 const STORAGE_KEY = "cc:user-films";
 
@@ -33,9 +34,11 @@ export function UserFilmsProvider({ children }: { children: React.ReactNode }) {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       const records: MovieRecord[] = raw ? JSON.parse(raw) : [];
-      const idx = records.findIndex((r) => r.slug === record.slug);
+      // Replace any existing reading of the same media object (matched on slug
+      // or canonical identity) rather than storing a second copy.
+      const idx = findDuplicateIndex(records, record);
       if (idx >= 0) {
-        records[idx] = record;
+        records[idx] = { ...record, slug: records[idx].slug };
       } else {
         records.push(record);
       }

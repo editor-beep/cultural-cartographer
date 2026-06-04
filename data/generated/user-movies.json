@@ -1160,7 +1160,9 @@
     "notes": {
       "formal": "Extremely high formal risk. The film deliberately breaks the fourth wall not through characters looking at the camera, but by making the film's structural editing and camera framing a literal, hostile character within the plot.",
       "cult": "Towering cult slope. Bypassed all mainstream channels to become an untouchable, whispered-about classic across online horror forums and Reddit decoding communities.",
-      "symbolic": "Highly dense. The old projector slides, the VHS tapes, and the title 'Resolution' itself are treated as a multi-layered commentary on the predatory nature of the audience demanding a clean ending from a story."
+      "symbolic": "Highly dense. The old projector slides, the VHS tapes, and the title 'Resolution' itself are treated as a multi-layered commentary on the predatory nature of the audience demanding a clean ending from a story.",
+      "progeny": "The literal foundation of the Benson and Moorhead shared universe; The Endless is a direct sequel that turns this film's offscreen entity into onscreen lore.",
+      "arc": "A barely-distributed 2012 debut whose reputation was rewritten entirely after the fact, now read as the keystone of a celebrated filmography."
     },
     "afterlife": [
       {
@@ -1169,9 +1171,24 @@
         "label": "Premieres at the Tribeca Film Festival, immediately stunning genre critics with its unique meta-textual cosmic horror."
       },
       {
+        "year": 2013,
+        "kind": "release",
+        "label": "Receives a limited theatrical and VOD release; builds a slow, word-of-mouth cult on horror forums and Reddit decoding threads."
+      },
+      {
+        "year": 2015,
+        "kind": "rediscovery",
+        "label": "The release of Spring leads critics to retroactively frame Benson and Moorhead as a coherent authorial voice, redirecting attention to Resolution as their origin point."
+      },
+      {
         "year": 2018,
         "kind": "rediscovery",
         "label": "The release of The Endless serves as a massive retroactive signal flare, causing thousands of fans to hunt down this film to map out the interlocking lore paths."
+      },
+      {
+        "year": 2020,
+        "kind": "academic",
+        "label": "Becomes a standard reference in writing on meta-horror and the audience-as-monster, cited alongside Funny Games and The Cabin in the Woods."
       }
     ],
     "factions": [
@@ -1229,13 +1246,30 @@
     },
     "notes": {
       "accessibility": "High accessibility score for a cosmic horror feature. The narrative frames its bizarre, ancient genetic mutation smoothly through a highly legible, charming 'Before Sunrise' romantic travelogue.",
-      "voltage": "Maintained by the shocking, organic body-horror transformations (sprouting tentacles, shifting bone structures) which are shot with an intimate, naturalistic camera that heightens the physical tension."
+      "voltage": "Maintained by the shocking, organic body-horror transformations (sprouting tentacles, shifting bone structures) which are shot with an intimate, naturalistic camera that heightens the physical tension.",
+      "formal": "Genre-braiding executed without tonal collapse: a sincere romance welded directly to body horror, each register protecting the other from cliche.",
+      "symbolic": "The creature's involuntary transformations read as a metaphor for loving a partner whose body and self are in permanent, unstoppable flux."
     },
     "afterlife": [
       {
         "year": 2014,
         "kind": "release",
         "label": "Premieres at TIFF; immediately receives a massive validation boost when Guillermo del Toro publicly champions it as a beautiful Lovecraftian romance."
+      },
+      {
+        "year": 2015,
+        "kind": "release",
+        "label": "Drafthouse Films gives it a U.S. theatrical and VOD release; critics coin the 'Lovecraftian Before Sunrise' framing that follows it everywhere."
+      },
+      {
+        "year": 2017,
+        "kind": "rediscovery",
+        "label": "As Benson and Moorhead's profile rises with The Endless, Spring is re-evaluated as their most emotionally accessible work and the common gateway into their filmography."
+      },
+      {
+        "year": 2020,
+        "kind": "academic",
+        "label": "Enters genre-studies discussion of romance-horror hybridity and the New Weird as a model case of tonal welding."
       },
       {
         "year": 2021,
@@ -1298,7 +1332,9 @@
     },
     "notes": {
       "obsession": "Sustained at an elite tier. The pipeline records permanent, high-velocity discussion tracking the exact geometry, rules, and durations of the entity's distinct 'time bubbles' scattered across the landscape.",
-      "progeny": "Massive legacy footprint within the genre. The film's critical success and narrative scale-hacking directly landed the duo major institutional directing jobs, including Marvel's Moon Knight and Loki Season 2."
+      "progeny": "Massive legacy footprint within the genre. The film's critical success and narrative scale-hacking directly landed the duo major institutional directing jobs, including Marvel's Moon Knight and Loki Season 2.",
+      "cult": "Rewards — and quietly depends on — the viewer who has already seen Resolution; lore-mapping communities formed around reconciling the two films.",
+      "arc": "Elevated the directors from micro-budget curiosity to respected genre auteurs, retroactively raising the stock of their entire back catalog."
     },
     "afterlife": [
       {
@@ -1307,9 +1343,24 @@
         "label": "Premieres at Tribeca to universal critical acclaim, instantly recognized as a towering achievement in indie sci-fi worldbuilding."
       },
       {
+        "year": 2018,
+        "kind": "release",
+        "label": "Well Go USA gives it a theatrical release; widely cited as a breakout for directors who also star as the two leads."
+      },
+      {
+        "year": 2018,
+        "kind": "rediscovery",
+        "label": "Drives a surge of viewers back to Resolution (2012) to map the shared universe; the two films are increasingly screened and discussed as a diptych."
+      },
+      {
         "year": 2019,
         "kind": "academic",
         "label": "Frequently integrated into independent film production syllabi to analyze how a micro-budget feature can generate immense, cosmic scale through conceptual execution rather than expensive CGI."
+      },
+      {
+        "year": 2020,
+        "kind": "rediscovery",
+        "label": "A pandemic streaming wave delivers a new audience; cosmic-loop and 'Camp Arcadia' discourse spreads across social platforms."
       }
     ],
     "factions": [
@@ -1367,7 +1418,9 @@
     },
     "notes": {
       "accessibility": "The highest accessibility score in their core filmography, translating their mind-bending concepts into a highly polished, familiar paramedic procedural framework.",
-      "haunting": "Driven by the bleak, swampy New Orleans atmosphere and the haunting historical ghosts (conquistadors, klansmen) that inhabit the physical coordinates of the city across time."
+      "haunting": "Driven by the bleak, swampy New Orleans atmosphere and the haunting historical ghosts (conquistadors, klansmen) that inhabit the physical coordinates of the city across time.",
+      "transgression": "Turns the nostalgia of time travel into a threat: the past is a privilege the white characters can play with and a death sentence for the Black lead.",
+      "symbolic": "The pineal-gland drug mechanism literalizes the perception of time as a chemical state rather than a fixed constant."
     },
     "afterlife": [
       {
@@ -1376,9 +1429,24 @@
         "label": "Premieres at the Toronto International Film Festival, drawing strong reviews for its visual style and Anthony Mackie's soulful performance."
       },
       {
+        "year": 2020,
+        "kind": "release",
+        "label": "Well Go USA releases it theatrically during the pandemic; marks Benson and Moorhead's move to recognizable stars and a larger canvas."
+      },
+      {
+        "year": 2020,
+        "kind": "academic",
+        "label": "Read increasingly through New Orleans history: the time-travel-to-the-past device foregrounds that the American past is not a safe destination for a Black protagonist."
+      },
+      {
         "year": 2021,
         "kind": "rediscovery",
         "label": "Hits streaming platforms during the pandemic, exploding into a massive digital crossover hit for a wider, mainstream audience unfamiliar with their indie origins."
+      },
+      {
+        "year": 2022,
+        "kind": "reissue",
+        "label": "Programmed in retrospectives as the 'studio-scale' entry of the directors' catalog, paired against their earlier micro-budget work."
       }
     ],
     "factions": [
@@ -1742,7 +1810,9 @@
     },
     "notes": {
       "reach": "Moderate-to-low macro-reach. The film remains a highly specific, insider treasure, largely isolated from massive mainstream pop-culture awareness but held in maximum reverence within indie screenwriting circles.",
-      "transgression": "Maintained by its refreshingly honest, completely un-glamorous approach to teenage female sexuality, puberty, and bodily changes, which bypassed traditional Hollywood sanitization."
+      "transgression": "Maintained by its refreshingly honest, completely un-glamorous approach to teenage female sexuality, puberty, and bodily changes, which bypassed traditional Hollywood sanitization.",
+      "voltage": "The comedy runs on the friction of nomadic poverty performing middle-class respectability — humor and humiliation share the same scene.",
+      "formal": "Balances raunchy coming-of-age comedy with tender realism about a precarious family, refusing to resolve into either mode."
     },
     "afterlife": [
       {
@@ -1751,9 +1821,24 @@
         "label": "Premieres at the Cannes Film Festival in the Un Certain Regard section, drawing immediate praise for its sharp script and breakout performances."
       },
       {
+        "year": 1998,
+        "kind": "release",
+        "label": "Fox Searchlight gives it a U.S. release, establishing Tamara Jenkins as a distinctive new voice in semi-autobiographical comedy."
+      },
+      {
+        "year": 2009,
+        "kind": "rediscovery",
+        "label": "Natasha Lyonne's public struggles and subsequent comeback recontextualize her breakout performance as the film's anchor."
+      },
+      {
         "year": 2018,
         "kind": "rediscovery",
         "label": "The 20th anniversary prompts a wave of critical retrospectives framing it as an unsung masterclass in 90s class-conscious independent cinema, paving the way for Lady Bird."
+      },
+      {
+        "year": 2019,
+        "kind": "rediscovery",
+        "label": "Lyonne's success with Russian Doll and renewed interest in women-directed coming-of-age films drive a wave of reappraisal."
       }
     ],
     "factions": [
@@ -1887,7 +1972,9 @@
     },
     "notes": {
       "formal": "Towering formal risk for a modern thriller. The film structures its entire tension arc through the cadence of barroom monologues, relying on shifting perspective drops rather than physical action set-pieces.",
-      "haunting": "Sustained by the claustrophobic, amber-lit atmosphere of the deserted bar and the howling blizzard outside, creating a heavy sense of inescapable domestic purgatory."
+      "haunting": "Sustained by the claustrophobic, amber-lit atmosphere of the deserted bar and the howling blizzard outside, creating a heavy sense of inescapable domestic purgatory.",
+      "symbolic": "The snowbound bar functions as confessional and purgatory: stories are told to delay a reckoning that the storyteller already knows is coming.",
+      "arc": "A small Canadian genre film that quietly accrued respect for the architecture of its screenplay rather than for spectacle."
     },
     "afterlife": [
       {
@@ -1899,6 +1986,16 @@
         "year": 2021,
         "kind": "rediscovery",
         "label": "Hits streaming platforms during the tail end of pandemic isolation, finding a quiet, highly appreciative audience among fans of tight, single-location chamber pieces."
+      },
+      {
+        "year": 2021,
+        "kind": "rediscovery",
+        "label": "Its VOD release finds an audience among fans of dialogue-driven nested thrillers; comparisons to the Coen brothers and the tavern-tale tradition recur."
+      },
+      {
+        "year": 2022,
+        "kind": "academic",
+        "label": "Cited as a case study in adapting stage material — Peter Genoway's play — into cinematic story-within-a-story form."
       }
     ],
     "factions": [
@@ -1956,7 +2053,9 @@
     },
     "notes": {
       "voltage": "High physiological impact. The slow, agonizing decay of Kent's skin merging with the synthetic fibers of the suit, combined with the visceral claustrophobia of the indoor playground climax, registers high somatic discomfort text markers.",
-      "transgression": "Elevated score driven entirely by the script's rigid refusal to blink during the third act, directly executing extreme taboo genre violations involving the hunting of children."
+      "transgression": "Elevated score driven entirely by the script's rigid refusal to blink during the third act, directly executing extreme taboo genre violations involving the hunting of children.",
+      "formal": "Began life as a fake trailer that fooled audiences into believing it was a real Eli Roth feature, then was willed backward into an actual film.",
+      "haunting": "Reworks the coulrophobia and Pennywise lineage into body horror: a father who simply cannot take the suit off."
     },
     "afterlife": [
       {
@@ -1965,9 +2064,19 @@
         "label": "Theatrical rollout delayed significantly due to distribution hurdles and censorship concerns over its graphic, taboo content."
       },
       {
+        "year": 2016,
+        "kind": "release",
+        "label": "After years in distribution limbo, Eli Roth 'presents' the U.S. release on VOD and in limited theaters."
+      },
+      {
         "year": 2017,
         "kind": "rediscovery",
         "label": "Following Jon Watts' massive mainstream selection to direct Spider-Man: Homecoming, genre fans aggressively retro-scan this debut, turning it into a high-demand cult curiosity."
+      },
+      {
+        "year": 2019,
+        "kind": "meme",
+        "label": "The 'from the director of Spider-Man' framing circulates as an ironic recommendation hook, widening the film's reach far beyond horror circles."
       }
     ],
     "factions": [

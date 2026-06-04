@@ -3,6 +3,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import type { MovieRecord } from "./green";
+import { findDuplicateIndex } from "./media-identity";
 
 const PRIMARY_STORE_PATH = join(process.cwd(), "data/generated/user-movies.json");
 const FALLBACK_STORE_PATH = join(tmpdir(), "cultural-cartographer", "user-movies.json");
@@ -28,7 +29,13 @@ async function loadFromKv(): Promise<MovieRecord[]> {
 }
 
 async function saveToKv(record: MovieRecord): Promise<void> {
-  await kv.hset(KV_HASH_KEY, { [record.slug]: record });
+  // Re-key onto an existing reading of the same media object so a re-analysis
+  // replaces it in place instead of creating a duplicate under a new slug.
+  const all = (await kv.hgetall<Record<string, MovieRecord>>(KV_HASH_KEY)) ?? {};
+  const existing = Object.values(all);
+  const idx = findDuplicateIndex(existing, record);
+  const canonical = idx >= 0 ? { ...record, slug: existing[idx].slug } : record;
+  await kv.hset(KV_HASH_KEY, { [canonical.slug]: canonical });
 }
 
 // --- File-based fallback (local dev) ---
@@ -59,8 +66,11 @@ function loadFromFile(): MovieRecord[] {
 
 function saveToFile(record: MovieRecord): void {
   const movies = loadFromFile();
-  const idx = movies.findIndex((m) => m.slug === record.slug);
+  // Match on slug or canonical media identity so a fresh analysis overwrites the
+  // prior reading of the same work, keeping the established slug stable.
+  const idx = findDuplicateIndex(movies, record);
   if (idx >= 0) {
+    record = { ...record, slug: movies[idx].slug };
     movies[idx] = record;
   } else {
     movies.push(record);
@@ -111,9 +121,9 @@ function persistToFrontendArtifacts(record: MovieRecord): void {
   }
 
   const artifacts = Array.isArray(frontend.artifacts) ? [...frontend.artifacts] : [];
-  const existing = artifacts.findIndex((item) => item.slug === record.slug);
+  const existing = findDuplicateIndex(artifacts, record);
   if (existing >= 0) {
-    artifacts[existing] = { ...artifacts[existing], ...record };
+    artifacts[existing] = { ...artifacts[existing], ...record, slug: artifacts[existing].slug };
   } else {
     artifacts.push(record);
   }
