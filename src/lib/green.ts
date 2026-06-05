@@ -12,10 +12,23 @@ export type ApiUsage = {
   estimatedCostUsd: number;
 };
 
-const SYSTEM_PROMPT = `You are obsessed with what other people think about cultural works — films, TV series, books, and albums.
+const SYSTEM_PROMPT = `You are obsessed with what other people think about cultural works — films, TV series, books, albums, and podcasts.
 You scrape the web and rank them based on thirteen categories 0 to 100.
 
-First, identify what kind of work this is. Set "medium" to exactly one of: "film", "tv", "book", "album".
+You have access to Google Search. Before doing anything else, use it to verify that the work actually exists.
+
+CRITICAL — DO NOT FABRICATE:
+Many submitted titles refer to nothing real. Your single most important job is to refuse to invent. Before writing a reading, search the open record and confirm the work is a genuine, released/published work with an independent existence (credits, reviews, listings, discussion you did not author). A vague or generic phrase ("Scott's podcast"), a title you cannot corroborate, or a work you can only describe by inventing details is NOT verified.
+
+If you cannot find credible, independent evidence that the work is real — OR the work is real but is not one of the supported mediums (film, tv, book, album, podcast) — you MUST return EXACTLY this and nothing else:
+{"found": false, "reason": "<one short sentence: why it could not be verified, or which unsupported medium it is>"}
+
+Never guess a year, director, or plot to fill the gap. When in doubt, return found:false. A false refusal is acceptable; a fabricated artifact is not.
+
+Only when the work is verified and supported do you return the full dossier, with "found": true included.
+
+First, identify what kind of work this is. Set "medium" to exactly one of: "film", "tv", "book", "album", "podcast".
+For a podcast, "director" is the host or primary creator and "runtime" is the typical episode length in minutes.
 
 The Thirteen Axes — 0 to 100
 Each score is a number from 0 to 100. They are not star ratings or quality judgments; they describe the shape of how a work is held culturally.
@@ -75,10 +88,11 @@ High = the work was considered dangerous, not merely difficult. Distinct from fo
 You must return ONLY a valid JSON object with no surrounding text, no markdown fences, no commentary. Use this exact schema:
 
 {
+  "found": true,
   "slug": "url-safe-slug-from-title",
   "title": "Full Title",
   "year": 0000,
-  "director": "Director, showrunner, author, or primary artist",
+  "director": "Director, showrunner, author, host, or primary artist",
   "runtime": 000,
   "medium": "film",
   "catalogue": "ARTX-U-001",
@@ -131,7 +145,7 @@ afterlife kinds must be one of: release, rejection, rediscovery, criterion, acad
 faction shares must sum to 1.0.
 pos x and y are between 0.0 and 1.0.
 All metric values are integers 0–100.
-medium must be exactly one of: film, tv, book, album.`;
+medium must be exactly one of: film, tv, book, album, podcast.`;
 
 function toSlug(title: string): string {
   return title
@@ -141,13 +155,83 @@ function toSlug(title: string): string {
     .replace(/\s+/g, "-");
 }
 
+/**
+ * Pull a JSON object out of the model's reply. Grounded responses can wrap the
+ * JSON in markdown fences or trail it with citation prose, so we strip fences
+ * and then scan for balanced {...} objects, preferring the last complete one.
+ */
+function extractJsonObject(text: string): Record<string, unknown> | null {
+  const stripped = text
+    .replace(/^```(?:json)?\n?/i, "")
+    .replace(/\n?```$/, "")
+    .trim();
+
+  const candidates: string[] = [stripped];
+  let depth = 0;
+  let start = -1;
+  for (let i = 0; i < stripped.length; i++) {
+    const ch = stripped[i];
+    if (ch === "{") {
+      if (depth === 0) start = i;
+      depth++;
+    } else if (ch === "}") {
+      depth--;
+      if (depth === 0 && start >= 0) {
+        candidates.push(stripped.slice(start, i + 1));
+        start = -1;
+      }
+    }
+  }
+
+  // Try last (most complete) balanced object first, then fall back outward.
+  for (let i = candidates.length - 1; i >= 0; i--) {
+    try {
+      const value = JSON.parse(candidates[i]);
+      if (value && typeof value === "object" && !Array.isArray(value)) {
+        return value as Record<string, unknown>;
+      }
+    } catch {
+      // try next candidate
+    }
+  }
+  return null;
+}
+
+/** A dossier is only usable if it carries the fields the index depends on. */
+function isCompleteRecord(value: Record<string, unknown>): boolean {
+  const medium = value.medium;
+  return (
+    typeof value.title === "string" &&
+    value.title.trim().length > 0 &&
+    typeof value.metrics === "object" &&
+    value.metrics !== null &&
+    typeof medium === "string" &&
+    (SUPPORTED_MEDIA as readonly string[]).includes(medium)
+  );
+}
+
+export const SUPPORTED_MEDIA = ["film", "tv", "book", "album", "podcast"] as const;
+export type Medium = (typeof SUPPORTED_MEDIA)[number];
+
+/**
+ * Thrown when the green cannot find credible evidence that a submitted title is a
+ * real, supported work. Callers should treat this as a clean "not found" — no
+ * artifact is produced and nothing should be persisted.
+ */
+export class WorkNotFoundError extends Error {
+  constructor(reason: string) {
+    super(reason);
+    this.name = "WorkNotFoundError";
+  }
+}
+
 export type MovieRecord = {
   slug: string;
   title: string;
   year: number;
   director: string;
   runtime: number;
-  medium?: "film" | "tv" | "book" | "album";
+  medium?: Medium;
   catalogue: string;
   epigraph: string;
   reading: string;
@@ -171,23 +255,33 @@ export async function analyzeMovie(
     config: {
       systemInstruction: SYSTEM_PROMPT,
       temperature: 0.4,
+      // Ground the reading in real search results so the green reports on works
+      // that actually exist instead of inventing them.
+      tools: [{ googleSearch: {} }],
     },
-    contents: `Analyze "${title}". Use the slug "${slug}". Identify the medium (film, tv, book, or album). Return only the raw JSON object — no markdown, no explanation.`,
+    contents: `Verify that "${title}" is a real, released work using Google Search, then analyze it. Use the slug "${slug}". Identify the medium (film, tv, book, album, or podcast). If you cannot confirm it exists, or it is an unsupported medium, return only {"found": false, "reason": "..."}. Otherwise return only the raw dossier JSON — no markdown, no explanation.`,
   });
 
   const text = (response.text ?? "").trim();
 
-  // Strip any accidental markdown fences
-  const stripped = text.replace(/^```(?:json)?\n?/i, "").replace(/\n?```$/, "");
+  const parsed = extractJsonObject(text);
+  if (!parsed) throw new Error("Green returned no parseable JSON");
 
-  let record: MovieRecord;
-  try {
-    record = JSON.parse(stripped);
-  } catch {
-    const match = stripped.match(/\{[\s\S]+\}/);
-    if (!match) throw new Error("Green returned no parseable JSON");
-    record = JSON.parse(match[0]);
+  // Refusal contract: the green returns {"found": false, ...} when it cannot
+  // corroborate the work. Treat anything that is not an affirmative, complete
+  // dossier as a not-found so fabrications never reach the index.
+  if (parsed.found === false || !isCompleteRecord(parsed)) {
+    const reason =
+      typeof parsed.reason === "string" && parsed.reason.trim()
+        ? parsed.reason.trim()
+        : "No credible evidence this work exists in the open record.";
+    throw new WorkNotFoundError(reason);
   }
+
+  // `found` is part of the refusal contract, not the dossier — drop it before
+  // the record is persisted or returned to the client.
+  delete parsed.found;
+  const record = parsed as unknown as MovieRecord;
 
   const meta = response.usageMetadata;
   const inputTokens = meta?.promptTokenCount ?? 0;

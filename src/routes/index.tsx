@@ -10,6 +10,7 @@ const MEDIUM_COLOR: Record<Medium, string> = {
   tv: "var(--medium-tv)",
   book: "var(--medium-book)",
   album: "var(--medium-album)",
+  podcast: "var(--medium-podcast)",
 };
 
 const MEDIUM_LABEL: Record<Medium, string> = {
@@ -17,9 +18,10 @@ const MEDIUM_LABEL: Record<Medium, string> = {
   tv: "Television",
   book: "Book",
   album: "Album",
+  podcast: "Podcast",
 };
 
-const ALL_MEDIA: Medium[] = ["film", "tv", "book", "album"];
+const ALL_MEDIA: Medium[] = ["film", "tv", "book", "album", "podcast"];
 
 export const Route = createFileRoute("/")({
   component: Atlas,

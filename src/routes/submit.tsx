@@ -20,7 +20,7 @@ export const Route = createFileRoute("/submit")({
   }),
 });
 
-type Status = "idle" | "loading" | "done" | "error";
+type Status = "idle" | "loading" | "done" | "error" | "notfound";
 
 const AXIS_LABELS: Record<string, string> = {
   consensus: "Consensus",
@@ -133,6 +133,14 @@ function Submit() {
       const data = await res.json();
 
       if (!res.ok) {
+        // The green refused because it found no real work — surface this as a
+        // calm "not in the record" state rather than a hard error, and do not
+        // add anything to the user's index.
+        if (res.status === 404 || (data as { notFound?: boolean }).notFound) {
+          setErrorMsg((data as { error?: string }).error ?? "No trace of this in the open record.");
+          setStatus("notfound");
+          return;
+        }
         throw new Error((data as { error?: string }).error ?? `HTTP ${res.status}`);
       }
 
@@ -247,6 +255,19 @@ function Submit() {
             <p className="mt-4 font-mono text-[10px] text-oxblood smallcaps">
               Error · {errorMsg}
             </p>
+          )}
+          {status === "notfound" && (
+            <div className="mt-6 border-l border-oxblood pl-4">
+              <p className="font-mono text-[10px] text-oxblood smallcaps">No trace in the record</p>
+              <p className="mt-2 max-w-xl font-display text-base italic leading-relaxed text-vellum-dim">
+                The green found no credible trace of this in the open record — so it will not invent
+                one. {errorMsg}
+              </p>
+              <p className="mt-2 font-mono text-[10px] text-vellum-dim smallcaps">
+                Check the spelling, or try the full title of a real film, series, book, album, or
+                podcast.
+              </p>
+            </div>
           )}
         </form>
       </section>

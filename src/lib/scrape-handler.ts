@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { analyzeMovie } from "./green";
+import { analyzeMovie, WorkNotFoundError } from "./green";
 import { saveUserMovie } from "./user-movie-store";
 
 const RequestSchema = z.object({
@@ -80,6 +80,11 @@ export async function handleScrapeRequest(
     await saveUserMovie(record);
     return Response.json({ ...record, _usage: usage }, { status: 200 });
   } catch (err) {
+    // The green could not corroborate the work — refuse cleanly and persist
+    // nothing so fabricated entries never enter the index.
+    if (err instanceof WorkNotFoundError) {
+      return Response.json({ error: err.message, notFound: true }, { status: 404 });
+    }
     const message = err instanceof Error ? err.message : "Unknown error";
     return Response.json({ error: message }, { status: 500 });
   }

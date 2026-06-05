@@ -39,7 +39,7 @@ export type Faction = {
   voice: string;
 };
 
-export type Medium = "film" | "tv" | "book" | "album";
+export type Medium = "film" | "tv" | "book" | "album" | "podcast";
 
 export type Artifact = {
   slug: string;
