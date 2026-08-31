@@ -446,7 +446,7 @@ function Submit() {
                     </div>
                   </div>
                   <a
-                    href="https://www.themeansofproduction.press/support-the-means-of-production"
+                    href="https://www.themeansofproduction.press/support.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-mono text-[10px] smallcaps text-oxblood border border-oxblood px-3 py-1 hover:bg-oxblood hover:text-vellum transition-colors whitespace-nowrap"

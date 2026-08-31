@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { AXES, getArtifact, ARTIFACTS, type AfterlifeEvent, type Faction, type Metrics, type AxisKey } from "@/data/artifacts";
 import { Sigil } from "@/components/Sigil";
@@ -344,9 +344,36 @@ function Dossier() {
   );
 }
 
+// Timeline label geometry (px)
+const LABEL_WIDTH = 160;
+const LABEL_GAP_X = 14; // min horizontal gap between two labels sharing a lane
+const LANE_GAP_Y = 12; // vertical gap between stacked lanes
+const CONNECTOR_MIN = 34; // distance from axis to the nearest lane
+const EDGE_PAD = 8;
+const TIMELINE_MIN_WIDTH = 560;
+const TIMELINE_FALLBACK_WIDTH = 960; // used for SSR / first paint, before measuring
+
+// useLayoutEffect warns during SSR; fall back to useEffect on the server.
+const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+
+// Rough height of a label before it has been measured, so the first paint is close.
+function estimateLabelHeight(label: string) {
+  const lines = Math.max(1, Math.ceil(label.length / 26));
+  return 15 + lines * 17;
+}
+
+// Map a year to a horizontal percentage, padded 4%–96% to keep edge dots visible
+function yearToPercent(year: number, minY: number, span: number) {
+  return 4 + ((year - minY) / span) * 92;
+}
+
 function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
-  const minY = events[0].year;
-  const maxY = 2026;
+  const ordered = useMemo(
+    () => events.map((e, i) => ({ ...e, key: i })).sort((a, b) => a.year - b.year),
+    [events],
+  );
+  const minY = ordered[0].year;
+  const maxY = Math.max(2026, ordered[ordered.length - 1].year);
   const span = Math.max(1, maxY - minY);
 
   const colorByKind: Record<AfterlifeEvent["kind"], string> = {
@@ -360,34 +387,111 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
     wound: "var(--oxblood)",
   };
 
-  // Map year to a horizontal percentage, padded 4%–96% to keep edge dots visible
-  const toLeft = (year: number) => 4 + ((year - minY) / span) * 92;
+  const toLeft = (year: number) => yearToPercent(year, minY, span);
 
   const ticks = Array.from({ length: Math.ceil(span / 5) + 1 })
     .map((_, i) => minY + i * 5)
     .filter((y) => y <= maxY);
 
-  // Layout (px): axis at 50% of a 300px container = 150px
-  // Above: connector from 90px→150px, label bottom-edge at 90px
-  // Below: connector from 150px→210px, label top-edge at 210px
-  const CONNECTOR = 60; // px, height of connector line on each side
+  const boxRef = useRef<HTMLDivElement | null>(null);
+  const labelRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const [boxWidth, setBoxWidth] = useState(0);
+  const [heights, setHeights] = useState<number[]>([]);
+
+  useIsomorphicLayoutEffect(() => {
+    const el = boxRef.current;
+    if (!el) return;
+    const measure = () => setBoxWidth(el.clientWidth);
+    measure();
+    if (typeof ResizeObserver === "undefined") return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  // Measure the rendered labels so lanes are stacked by real height, not a guess.
+  useIsomorphicLayoutEffect(() => {
+    const next = ordered.map((_, i) => labelRefs.current[i]?.offsetHeight ?? 0);
+    setHeights((prev) =>
+      prev.length === next.length && next.every((h, i) => h === prev[i]) ? prev : next,
+    );
+  });
+
+  // Assign each label to a lane on its side of the axis so labels never overlap:
+  // lane 0 sits closest to the axis, and a label only shares a lane when it clears
+  // every label already in it horizontally.
+  const layout = useMemo(() => {
+    const width = Math.max(boxWidth || TIMELINE_FALLBACK_WIDTH, TIMELINE_MIN_WIDTH);
+    const maxLeft = Math.max(EDGE_PAD, width - LABEL_WIDTH - EDGE_PAD);
+
+    const items = ordered.map((e, i) => {
+      const center = (yearToPercent(e.year, minY, span) / 100) * width;
+      return {
+        event: e,
+        index: i,
+        above: i % 2 === 0,
+        center,
+        left: Math.min(Math.max(center - LABEL_WIDTH / 2, EDGE_PAD), maxLeft),
+        height: heights[i] || estimateLabelHeight(e.label),
+        offset: CONNECTOR_MIN,
+      };
+    });
+
+    const placeSide = (above: boolean) => {
+      const side = items.filter((it) => it.above === above).sort((a, b) => a.left - b.left);
+      const laneRight: number[] = [];
+      const laneHeight: number[] = [];
+      const laneOf = new Map<number, number>();
+
+      for (const it of side) {
+        let lane = 0;
+        while (lane < laneRight.length && it.left < laneRight[lane] + LABEL_GAP_X) lane++;
+        laneOf.set(it.index, lane);
+        laneRight[lane] = it.left + LABEL_WIDTH;
+        laneHeight[lane] = Math.max(laneHeight[lane] ?? 0, it.height);
+      }
+
+      const laneOffset: number[] = [];
+      let acc = CONNECTOR_MIN;
+      for (let lane = 0; lane < laneHeight.length; lane++) {
+        laneOffset[lane] = acc;
+        acc += laneHeight[lane] + LANE_GAP_Y;
+      }
+
+      let extent = 0;
+      for (const it of side) {
+        it.offset = laneOffset[laneOf.get(it.index) ?? 0];
+        extent = Math.max(extent, it.offset + it.height);
+      }
+      return extent;
+    };
+
+    const aboveExtent = placeSide(true);
+    const belowExtent = placeSide(false);
+    const height = Math.max(260, aboveExtent + belowExtent + 24);
+    const axisY = aboveExtent + (height - aboveExtent - belowExtent) / 2;
+
+    return { items, height, axisY };
+  }, [ordered, heights, boxWidth, minY, span]);
 
   return (
     <div>
       <div className="overflow-x-auto">
       <div
+        ref={boxRef}
+        data-timeline
         className="relative overflow-hidden border border-border bg-umber/30"
-        style={{ height: 300, minWidth: 560 }}
+        style={{ height: layout.height, minWidth: TIMELINE_MIN_WIDTH }}
       >
         {/* axis */}
-        <div className="absolute inset-x-0 top-1/2 h-px bg-vellum/20" />
+        <div className="absolute inset-x-0 h-px bg-vellum/20" style={{ top: layout.axisY }} />
 
         {/* 5-year ticks */}
         {ticks.map((y) => (
           <div
             key={y}
-            className="absolute top-1/2 -translate-x-1/2"
-            style={{ left: `${toLeft(y)}%` }}
+            className="absolute -translate-x-1/2"
+            style={{ left: `${toLeft(y)}%`, top: layout.axisY }}
           >
             <div className="h-2 w-px bg-vellum/30" />
             <div className="mt-1 font-mono text-[9px] text-vellum-dim smallcaps">{y}</div>
@@ -395,46 +499,49 @@ function AfterlifeTimeline({ events }: { events: AfterlifeEvent[] }) {
         ))}
 
         {/* events */}
-        {events.map((e, i) => {
+        {layout.items.map((it) => {
+          const e = it.event;
           const left = toLeft(e.year);
-          const above = i % 2 === 0;
           const color = colorByKind[e.kind];
 
           return (
-            <div key={i}>
+            <div key={e.key}>
               {/* dot on axis */}
               <div
                 className="absolute"
                 style={{
                   left: `${left}%`,
-                  top: "50%",
+                  top: layout.axisY,
                   transform: "translate(-50%, -50%)",
                   width: 8,
                   height: 8,
                   background: color,
                 }}
               />
-              {/* connector */}
+              {/* connector — runs from the axis to the label's inner edge */}
               <div
                 className="absolute w-px"
                 style={{
                   left: `${left}%`,
                   background: "var(--vellum-dim)",
                   opacity: 0.35,
-                  ...(above
-                    ? { bottom: "50%", height: CONNECTOR }
-                    : { top: "50%", height: CONNECTOR }),
+                  height: it.offset,
+                  top: it.above ? layout.axisY - it.offset : layout.axisY,
                 }}
               />
-              {/* label — clamped so it never overflows left/right edges */}
+              {/* label — clamped horizontally, lane-stacked vertically */}
               <div
+                ref={(el) => {
+                  labelRefs.current[it.index] = el;
+                }}
+                data-timeline-label
                 className="absolute"
                 style={{
-                  left: `clamp(0px, calc(${left}% - 80px), calc(100% - 164px))`,
-                  width: 160,
-                  ...(above
-                    ? { bottom: `calc(50% + ${CONNECTOR}px)` }
-                    : { top: `calc(50% + ${CONNECTOR}px)` }),
+                  left: it.left,
+                  width: LABEL_WIDTH,
+                  ...(it.above
+                    ? { bottom: layout.height - (layout.axisY - it.offset) }
+                    : { top: layout.axisY + it.offset }),
                 }}
               >
                 <div className="font-mono text-[9px] smallcaps" style={{ color }}>
